@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:07:20.297212+00:00",
+  "elapsed": 0.438566,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4991",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:07:20 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.95&y=38.95"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.95&y=38.95",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 144235,
+            "GEOID": "24022",
+            "CENTLAT": "+38.9779207",
+            "AREAWATER": 510861,
+            "STATE": "24",
+            "BASENAME": "22",
+            "OID": "212904691844628",
+            "LSADC": "LU",
+            "SLDU": "022",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.9780375",
+            "NAME": "State Senate District 22",
+            "OBJECTID": 1204,
+            "CENTLON": "-076.8804338",
+            "LSY": "2018",
+            "HU100": 50668,
+            "AREALAND": 81364590,
+            "INTPTLON": "-076.8800730",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01714934",
+            "POP100": 6177224,
+            "GEOID": "24",
+            "CENTLAT": "+38.9463607",
+            "AREAWATER": 6979171386,
+            "STATE": "24",
+            "BASENAME": "Maryland",
+            "STUSAB": "MD",
+            "OID": "27490140608205",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9466584",
+            "DIVISION": "5",
+            "NAME": "Maryland",
+            "REGION": "3",
+            "OBJECTID": 20,
+            "CENTLON": "-076.6789663",
+            "AREALAND": 25151895765,
+            "INTPTLON": "-076.6744939",
+            "HU100": 2530844,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9973383,
+            "GEOID": "548",
+            "CENTLAT": "+39.0282791",
+            "AREAWATER": 4067866689,
+            "BASENAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",
+            "OID": "2619013782255247",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.0246056",
+            "NAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",
+            "CSA": "548",
+            "OBJECTID": 103,
+            "CENTLON": "-077.3083318",
+            "HU100": 4006033,
+            "AREALAND": 32735838394,
+            "INTPTLON": "-077.3105306",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "92242",
+            "CENTLAT": "+38.8953362",
+            "AREAWATER": 67538846,
+            "BASENAME": "Washington--Arlington, DC--VA--MD",
+            "OID": "27021158105937",
+            "UA": "92242",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.8959429",
+            "NAME": "Washington--Arlington, DC--VA--MD Urban Area",
+            "OBJECTID": 612,
+            "CENTLON": "-077.1822188",
+            "AREALAND": 3352762591,
+            "INTPTLON": "-077.1830768",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91440",
+            "POP100": 17058,
+            "GEOID": "2403391440",
+            "CENTLAT": "+38.9551765",
+            "AREAWATER": 73560,
+            "STATE": "24",
+            "BASENAME": "16, Hyattsville",
+            "OID": "27690286313757",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.9552571",
+            "NAME": "District 16, Hyattsville",
+            "OBJECTID": 24772,
+            "CENTLON": "-076.9482581",
+            "COUSUBCC": "Z1",
+            "HU100": 6214,
+            "AREALAND": 5443826,
+            "INTPTLON": "-076.9487965",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929500",
+            "UR": "U",
+            "COUNTY": "033"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 144235,
+            "GEOID": "24022",
+            "CENTLAT": "+38.9779207",
+            "SLDL": "022",
+            "AREAWATER": 510861,
+            "STATE": "24",
+            "BASENAME": "22",
+            "OID": "213904691844770",
+            "LSADC": "L5",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.9780375",
+            "NAME": "State Legislative District 22",
+            "OBJECTID": 3398,
+            "CENTLON": "-076.8804338",
+            "LSY": "2018",
+            "HU100": 50668,
+            "AREALAND": 81364590,
+            "INTPTLON": "-076.8800730",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 21187,
+            "GEOID": "2441250",
+            "CENTLAT": "+38.9612663",
+            "AREAWATER": 68516,
+            "STATE": "24",
+            "BASENAME": "Hyattsville",
+            "OID": "27890286317613",
+            "LSADC": "25",
+            "PLACE": "41250",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9612045",
+            "NAME": "Hyattsville city",
+            "OBJECTID": 1070,
+            "PLACECC": "C1",
+            "CENTLON": "-076.9548132",
+            "CBSAPCI": "N",
+            "HU100": 8673,
+            "AREALAND": 7005779,
+            "INTPTLON": "-076.9549346",
+            "PLACENS": "02390603",
+            "MTFCC": "G4110",
+            "UR": "U"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 967201,
+            "GEOID": "24033",
+            "CENTLAT": "+38.8293079",
+            "AREAWATER": 41922695,
+            "STATE": "24",
+            "BASENAME": "Prince George's",
+            "OID": "27590286309965",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.8292778",
+            "NAME": "Prince George's County",
+            "OBJECTID": 1339,
+            "CENTLON": "-076.8472801",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01714670",
+            "AREALAND": 1250057213,
+            "INTPTLON": "-076.8481880",
+            "HU100": 359957,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "033"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 798925,
+            "GEOID": "2404",
+            "CENTLAT": "+38.9682049",
+            "CDSESSN": "116",
+            "AREAWATER": 48188249,
+            "STATE": "24",
+            "BASENAME": "4",
+            "OID": "211904690760194",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.0562471",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 198,
+            "CENTLON": "-076.7454981",
+            "HU100": 305500,
+            "AREALAND": 771268630,
+            "INTPTLON": "-076.5924708",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 7321,
+            "GEOID": "24033807500",
+            "CENTLAT": "+38.9525911",
+            "AREAWATER": 46025,
+            "STATE": "24",
+            "BASENAME": "8075",
+            "OID": "2079015682040818",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.9527218",
+            "NAME": "Census Tract 8075",
+            "OBJECTID": 17350,
+            "TRACT": "807500",
+            "CENTLON": "-076.9412951",
+            "HU100": 2962,
+            "AREALAND": 3081004,
+            "INTPTLON": "-076.9413648",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "033"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 370,
+            "GEOID": "240338075002009",
+            "CENTLAT": "+38.9498528",
+            "BLOCK": "2009",
+            "AREAWATER": 0,
+            "STATE": "24",
+            "BASENAME": "2009",
+            "OID": "210701008483441",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.9498528",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2009",
+            "OBJECTID": 1890144,
+            "TRACT": "807500",
+            "CENTLON": "-076.9511146",
+            "BLKGRP": "2",
+            "AREALAND": 400925,
+            "HU100": 176,
+            "INTPTLON": "-076.9511146",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "033"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.95,
+          "y": 38.95
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

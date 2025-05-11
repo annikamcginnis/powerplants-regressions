@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:14:54.570394+00:00",
+  "elapsed": 0.177699,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4793",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:14:54 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.146&y=40.473"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-86.146&y=40.473",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 128996,
+            "GEOID": "18021",
+            "CENTLAT": "+40.3586420",
+            "AREAWATER": 7278349,
+            "STATE": "18",
+            "BASENAME": "21",
+            "OID": "212904487292450",
+            "LSADC": "LU",
+            "SLDU": "021",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3596340",
+            "NAME": "State Senate District 21",
+            "OBJECTID": 212,
+            "CENTLON": "-086.0691338",
+            "LSY": "2018",
+            "HU100": 59833,
+            "AREALAND": 2277656155,
+            "INTPTLON": "-086.0666581",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00448508",
+            "POP100": 6785528,
+            "GEOID": "18",
+            "CENTLAT": "+39.9059403",
+            "AREAWATER": 1541613641,
+            "STATE": "18",
+            "BASENAME": "Indiana",
+            "STUSAB": "IN",
+            "OID": "2749051705222",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9013136",
+            "DIVISION": "3",
+            "NAME": "Indiana",
+            "REGION": "2",
+            "OBJECTID": 7,
+            "CENTLON": "-086.2872770",
+            "AREALAND": 92788998225,
+            "INTPTLON": "-086.2919129",
+            "HU100": 2923175,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 119620,
+            "GEOID": "316",
+            "CENTLAT": "+40.6442304",
+            "AREAWATER": 11379200,
+            "BASENAME": "Kokomo-Peru, IN",
+            "OID": "2619013782255159",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6431205",
+            "NAME": "Kokomo-Peru, IN CSA",
+            "CSA": "316",
+            "OBJECTID": 66,
+            "CENTLON": "-086.0765555",
+            "HU100": 54457,
+            "AREALAND": 1727305543,
+            "INTPTLON": "-086.0808152",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "45694",
+            "CENTLAT": "+40.4671077",
+            "AREAWATER": 0,
+            "BASENAME": "Kokomo, IN",
+            "OID": "2702166577352",
+            "UA": "45694",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4671077",
+            "NAME": "Kokomo, IN Urban Area",
+            "OBJECTID": 991,
+            "CENTLON": "-086.1382527",
+            "AREALAND": 84173198,
+            "INTPTLON": "-086.1382527",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "11422",
+            "POP100": 45776,
+            "GEOID": "1806711422",
+            "CENTLAT": "+40.4833517",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "Center",
+            "OID": "2769066577069",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4833517",
+            "NAME": "Center township",
+            "OBJECTID": 8178,
+            "CENTLON": "-086.1363902",
+            "COUSUBCC": "T1",
+            "HU100": 23224,
+            "AREALAND": 66575255,
+            "INTPTLON": "-086.1363902",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00453182",
+            "UR": "M",
+            "COUNTY": "067"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 65500,
+            "GEOID": "18030",
+            "CENTLAT": "+40.5020753",
+            "SLDL": "030",
+            "AREAWATER": 1693056,
+            "STATE": "18",
+            "BASENAME": "30",
+            "OID": "213904487292686",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.4997373",
+            "NAME": "State House District 30",
+            "OBJECTID": 971,
+            "CENTLON": "-085.9442278",
+            "LSY": "2018",
+            "HU100": 32171,
+            "AREALAND": 505991674,
+            "INTPTLON": "-085.9475191",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 59604,
+            "GEOID": "1840392",
+            "CENTLAT": "+40.4639487",
+            "AREAWATER": 287971,
+            "STATE": "18",
+            "BASENAME": "Kokomo",
+            "OID": "2789066577083",
+            "LSADC": "25",
+            "PLACE": "40392",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4640111",
+            "NAME": "Kokomo city",
+            "OBJECTID": 9907,
+            "PLACECC": "C1",
+            "CENTLON": "-086.1276960",
+            "CBSAPCI": "Y",
+            "HU100": 29553,
+            "AREALAND": 94996834,
+            "INTPTLON": "-086.1273493",
+            "PLACENS": "02395560",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 83658,
+            "GEOID": "18067",
+            "CENTLAT": "+40.4836457",
+            "AREAWATER": 2194576,
+            "STATE": "18",
+            "BASENAME": "Howard",
+            "OID": "2759066577066",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4835368",
+            "NAME": "Howard County",
+            "OBJECTID": 1623,
+            "CENTLON": "-086.1169339",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00450360",
+            "AREALAND": 759058590,
+            "INTPTLON": "-086.1141178",
+            "HU100": 39605,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "067"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 764870,
+            "GEOID": "1804",
+            "CENTLAT": "+40.3813348",
+            "CDSESSN": "116",
+            "AREAWATER": 69945585,
+            "STATE": "18",
+            "BASENAME": "4",
+            "OID": "211904487255475",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3810879",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 229,
+            "CENTLON": "-086.8606988",
+            "HU100": 323072,
+            "AREALAND": 16451012548,
+            "INTPTLON": "-086.8594124",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4015,
+            "GEOID": "18067000900",
+            "CENTLAT": "+40.4761565",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "9",
+            "OID": "2079066577283",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4761565",
+            "NAME": "Census Tract 9",
+            "OBJECTID": 3110,
+            "TRACT": "000900",
+            "CENTLON": "-086.1378166",
+            "HU100": 2219,
+            "AREALAND": 2963044,
+            "INTPTLON": "-086.1378166",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "067"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 18,
+            "GEOID": "180670009003004",
+            "CENTLAT": "+40.4733299",
+            "BLOCK": "3004",
+            "AREAWATER": 0,
+            "STATE": "18",
+            "BASENAME": "3004",
+            "OID": "210701007348482",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.4733299",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3004",
+            "OBJECTID": 2203199,
+            "TRACT": "000900",
+            "CENTLON": "-086.1459078",
+            "BLKGRP": "3",
+            "AREALAND": 335842,
+            "HU100": 10,
+            "INTPTLON": "-086.1459078",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "067"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -86.146,
+          "y": 40.473
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

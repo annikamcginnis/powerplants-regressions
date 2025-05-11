@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T15:38:51.719580+00:00",
+  "elapsed": 0.149552,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3699",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:51 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.297222&y=44.423056"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.297222&y=44.423056",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 78307,
+            "GEOID": "27022",
+            "CENTLAT": "+43.9690116",
+            "AREAWATER": 154354767,
+            "STATE": "27",
+            "BASENAME": "22",
+            "OID": "212904486864819",
+            "LSADC": "LU",
+            "SLDU": "022",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.9709256",
+            "NAME": "State Senate District 22",
+            "OBJECTID": 22,
+            "CENTLON": "-095.8031948",
+            "LSY": "2018",
+            "HU100": 34937,
+            "AREALAND": 11100002338,
+            "INTPTLON": "-095.7997876",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "02476",
+            "POP100": 133,
+            "GEOID": "2708102476",
+            "CENTLAT": "+44.4158638",
+            "AREAWATER": 1710541,
+            "STATE": "27",
+            "BASENAME": "Ash Lake",
+            "OID": "27690229039218",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4228157",
+            "NAME": "Ash Lake township",
+            "OBJECTID": 10794,
+            "CENTLON": "-096.2622701",
+            "COUSUBCC": "T1",
+            "HU100": 75,
+            "AREALAND": 93207695,
+            "INTPTLON": "-096.2718894",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00663466",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 38405,
+            "GEOID": "2722A",
+            "CENTLAT": "+44.0637996",
+            "SLDL": "22A",
+            "AREAWATER": 82918781,
+            "STATE": "27",
+            "BASENAME": "22A",
+            "OID": "213904486864995",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589713",
+            "NAME": "State House District 22A",
+            "OBJECTID": 685,
+            "CENTLON": "-096.0646285",
+            "LSY": "2018",
+            "HU100": 18549,
+            "AREALAND": 6595927909,
+            "INTPTLON": "-096.0743208",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 5640,
+            "GEOID": "27081",
+            "CENTLAT": "+44.4123851",
+            "AREAWATER": 30167787,
+            "STATE": "27",
+            "BASENAME": "Lincoln",
+            "OID": "27590229030551",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4082382",
+            "NAME": "Lincoln County",
+            "OBJECTID": 2854,
+            "CENTLON": "-096.2670792",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659486",
+            "AREALAND": 1390265112,
+            "INTPTLON": "-096.2720323",
+            "HU100": 3051,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 673514,
+            "GEOID": "2707",
+            "CENTLAT": "+46.5548229",
+            "CDSESSN": "116",
+            "AREAWATER": 5058813380,
+            "STATE": "27",
+            "BASENAME": "7",
+            "OID": "211904486864171",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5530202",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 61,
+            "CENTLON": "-095.6788945",
+            "HU100": 327543,
+            "AREALAND": 86581615754,
+            "INTPTLON": "-095.6759048",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2944,
+            "GEOID": "27081201001",
+            "CENTLAT": "+44.4758170",
+            "AREAWATER": 18698197,
+            "STATE": "27",
+            "BASENAME": "2010.01",
+            "OID": "207903143924693",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.4822042",
+            "NAME": "Census Tract 2010.01",
+            "OBJECTID": 53563,
+            "TRACT": "201001",
+            "CENTLON": "-096.2649544",
+            "HU100": 1624,
+            "AREALAND": 983064943,
+            "INTPTLON": "-096.2712034",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "270812010012169",
+            "CENTLAT": "+44.4229727",
+            "BLOCK": "2169",
+            "AREAWATER": 574687,
+            "STATE": "27",
+            "BASENAME": "2169",
+            "OID": "210701002383099",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.4229727",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2169",
+            "OBJECTID": 536562,
+            "TRACT": "201001",
+            "CENTLON": "-096.2947726",
+            "BLKGRP": "2",
+            "AREALAND": 0,
+            "HU100": 0,
+            "INTPTLON": "-096.2947726",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "W",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -96.297222,
+          "y": 44.423056
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

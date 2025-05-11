@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:46:00.800391+00:00",
+  "elapsed": 0.159206,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4505",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:46:00 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.235322&y=33.384244"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.235322&y=33.384244",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1006438,
+            "GEOID": "06038",
+            "CENTLAT": "+33.1211584",
+            "AREAWATER": 38495961,
+            "STATE": "06",
+            "BASENAME": "38",
+            "OID": "212904690192907",
+            "LSADC": "LU",
+            "SLDU": "038",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1202233",
+            "NAME": "State Senate District 38",
+            "OBJECTID": 943,
+            "CENTLON": "-116.6474760",
+            "LSY": "2018",
+            "HU100": 359995,
+            "AREALAND": 7085993107,
+            "INTPTLON": "-116.6560698",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "29024",
+            "CENTLAT": "+33.3526489",
+            "AREAWATER": 72463,
+            "BASENAME": "Fallbrook, CA",
+            "OID": "2702132391317828",
+            "UA": "29024",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3536566",
+            "NAME": "Fallbrook, CA Urban Area",
+            "OBJECTID": 1794,
+            "CENTLON": "-117.2221814",
+            "AREALAND": 67408147,
+            "INTPTLON": "-117.2251408",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90960",
+            "POP100": 52487,
+            "GEOID": "0607390960",
+            "CENTLAT": "+33.3923114",
+            "AREAWATER": 1586535,
+            "STATE": "06",
+            "BASENAME": "Fallbrook",
+            "OID": "27690676327013",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3919659",
+            "NAME": "Fallbrook CCD",
+            "OBJECTID": 7177,
+            "CENTLON": "-117.2530153",
+            "COUSUBCC": "Z5",
+            "HU100": 18954,
+            "AREALAND": 320602948,
+            "INTPTLON": "-117.2489932",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935100",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 32267,
+            "GEOID": "0623462",
+            "CENTLAT": "+33.3693279",
+            "AREAWATER": 47337,
+            "STATE": "06",
+            "BASENAME": "Fallbrook",
+            "OID": "28090676334042",
+            "LSADC": "57",
+            "PLACE": "23462",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3742351",
+            "NAME": "Fallbrook CDP",
+            "OBJECTID": 25051,
+            "PLACECC": "U1",
+            "CENTLON": "-117.2258948",
+            "CBSAPCI": "N",
+            "HU100": 10866,
+            "AREALAND": 45429891,
+            "INTPTLON": "-117.2203748",
+            "PLACENS": "02408113",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 511977,
+            "GEOID": "06075",
+            "CENTLAT": "+33.2902647",
+            "SLDL": "075",
+            "AREAWATER": 3468415,
+            "STATE": "06",
+            "BASENAME": "75",
+            "OID": "213904690192972",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2964140",
+            "NAME": "Assembly District 75",
+            "OBJECTID": 1579,
+            "CENTLON": "-117.0453214",
+            "LSY": "2018",
+            "HU100": 174468,
+            "AREALAND": 1832043445,
+            "INTPTLON": "-117.0494933",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 3298634,
+            "GEOID": "06073",
+            "CENTLAT": "+33.0280818",
+            "AREAWATER": 817317026,
+            "STATE": "06",
+            "BASENAME": "San Diego",
+            "OID": "27590676180305",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.0236041",
+            "NAME": "San Diego County",
+            "OBJECTID": 605,
+            "CENTLON": "-116.7699211",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277301",
+            "AREALAND": 10904455257,
+            "INTPTLON": "-116.7761174",
+            "HU100": 1228505,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 757110,
+            "GEOID": "0650",
+            "CENTLAT": "+33.1147803",
+            "CDSESSN": "116",
+            "AREAWATER": 37984914,
+            "STATE": "06",
+            "BASENAME": "50",
+            "OID": "211904492478282",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1136226",
+            "NAME": "Congressional District 50",
+            "OBJECTID": 42,
+            "CENTLON": "-116.6175134",
+            "HU100": 267328,
+            "AREALAND": 7225002257,
+            "INTPTLON": "-116.6222532",
+            "CD116": "50",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6316,
+            "GEOID": "06073018904",
+            "CENTLAT": "+33.3812714",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "189.04",
+            "OID": "20790676339303",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3812714",
+            "NAME": "Census Tract 189.04",
+            "OBJECTID": 58433,
+            "TRACT": "018904",
+            "CENTLON": "-117.2415212",
+            "HU100": 1915,
+            "AREALAND": 2907853,
+            "INTPTLON": "-117.2415212",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "073"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 1095,
+            "GEOID": "060730189043001",
+            "CENTLAT": "+33.3846663",
+            "BLOCK": "3001",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "3001",
+            "OID": "210701000815856",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.3846663",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3001",
+            "OBJECTID": 2270262,
+            "TRACT": "018904",
+            "CENTLON": "-117.2354332",
+            "BLKGRP": "3",
+            "AREALAND": 856972,
+            "HU100": 386,
+            "INTPTLON": "-117.2354332",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "073"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -117.235322,
+          "y": 33.384244
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

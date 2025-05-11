@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:11:02.469929+00:00",
+  "elapsed": 0.169842,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4855",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:11:02 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-110.931343&y=31.363472"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-110.931343&y=31.363472",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 217702,
+            "GEOID": "04002",
+            "CENTLAT": "+31.6648569",
+            "AREAWATER": 3799327,
+            "STATE": "04",
+            "BASENAME": "2",
+            "OID": "212904690702418",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.6614857",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 1953,
+            "CENTLON": "-111.0657314",
+            "LSY": "2018",
+            "HU100": 88975,
+            "AREALAND": 6472191845,
+            "INTPTLON": "-111.0744157",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779777",
+            "POP100": 7151502,
+            "GEOID": "04",
+            "CENTLAT": "+34.2751017",
+            "AREAWATER": 858853288,
+            "STATE": "04",
+            "BASENAME": "Arizona",
+            "STUSAB": "AZ",
+            "OID": "274901053753069",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.2039362",
+            "DIVISION": "8",
+            "NAME": "Arizona",
+            "REGION": "4",
+            "OBJECTID": 15,
+            "CENTLON": "-111.6605337",
+            "AREALAND": 294360991275,
+            "INTPTLON": "-111.6063449",
+            "HU100": 3082000,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1091102,
+            "GEOID": "536",
+            "CENTLAT": "+32.0314456",
+            "AREAWATER": 8180255,
+            "BASENAME": "Tucson-Nogales, AZ",
+            "OID": "2619013782255241",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.0303140",
+            "NAME": "Tucson-Nogales, AZ CSA",
+            "CSA": "536",
+            "OBJECTID": 97,
+            "CENTLON": "-111.6767448",
+            "HU100": 488861,
+            "AREALAND": 27000450920,
+            "INTPTLON": "-111.6738540",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "63325",
+            "CENTLAT": "+31.3607106",
+            "AREAWATER": 26000,
+            "BASENAME": "Nogales, AZ",
+            "OID": "270211139087988",
+            "UA": "63325",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.3560841",
+            "NAME": "Nogales, AZ Urban Area",
+            "OBJECTID": 1648,
+            "CENTLON": "-110.9448479",
+            "AREALAND": 32871111,
+            "INTPTLON": "-110.9490767",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92295",
+            "POP100": 44704,
+            "GEOID": "0402392295",
+            "CENTLAT": "+31.4938723",
+            "AREAWATER": 2382710,
+            "STATE": "04",
+            "BASENAME": "Nogales",
+            "OID": "276901139081716",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.4956020",
+            "NAME": "Nogales CCD",
+            "OBJECTID": 2303,
+            "CENTLON": "-111.0121144",
+            "COUSUBCC": "Z5",
+            "HU100": 16817,
+            "AREALAND": 1762322938,
+            "INTPTLON": "-111.0171332",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01934961",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 217702,
+            "GEOID": "04002",
+            "CENTLAT": "+31.6648569",
+            "SLDL": "002",
+            "AREAWATER": 3799327,
+            "STATE": "04",
+            "BASENAME": "2",
+            "OID": "213904690702895",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.6614857",
+            "NAME": "State House District 2",
+            "OBJECTID": 3549,
+            "CENTLON": "-111.0657314",
+            "LSY": "2018",
+            "HU100": 88975,
+            "AREALAND": 6472191845,
+            "INTPTLON": "-111.0744157",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 19770,
+            "GEOID": "0449640",
+            "CENTLAT": "+31.3624690",
+            "AREAWATER": 36580,
+            "STATE": "04",
+            "BASENAME": "Nogales",
+            "OID": "278901139081857",
+            "LSADC": "25",
+            "PLACE": "49640",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.3619278",
+            "NAME": "Nogales city",
+            "OBJECTID": 8014,
+            "PLACECC": "C1",
+            "CENTLON": "-110.9336609",
+            "CBSAPCI": "Y",
+            "HU100": 7562,
+            "AREALAND": 53923635,
+            "INTPTLON": "-110.9348198",
+            "PLACENS": "02411260",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 47669,
+            "GEOID": "04023",
+            "CENTLAT": "+31.5260407",
+            "AREAWATER": 3068237,
+            "STATE": "04",
+            "BASENAME": "Santa Cruz",
+            "OID": "275901139053248",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.5257330",
+            "NAME": "Santa Cruz County",
+            "OBJECTID": 1620,
+            "CENTLON": "-110.8465749",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00040472",
+            "AREALAND": 3201853240,
+            "INTPTLON": "-110.8452278",
+            "HU100": 18729,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 777554,
+            "GEOID": "0403",
+            "CENTLAT": "+32.3667128",
+            "CDSESSN": "116",
+            "AREAWATER": 8308199,
+            "STATE": "04",
+            "BASENAME": "3",
+            "OID": "211904690703047",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.4223220",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 309,
+            "CENTLON": "-112.4379175",
+            "HU100": 278186,
+            "AREALAND": 40631433746,
+            "INTPTLON": "-112.4012975",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3230,
+            "GEOID": "04023966401",
+            "CENTLAT": "+31.3508049",
+            "AREAWATER": 7850,
+            "STATE": "04",
+            "BASENAME": "9664.01",
+            "OID": "207901139087829",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+31.3497490",
+            "NAME": "Census Tract 9664.01",
+            "OBJECTID": 22109,
+            "TRACT": "966401",
+            "CENTLON": "-110.9483908",
+            "HU100": 1178,
+            "AREALAND": 8005203,
+            "INTPTLON": "-110.9472130",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "023"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "040239664012002",
+            "CENTLAT": "+31.3650295",
+            "BLOCK": "2002",
+            "AREAWATER": 0,
+            "STATE": "04",
+            "BASENAME": "2002",
+            "OID": "210701002055534",
+            "LSADC": "BK",
+            "INTPTLAT": "+31.3650295",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2002",
+            "OBJECTID": 8065101,
+            "TRACT": "966401",
+            "CENTLON": "-110.9323745",
+            "BLKGRP": "2",
+            "AREALAND": 128558,
+            "HU100": 0,
+            "INTPTLON": "-110.9323745",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "023"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -110.931343,
+          "y": 31.363472
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

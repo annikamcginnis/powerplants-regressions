@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:01:00.400415+00:00",
+  "elapsed": 0.209301,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4602",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:01:00 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-74.663434&y=40.711882"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-74.663434&y=40.711882",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 222231,
+            "GEOID": "34023",
+            "CENTLAT": "+40.6581506",
+            "AREAWATER": 27346867,
+            "STATE": "34",
+            "BASENAME": "23",
+            "OID": "212904690195804",
+            "LSADC": "LU",
+            "SLDU": "023",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6585670",
+            "NAME": "State Senate District 23",
+            "OBJECTID": 1278,
+            "CENTLON": "-074.9308293",
+            "LSY": "2018",
+            "HU100": 88811,
+            "AREALAND": 1185700192,
+            "INTPTLON": "-074.9340502",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779795",
+            "POP100": 9288994,
+            "GEOID": "34",
+            "CENTLAT": "+40.1048623",
+            "AREAWATER": 3533261945,
+            "STATE": "34",
+            "BASENAME": "New Jersey",
+            "STUSAB": "NJ",
+            "OID": "27490286138606",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1072744",
+            "DIVISION": "2",
+            "NAME": "New Jersey",
+            "REGION": "1",
+            "OBJECTID": 30,
+            "CENTLON": "-074.6583735",
+            "AREALAND": 19048737655,
+            "INTPTLON": "-074.6652012",
+            "HU100": 3761229,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 23582649,
+            "GEOID": "408",
+            "CENTLAT": "+41.0667541",
+            "AREAWATER": 8099265995,
+            "BASENAME": "New York-Newark, NY-NJ-CT-PA",
+            "OID": "2619013782255195",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7749300",
+            "NAME": "New York-Newark, NY-NJ-CT-PA CSA",
+            "CSA": "408",
+            "OBJECTID": 140,
+            "CENTLON": "-073.8753122",
+            "HU100": 9401953,
+            "AREALAND": 32113500421,
+            "INTPTLON": "-073.8737580",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "57300",
+            "POP100": 2558,
+            "GEOID": "3403557300",
+            "CENTLAT": "+40.7168091",
+            "AREAWATER": 181056,
+            "STATE": "34",
+            "BASENAME": "Peapack and Gladstone",
+            "OID": "27690311650689",
+            "LSADC": "21",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+40.7157822",
+            "NAME": "Peapack and Gladstone borough",
+            "OBJECTID": 10642,
+            "CENTLON": "-074.6560845",
+            "COUSUBCC": "C5",
+            "HU100": 937,
+            "AREALAND": 14847556,
+            "INTPTLON": "-074.6540541",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00885345",
+            "UR": "R",
+            "COUNTY": "035"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 222231,
+            "GEOID": "34023",
+            "CENTLAT": "+40.6581506",
+            "SLDL": "023",
+            "AREAWATER": 27346867,
+            "STATE": "34",
+            "BASENAME": "23",
+            "OID": "213904690195884",
+            "LSADC": "L4",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6585670",
+            "NAME": "General Assembly District 23",
+            "OBJECTID": 2921,
+            "CENTLON": "-074.9308293",
+            "LSY": "2018",
+            "HU100": 88811,
+            "AREALAND": 1185700192,
+            "INTPTLON": "-074.9340502",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2558,
+            "GEOID": "3457300",
+            "CENTLAT": "+40.7168091",
+            "AREAWATER": 181056,
+            "STATE": "34",
+            "BASENAME": "Peapack and Gladstone",
+            "OID": "27890311653343",
+            "LSADC": "21",
+            "PLACE": "57300",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.7157822",
+            "NAME": "Peapack and Gladstone borough",
+            "OBJECTID": 16503,
+            "PLACECC": "C5",
+            "CENTLON": "-074.6560845",
+            "CBSAPCI": "N",
+            "HU100": 937,
+            "AREALAND": 14847556,
+            "INTPTLON": "-074.6540541",
+            "PLACENS": "00885345",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 345361,
+            "GEOID": "34035",
+            "CENTLAT": "+40.5633991",
+            "AREAWATER": 7996119,
+            "STATE": "34",
+            "BASENAME": "Somerset",
+            "OID": "27590311648660",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5655273",
+            "NAME": "Somerset County",
+            "OBJECTID": 2619,
+            "CENTLON": "-074.6163919",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00882234",
+            "AREALAND": 781829190,
+            "INTPTLON": "-074.6199378",
+            "HU100": 131822,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "035"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 760058,
+            "GEOID": "3407",
+            "CENTLAT": "+40.6281770",
+            "CDSESSN": "116",
+            "AREAWATER": 46997049,
+            "STATE": "34",
+            "BASENAME": "7",
+            "OID": "211904690194670",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6317476",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 213,
+            "CENTLON": "-074.7895758",
+            "HU100": 291147,
+            "AREALAND": 2512245188,
+            "INTPTLON": "-074.7895041",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2558,
+            "GEOID": "34035052800",
+            "CENTLAT": "+40.7168091",
+            "AREAWATER": 181056,
+            "STATE": "34",
+            "BASENAME": "528",
+            "OID": "20790311659078",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7157822",
+            "NAME": "Census Tract 528",
+            "OBJECTID": 79070,
+            "TRACT": "052800",
+            "CENTLON": "-074.6560845",
+            "HU100": 937,
+            "AREALAND": 14847556,
+            "INTPTLON": "-074.6540541",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "035"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 162,
+            "GEOID": "340350528001004",
+            "CENTLAT": "+40.7147194",
+            "BLOCK": "1004",
+            "AREAWATER": 0,
+            "STATE": "34",
+            "BASENAME": "1004",
+            "OID": "210701004601974",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.7147194",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1004",
+            "OBJECTID": 7737317,
+            "TRACT": "052800",
+            "CENTLON": "-074.6664006",
+            "BLKGRP": "1",
+            "AREALAND": 1104372,
+            "HU100": 76,
+            "INTPTLON": "-074.6664006",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "035"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -74.663434,
+          "y": 40.711882
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

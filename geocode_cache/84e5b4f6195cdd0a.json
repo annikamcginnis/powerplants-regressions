@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:14:45.113352+00:00",
+  "elapsed": 0.161552,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4557",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:14:45 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-120.027222&y=39.245833"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-120.027222&y=39.245833",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 987782,
+            "GEOID": "06001",
+            "CENTLAT": "+40.6322392",
+            "AREAWATER": 2177755741,
+            "STATE": "06",
+            "BASENAME": "1",
+            "OID": "212904690192896",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6343548",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 992,
+            "CENTLON": "-121.2604780",
+            "LSY": "2018",
+            "HU100": 457799,
+            "AREALAND": 69226776948,
+            "INTPTLON": "-121.2643298",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2680831,
+            "GEOID": "472",
+            "CENTLAT": "+38.9108097",
+            "AREAWATER": 635459836,
+            "BASENAME": "Sacramento-Roseville, CA",
+            "OID": "2619013782255221",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.9103692",
+            "NAME": "Sacramento-Roseville, CA CSA",
+            "CSA": "472",
+            "OBJECTID": 166,
+            "CENTLON": "-121.0561354",
+            "HU100": 1051146,
+            "AREALAND": 18874252896,
+            "INTPTLON": "-121.0548638",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91550",
+            "POP100": 10053,
+            "GEOID": "0606191550",
+            "CENTLAT": "+39.1529862",
+            "AREAWATER": 204207612,
+            "STATE": "06",
+            "BASENAME": "Lake Tahoe",
+            "OID": "27690681492416",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.1852757",
+            "NAME": "Lake Tahoe CCD",
+            "OBJECTID": 29244,
+            "CENTLON": "-120.1082171",
+            "COUSUBCC": "Z5",
+            "HU100": 12204,
+            "AREALAND": 189552482,
+            "INTPTLON": "-120.0961442",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935160",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3563,
+            "GEOID": "0638548",
+            "CENTLAT": "+39.2449918",
+            "AREAWATER": 301151,
+            "STATE": "06",
+            "BASENAME": "Kings Beach",
+            "OID": "28090681492425",
+            "LSADC": "57",
+            "PLACE": "38548",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.2475277",
+            "NAME": "Kings Beach CDP",
+            "OBJECTID": 26691,
+            "PLACECC": "U1",
+            "CENTLON": "-120.0202673",
+            "CBSAPCI": "N",
+            "HU100": 2393,
+            "AREALAND": 7403909,
+            "INTPTLON": "-120.0199033",
+            "PLACENS": "02408481",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 468669,
+            "GEOID": "06001",
+            "CENTLAT": "+40.8148124",
+            "SLDL": "001",
+            "AREAWATER": 2001748404,
+            "STATE": "06",
+            "BASENAME": "1",
+            "OID": "213904690193032",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.8261089",
+            "NAME": "Assembly District 1",
+            "OBJECTID": 1177,
+            "CENTLON": "-121.3636295",
+            "LSY": "2018",
+            "HU100": 238696,
+            "AREALAND": 64122762656,
+            "INTPTLON": "-121.3636117",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 404739,
+            "GEOID": "06061",
+            "CENTLAT": "+39.0638566",
+            "AREAWATER": 246466621,
+            "STATE": "06",
+            "BASENAME": "Placer",
+            "OID": "27590347247534",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.0620323",
+            "NAME": "Placer County",
+            "OBJECTID": 618,
+            "CENTLON": "-120.7190211",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277295",
+            "AREALAND": 3644306224,
+            "INTPTLON": "-120.7227181",
+            "HU100": 172356,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 768333,
+            "GEOID": "0604",
+            "CENTLAT": "+37.9829533",
+            "CDSESSN": "116",
+            "AREAWATER": 858183931,
+            "STATE": "06",
+            "BASENAME": "4",
+            "OID": "211904492478837",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.9824523",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 243,
+            "CENTLON": "-119.9275367",
+            "HU100": 372091,
+            "AREALAND": 33247235037,
+            "INTPTLON": "-119.9279734",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3315,
+            "GEOID": "06061020107",
+            "CENTLAT": "+39.2496931",
+            "AREAWATER": 301151,
+            "STATE": "06",
+            "BASENAME": "201.07",
+            "OID": "20790681492689",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.2475277",
+            "NAME": "Census Tract 201.07",
+            "OBJECTID": 24492,
+            "TRACT": "020107",
+            "CENTLON": "-120.0141878",
+            "HU100": 1957,
+            "AREALAND": 7179606,
+            "INTPTLON": "-120.0199033",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 81,
+            "GEOID": "060610201071001",
+            "CENTLAT": "+39.2471916",
+            "BLOCK": "1001",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "1001",
+            "OID": "210701002739848",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.2471916",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1001",
+            "OBJECTID": 3825609,
+            "TRACT": "020107",
+            "CENTLON": "-120.0194881",
+            "BLKGRP": "1",
+            "AREALAND": 895466,
+            "HU100": 43,
+            "INTPTLON": "-120.0194881",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "061"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -120.027222,
+          "y": 39.245833
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:41:31.026893+00:00",
+  "elapsed": 0.167573,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4128",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:41:31 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-105.43676&y=34.35655"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-105.43676&y=34.35655",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 48488,
+            "GEOID": "35039",
+            "CENTLAT": "+34.5524496",
+            "AREAWATER": 3754229,
+            "STATE": "35",
+            "BASENAME": "39",
+            "OID": "212904692171638",
+            "LSADC": "LU",
+            "SLDU": "039",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.5239287",
+            "NAME": "State Senate District 39",
+            "OBJECTID": 1452,
+            "CENTLON": "-105.6450503",
+            "LSY": "2018",
+            "HU100": 25001,
+            "AREALAND": 22382384761,
+            "INTPTLON": "-105.6395816",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00897535",
+            "POP100": 2117522,
+            "GEOID": "35",
+            "CENTLAT": "+34.4075785",
+            "AREAWATER": 726482115,
+            "STATE": "35",
+            "BASENAME": "New Mexico",
+            "STUSAB": "NM",
+            "OID": "27490100936841",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.4346843",
+            "DIVISION": "8",
+            "NAME": "New Mexico",
+            "REGION": "4",
+            "OBJECTID": 28,
+            "CENTLON": "-106.1126593",
+            "AREALAND": 314198560935,
+            "INTPTLON": "-106.1316181",
+            "HU100": 940859,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1162523,
+            "GEOID": "106",
+            "CENTLAT": "+35.6436004",
+            "AREAWATER": 183599612,
+            "BASENAME": "Albuquerque-Santa Fe-Las Vegas, NM",
+            "OID": "2619013782255078",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.6438233",
+            "NAME": "Albuquerque-Santa Fe-Las Vegas, NM CSA",
+            "CSA": "106",
+            "OBJECTID": 71,
+            "CENTLON": "-106.0309748",
+            "HU100": 517842,
+            "AREALAND": 61671595463,
+            "INTPTLON": "-106.0299689",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92135",
+            "POP100": 2055,
+            "GEOID": "3505792135",
+            "CENTLAT": "+34.5413129",
+            "AREAWATER": 673409,
+            "STATE": "35",
+            "BASENAME": "Mountainair-Encino",
+            "OID": "276901464513480",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4898709",
+            "NAME": "Mountainair-Encino CCD",
+            "OBJECTID": 22594,
+            "CENTLON": "-105.7679251",
+            "COUSUBCC": "Z5",
+            "HU100": 1150,
+            "AREALAND": 5509124814,
+            "INTPTLON": "-105.7622089",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01937560",
+            "UR": "R",
+            "COUNTY": "057"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 26809,
+            "GEOID": "35070",
+            "CENTLAT": "+35.0921874",
+            "SLDL": "070",
+            "AREAWATER": 43797840,
+            "STATE": "35",
+            "BASENAME": "70",
+            "OID": "213904692174819",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.0920326",
+            "NAME": "State House District 70",
+            "OBJECTID": 3545,
+            "CENTLON": "-105.3192522",
+            "LSY": "2018",
+            "HU100": 13355,
+            "AREALAND": 14915602826,
+            "INTPTLON": "-105.3258546",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 15045,
+            "GEOID": "35057",
+            "CENTLAT": "+34.6403238",
+            "AREAWATER": 2316559,
+            "STATE": "35",
+            "BASENAME": "Torrance",
+            "OID": "275901464397882",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.5549784",
+            "NAME": "Torrance County",
+            "OBJECTID": 2442,
+            "CENTLON": "-105.8509760",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00929112",
+            "AREALAND": 8664061384,
+            "INTPTLON": "-105.8905574",
+            "HU100": 7169,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "057"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 694577,
+            "GEOID": "3501",
+            "CENTLAT": "+34.7687191",
+            "CDSESSN": "116",
+            "AREAWATER": 16576045,
+            "STATE": "35",
+            "BASENAME": "1",
+            "OID": "211904690703334",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.7706340",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 431,
+            "CENTLON": "-106.0538224",
+            "HU100": 309629,
+            "AREALAND": 11916352359,
+            "INTPTLON": "-106.0517502",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2055,
+            "GEOID": "35057963700",
+            "CENTLAT": "+34.5413129",
+            "AREAWATER": 673409,
+            "STATE": "35",
+            "BASENAME": "9637",
+            "OID": "207903717357042",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4898709",
+            "NAME": "Census Tract 9637",
+            "OBJECTID": 826,
+            "TRACT": "963700",
+            "CENTLON": "-105.7679251",
+            "HU100": 1150,
+            "AREALAND": 5509124814,
+            "INTPTLON": "-105.7622089",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "057"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "350579637001487",
+            "CENTLAT": "+34.3760337",
+            "BLOCK": "1487",
+            "AREAWATER": 0,
+            "STATE": "35",
+            "BASENAME": "1487",
+            "OID": "210701002962788",
+            "LSADC": "BK",
+            "INTPTLAT": "+34.3760337",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1487",
+            "OBJECTID": 6001116,
+            "TRACT": "963700",
+            "CENTLON": "-105.4360564",
+            "BLKGRP": "1",
+            "AREALAND": 23997378,
+            "HU100": 0,
+            "INTPTLON": "-105.4360564",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "057"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -105.43676,
+          "y": 34.35655
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:38:19.992482+00:00",
+  "elapsed": 0.175526,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4124",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:19 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-82.10133&y=34.08475"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-82.10133&y=34.08475",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 93755,
+            "GEOID": "45010",
+            "CENTLAT": "+34.1250663",
+            "AREAWATER": 90982235,
+            "STATE": "45",
+            "BASENAME": "10",
+            "OID": "212904690194059",
+            "LSADC": "LU",
+            "SLDU": "010",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.1298433",
+            "NAME": "State Senate District 10",
+            "OBJECTID": 1431,
+            "CENTLON": "-082.2088759",
+            "LSY": "2018",
+            "HU100": 42870,
+            "AREALAND": 3285600274,
+            "INTPTLON": "-082.2086700",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779799",
+            "POP100": 5118425,
+            "GEOID": "45",
+            "CENTLAT": "+33.8758222",
+            "AREAWATER": 5074311415,
+            "STATE": "45",
+            "BASENAME": "South Carolina",
+            "STUSAB": "SC",
+            "OID": "27490140244538",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.8741776",
+            "DIVISION": "5",
+            "NAME": "South Carolina",
+            "REGION": "3",
+            "OBJECTID": 43,
+            "CENTLON": "-080.8583129",
+            "AREALAND": 77866132568,
+            "INTPTLON": "-080.8542639",
+            "HU100": 2344963,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1487610,
+            "GEOID": "273",
+            "CENTLAT": "+34.7116891",
+            "AREAWATER": 389548794,
+            "BASENAME": "Greenville-Spartanburg-Anderson, SC",
+            "OID": "2619013782255136",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.7129109",
+            "NAME": "Greenville-Spartanburg-Anderson, SC CSA",
+            "CSA": "273",
+            "OBJECTID": 43,
+            "CENTLON": "-082.2783240",
+            "HU100": 650283,
+            "AREALAND": 14262233821,
+            "INTPTLON": "-082.2789426",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91781",
+            "POP100": 1896,
+            "GEOID": "4504791781",
+            "CENTLAT": "+34.0502805",
+            "AREAWATER": 481856,
+            "STATE": "45",
+            "BASENAME": "Kirksey",
+            "OID": "27690229175319",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.0460636",
+            "NAME": "Kirksey CCD",
+            "OBJECTID": 6703,
+            "CENTLON": "-082.0330684",
+            "COUSUBCC": "Z5",
+            "HU100": 898,
+            "AREALAND": 226085171,
+            "INTPTLON": "-082.0457402",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938318",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 38593,
+            "GEOID": "45013",
+            "CENTLAT": "+34.1492897",
+            "SLDL": "013",
+            "AREAWATER": 4590729,
+            "STATE": "45",
+            "BASENAME": "HD-013",
+            "OID": "213904690194117",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.1848233",
+            "NAME": "State House District HD-013",
+            "OBJECTID": 1276,
+            "CENTLON": "-082.1064509",
+            "LSY": "2018",
+            "HU100": 17357,
+            "AREALAND": 812510158,
+            "INTPTLON": "-082.0921561",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 69351,
+            "GEOID": "45047",
+            "CENTLAT": "+34.1536157",
+            "AREAWATER": 21260069,
+            "STATE": "45",
+            "BASENAME": "Greenwood",
+            "OID": "27590229146190",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.1557959",
+            "NAME": "Greenwood County",
+            "OBJECTID": 636,
+            "CENTLON": "-082.1258554",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01248003",
+            "AREALAND": 1180009081,
+            "INTPTLON": "-082.1278759",
+            "HU100": 31323,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "047"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 706785,
+            "GEOID": "4503",
+            "CENTLAT": "+34.3548437",
+            "CDSESSN": "116",
+            "AREAWATER": 518391954,
+            "STATE": "45",
+            "BASENAME": "3",
+            "OID": "211904690192842",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.3638666",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 125,
+            "CENTLON": "-082.3366613",
+            "HU100": 317185,
+            "AREALAND": 13646606390,
+            "INTPTLON": "-082.3382037",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1896,
+            "GEOID": "45047971000",
+            "CENTLAT": "+34.0502805",
+            "AREAWATER": 481856,
+            "STATE": "45",
+            "BASENAME": "9710",
+            "OID": "20790229203732",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.0460636",
+            "NAME": "Census Tract 9710",
+            "OBJECTID": 72626,
+            "TRACT": "971000",
+            "CENTLON": "-082.0330684",
+            "HU100": 898,
+            "AREALAND": 226085171,
+            "INTPTLON": "-082.0457402",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 25,
+            "GEOID": "450479710002010",
+            "CENTLAT": "+34.0804897",
+            "BLOCK": "2010",
+            "AREAWATER": 34145,
+            "STATE": "45",
+            "BASENAME": "2010",
+            "OID": "210701003572286",
+            "LSADC": "BK",
+            "INTPTLAT": "+34.0804543",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2010",
+            "OBJECTID": 5423205,
+            "TRACT": "971000",
+            "CENTLON": "-082.0987940",
+            "BLKGRP": "2",
+            "AREALAND": 1970016,
+            "HU100": 12,
+            "INTPTLON": "-082.0989128",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -82.10133,
+          "y": 34.08475
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

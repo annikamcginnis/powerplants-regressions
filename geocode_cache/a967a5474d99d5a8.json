@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:36:59.458528+00:00",
+  "elapsed": 0.160467,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4870",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:36:59 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.0083&y=42.5486"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.0083&y=42.5486",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 177839,
+            "GEOID": "55011",
+            "CENTLAT": "+42.7191567",
+            "AREAWATER": 69981770,
+            "STATE": "55",
+            "BASENAME": "11",
+            "OID": "212904691749029",
+            "LSADC": "LU",
+            "SLDU": "011",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.7177882",
+            "NAME": "State Senate District 11",
+            "OBJECTID": 1218,
+            "CENTLON": "-088.6359052",
+            "LSY": "2018",
+            "HU100": 83559,
+            "AREALAND": 2583016251,
+            "INTPTLON": "-088.6455470",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 910246,
+            "GEOID": "357",
+            "CENTLAT": "+43.0794246",
+            "AREAWATER": 266624414,
+            "BASENAME": "Madison-Janesville-Beloit, WI",
+            "OID": "2619013782255172",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.0849727",
+            "NAME": "Madison-Janesville-Beloit, WI CSA",
+            "CSA": "357",
+            "OBJECTID": 117,
+            "CENTLON": "-089.5768277",
+            "HU100": 403390,
+            "AREALAND": 12583433437,
+            "INTPTLON": "-089.5844861",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "06760",
+            "CENTLAT": "+42.5037608",
+            "AREAWATER": 2164278,
+            "BASENAME": "Beloit, WI--IL",
+            "OID": "27021162955771",
+            "UA": "06760",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5038624",
+            "NAME": "Beloit, WI--IL Urban Area",
+            "OBJECTID": 698,
+            "CENTLON": "-089.0275130",
+            "AREALAND": 82713169,
+            "INTPTLON": "-089.0275226",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "06500",
+            "POP100": 36657,
+            "GEOID": "5510506500",
+            "CENTLAT": "+42.5230256",
+            "AREAWATER": 842385,
+            "STATE": "55",
+            "BASENAME": "Beloit",
+            "OID": "27690239338141",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.5235059",
+            "NAME": "Beloit city",
+            "OBJECTID": 1088,
+            "CENTLON": "-089.0183189",
+            "COUSUBCC": "C5",
+            "HU100": 15068,
+            "AREALAND": 44889119,
+            "INTPTLON": "-089.0176597",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01582791",
+            "UR": "M",
+            "COUNTY": "105"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 59952,
+            "GEOID": "55031",
+            "CENTLAT": "+42.6230992",
+            "SLDL": "031",
+            "AREAWATER": 10474811,
+            "STATE": "55",
+            "BASENAME": "31",
+            "OID": "213904691750726",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6229717",
+            "NAME": "Assembly District 31",
+            "OBJECTID": 3999,
+            "CENTLON": "-088.7852447",
+            "LSY": "2018",
+            "HU100": 27083,
+            "AREALAND": 1018859101,
+            "INTPTLON": "-088.7831628",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 36657,
+            "GEOID": "5506500",
+            "CENTLAT": "+42.5230256",
+            "AREAWATER": 842385,
+            "STATE": "55",
+            "BASENAME": "Beloit",
+            "OID": "27890239498938",
+            "LSADC": "25",
+            "PLACE": "06500",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.5235059",
+            "NAME": "Beloit city",
+            "OBJECTID": 4416,
+            "PLACECC": "C5",
+            "CENTLON": "-089.0183189",
+            "CBSAPCI": "Y",
+            "HU100": 15068,
+            "AREALAND": 44889119,
+            "INTPTLON": "-089.0176597",
+            "PLACENS": "01582791",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 163687,
+            "GEOID": "55105",
+            "CENTLAT": "+42.6711839",
+            "AREAWATER": 20695798,
+            "STATE": "55",
+            "BASENAME": "Rock",
+            "OID": "27590239325751",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.6698802",
+            "NAME": "Rock County",
+            "OBJECTID": 1195,
+            "CENTLON": "-089.0715485",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581113",
+            "AREALAND": 1860044984,
+            "INTPTLON": "-089.0752844",
+            "HU100": 70068,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "105"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 789393,
+            "GEOID": "5502",
+            "CENTLAT": "+42.9826872",
+            "CDSESSN": "116",
+            "AREAWATER": 188998048,
+            "STATE": "55",
+            "BASENAME": "2",
+            "OID": "211904691757781",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.9842952",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 362,
+            "CENTLON": "-089.7471716",
+            "HU100": 350253,
+            "AREALAND": 11750545987,
+            "INTPTLON": "-089.7508660",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5470,
+            "GEOID": "55105002601",
+            "CENTLAT": "+42.5543458",
+            "AREAWATER": 228436,
+            "STATE": "55",
+            "BASENAME": "26.01",
+            "OID": "20790239529810",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5585668",
+            "NAME": "Census Tract 26.01",
+            "OBJECTID": 84014,
+            "TRACT": "002601",
+            "CENTLON": "-088.9994444",
+            "HU100": 2334,
+            "AREALAND": 14055196,
+            "INTPTLON": "-088.9956987",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "105"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 47,
+            "GEOID": "551050026011032",
+            "CENTLAT": "+42.5481563",
+            "BLOCK": "1032",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "1032",
+            "OID": "210701005818846",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.5481563",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1032",
+            "OBJECTID": 4121372,
+            "TRACT": "002601",
+            "CENTLON": "-089.0090410",
+            "BLKGRP": "1",
+            "AREALAND": 133347,
+            "HU100": 0,
+            "INTPTLON": "-089.0090410",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "105"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -89.0083,
+          "y": 42.5486
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

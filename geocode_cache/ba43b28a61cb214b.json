@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:49:07.726419+00:00",
+  "elapsed": 0.144778,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4220",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:49:07 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-135.70737&y=58.419497"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-135.70737&y=58.419497",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 36329,
+            "GEOID": "0200Q",
+            "CENTLAT": "+58.7513849",
+            "AREAWATER": 5340791869,
+            "STATE": "02",
+            "BASENAME": "Q",
+            "OID": "212904689816096",
+            "LSADC": "LU",
+            "SLDU": "00Q",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+58.5447286",
+            "NAME": "State Senate District Q",
+            "OBJECTID": 597,
+            "CENTLON": "-135.5090626",
+            "LSY": "2018",
+            "HU100": 16991,
+            "AREALAND": 22981691841,
+            "INTPTLON": "-135.3172267",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01785533",
+            "POP100": 733391,
+            "GEOID": "02",
+            "CENTLAT": "+63.4130518",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-152.8796317",
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "HU100": 326200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "33390",
+            "POP100": 2278,
+            "GEOID": "0210533390",
+            "CENTLAT": "+58.2063161",
+            "AREAWATER": 7803585693,
+            "STATE": "02",
+            "BASENAME": "Hoonah-Angoon",
+            "OID": "2769053176476",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+58.4033360",
+            "NAME": "Hoonah-Angoon census subarea",
+            "OBJECTID": 30371,
+            "CENTLON": "-135.5310197",
+            "COUSUBCC": "Z5",
+            "HU100": 1712,
+            "AREALAND": 16974441000,
+            "INTPTLON": "-135.8849090",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939943",
+            "UR": "R",
+            "COUNTY": "105"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 17739,
+            "GEOID": "02033",
+            "CENTLAT": "+58.7558432",
+            "SLDL": "033",
+            "AREAWATER": 4676592130,
+            "STATE": "02",
+            "BASENAME": "33",
+            "OID": "213904689816186",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+58.5447286",
+            "NAME": "State House District 33",
+            "OBJECTID": 1367,
+            "CENTLON": "-135.5759279",
+            "LSY": "2018",
+            "HU100": 9457,
+            "AREALAND": 21238120248,
+            "INTPTLON": "-135.3172267",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 655,
+            "GEOID": "0230940",
+            "CENTLAT": "+58.4149259",
+            "AREAWATER": 53368158,
+            "STATE": "02",
+            "BASENAME": "Gustavus",
+            "OID": "27890594249042",
+            "LSADC": "25",
+            "PLACE": "30940",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+58.4346572",
+            "NAME": "Gustavus city",
+            "OBJECTID": 8501,
+            "PLACECC": "C1",
+            "CENTLON": "-135.7340698",
+            "CBSAPCI": "N",
+            "HU100": 600,
+            "AREALAND": 94165628,
+            "INTPTLON": "-135.7281515",
+            "PLACENS": "02419393",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 2365,
+            "GEOID": "02105",
+            "CENTLAT": "+58.2065557",
+            "AREAWATER": 7804886156,
+            "STATE": "02",
+            "BASENAME": "Hoonah-Angoon",
+            "OID": "275902175956301",
+            "LSADC": "05",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+58.4033360",
+            "NAME": "Hoonah-Angoon Census Area",
+            "OBJECTID": 3123,
+            "CENTLON": "-135.5310910",
+            "COUNTYCC": "H5",
+            "COUNTYNS": "02371430",
+            "AREALAND": 16978039504,
+            "INTPTLON": "-135.8849090",
+            "HU100": 1777,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "105"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733391,
+            "GEOID": "0200",
+            "CENTLAT": "+63.4130518",
+            "CDSESSN": "116",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692178999",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 355,
+            "CENTLON": "-152.8796317",
+            "HU100": 326200,
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2365,
+            "GEOID": "02105000400",
+            "CENTLAT": "+58.2065557",
+            "AREAWATER": 7804886156,
+            "STATE": "02",
+            "BASENAME": "4",
+            "OID": "2079015482109107",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+58.0735321",
+            "NAME": "Census Tract 4",
+            "OBJECTID": 3552,
+            "TRACT": "000400",
+            "CENTLON": "-135.5310910",
+            "HU100": 1777,
+            "AREALAND": 16978039504,
+            "INTPTLON": "-135.5130030",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "105"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 25,
+            "GEOID": "021050004003150",
+            "CENTLAT": "+58.4161935",
+            "BLOCK": "3150",
+            "AREAWATER": 0,
+            "STATE": "02",
+            "BASENAME": "3150",
+            "OID": "210701000387745",
+            "LSADC": "BK",
+            "INTPTLAT": "+58.4161935",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3150",
+            "OBJECTID": 3037592,
+            "TRACT": "000400",
+            "CENTLON": "-135.7086630",
+            "BLKGRP": "3",
+            "AREALAND": 356736,
+            "HU100": 21,
+            "INTPTLON": "-135.7086630",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "105"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -135.70737,
+          "y": 58.419497
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

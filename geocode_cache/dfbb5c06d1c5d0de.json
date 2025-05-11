@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:37:06.716050+00:00",
+  "elapsed": 0.176195,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4177",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:37:06 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.6027&y=44.251"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.6027&y=44.251",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 59807,
+            "GEOID": "50WAS",
+            "CENTLAT": "+44.2733179",
+            "AREAWATER": 21169489,
+            "STATE": "50",
+            "BASENAME": "Washington",
+            "OID": "212904693072157",
+            "LSADC": "L8",
+            "SLDU": "WAS",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.2749694",
+            "NAME": "Washington State Senate District",
+            "OBJECTID": 1446,
+            "CENTLON": "-072.6150797",
+            "LSY": "2018",
+            "HU100": 30645,
+            "AREALAND": 1778229393,
+            "INTPTLON": "-072.6094444",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 285369,
+            "GEOID": "162",
+            "CENTLAT": "+44.5558124",
+            "AREAWATER": 677806802,
+            "BASENAME": "Burlington-South Burlington-Barre, VT",
+            "OID": "2619013782255095",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5676947",
+            "NAME": "Burlington-South Burlington-Barre, VT CSA",
+            "CSA": "162",
+            "OBJECTID": 2,
+            "CENTLON": "-072.8995086",
+            "HU100": 131637,
+            "AREALAND": 5015011839,
+            "INTPTLON": "-072.9027635",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "05650",
+            "POP100": 2849,
+            "GEOID": "5002305650",
+            "CENTLAT": "+44.2097227",
+            "AREAWATER": 1733389,
+            "STATE": "50",
+            "BASENAME": "Berlin",
+            "OID": "27690487688439",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.2044832",
+            "NAME": "Berlin town",
+            "OBJECTID": 19914,
+            "CENTLON": "-072.6040265",
+            "COUSUBCC": "T1",
+            "HU100": 1254,
+            "AREALAND": 93430160,
+            "INTPTLON": "-072.6075913",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462042",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 8767,
+            "GEOID": "50WA1",
+            "CENTLAT": "+44.1748296",
+            "SLDL": "WA1",
+            "AREAWATER": 2067948,
+            "STATE": "50",
+            "BASENAME": "Washington-1",
+            "OID": "213904693072412",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.1753806",
+            "NAME": "Washington-1 State House District",
+            "OBJECTID": 4452,
+            "CENTLON": "-072.6485859",
+            "LSY": "2018",
+            "HU100": 3482,
+            "AREALAND": 209069043,
+            "INTPTLON": "-072.6478752",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 59807,
+            "GEOID": "50023",
+            "CENTLAT": "+44.2733179",
+            "AREAWATER": 21169489,
+            "STATE": "50",
+            "BASENAME": "Washington",
+            "OID": "27590486844552",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.2749694",
+            "NAME": "Washington County",
+            "OBJECTID": 1935,
+            "CENTLON": "-072.6150797",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461768",
+            "AREALAND": 1778229393,
+            "INTPTLON": "-072.6094444",
+            "HU100": 30645,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2849,
+            "GEOID": "50023954500",
+            "CENTLAT": "+44.2097227",
+            "AREAWATER": 1733389,
+            "STATE": "50",
+            "BASENAME": "9545",
+            "OID": "20790487707813",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.2044832",
+            "NAME": "Census Tract 9545",
+            "OBJECTID": 51717,
+            "TRACT": "954500",
+            "CENTLON": "-072.6040265",
+            "HU100": 1254,
+            "AREALAND": 93430160,
+            "INTPTLON": "-072.6075913",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 79,
+            "GEOID": "500239545001018",
+            "CENTLAT": "+44.2549617",
+            "BLOCK": "1018",
+            "AREAWATER": 3633,
+            "STATE": "50",
+            "BASENAME": "1018",
+            "OID": "210701004706828",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.2537996",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1018",
+            "OBJECTID": 7437391,
+            "TRACT": "954500",
+            "CENTLON": "-072.6109245",
+            "BLKGRP": "1",
+            "AREALAND": 673995,
+            "HU100": 38,
+            "INTPTLON": "-072.6084063",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "023"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.6027,
+          "y": 44.251
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

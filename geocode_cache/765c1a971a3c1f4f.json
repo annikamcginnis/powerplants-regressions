@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:45:29.678574+00:00",
+  "elapsed": 0.487923,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4910",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:29 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.547335&y=39.149549"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.547335&y=39.149549",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 48696,
+            "GEOID": "10017",
+            "CENTLAT": "+39.1586267",
+            "AREAWATER": 800069,
+            "STATE": "10",
+            "BASENAME": "17",
+            "OID": "212904487327203",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.1548465",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 387,
+            "CENTLON": "-075.5459736",
+            "LSY": "2018",
+            "HU100": 20011,
+            "AREALAND": 72123737,
+            "INTPTLON": "-075.5496505",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779781",
+            "POP100": 989948,
+            "GEOID": "10",
+            "CENTLAT": "+38.9932570",
+            "AREAWATER": 1399179670,
+            "STATE": "10",
+            "BASENAME": "Delaware",
+            "STUSAB": "DE",
+            "OID": "27490331618368",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9985661",
+            "DIVISION": "5",
+            "NAME": "Delaware",
+            "REGION": "3",
+            "OBJECTID": 27,
+            "CENTLON": "-075.4514104",
+            "AREALAND": 5046731558,
+            "INTPTLON": "-075.4416440",
+            "HU100": 448735,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 7379700,
+            "GEOID": "428",
+            "CENTLAT": "+39.7357884",
+            "AREAWATER": 3026065733,
+            "BASENAME": "Philadelphia-Reading-Camden, PA-NJ-DE-MD",
+            "OID": "2619013782255203",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.7358038",
+            "NAME": "Philadelphia-Reading-Camden, PA-NJ-DE-MD CSA",
+            "CSA": "428",
+            "OBJECTID": 148,
+            "CENTLON": "-075.2899500",
+            "HU100": 3119160,
+            "AREALAND": 19000319380,
+            "INTPTLON": "-075.2920685",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "24580",
+            "CENTLAT": "+39.1414852",
+            "AREAWATER": 2683061,
+            "BASENAME": "Dover, DE",
+            "OID": "27021404616268",
+            "UA": "24580",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.1463160",
+            "NAME": "Dover, DE Urban Area",
+            "OBJECTID": 1514,
+            "CENTLON": "-075.5399814",
+            "AREALAND": 187266900,
+            "INTPTLON": "-075.5481144",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90740",
+            "POP100": 82453,
+            "GEOID": "1000190740",
+            "CENTLAT": "+39.1588513",
+            "AREAWATER": 249081055,
+            "STATE": "10",
+            "BASENAME": "Dover",
+            "OID": "27690404595394",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.1588788",
+            "NAME": "Dover CCD",
+            "OBJECTID": 23742,
+            "CENTLON": "-075.4686715",
+            "COUSUBCC": "Z5",
+            "HU100": 33420,
+            "AREALAND": 392916499,
+            "INTPTLON": "-075.4716822",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935606",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 25364,
+            "GEOID": "10031",
+            "CENTLAT": "+39.1598484",
+            "SLDL": "031",
+            "AREAWATER": 771077,
+            "STATE": "10",
+            "BASENAME": "31",
+            "OID": "213904487327253",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.1597417",
+            "NAME": "State House District 31",
+            "OBJECTID": 475,
+            "CENTLON": "-075.5556799",
+            "LSY": "2018",
+            "HU100": 9968,
+            "AREALAND": 34507085,
+            "INTPTLON": "-075.5552634",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 39403,
+            "GEOID": "1021200",
+            "CENTLAT": "+39.1610663",
+            "AREAWATER": 788869,
+            "STATE": "10",
+            "BASENAME": "Dover",
+            "OID": "27890404599687",
+            "LSADC": "25",
+            "PLACE": "21200",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.1606016",
+            "NAME": "Dover city",
+            "OBJECTID": 14857,
+            "PLACECC": "C1",
+            "CENTLON": "-075.5201953",
+            "CBSAPCI": "Y",
+            "HU100": 16055,
+            "AREALAND": 61300434,
+            "INTPTLON": "-075.5216592",
+            "PLACENS": "02390583",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 181851,
+            "GEOID": "10001",
+            "CENTLAT": "+39.0958228",
+            "AREAWATER": 549776917,
+            "STATE": "10",
+            "BASENAME": "Kent",
+            "OID": "27590404589427",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.0970884",
+            "NAME": "Kent County",
+            "OBJECTID": 2090,
+            "CENTLON": "-075.5046315",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00217271",
+            "AREALAND": 1517891095,
+            "INTPTLON": "-075.5029819",
+            "HU100": 72708,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 989948,
+            "GEOID": "1000",
+            "CENTLAT": "+38.9932570",
+            "CDSESSN": "116",
+            "AREAWATER": 1399179670,
+            "STATE": "10",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904689770056",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.9985661",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 267,
+            "CENTLON": "-075.4514104",
+            "HU100": 448735,
+            "AREALAND": 5046731558,
+            "INTPTLON": "-075.4416440",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3839,
+            "GEOID": "10001041400",
+            "CENTLAT": "+39.1473957",
+            "AREAWATER": 0,
+            "STATE": "10",
+            "BASENAME": "414",
+            "OID": "20790404606009",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.1473957",
+            "NAME": "Census Tract 414",
+            "OBJECTID": 72339,
+            "TRACT": "041400",
+            "CENTLON": "-075.5435763",
+            "HU100": 1685,
+            "AREALAND": 6760776,
+            "INTPTLON": "-075.5435763",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 15,
+            "GEOID": "100010414001058",
+            "CENTLAT": "+39.1463124",
+            "BLOCK": "1058",
+            "AREAWATER": 0,
+            "STATE": "10",
+            "BASENAME": "1058",
+            "OID": "210701007659083",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.1463124",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1058",
+            "OBJECTID": 7821125,
+            "TRACT": "041400",
+            "CENTLON": "-075.5481776",
+            "BLKGRP": "1",
+            "AREALAND": 1854838,
+            "HU100": 4,
+            "INTPTLON": "-075.5481776",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "001"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -75.547335,
+          "y": 39.149549
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

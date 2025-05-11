@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:57:18.897077+00:00",
+  "elapsed": 0.206995,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4894",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:57:18 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-79.960556&y=39.6397"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-79.960556&y=39.6397",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 118548,
+            "GEOID": "54013",
+            "CENTLAT": "+39.5367092",
+            "AREAWATER": 15028301,
+            "STATE": "54",
+            "BASENAME": "13",
+            "OID": "212904690194862",
+            "LSADC": "LU",
+            "SLDU": "013",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.5354748",
+            "NAME": "State Senate District 13",
+            "OBJECTID": 1017,
+            "CENTLON": "-080.0565756",
+            "LSY": "2018",
+            "HU100": 56930,
+            "AREALAND": 682046793,
+            "INTPTLON": "-080.0580168",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779805",
+            "POP100": 1793716,
+            "GEOID": "54",
+            "CENTLAT": "+38.6411860",
+            "AREAWATER": 489206049,
+            "STATE": "54",
+            "BASENAME": "West Virginia",
+            "STUSAB": "WV",
+            "OID": "27490156252396",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.6472854",
+            "DIVISION": "5",
+            "NAME": "West Virginia",
+            "REGION": "3",
+            "OBJECTID": 16,
+            "CENTLON": "-080.6234555",
+            "AREALAND": 62266296765,
+            "INTPTLON": "-080.6183274",
+            "HU100": 855635,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 196243,
+            "GEOID": "390",
+            "CENTLAT": "+39.5233497",
+            "AREAWATER": 28820572,
+            "BASENAME": "Morgantown-Fairmont, WV",
+            "OID": "2619013782255188",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.5350607",
+            "NAME": "Morgantown-Fairmont, WV CSA",
+            "CSA": "390",
+            "OBJECTID": 133,
+            "CENTLON": "-079.9070533",
+            "HU100": 91335,
+            "AREALAND": 3412720969,
+            "INTPTLON": "-079.9072444",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "59275",
+            "CENTLAT": "+39.6435608",
+            "AREAWATER": 2707689,
+            "BASENAME": "Morgantown, WV",
+            "OID": "27021765635525",
+            "UA": "59275",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6411846",
+            "NAME": "Morgantown, WV Urban Area",
+            "OBJECTID": 1043,
+            "CENTLON": "-079.9244251",
+            "AREALAND": 105409636,
+            "INTPTLON": "-079.9264273",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90456",
+            "POP100": 31754,
+            "GEOID": "5406190456",
+            "CENTLAT": "+39.6363285",
+            "AREAWATER": 1244351,
+            "STATE": "54",
+            "BASENAME": "Central",
+            "OID": "27690765526276",
+            "LSADC": "27",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.6376423",
+            "NAME": "Central district",
+            "OBJECTID": 8936,
+            "CENTLON": "-079.9574481",
+            "COUSUBCC": "Z1",
+            "HU100": 14500,
+            "AREALAND": 18903990,
+            "INTPTLON": "-079.9586284",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01928186",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 102812,
+            "GEOID": "54051",
+            "CENTLAT": "+39.6345811",
+            "SLDL": "051",
+            "AREAWATER": 14677518,
+            "STATE": "54",
+            "BASENAME": "51",
+            "OID": "213904690194948",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.6261043",
+            "NAME": "State House District 51",
+            "OBJECTID": 1468,
+            "CENTLON": "-080.0147093",
+            "LSY": "2018",
+            "HU100": 48500,
+            "AREALAND": 766603271,
+            "INTPTLON": "-080.0274430",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 30347,
+            "GEOID": "5455756",
+            "CENTLAT": "+39.6381647",
+            "AREAWATER": 1156717,
+            "STATE": "54",
+            "BASENAME": "Morgantown",
+            "OID": "27890765527174",
+            "LSADC": "25",
+            "PLACE": "55756",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6374870",
+            "NAME": "Morgantown city",
+            "OBJECTID": 6675,
+            "PLACECC": "C1",
+            "CENTLON": "-079.9463899",
+            "CBSAPCI": "Y",
+            "HU100": 13877,
+            "AREALAND": 26397923,
+            "INTPTLON": "-079.9468557",
+            "PLACENS": "02390619",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 105822,
+            "GEOID": "54061",
+            "CENTLAT": "+39.6303388",
+            "AREAWATER": 14991505,
+            "STATE": "54",
+            "BASENAME": "Monongalia",
+            "OID": "27590765523811",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6336448",
+            "NAME": "Monongalia County",
+            "OBJECTID": 709,
+            "CENTLON": "-080.0464494",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01550037",
+            "AREALAND": 932632923,
+            "INTPTLON": "-080.0590736",
+            "HU100": 49881,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 602044,
+            "GEOID": "5401",
+            "CENTLAT": "+39.3808992",
+            "CDSESSN": "116",
+            "AREAWATER": 175273684,
+            "STATE": "54",
+            "BASENAME": "1",
+            "OID": "211904690193265",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.3819864",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 351,
+            "CENTLON": "-080.2668357",
+            "HU100": 285288,
+            "AREALAND": 16254933592,
+            "INTPTLON": "-080.2684973",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2967,
+            "GEOID": "54061010104",
+            "CENTLAT": "+39.6376268",
+            "AREAWATER": 147541,
+            "STATE": "54",
+            "BASENAME": "101.04",
+            "OID": "2079015482219109",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6374670",
+            "NAME": "Census Tract 101.04",
+            "OBJECTID": 62689,
+            "TRACT": "010104",
+            "CENTLON": "-079.9494960",
+            "HU100": 1382,
+            "AREALAND": 1542220,
+            "INTPTLON": "-079.9496453",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 32,
+            "GEOID": "540610101041003",
+            "CENTLAT": "+39.6397407",
+            "BLOCK": "1003",
+            "AREAWATER": 0,
+            "STATE": "54",
+            "BASENAME": "1003",
+            "OID": "210701003801281",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.6397407",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1003",
+            "OBJECTID": 1607784,
+            "TRACT": "010104",
+            "CENTLON": "-079.9599842",
+            "BLKGRP": "1",
+            "AREALAND": 6226,
+            "HU100": 29,
+            "INTPTLON": "-079.9599842",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "061"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -79.960556,
+          "y": 39.6397
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

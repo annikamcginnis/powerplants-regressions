@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:51:25.626243+00:00",
+  "elapsed": 0.138611,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4863",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:51:25 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.8125&y=43.25"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.8125&y=43.25",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 298334,
+            "GEOID": "36049",
+            "CENTLAT": "+43.4821110",
+            "AREAWATER": 510942067,
+            "STATE": "36",
+            "BASENAME": "49",
+            "OID": "212904690195330",
+            "LSADC": "LU",
+            "SLDU": "049",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.5002206",
+            "NAME": "State Senate District 49",
+            "OBJECTID": 795,
+            "CENTLON": "-074.5230415",
+            "LSY": "2018",
+            "HU100": 149565,
+            "AREALAND": 9742083149,
+            "INTPTLON": "-074.5795437",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1190727,
+            "GEOID": "104",
+            "CENTLAT": "+42.9541907",
+            "AREAWATER": 527824982,
+            "BASENAME": "Albany-Schenectady, NY",
+            "OID": "2619013782255077",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.9540614",
+            "NAME": "Albany-Schenectady, NY CSA",
+            "CSA": "104",
+            "OBJECTID": 70,
+            "CENTLON": "-073.9003745",
+            "HU100": 570586,
+            "AREALAND": 15652232590,
+            "INTPTLON": "-073.9005139",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "20125",
+            "CENTLAT": "+43.2742216",
+            "AREAWATER": 415864,
+            "BASENAME": "Corinth, NY",
+            "OID": "27021723350167",
+            "UA": "20125",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.2408636",
+            "NAME": "Corinth, NY Urban Area",
+            "OBJECTID": 1928,
+            "CENTLON": "-073.8306862",
+            "AREALAND": 7666472,
+            "INTPTLON": "-073.8337105",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "18223",
+            "POP100": 6500,
+            "GEOID": "3609118223",
+            "CENTLAT": "+43.2268641",
+            "AREAWATER": 3553983,
+            "STATE": "36",
+            "BASENAME": "Corinth",
+            "OID": "27690724407697",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.2285927",
+            "NAME": "Corinth town",
+            "OBJECTID": 3901,
+            "CENTLON": "-073.8847376",
+            "COUSUBCC": "T1",
+            "HU100": 3027,
+            "AREALAND": 147017344,
+            "INTPTLON": "-073.9222116",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00978866",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 133543,
+            "GEOID": "36114",
+            "CENTLAT": "+43.8403537",
+            "SLDL": "114",
+            "AREAWATER": 548254603,
+            "STATE": "36",
+            "BASENAME": "114",
+            "OID": "213904690195580",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.8392216",
+            "NAME": "Assembly District 114",
+            "OBJECTID": 3158,
+            "CENTLON": "-073.7662043",
+            "LSY": "2018",
+            "HU100": 81734,
+            "AREALAND": 8462164117,
+            "INTPTLON": "-073.7655976",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2562,
+            "GEOID": "3618212",
+            "CENTLAT": "+43.2456198",
+            "AREAWATER": 102299,
+            "STATE": "36",
+            "BASENAME": "Corinth",
+            "OID": "27890724566435",
+            "LSADC": "47",
+            "PLACE": "18212",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.2456617",
+            "NAME": "Corinth village",
+            "OBJECTID": 5372,
+            "PLACECC": "C1",
+            "CENTLON": "-073.8310173",
+            "CBSAPCI": "N",
+            "HU100": 1167,
+            "AREALAND": 2762585,
+            "INTPTLON": "-073.8303482",
+            "PLACENS": "02391625",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 235509,
+            "GEOID": "36091",
+            "CENTLAT": "+43.1071327",
+            "AREAWATER": 87571790,
+            "STATE": "36",
+            "BASENAME": "Saratoga",
+            "OID": "27590724407683",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.1061353",
+            "NAME": "Saratoga County",
+            "OBJECTID": 210,
+            "CENTLON": "-073.8636885",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974143",
+            "AREALAND": 2097880439,
+            "INTPTLON": "-073.8553872",
+            "HU100": 109919,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 705041,
+            "GEOID": "3621",
+            "CENTLAT": "+44.0160343",
+            "CDSESSN": "116",
+            "AREAWATER": 3341236146,
+            "STATE": "36",
+            "BASENAME": "21",
+            "OID": "211904690193649",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0083839",
+            "NAME": "Congressional District 21",
+            "OBJECTID": 394,
+            "CENTLON": "-074.5951599",
+            "HU100": 374126,
+            "AREALAND": 39145764061,
+            "INTPTLON": "-074.6092313",
+            "CD116": "21",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2562,
+            "GEOID": "36091060400",
+            "CENTLAT": "+43.2456198",
+            "AREAWATER": 102299,
+            "STATE": "36",
+            "BASENAME": "604",
+            "OID": "20790725016827",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.2456617",
+            "NAME": "Census Tract 604",
+            "OBJECTID": 63916,
+            "TRACT": "060400",
+            "CENTLON": "-073.8310173",
+            "HU100": 1167,
+            "AREALAND": 2762585,
+            "INTPTLON": "-073.8303482",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 22,
+            "GEOID": "360910604003001",
+            "CENTLAT": "+43.2493299",
+            "BLOCK": "3001",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "3001",
+            "OID": "210701004832502",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.2493299",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3001",
+            "OBJECTID": 2587714,
+            "TRACT": "060400",
+            "CENTLON": "-073.8155991",
+            "BLKGRP": "3",
+            "AREALAND": 180144,
+            "HU100": 13,
+            "INTPTLON": "-073.8155991",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "091"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.8125,
+          "y": 43.25
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

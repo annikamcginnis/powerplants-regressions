@@ -1,0 +1,235 @@
+{
+  "created_at": "2025-05-01T16:06:14.716610+00:00",
+  "elapsed": 0.131696,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3258",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:06:14 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.3647&y=42.3119"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.3647&y=42.3119",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 38052,
+            "GEOID": "31017",
+            "CENTLAT": "+42.2352765",
+            "AREAWATER": 15687056,
+            "STATE": "31",
+            "BASENAME": "17",
+            "OID": "212904486795019",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.2416698",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 216,
+            "CENTLON": "-096.7794205",
+            "LSY": "2018",
+            "HU100": 13998,
+            "AREALAND": 2850996379,
+            "INTPTLON": "-096.7745317",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779792",
+            "POP100": 1961504,
+            "GEOID": "31",
+            "CENTLAT": "+41.5381064",
+            "AREAWATER": 1371117957,
+            "STATE": "31",
+            "BASENAME": "Nebraska",
+            "STUSAB": "NE",
+            "OID": "2749072488932",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.5433053",
+            "DIVISION": "4",
+            "NAME": "Nebraska",
+            "REGION": "2",
+            "OBJECTID": 33,
+            "CENTLON": "-099.7949769",
+            "AREALAND": 198957373531,
+            "INTPTLON": "-099.8118646",
+            "HU100": 844278,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92945",
+            "POP100": 135,
+            "GEOID": "3117992945",
+            "CENTLAT": "+42.3081561",
+            "AREAWATER": 117569,
+            "STATE": "31",
+            "BASENAME": "Sherman",
+            "OID": "27690304278202",
+            "LSADC": "29",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3098707",
+            "NAME": "Sherman precinct",
+            "OBJECTID": 497,
+            "CENTLON": "-097.3098390",
+            "COUSUBCC": "Z1",
+            "HU100": 61,
+            "AREALAND": 92464330,
+            "INTPTLON": "-097.3070378",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929279",
+            "UR": "R",
+            "COUNTY": "179"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 9697,
+            "GEOID": "31179",
+            "CENTLAT": "+42.2093082",
+            "AREAWATER": 1084590,
+            "STATE": "31",
+            "BASENAME": "Wayne",
+            "OID": "27590304252925",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.2107460",
+            "NAME": "Wayne County",
+            "OBJECTID": 857,
+            "CENTLON": "-097.1191865",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00835911",
+            "AREALAND": 1147147000,
+            "INTPTLON": "-097.1262433",
+            "HU100": 3950,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "179"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 600683,
+            "GEOID": "3103",
+            "CENTLAT": "+41.5557145",
+            "CDSESSN": "116",
+            "AREAWATER": 1067505609,
+            "STATE": "31",
+            "BASENAME": "3",
+            "OID": "211904486719896",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.5394730",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 19,
+            "CENTLON": "-100.2164224",
+            "HU100": 278265,
+            "AREALAND": 174651464320,
+            "INTPTLON": "-100.2229693",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3482,
+            "GEOID": "31179978600",
+            "CENTLAT": "+42.2083289",
+            "AREAWATER": 949188,
+            "STATE": "31",
+            "BASENAME": "9786",
+            "OID": "20790304297303",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2107460",
+            "NAME": "Census Tract 9786",
+            "OBJECTID": 14994,
+            "TRACT": "978600",
+            "CENTLON": "-097.1237002",
+            "HU100": 1531,
+            "AREALAND": 1105916319,
+            "INTPTLON": "-097.1262433",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "179"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 5,
+            "GEOID": "311799786001111",
+            "CENTLAT": "+42.3155665",
+            "BLOCK": "1111",
+            "AREAWATER": 0,
+            "STATE": "31",
+            "BASENAME": "1111",
+            "OID": "210701001995174",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.3155665",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1111",
+            "OBJECTID": 6851103,
+            "TRACT": "978600",
+            "CENTLON": "-097.3585169",
+            "BLKGRP": "1",
+            "AREALAND": 2463845,
+            "HU100": 3,
+            "INTPTLON": "-097.3585169",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "179"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.3647,
+          "y": 42.3119
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

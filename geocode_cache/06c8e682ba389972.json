@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:38:35.563542+00:00",
+  "elapsed": 0.203426,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4885",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:35 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.636584&y=43.308505"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.636584&y=43.308505",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 294357,
+            "GEOID": "36045",
+            "CENTLAT": "+44.2103839",
+            "AREAWATER": 969023318,
+            "STATE": "36",
+            "BASENAME": "45",
+            "OID": "212904690195364",
+            "LSADC": "LU",
+            "SLDU": "045",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.2139500",
+            "NAME": "State Senate District 45",
+            "OBJECTID": 849,
+            "CENTLON": "-073.9638714",
+            "LSY": "2018",
+            "HU100": 159243,
+            "AREALAND": 17700734998,
+            "INTPTLON": "-073.9631270",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1190727,
+            "GEOID": "104",
+            "CENTLAT": "+42.9541907",
+            "AREAWATER": 527824982,
+            "BASENAME": "Albany-Schenectady, NY",
+            "OID": "2619013782255077",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.9540614",
+            "NAME": "Albany-Schenectady, NY CSA",
+            "CSA": "104",
+            "OBJECTID": 70,
+            "CENTLON": "-073.9003745",
+            "HU100": 570586,
+            "AREALAND": 15652232590,
+            "INTPTLON": "-073.9005139",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "33598",
+            "CENTLAT": "+43.3385529",
+            "AREAWATER": 7809635,
+            "BASENAME": "Glens Falls, NY",
+            "OID": "27021723350168",
+            "UA": "33598",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.3422435",
+            "NAME": "Glens Falls, NY Urban Area",
+            "OBJECTID": 1014,
+            "CENTLON": "-073.6589359",
+            "AREALAND": 133689107,
+            "INTPTLON": "-073.6601130",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "29333",
+            "POP100": 14830,
+            "GEOID": "3611329333",
+            "CENTLAT": "+43.3108399",
+            "AREAWATER": 358646,
+            "STATE": "36",
+            "BASENAME": "Glens Falls",
+            "OID": "27690723268514",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+43.3111604",
+            "NAME": "Glens Falls city",
+            "OBJECTID": 4579,
+            "CENTLON": "-073.6458544",
+            "COUSUBCC": "C5",
+            "HU100": 7430,
+            "AREALAND": 9972878,
+            "INTPTLON": "-073.6452865",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00979004",
+            "UR": "U",
+            "COUNTY": "113"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 133543,
+            "GEOID": "36114",
+            "CENTLAT": "+43.8403537",
+            "SLDL": "114",
+            "AREAWATER": 548254603,
+            "STATE": "36",
+            "BASENAME": "114",
+            "OID": "213904690195580",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.8392216",
+            "NAME": "Assembly District 114",
+            "OBJECTID": 3158,
+            "CENTLON": "-073.7662043",
+            "LSY": "2018",
+            "HU100": 81734,
+            "AREALAND": 8462164117,
+            "INTPTLON": "-073.7655976",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 14830,
+            "GEOID": "3629333",
+            "CENTLAT": "+43.3108399",
+            "AREAWATER": 358646,
+            "STATE": "36",
+            "BASENAME": "Glens Falls",
+            "OID": "27890723295637",
+            "LSADC": "25",
+            "PLACE": "29333",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.3111604",
+            "NAME": "Glens Falls city",
+            "OBJECTID": 8822,
+            "PLACECC": "C5",
+            "CENTLON": "-073.6458544",
+            "CBSAPCI": "Y",
+            "HU100": 7430,
+            "AREALAND": 9972878,
+            "INTPTLON": "-073.6452865",
+            "PLACENS": "00979004",
+            "MTFCC": "G4110",
+            "UR": "U"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 65737,
+            "GEOID": "36113",
+            "CENTLAT": "+43.5608330",
+            "AREAWATER": 166754984,
+            "STATE": "36",
+            "BASENAME": "Warren",
+            "OID": "27590723247310",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.5551053",
+            "NAME": "Warren County",
+            "OBJECTID": 913,
+            "CENTLON": "-073.8460613",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974154",
+            "AREALAND": 2246082354,
+            "INTPTLON": "-073.8381388",
+            "HU100": 39928,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "113"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 705041,
+            "GEOID": "3621",
+            "CENTLAT": "+44.0160343",
+            "CDSESSN": "116",
+            "AREAWATER": 3341236146,
+            "STATE": "36",
+            "BASENAME": "21",
+            "OID": "211904690193649",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0083839",
+            "NAME": "Congressional District 21",
+            "OBJECTID": 394,
+            "CENTLON": "-074.5951599",
+            "HU100": 374126,
+            "AREALAND": 39145764061,
+            "INTPTLON": "-074.6092313",
+            "CD116": "21",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2554,
+            "GEOID": "36113070500",
+            "CENTLAT": "+43.3112654",
+            "AREAWATER": 94746,
+            "STATE": "36",
+            "BASENAME": "705",
+            "OID": "20790723349949",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.3113991",
+            "NAME": "Census Tract 705",
+            "OBJECTID": 36797,
+            "TRACT": "070500",
+            "CENTLON": "-073.6310897",
+            "HU100": 1331,
+            "AREALAND": 2294352,
+            "INTPTLON": "-073.6322733",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "113"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "361130705002018",
+            "CENTLAT": "+43.3087468",
+            "BLOCK": "2018",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "2018",
+            "OID": "210701004809609",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.3087468",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2018",
+            "OBJECTID": 7369138,
+            "TRACT": "070500",
+            "CENTLON": "-073.6316322",
+            "BLKGRP": "2",
+            "AREALAND": 220611,
+            "HU100": 0,
+            "INTPTLON": "-073.6316322",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "113"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.636584,
+          "y": 43.308505
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

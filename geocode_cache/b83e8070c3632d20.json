@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T16:05:09.507719+00:00",
+  "elapsed": 0.146168,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3743",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:05:09 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.1007&y=43.8954"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.1007&y=43.8954",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 39326,
+            "GEOID": "50ADD",
+            "CENTLAT": "+44.0438616",
+            "AREAWATER": 107575933,
+            "STATE": "50",
+            "BASENAME": "Addison",
+            "OID": "212904693072193",
+            "LSADC": "L8",
+            "SLDU": "ADD",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0411247",
+            "NAME": "Addison State Senate District",
+            "OBJECTID": 1481,
+            "CENTLON": "-073.1314151",
+            "LSY": "2018",
+            "HU100": 18255,
+            "AREALAND": 2096296793,
+            "INTPTLON": "-073.1297897",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "62575",
+            "POP100": 1221,
+            "GEOID": "5000162575",
+            "CENTLAT": "+43.9230299",
+            "AREAWATER": 2990596,
+            "STATE": "50",
+            "BASENAME": "Salisbury",
+            "OID": "27690554146279",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.9254949",
+            "NAME": "Salisbury town",
+            "OBJECTID": 2609,
+            "CENTLON": "-073.1111865",
+            "COUSUBCC": "T1",
+            "HU100": 686,
+            "AREALAND": 74964429,
+            "INTPTLON": "-073.1115282",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462200",
+            "UR": "R",
+            "COUNTY": "001"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 4688,
+            "GEOID": "50A-2",
+            "CENTLAT": "+43.9325912",
+            "SLDL": "A-2",
+            "AREAWATER": 6917982,
+            "STATE": "50",
+            "BASENAME": "Addison-2",
+            "OID": "213904693072437",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.9364069",
+            "NAME": "Addison-2 State House District",
+            "OBJECTID": 4596,
+            "CENTLON": "-073.0416102",
+            "LSY": "2018",
+            "HU100": 2526,
+            "AREALAND": 483247743,
+            "INTPTLON": "-073.0352638",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 37363,
+            "GEOID": "50001",
+            "CENTLAT": "+44.0306861",
+            "AREAWATER": 107311666,
+            "STATE": "50",
+            "BASENAME": "Addison",
+            "OID": "27590227001785",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0312479",
+            "NAME": "Addison County",
+            "OBJECTID": 1645,
+            "CENTLON": "-073.1410032",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461757",
+            "AREALAND": 1984209520,
+            "INTPTLON": "-073.1415807",
+            "HU100": 17385,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2211,
+            "GEOID": "50001961000",
+            "CENTLAT": "+43.9003125",
+            "AREAWATER": 5377051,
+            "STATE": "50",
+            "BASENAME": "9610",
+            "OID": "20790554292919",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.9008582",
+            "NAME": "Census Tract 9610",
+            "OBJECTID": 33322,
+            "TRACT": "961000",
+            "CENTLON": "-073.1053906",
+            "HU100": 1341,
+            "AREALAND": 128925704,
+            "INTPTLON": "-073.1035817",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "001"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "500019610001096",
+            "CENTLAT": "+43.8949507",
+            "BLOCK": "1096",
+            "AREAWATER": 0,
+            "STATE": "50",
+            "BASENAME": "1096",
+            "OID": "210701004699630",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.8949507",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1096",
+            "OBJECTID": 7257306,
+            "TRACT": "961000",
+            "CENTLON": "-073.1006598",
+            "BLKGRP": "1",
+            "AREALAND": 20980,
+            "HU100": 0,
+            "INTPTLON": "-073.1006598",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "001"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.1007,
+          "y": 43.8954
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

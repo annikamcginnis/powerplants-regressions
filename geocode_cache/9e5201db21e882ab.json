@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:48:07.064590+00:00",
+  "elapsed": 0.140207,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4857",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:48:07 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.320237&y=42.003322"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.320237&y=42.003322",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 237258,
+            "GEOID": "42049",
+            "CENTLAT": "+42.1680325",
+            "AREAWATER": 1961159250,
+            "STATE": "42",
+            "BASENAME": "49",
+            "OID": "212904690193374",
+            "LSADC": "LU",
+            "SLDU": "049",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.0373235",
+            "NAME": "State Senate District 49",
+            "OBJECTID": 900,
+            "CENTLON": "-080.1421016",
+            "LSY": "2018",
+            "HU100": 105076,
+            "AREALAND": 1258802146,
+            "INTPTLON": "-080.3254950",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779798",
+            "POP100": 13002700,
+            "GEOID": "42",
+            "CENTLAT": "+40.9011320",
+            "AREAWATER": 3397760687,
+            "STATE": "42",
+            "BASENAME": "Pennsylvania",
+            "STUSAB": "PA",
+            "OID": "27490163788605",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9046013",
+            "DIVISION": "2",
+            "NAME": "Pennsylvania",
+            "REGION": "1",
+            "OBJECTID": 34,
+            "CENTLON": "-077.8369304",
+            "AREALAND": 115881934065,
+            "INTPTLON": "-077.8275298",
+            "HU100": 5742828,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 354814,
+            "GEOID": "240",
+            "CENTLAT": "+41.9444356",
+            "AREAWATER": 2031632005,
+            "BASENAME": "Erie-Meadville, PA",
+            "OID": "2619013782255126",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.9424244",
+            "NAME": "Erie-Meadville, PA CSA",
+            "CSA": "240",
+            "OBJECTID": 33,
+            "CENTLON": "-080.1014865",
+            "HU100": 161854,
+            "AREALAND": 4691162785,
+            "INTPTLON": "-080.1100009",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "27766",
+            "CENTLAT": "+42.0886119",
+            "AREAWATER": 595822,
+            "BASENAME": "Erie, PA",
+            "OID": "27021469280323",
+            "UA": "27766",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0888667",
+            "NAME": "Erie, PA Urban Area",
+            "OBJECTID": 2406,
+            "CENTLON": "-080.1131359",
+            "AREALAND": 189948084,
+            "INTPTLON": "-080.1126924",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "29232",
+            "POP100": 2993,
+            "GEOID": "4204929232",
+            "CENTLAT": "+42.0041420",
+            "AREAWATER": 49320,
+            "STATE": "42",
+            "BASENAME": "Girard",
+            "OID": "27690469244591",
+            "LSADC": "21",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.0041155",
+            "NAME": "Girard borough",
+            "OBJECTID": 8593,
+            "CENTLON": "-080.3192366",
+            "COUSUBCC": "C5",
+            "HU100": 1392,
+            "AREALAND": 6069678,
+            "INTPTLON": "-080.3192085",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01215212",
+            "UR": "M",
+            "COUNTY": "049"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 59384,
+            "GEOID": "42017",
+            "CENTLAT": "+41.5922677",
+            "SLDL": "017",
+            "AREAWATER": 62864734,
+            "STATE": "42",
+            "BASENAME": "17",
+            "OID": "213904690193643",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.5960476",
+            "NAME": "State House District 17",
+            "OBJECTID": 1338,
+            "CENTLON": "-080.3633916",
+            "LSY": "2018",
+            "HU100": 29087,
+            "AREALAND": 1598932893,
+            "INTPTLON": "-080.3610951",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2993,
+            "GEOID": "4229232",
+            "CENTLAT": "+42.0041420",
+            "AREAWATER": 49320,
+            "STATE": "42",
+            "BASENAME": "Girard",
+            "OID": "27890469258557",
+            "LSADC": "21",
+            "PLACE": "29232",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0041155",
+            "NAME": "Girard borough",
+            "OBJECTID": 2702,
+            "PLACECC": "C5",
+            "CENTLON": "-080.3192366",
+            "CBSAPCI": "N",
+            "HU100": 1392,
+            "AREALAND": 6069678,
+            "INTPTLON": "-080.3192085",
+            "PLACENS": "01215212",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 270876,
+            "GEOID": "42049",
+            "CENTLAT": "+42.1173131",
+            "AREAWATER": 1966242081,
+            "STATE": "42",
+            "BASENAME": "Erie",
+            "OID": "27590469192380",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1179519",
+            "NAME": "Erie County",
+            "OBJECTID": 2666,
+            "CENTLON": "-080.0981970",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01209178",
+            "AREALAND": 2069174742,
+            "INTPTLON": "-080.0963858",
+            "HU100": 119791,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "049"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 688028,
+            "GEOID": "4216",
+            "CENTLAT": "+41.6328445",
+            "CDSESSN": "116",
+            "AREAWATER": 2083798050,
+            "STATE": "42",
+            "BASENAME": "16",
+            "OID": "211904690192805",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.6326383",
+            "NAME": "Congressional District 16",
+            "OBJECTID": 279,
+            "CENTLON": "-080.1358145",
+            "HU100": 312508,
+            "AREALAND": 8576648776,
+            "INTPTLON": "-080.1365680",
+            "CD116": "16",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5934,
+            "GEOID": "42049010201",
+            "CENTLAT": "+42.0120631",
+            "AREAWATER": 719427,
+            "STATE": "42",
+            "BASENAME": "102.01",
+            "OID": "20790469278493",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0130916",
+            "NAME": "Census Tract 102.01",
+            "OBJECTID": 60702,
+            "TRACT": "010201",
+            "CENTLON": "-080.3332169",
+            "HU100": 2591,
+            "AREALAND": 11246592,
+            "INTPTLON": "-080.3310162",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "049"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 38,
+            "GEOID": "420490102012042",
+            "CENTLAT": "+42.0030150",
+            "BLOCK": "2042",
+            "AREAWATER": 0,
+            "STATE": "42",
+            "BASENAME": "2042",
+            "OID": "210701004106539",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.0030150",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2042",
+            "OBJECTID": 6449556,
+            "TRACT": "010201",
+            "CENTLON": "-080.3207481",
+            "BLKGRP": "2",
+            "AREALAND": 44342,
+            "HU100": 11,
+            "INTPTLON": "-080.3207481",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "049"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.320237,
+          "y": 42.003322
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

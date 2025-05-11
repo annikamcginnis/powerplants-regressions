@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:49:50.768922+00:00",
+  "elapsed": 0.145668,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4109",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:49:50 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.5875&y=41.016111"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.5875&y=41.016111",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 335051,
+            "GEOID": "39001",
+            "CENTLAT": "+41.0756725",
+            "AREAWATER": 47416225,
+            "STATE": "39",
+            "BASENAME": "1",
+            "OID": "212904692054927",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0736153",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1247,
+            "CENTLON": "-084.1770004",
+            "LSY": "2018",
+            "HU100": 145424,
+            "AREALAND": 10039578181,
+            "INTPTLON": "-084.1734237",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "07370",
+            "POP100": 700,
+            "GEOID": "3912507370",
+            "CENTLAT": "+41.0332959",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "Blue Creek",
+            "OID": "2769046634308",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.0332959",
+            "NAME": "Blue Creek township",
+            "OBJECTID": 13703,
+            "CENTLON": "-084.6305468",
+            "COUSUBCC": "T1",
+            "HU100": 283,
+            "AREALAND": 94049825,
+            "INTPTLON": "-084.6305468",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086768",
+            "UR": "R",
+            "COUNTY": "125"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 109580,
+            "GEOID": "39082",
+            "CENTLAT": "+41.0562876",
+            "SLDL": "082",
+            "AREAWATER": 17327113,
+            "STATE": "39",
+            "BASENAME": "82",
+            "OID": "213904692055858",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0554619",
+            "NAME": "State House District 82",
+            "OBJECTID": 2552,
+            "CENTLON": "-084.5325895",
+            "LSY": "2018",
+            "HU100": 47752,
+            "AREALAND": 3518205086,
+            "INTPTLON": "-084.5247226",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 160,
+            "GEOID": "3934552",
+            "CENTLAT": "+41.0177887",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "Haviland",
+            "OID": "2789046634322",
+            "LSADC": "47",
+            "PLACE": "34552",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.0177887",
+            "NAME": "Haviland village",
+            "OBJECTID": 4168,
+            "PLACECC": "C1",
+            "CENTLON": "-084.5852943",
+            "CBSAPCI": "N",
+            "HU100": 70,
+            "AREALAND": 1018463,
+            "INTPTLON": "-084.5852943",
+            "PLACENS": "02398266",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 18806,
+            "GEOID": "39125",
+            "CENTLAT": "+41.1166137",
+            "AREAWATER": 6245396,
+            "STATE": "39",
+            "BASENAME": "Paulding",
+            "OID": "2759046634303",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.1189483",
+            "NAME": "Paulding County",
+            "OBJECTID": 381,
+            "CENTLON": "-084.5801698",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074075",
+            "AREALAND": 1078561237,
+            "INTPTLON": "-084.5821249",
+            "HU100": 8490,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "125"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 731052,
+            "GEOID": "3905",
+            "CENTLAT": "+41.1544014",
+            "CDSESSN": "116",
+            "AREAWATER": 72956784,
+            "STATE": "39",
+            "BASENAME": "5",
+            "OID": "211904690779001",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.1557510",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 144,
+            "CENTLON": "-084.0414125",
+            "HU100": 317751,
+            "AREALAND": 14571403402,
+            "INTPTLON": "-084.0447886",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4049,
+            "GEOID": "39125960300",
+            "CENTLAT": "+41.0723592",
+            "AREAWATER": 34884,
+            "STATE": "39",
+            "BASENAME": "9603",
+            "OID": "2079046634350",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.0699686",
+            "NAME": "Census Tract 9603",
+            "OBJECTID": 65860,
+            "TRACT": "960300",
+            "CENTLON": "-084.6952687",
+            "HU100": 1721,
+            "AREALAND": 349258376,
+            "INTPTLON": "-084.6953779",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "125"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 9,
+            "GEOID": "391259603003066",
+            "CENTLAT": "+41.0172044",
+            "BLOCK": "3066",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "3066",
+            "OID": "210701004246976",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.0172044",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3066",
+            "OBJECTID": 7613826,
+            "TRACT": "960300",
+            "CENTLON": "-084.5868671",
+            "BLKGRP": "3",
+            "AREALAND": 357318,
+            "HU100": 5,
+            "INTPTLON": "-084.5868671",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "125"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -84.5875,
+          "y": 41.016111
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

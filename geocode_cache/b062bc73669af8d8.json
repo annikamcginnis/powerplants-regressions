@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T15:48:32.155192+00:00",
+  "elapsed": 0.188059,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4448",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:48:32 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.6693&y=30.054"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.6693&y=30.054",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 108026,
+            "GEOID": "22002",
+            "CENTLAT": "+30.0579048",
+            "AREAWATER": 122433964,
+            "STATE": "22",
+            "BASENAME": "2",
+            "OID": "212904492477242",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.0554622",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 517,
+            "CENTLON": "-090.9084039",
+            "LSY": "2018",
+            "HU100": 45840,
+            "AREALAND": 1822967308,
+            "INTPTLON": "-090.9118601",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01629543",
+            "POP100": 4657757,
+            "GEOID": "22",
+            "CENTLAT": "+30.9025928",
+            "AREAWATER": 23737664982,
+            "STATE": "22",
+            "BASENAME": "Louisiana",
+            "STUSAB": "LA",
+            "OID": "2749052402301",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.8634368",
+            "DIVISION": "7",
+            "NAME": "Louisiana",
+            "REGION": "3",
+            "OBJECTID": 36,
+            "CENTLON": "-091.7982299",
+            "AREALAND": 111913975425,
+            "INTPTLON": "-091.7987173",
+            "HU100": 2073200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1506610,
+            "GEOID": "406",
+            "CENTLAT": "+30.0226129",
+            "AREAWATER": 12259109956,
+            "BASENAME": "New Orleans-Metairie-Hammond, LA-MS",
+            "OID": "2619013782255194",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.0534195",
+            "NAME": "New Orleans-Metairie-Hammond, LA-MS CSA",
+            "CSA": "406",
+            "OBJECTID": 139,
+            "CENTLON": "-089.7762567",
+            "HU100": 674581,
+            "AREALAND": 14181709335,
+            "INTPTLON": "-089.9345018",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "62677",
+            "CENTLAT": "+29.9587066",
+            "AREAWATER": 58024272,
+            "BASENAME": "New Orleans, LA",
+            "OID": "2702169612887",
+            "UA": "62677",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+29.9603664",
+            "NAME": "New Orleans, LA Urban Area",
+            "OBJECTID": 1165,
+            "CENTLON": "-090.1639851",
+            "AREALAND": 700004654,
+            "INTPTLON": "-090.1639936",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "94114",
+            "POP100": 2952,
+            "GEOID": "2209394114",
+            "CENTLAT": "+30.1085386",
+            "AREAWATER": 2844845,
+            "STATE": "22",
+            "BASENAME": "1",
+            "OID": "2769052394164",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.1099428",
+            "NAME": "District 1",
+            "OBJECTID": 29505,
+            "CENTLON": "-090.6835783",
+            "COUSUBCC": "Z1",
+            "HU100": 1271,
+            "AREALAND": 66634038,
+            "INTPTLON": "-090.7031342",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929756",
+            "UR": "M",
+            "COUNTY": "093"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 44647,
+            "GEOID": "22081",
+            "CENTLAT": "+30.2697395",
+            "SLDL": "081",
+            "AREAWATER": 126093100,
+            "STATE": "22",
+            "BASENAME": "81",
+            "OID": "213904492477352",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.2739614",
+            "NAME": "State House District 81",
+            "OBJECTID": 1914,
+            "CENTLON": "-090.6837270",
+            "LSY": "2018",
+            "HU100": 19446,
+            "AREALAND": 1167950976,
+            "INTPTLON": "-090.6701455",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 20192,
+            "GEOID": "22093",
+            "CENTLAT": "+30.0269602",
+            "AREAWATER": 38773983,
+            "STATE": "22",
+            "BASENAME": "St. James",
+            "OID": "2759052394159",
+            "LSADC": "15",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.0247772",
+            "NAME": "St. James Parish",
+            "OBJECTID": 1438,
+            "CENTLON": "-090.7930926",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01629464",
+            "AREALAND": 616057915,
+            "INTPTLON": "-090.7939562",
+            "HU100": 8554,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "093"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 775292,
+            "GEOID": "2202",
+            "CENTLAT": "+30.0370530",
+            "CDSESSN": "116",
+            "AREAWATER": 517082356,
+            "STATE": "22",
+            "BASENAME": "2",
+            "OID": "211904486863958",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.0467435",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 100,
+            "CENTLON": "-090.6093668",
+            "HU100": 356050,
+            "AREALAND": 3292600018,
+            "INTPTLON": "-090.5684985",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3164,
+            "GEOID": "22093040100",
+            "CENTLAT": "+30.1086598",
+            "AREAWATER": 2657258,
+            "STATE": "22",
+            "BASENAME": "401",
+            "OID": "2079052402325",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.1099428",
+            "NAME": "Census Tract 401",
+            "OBJECTID": 64546,
+            "TRACT": "040100",
+            "CENTLON": "-090.6842081",
+            "HU100": 1359,
+            "AREALAND": 67659441,
+            "INTPTLON": "-090.7031342",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "093"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "220930401002047",
+            "CENTLAT": "+30.0534073",
+            "BLOCK": "2047",
+            "AREAWATER": 75051,
+            "STATE": "22",
+            "BASENAME": "2047",
+            "OID": "210701004456410",
+            "LSADC": "BK",
+            "INTPTLAT": "+30.0540370",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2047",
+            "OBJECTID": 6135798,
+            "TRACT": "040100",
+            "CENTLON": "-090.6705250",
+            "BLKGRP": "2",
+            "AREALAND": 225279,
+            "HU100": 0,
+            "INTPTLON": "-090.6716023",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "093"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -90.6693,
+          "y": 30.054
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

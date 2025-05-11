@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:58:40.820871+00:00",
+  "elapsed": 0.172333,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4495",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:58:40 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-119.343&y=45.917"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-119.343&y=45.917",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 132034,
+            "GEOID": "41029",
+            "CENTLAT": "+45.4670876",
+            "AREAWATER": 184548020,
+            "STATE": "41",
+            "BASENAME": "29",
+            "OID": "212904486864153",
+            "LSADC": "LU",
+            "SLDU": "029",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.4367512",
+            "NAME": "State Senate District 29",
+            "OBJECTID": 102,
+            "CENTLON": "-118.7871035",
+            "LSY": "2018",
+            "HU100": 54798,
+            "AREALAND": 34547944857,
+            "INTPTLON": "-118.7276403",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01155107",
+            "POP100": 4237256,
+            "GEOID": "41",
+            "CENTLAT": "+43.9396009",
+            "AREAWATER": 6170953359,
+            "STATE": "41",
+            "BASENAME": "Oregon",
+            "STUSAB": "OR",
+            "OID": "27490206508673",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.9717125",
+            "DIVISION": "9",
+            "NAME": "Oregon",
+            "REGION": "4",
+            "OBJECTID": 32,
+            "CENTLON": "-120.6109265",
+            "AREALAND": 248628426864,
+            "INTPTLON": "-120.6229578",
+            "HU100": 1813747,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "38485",
+            "CENTLAT": "+45.8535604",
+            "AREAWATER": 40332,
+            "BASENAME": "Hermiston, OR",
+            "OID": "27021448396635",
+            "UA": "38485",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.8524187",
+            "NAME": "Hermiston, OR Urban Area",
+            "OBJECTID": 2617,
+            "CENTLON": "-119.2814899",
+            "AREALAND": 40090870,
+            "INTPTLON": "-119.2777244",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91334",
+            "POP100": 40251,
+            "GEOID": "4105991334",
+            "CENTLAT": "+45.8317286",
+            "AREAWATER": 23339835,
+            "STATE": "41",
+            "BASENAME": "Hermiston-Umatilla",
+            "OID": "27690448387782",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.8259472",
+            "NAME": "Hermiston-Umatilla CCD",
+            "OBJECTID": 10944,
+            "CENTLON": "-119.2541485",
+            "COUSUBCC": "Z5",
+            "HU100": 13866,
+            "AREALAND": 506259212,
+            "INTPTLON": "-119.2591435",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938084",
+            "UR": "M",
+            "COUNTY": "059"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 67965,
+            "GEOID": "41057",
+            "CENTLAT": "+45.4187888",
+            "SLDL": "057",
+            "AREAWATER": 160368188,
+            "STATE": "41",
+            "BASENAME": "57",
+            "OID": "213904486864517",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.4184459",
+            "NAME": "State House District 57",
+            "OBJECTID": 697,
+            "CENTLON": "-120.0220653",
+            "LSY": "2018",
+            "HU100": 25262,
+            "AREALAND": 14251584463,
+            "INTPTLON": "-120.0315984",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 7363,
+            "GEOID": "4175650",
+            "CENTLAT": "+45.9118672",
+            "AREAWATER": 248943,
+            "STATE": "41",
+            "BASENAME": "Umatilla",
+            "OID": "27890448392555",
+            "LSADC": "25",
+            "PLACE": "75650",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.9176119",
+            "NAME": "Umatilla city",
+            "OBJECTID": 17900,
+            "PLACECC": "C1",
+            "CENTLON": "-119.3131544",
+            "CBSAPCI": "N",
+            "HU100": 1865,
+            "AREALAND": 12707684,
+            "INTPTLON": "-119.3319791",
+            "PLACENS": "02412127",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 80075,
+            "GEOID": "41059",
+            "CENTLAT": "+45.5912088",
+            "AREAWATER": 41622675,
+            "STATE": "41",
+            "BASENAME": "Umatilla",
+            "OID": "27590448385808",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.5911997",
+            "NAME": "Umatilla County",
+            "OBJECTID": 2156,
+            "CENTLON": "-118.7374268",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01156673",
+            "AREALAND": 8327972955,
+            "INTPTLON": "-118.7338795",
+            "HU100": 31098,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "059"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 850971,
+            "GEOID": "4102",
+            "CENTLAT": "+43.8486608",
+            "CDSESSN": "116",
+            "AREAWATER": 1885219171,
+            "STATE": "41",
+            "BASENAME": "2",
+            "OID": "211904487270181",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.8374944",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 255,
+            "CENTLON": "-119.5674231",
+            "HU100": 378392,
+            "AREALAND": 179877891474,
+            "INTPTLON": "-119.5968497",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4697,
+            "GEOID": "41059950900",
+            "CENTLAT": "+45.8931018",
+            "AREAWATER": 5700821,
+            "STATE": "41",
+            "BASENAME": "9509",
+            "OID": "20790448396580",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.8862108",
+            "NAME": "Census Tract 9509",
+            "OBJECTID": 55716,
+            "TRACT": "950900",
+            "CENTLON": "-119.3613175",
+            "HU100": 1655,
+            "AREALAND": 63551748,
+            "INTPTLON": "-119.3877942",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "059"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "410599509001106",
+            "CENTLAT": "+45.9170791",
+            "BLOCK": "1106",
+            "AREAWATER": 0,
+            "STATE": "41",
+            "BASENAME": "1106",
+            "OID": "210701007770416",
+            "LSADC": "BK",
+            "INTPTLAT": "+45.9170791",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1106",
+            "OBJECTID": 5099250,
+            "TRACT": "950900",
+            "CENTLON": "-119.3430014",
+            "BLKGRP": "1",
+            "AREALAND": 7451,
+            "HU100": 0,
+            "INTPTLON": "-119.3430014",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "059"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -119.343,
+          "y": 45.917
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:09:21.383014+00:00",
+  "elapsed": 0.177269,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4536",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:09:21 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.179176&y=48.114262"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.179176&y=48.114262",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 77697,
+            "GEOID": "27001",
+            "CENTLAT": "+48.3069579",
+            "AREAWATER": 201292563,
+            "STATE": "27",
+            "BASENAME": "01",
+            "OID": "212904486864795",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+48.3068276",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 305,
+            "CENTLON": "-096.2722370",
+            "LSY": "2018",
+            "HU100": 36963,
+            "AREALAND": 19595244061,
+            "INTPTLON": "-096.2705328",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "87355",
+            "CENTLAT": "+48.1133719",
+            "AREAWATER": 398494,
+            "BASENAME": "Thief River Falls, MN",
+            "OID": "27021461278934",
+            "UA": "87355",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.1135339",
+            "NAME": "Thief River Falls, MN Urban Area",
+            "OBJECTID": 1438,
+            "CENTLON": "-096.1746089",
+            "AREALAND": 13610404,
+            "INTPTLON": "-096.1743410",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "64570",
+            "POP100": 8749,
+            "GEOID": "2711364570",
+            "CENTLAT": "+48.1108342",
+            "AREAWATER": 503057,
+            "STATE": "27",
+            "BASENAME": "Thief River Falls",
+            "OID": "27690461273522",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+48.1112412",
+            "NAME": "Thief River Falls city",
+            "OBJECTID": 9960,
+            "CENTLON": "-096.1778815",
+            "COUSUBCC": "C5",
+            "HU100": 4469,
+            "AREALAND": 15342297,
+            "INTPTLON": "-096.1775617",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02396049",
+            "UR": "M",
+            "COUNTY": "113"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 38675,
+            "GEOID": "2701A",
+            "CENTLAT": "+48.6007799",
+            "SLDL": "01A",
+            "AREAWATER": 128916279,
+            "STATE": "27",
+            "BASENAME": "01A",
+            "OID": "213904486865031",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+48.5929369",
+            "NAME": "State House District 1A",
+            "OBJECTID": 924,
+            "CENTLON": "-096.2640858",
+            "LSY": "2018",
+            "HU100": 18835,
+            "AREALAND": 12059171138,
+            "INTPTLON": "-096.2798364",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8749,
+            "GEOID": "2764570",
+            "CENTLAT": "+48.1108342",
+            "AREAWATER": 503057,
+            "STATE": "27",
+            "BASENAME": "Thief River Falls",
+            "OID": "27890461273528",
+            "LSADC": "25",
+            "PLACE": "64570",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.1112412",
+            "NAME": "Thief River Falls city",
+            "OBJECTID": 16571,
+            "PLACECC": "C5",
+            "CENTLON": "-096.1778815",
+            "CBSAPCI": "N",
+            "HU100": 4469,
+            "AREALAND": 15342297,
+            "INTPTLON": "-096.1775617",
+            "PLACENS": "02396049",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 13992,
+            "GEOID": "27113",
+            "CENTLAT": "+48.0664647",
+            "AREAWATER": 4328863,
+            "STATE": "27",
+            "BASENAME": "Pennington",
+            "OID": "27590461259824",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.0692470",
+            "NAME": "Pennington County",
+            "OBJECTID": 2765,
+            "CENTLON": "-096.0366206",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659502",
+            "AREALAND": 1596931945,
+            "INTPTLON": "-096.0377254",
+            "HU100": 6639,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "113"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 673514,
+            "GEOID": "2707",
+            "CENTLAT": "+46.5548229",
+            "CDSESSN": "116",
+            "AREAWATER": 5058813380,
+            "STATE": "27",
+            "BASENAME": "7",
+            "OID": "211904486864171",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5530202",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 61,
+            "CENTLON": "-095.6788945",
+            "HU100": 327543,
+            "AREALAND": 86581615754,
+            "INTPTLON": "-095.6759048",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2932,
+            "GEOID": "27113090400",
+            "CENTLAT": "+48.1091283",
+            "AREAWATER": 287115,
+            "STATE": "27",
+            "BASENAME": "904",
+            "OID": "20790461278899",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.1126117",
+            "NAME": "Census Tract 904",
+            "OBJECTID": 58941,
+            "TRACT": "090400",
+            "CENTLON": "-096.1967709",
+            "HU100": 1563,
+            "AREALAND": 13617287,
+            "INTPTLON": "-096.1949705",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "113"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 103,
+            "GEOID": "271130904003032",
+            "CENTLAT": "+48.1134353",
+            "BLOCK": "3032",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "3032",
+            "OID": "210701005457368",
+            "LSADC": "BK",
+            "INTPTLAT": "+48.1134353",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3032",
+            "OBJECTID": 1908190,
+            "TRACT": "090400",
+            "CENTLON": "-096.1820434",
+            "BLKGRP": "3",
+            "AREALAND": 142871,
+            "HU100": 88,
+            "INTPTLON": "-096.1820434",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "113"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -96.179176,
+          "y": 48.114262
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

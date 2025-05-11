@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:46:00.010394+00:00",
+  "elapsed": 0.180002,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4174",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:59 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-65.681319&y=18.293924"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-65.681319&y=18.293924",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 406832,
+            "GEOID": "72008",
+            "CENTLAT": "+18.3063289",
+            "AREAWATER": 15314383,
+            "STATE": "72",
+            "BASENAME": "VIII",
+            "OID": "212904690703530",
+            "LSADC": "LU",
+            "SLDU": "008",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.3087174",
+            "NAME": "State Senate District VIII",
+            "OBJECTID": 1396,
+            "CENTLON": "-065.7494917",
+            "LSY": "2018",
+            "HU100": 207938,
+            "AREALAND": 844801713,
+            "INTPTLON": "-065.7389149",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779808",
+            "POP100": 3285874,
+            "GEOID": "72",
+            "CENTLAT": "+18.2164715",
+            "AREAWATER": 4922329963,
+            "STATE": "72",
+            "BASENAME": "Puerto Rico",
+            "STUSAB": "PR",
+            "OID": "2749082215471",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+18.2176480",
+            "DIVISION": "0",
+            "NAME": "Puerto Rico",
+            "REGION": "9",
+            "OBJECTID": 8,
+            "CENTLON": "-066.4147614",
+            "AREALAND": 8868948653,
+            "INTPTLON": "-066.4107992",
+            "HU100": 1598159,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2358201,
+            "GEOID": "490",
+            "CENTLAT": "+18.2736668",
+            "AREAWATER": 2041553443,
+            "BASENAME": "San Juan-Bayam\u00f3n, PR",
+            "OID": "2619013782255228",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+18.2763524",
+            "NAME": "San Juan-Bayam\u00f3n, PR CSA",
+            "CSA": "490",
+            "OBJECTID": 173,
+            "CENTLON": "-066.1392617",
+            "HU100": 1140127,
+            "AREALAND": 4845756575,
+            "INTPTLON": "-066.1475458",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "67868",
+            "POP100": 3207,
+            "GEOID": "7205367868",
+            "CENTLAT": "+18.3061688",
+            "AREAWATER": 1733590,
+            "STATE": "72",
+            "BASENAME": "Quebrada Vueltas",
+            "OID": "27690596835657",
+            "LSADC": "20",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.3024505",
+            "NAME": "Quebrada Vueltas barrio",
+            "OBJECTID": 30805,
+            "CENTLON": "-065.6451710",
+            "COUSUBCC": "Z1",
+            "HU100": 1728,
+            "AREALAND": 14399422,
+            "INTPTLON": "-065.6366099",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02415887",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 80768,
+            "GEOID": "72036",
+            "CENTLAT": "+18.2524343",
+            "SLDL": "036",
+            "AREAWATER": 3974551,
+            "STATE": "72",
+            "BASENAME": "36",
+            "OID": "213904690703580",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.2538968",
+            "NAME": "State House District 36",
+            "OBJECTID": 3381,
+            "CENTLON": "-065.5902839",
+            "LSY": "2018",
+            "HU100": 50484,
+            "AREALAND": 424250594,
+            "INTPTLON": "-065.5921585",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 32124,
+            "GEOID": "72053",
+            "CENTLAT": "+18.3622068",
+            "AREAWATER": 195352769,
+            "STATE": "72",
+            "BASENAME": "Fajardo",
+            "OID": "27590596825496",
+            "LSADC": "13",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+18.3863776",
+            "NAME": "Fajardo Municipio",
+            "OBJECTID": 277,
+            "CENTLON": "-065.6065755",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01804506",
+            "AREALAND": 77448650,
+            "INTPTLON": "-065.5884540",
+            "HU100": 19204,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 3285874,
+            "GEOID": "7298",
+            "CENTLAT": "+18.2164715",
+            "CDSESSN": "116",
+            "AREAWATER": 4922329963,
+            "STATE": "72",
+            "BASENAME": "Resident Commissioner District (at Large)",
+            "OID": "211904690193315",
+            "LSADC": "C3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.2176480",
+            "NAME": "Resident Commissioner District (at Large)",
+            "OBJECTID": 356,
+            "CENTLON": "-066.4147614",
+            "HU100": 1598159,
+            "AREALAND": 8868948653,
+            "INTPTLON": "-066.4107992",
+            "CD116": "98",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5682,
+            "GEOID": "72053150602",
+            "CENTLAT": "+18.2946504",
+            "AREAWATER": 533570,
+            "STATE": "72",
+            "BASENAME": "1506.02",
+            "OID": "207903708305148",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+18.2953996",
+            "NAME": "Census Tract 1506.02",
+            "OBJECTID": 41687,
+            "TRACT": "150602",
+            "CENTLON": "-065.6908813",
+            "HU100": 2871,
+            "AREALAND": 37497361,
+            "INTPTLON": "-065.6859489",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 31,
+            "GEOID": "720531506023005",
+            "CENTLAT": "+18.2963806",
+            "BLOCK": "3005",
+            "AREAWATER": 1043,
+            "STATE": "72",
+            "BASENAME": "3005",
+            "OID": "210701002124422",
+            "LSADC": "BK",
+            "INTPTLAT": "+18.2953474",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3005",
+            "OBJECTID": 4716177,
+            "TRACT": "150602",
+            "CENTLON": "-065.6705847",
+            "BLKGRP": "3",
+            "AREALAND": 2385462,
+            "HU100": 14,
+            "INTPTLON": "-065.6732817",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "053"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -65.681319,
+          "y": 18.293924
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:50:28.599033+00:00",
+  "elapsed": 0.170283,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4600",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:50:28 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.698754&y=32.208871"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.698754&y=32.208871",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 128138,
+            "GEOID": "45046",
+            "CENTLAT": "+32.2818144",
+            "AREAWATER": 344586458,
+            "STATE": "45",
+            "BASENAME": "46",
+            "OID": "212904690194075",
+            "LSADC": "LU",
+            "SLDU": "046",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.2791097",
+            "NAME": "State Senate District 46",
+            "OBJECTID": 1439,
+            "CENTLON": "-080.8313672",
+            "LSY": "2018",
+            "HU100": 72332,
+            "AREALAND": 766258319,
+            "INTPTLON": "-080.8389784",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779799",
+            "POP100": 5118425,
+            "GEOID": "45",
+            "CENTLAT": "+33.8758222",
+            "AREAWATER": 5074311415,
+            "STATE": "45",
+            "BASENAME": "South Carolina",
+            "STUSAB": "SC",
+            "OID": "27490140244538",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.8741776",
+            "DIVISION": "5",
+            "NAME": "South Carolina",
+            "REGION": "3",
+            "OBJECTID": 43,
+            "CENTLON": "-080.8583129",
+            "AREALAND": 77866132568,
+            "INTPTLON": "-080.8542639",
+            "HU100": 2344963,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "08601",
+            "CENTLAT": "+32.2162893",
+            "AREAWATER": 4715792,
+            "BASENAME": "Bluffton East--Hilton Head Island, SC",
+            "OID": "2702132391318093",
+            "UA": "08601",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.2537754",
+            "NAME": "Bluffton East--Hilton Head Island, SC Urban Area",
+            "OBJECTID": 2205,
+            "CENTLON": "-080.7890801",
+            "AREALAND": 163794642,
+            "INTPTLON": "-080.8676718",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91540",
+            "POP100": 38403,
+            "GEOID": "4501391540",
+            "CENTLAT": "+32.1757097",
+            "AREAWATER": 195474088,
+            "STATE": "45",
+            "BASENAME": "Hilton Head Island",
+            "OID": "27690214275811",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.1776296",
+            "NAME": "Hilton Head Island CCD",
+            "OBJECTID": 15559,
+            "CENTLON": "-080.7225558",
+            "COUSUBCC": "Z5",
+            "HU100": 29481,
+            "AREALAND": 108472951,
+            "INTPTLON": "-080.7213883",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938299",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 37748,
+            "GEOID": "45123",
+            "CENTLAT": "+32.1650071",
+            "SLDL": "123",
+            "AREAWATER": 205359668,
+            "STATE": "45",
+            "BASENAME": "HD-123",
+            "OID": "213904690194257",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.1647562",
+            "NAME": "State House District HD-123",
+            "OBJECTID": 1560,
+            "CENTLON": "-080.7433974",
+            "LSY": "2018",
+            "HU100": 29330,
+            "AREALAND": 138728265,
+            "INTPTLON": "-080.7436151",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 37661,
+            "GEOID": "4534045",
+            "CENTLAT": "+32.1883233",
+            "AREAWATER": 71950661,
+            "STATE": "45",
+            "BASENAME": "Hilton Head Island",
+            "OID": "27890214289607",
+            "LSADC": "43",
+            "PLACE": "34045",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.1903070",
+            "NAME": "Hilton Head Island town",
+            "OBJECTID": 348,
+            "PLACECC": "C1",
+            "CENTLON": "-080.7404566",
+            "CBSAPCI": "Y",
+            "HU100": 29018,
+            "AREALAND": 107103647,
+            "INTPTLON": "-080.7384343",
+            "PLACENS": "02405841",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 187117,
+            "GEOID": "45013",
+            "CENTLAT": "+32.3569076",
+            "AREAWATER": 899873956,
+            "STATE": "45",
+            "BASENAME": "Beaufort",
+            "OID": "27590214227864",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.3581120",
+            "NAME": "Beaufort County",
+            "OBJECTID": 1193,
+            "CENTLON": "-080.6922857",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01247984",
+            "AREALAND": 1491928837,
+            "INTPTLON": "-080.6894218",
+            "HU100": 98068,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 818893,
+            "GEOID": "4501",
+            "CENTLAT": "+32.7186722",
+            "CDSESSN": "116",
+            "AREAWATER": 2196759643,
+            "STATE": "45",
+            "BASENAME": "1",
+            "OID": "211904690192836",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.7140628",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 124,
+            "CENTLON": "-080.1554156",
+            "HU100": 382846,
+            "AREALAND": 4013372574,
+            "INTPTLON": "-080.1606245",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3106,
+            "GEOID": "45013010800",
+            "CENTLAT": "+32.2404268",
+            "AREAWATER": 7691087,
+            "STATE": "45",
+            "BASENAME": "108",
+            "OID": "20790214313563",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.2397676",
+            "NAME": "Census Tract 108",
+            "OBJECTID": 18698,
+            "TRACT": "010800",
+            "CENTLON": "-080.6866689",
+            "HU100": 1452,
+            "AREALAND": 6621051,
+            "INTPTLON": "-080.6876677",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 3,
+            "GEOID": "450130108002001",
+            "CENTLAT": "+32.2102773",
+            "BLOCK": "2001",
+            "AREAWATER": 15358,
+            "STATE": "45",
+            "BASENAME": "2001",
+            "OID": "210701004745900",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.2102190",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2001",
+            "OBJECTID": 614066,
+            "TRACT": "010800",
+            "CENTLON": "-080.6994931",
+            "BLKGRP": "2",
+            "AREALAND": 560625,
+            "HU100": 0,
+            "INTPTLON": "-080.6995012",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.698754,
+          "y": 32.208871
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

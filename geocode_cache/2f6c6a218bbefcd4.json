@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:50:26.660066+00:00",
+  "elapsed": 0.142717,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4130",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:50:26 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.903278&y=33.000669"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-85.903278&y=33.000669",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 166210,
+            "GEOID": "01027",
+            "CENTLAT": "+32.7241131",
+            "AREAWATER": 103521748,
+            "STATE": "01",
+            "BASENAME": "27",
+            "OID": "212904690930138",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.7228185",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 1137,
+            "CENTLON": "-085.6075335",
+            "LSY": "2018",
+            "HU100": 77537,
+            "AREALAND": 3007777576,
+            "INTPTLON": "-085.6074341",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779775",
+            "POP100": 5024279,
+            "GEOID": "01",
+            "CENTLAT": "+32.7436859",
+            "AREAWATER": 4591915034,
+            "STATE": "01",
+            "BASENAME": "Alabama",
+            "STUSAB": "AL",
+            "OID": "2749065038753",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.7396323",
+            "DIVISION": "6",
+            "NAME": "Alabama",
+            "REGION": "3",
+            "OBJECTID": 38,
+            "CENTLON": "-086.8467951",
+            "AREALAND": 131175460655,
+            "INTPTLON": "-086.8434593",
+            "HU100": 2288330,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 476207,
+            "GEOID": "388",
+            "CENTLAT": "+32.5017677",
+            "AREAWATER": 394350763,
+            "BASENAME": "Montgomery-Selma-Alexander City, AL",
+            "OID": "2619013782255187",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.4976579",
+            "NAME": "Montgomery-Selma-Alexander City, AL CSA",
+            "CSA": "388",
+            "OBJECTID": 132,
+            "CENTLON": "-086.4292198",
+            "HU100": 218805,
+            "AREALAND": 13106842122,
+            "INTPTLON": "-086.4316983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90063",
+            "POP100": 18842,
+            "GEOID": "0112390063",
+            "CENTLAT": "+32.9354503",
+            "AREAWATER": 42730562,
+            "STATE": "01",
+            "BASENAME": "Alexander City",
+            "OID": "27690299586780",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.9338877",
+            "NAME": "Alexander City CCD",
+            "OBJECTID": 34683,
+            "CENTLON": "-085.9433622",
+            "COUSUBCC": "Z5",
+            "HU100": 9246,
+            "AREALAND": 409397667,
+            "INTPTLON": "-085.9470919",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00165966",
+            "UR": "M",
+            "COUNTY": "123"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 45453,
+            "GEOID": "01081",
+            "CENTLAT": "+32.8702590",
+            "SLDL": "081",
+            "AREAWATER": 157816514,
+            "STATE": "01",
+            "BASENAME": "81",
+            "OID": "213904690930284",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.8764692",
+            "NAME": "State House District 81",
+            "OBJECTID": 2017,
+            "CENTLON": "-086.0094504",
+            "LSY": "2018",
+            "HU100": 25392,
+            "AREALAND": 2638227635,
+            "INTPTLON": "-086.0145625",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 41311,
+            "GEOID": "01123",
+            "CENTLAT": "+32.8621988",
+            "AREAWATER": 128790974,
+            "STATE": "01",
+            "BASENAME": "Tallapoosa",
+            "OID": "27590299579822",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.8633076",
+            "NAME": "Tallapoosa County",
+            "OBJECTID": 2374,
+            "CENTLON": "-085.7975052",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00161587",
+            "AREALAND": 1855798005,
+            "INTPTLON": "-085.7996176",
+            "HU100": 22686,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "123"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 735132,
+            "GEOID": "0103",
+            "CENTLAT": "+33.1527644",
+            "CDSESSN": "116",
+            "AREAWATER": 471442112,
+            "STATE": "01",
+            "BASENAME": "3",
+            "OID": "211904690194504",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1505639",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 106,
+            "CENTLON": "-085.7052669",
+            "HU100": 335851,
+            "AREALAND": 19537544180,
+            "INTPTLON": "-085.7002277",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3988,
+            "GEOID": "01123962000",
+            "CENTLAT": "+33.0410880",
+            "AREAWATER": 836439,
+            "STATE": "01",
+            "BASENAME": "9620",
+            "OID": "207903716827711",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.0469464",
+            "NAME": "Census Tract 9620",
+            "OBJECTID": 68128,
+            "TRACT": "962000",
+            "CENTLON": "-085.9448060",
+            "HU100": 1862,
+            "AREALAND": 160837982,
+            "INTPTLON": "-085.9450939",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "123"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "011239620001048",
+            "CENTLAT": "+33.0003594",
+            "BLOCK": "1048",
+            "AREAWATER": 1322,
+            "STATE": "01",
+            "BASENAME": "1048",
+            "OID": "210701005028667",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.0003595",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1048",
+            "OBJECTID": 7531099,
+            "TRACT": "962000",
+            "CENTLON": "-085.9014975",
+            "BLKGRP": "1",
+            "AREALAND": 444146,
+            "HU100": 0,
+            "INTPTLON": "-085.9015163",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "123"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -85.903278,
+          "y": 33.000669
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

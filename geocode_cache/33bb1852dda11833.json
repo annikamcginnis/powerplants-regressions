@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:35:36.196501+00:00",
+  "elapsed": 0.15118,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4588",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:35:36 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.3833&y=35.765"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.3833&y=35.765",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1012821,
+            "GEOID": "06016",
+            "CENTLAT": "+35.0771019",
+            "AREAWATER": 145541555,
+            "STATE": "06",
+            "BASENAME": "16",
+            "OID": "212904690192964",
+            "LSADC": "LU",
+            "SLDU": "016",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.0758984",
+            "NAME": "State Senate District 16",
+            "OBJECTID": 960,
+            "CENTLON": "-116.8312254",
+            "LSY": "2018",
+            "HU100": 378177,
+            "AREALAND": 68172662742,
+            "INTPTLON": "-116.8341036",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 18644680,
+            "GEOID": "348",
+            "CENTLAT": "+34.4706942",
+            "AREAWATER": 3480748723,
+            "BASENAME": "Los Angeles-Long Beach, CA",
+            "OID": "2619013782255168",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4637584",
+            "NAME": "Los Angeles-Long Beach, CA CSA",
+            "CSA": "348",
+            "OBJECTID": 113,
+            "CENTLON": "-116.6480307",
+            "HU100": 6595294,
+            "AREALAND": 87982392819,
+            "INTPTLON": "-116.6585523",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92955",
+            "POP100": 1890,
+            "GEOID": "0607192955",
+            "CENTLAT": "+35.5440435",
+            "AREAWATER": 10891060,
+            "STATE": "06",
+            "BASENAME": "Searles Valley",
+            "OID": "276901320158301",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.5387479",
+            "NAME": "Searles Valley CCD",
+            "OBJECTID": 751,
+            "CENTLON": "-117.2779097",
+            "COUSUBCC": "Z5",
+            "HU100": 1094,
+            "AREALAND": 3518210253,
+            "INTPTLON": "-117.3220048",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935263",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1565,
+            "GEOID": "0670728",
+            "CENTLAT": "+35.7700481",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "Searles Valley",
+            "OID": "280901321085744",
+            "LSADC": "57",
+            "PLACE": "70728",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.7700481",
+            "NAME": "Searles Valley CDP",
+            "OBJECTID": 25471,
+            "PLACECC": "U2",
+            "CENTLON": "-117.3966763",
+            "CBSAPCI": "N",
+            "HU100": 890,
+            "AREALAND": 27186893,
+            "INTPTLON": "-117.3966763",
+            "PLACENS": "02409296",
+            "MTFCC": "G4210",
+            "UR": "R"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 514459,
+            "GEOID": "06033",
+            "CENTLAT": "+34.9105685",
+            "SLDL": "033",
+            "AREAWATER": 91291511,
+            "STATE": "06",
+            "BASENAME": "33",
+            "OID": "213904690193298",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.9006164",
+            "NAME": "Assembly District 33",
+            "OBJECTID": 1544,
+            "CENTLON": "-116.1188610",
+            "LSY": "2018",
+            "HU100": 202977,
+            "AREALAND": 47198276914,
+            "INTPTLON": "-116.1465651",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 2181654,
+            "GEOID": "06071",
+            "CENTLAT": "+34.8418092",
+            "AREAWATER": 96406054,
+            "STATE": "06",
+            "BASENAME": "San Bernardino",
+            "OID": "27590435411092",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8566615",
+            "NAME": "San Bernardino County",
+            "OBJECTID": 1041,
+            "CENTLON": "-116.1766933",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277300",
+            "AREALAND": 51975908919,
+            "INTPTLON": "-116.1815707",
+            "HU100": 731899,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 756547,
+            "GEOID": "0608",
+            "CENTLAT": "+35.6650944",
+            "CDSESSN": "116",
+            "AREAWATER": 384224083,
+            "STATE": "06",
+            "BASENAME": "8",
+            "OID": "211904492478318",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.6631469",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 44,
+            "CENTLON": "-116.7854695",
+            "HU100": 308327,
+            "AREALAND": 85192578291,
+            "INTPTLON": "-116.8197958",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1890,
+            "GEOID": "06071008901",
+            "CENTLAT": "+35.5440435",
+            "AREAWATER": 10891060,
+            "STATE": "06",
+            "BASENAME": "89.01",
+            "OID": "207901321958198",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.5387479",
+            "NAME": "Census Tract 89.01",
+            "OBJECTID": 29736,
+            "TRACT": "008901",
+            "CENTLON": "-117.2779097",
+            "HU100": 1094,
+            "AREALAND": 3518210253,
+            "INTPTLON": "-117.3220048",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 33,
+            "GEOID": "060710089012027",
+            "CENTLAT": "+35.7633125",
+            "BLOCK": "2027",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "2027",
+            "OID": "210701002185736",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.7633125",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2027",
+            "OBJECTID": 135891,
+            "TRACT": "008901",
+            "CENTLON": "-117.3842385",
+            "BLKGRP": "2",
+            "AREALAND": 1803188,
+            "HU100": 26,
+            "INTPTLON": "-117.3842385",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -117.3833,
+          "y": 35.765
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

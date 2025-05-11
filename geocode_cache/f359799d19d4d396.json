@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:00:01.023462+00:00",
+  "elapsed": 0.15977,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4560",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:00:01 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.902633&y=38.532161"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.902633&y=38.532161",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 88091,
+            "GEOID": "20037",
+            "CENTLAT": "+38.6740312",
+            "AREAWATER": 32853696,
+            "STATE": "20",
+            "BASENAME": "37",
+            "OID": "212904692011941",
+            "LSADC": "LU",
+            "SLDU": "037",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.6704626",
+            "NAME": "State Senate District 37",
+            "OBJECTID": 1029,
+            "CENTLON": "-094.8285515",
+            "LSY": "2018",
+            "HU100": 32607,
+            "AREALAND": 1262320125,
+            "INTPTLON": "-094.8306746",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00481813",
+            "POP100": 2937880,
+            "GEOID": "20",
+            "CENTLAT": "+38.4938959",
+            "AREAWATER": 1345707497,
+            "STATE": "20",
+            "BASENAME": "Kansas",
+            "STUSAB": "KS",
+            "OID": "2749051425496",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4985464",
+            "DIVISION": "4",
+            "NAME": "Kansas",
+            "REGION": "2",
+            "OBJECTID": 6,
+            "CENTLON": "-098.3786217",
+            "AREALAND": 211753777874,
+            "INTPTLON": "-098.3834298",
+            "HU100": 1275689,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2528644,
+            "GEOID": "312",
+            "CENTLAT": "+39.0558175",
+            "AREAWATER": 432703431,
+            "BASENAME": "Kansas City-Overland Park-Kansas City, MO-KS",
+            "OID": "2619013782255155",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.0561001",
+            "NAME": "Kansas City-Overland Park-Kansas City, MO-KS CSA",
+            "CSA": "312",
+            "OBJECTID": 62,
+            "CENTLON": "-094.5593249",
+            "HU100": 1085350,
+            "AREALAND": 29008384749,
+            "INTPTLON": "-094.5588469",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "53225",
+            "POP100": 4255,
+            "GEOID": "2012153225",
+            "CENTLAT": "+38.5062945",
+            "AREAWATER": 238215,
+            "STATE": "20",
+            "BASENAME": "Osawatomie",
+            "OID": "27690351111395",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+38.4999302",
+            "NAME": "Osawatomie city",
+            "OBJECTID": 17978,
+            "CENTLON": "-094.9486082",
+            "COUSUBCC": "C5",
+            "HU100": 1799,
+            "AREALAND": 13603675,
+            "INTPTLON": "-094.9458945",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00485635",
+            "UR": "R",
+            "COUNTY": "121"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 23301,
+            "GEOID": "20006",
+            "CENTLAT": "+38.5742732",
+            "SLDL": "006",
+            "AREAWATER": 30816858,
+            "STATE": "20",
+            "BASENAME": "6",
+            "OID": "213904692049031",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.5704545",
+            "NAME": "State House District 6",
+            "OBJECTID": 2433,
+            "CENTLON": "-094.7974514",
+            "LSY": "2018",
+            "HU100": 9536,
+            "AREALAND": 1149597916,
+            "INTPTLON": "-094.7993114",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4255,
+            "GEOID": "2053225",
+            "CENTLAT": "+38.5062945",
+            "AREAWATER": 238215,
+            "STATE": "20",
+            "BASENAME": "Osawatomie",
+            "OID": "27890351122915",
+            "LSADC": "25",
+            "PLACE": "53225",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4999302",
+            "NAME": "Osawatomie city",
+            "OBJECTID": 2589,
+            "PLACECC": "C5",
+            "CENTLON": "-094.9486082",
+            "CBSAPCI": "N",
+            "HU100": 1799,
+            "AREALAND": 13603675,
+            "INTPTLON": "-094.9458945",
+            "PLACENS": "00485635",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 34191,
+            "GEOID": "20121",
+            "CENTLAT": "+38.5635182",
+            "AREAWATER": 37235270,
+            "STATE": "20",
+            "BASENAME": "Miami",
+            "OID": "27590351096276",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.5667718",
+            "NAME": "Miami County",
+            "OBJECTID": 1389,
+            "CENTLON": "-094.8380605",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00485025",
+            "AREALAND": 1491519067,
+            "INTPTLON": "-094.8329626",
+            "HU100": 13865,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "121"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 713007,
+            "GEOID": "2002",
+            "CENTLAT": "+38.4777375",
+            "CDSESSN": "116",
+            "AREAWATER": 527544879,
+            "STATE": "20",
+            "BASENAME": "2",
+            "OID": "211904691754249",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.4822777",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 339,
+            "CENTLON": "-095.4308232",
+            "HU100": 318078,
+            "AREALAND": 36633614181,
+            "INTPTLON": "-095.4246400",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5351,
+            "GEOID": "20121100700",
+            "CENTLAT": "+38.4865104",
+            "AREAWATER": 1786839,
+            "STATE": "20",
+            "BASENAME": "1007",
+            "OID": "20790351142495",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4868681",
+            "NAME": "Census Tract 1007",
+            "OBJECTID": 75344,
+            "TRACT": "100700",
+            "CENTLON": "-095.0047341",
+            "HU100": 2261,
+            "AREALAND": 125429773,
+            "INTPTLON": "-095.0047620",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "121"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "201211007001001",
+            "CENTLAT": "+38.5313005",
+            "BLOCK": "1001",
+            "AREAWATER": 0,
+            "STATE": "20",
+            "BASENAME": "1001",
+            "OID": "210701005296305",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.5313005",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1001",
+            "OBJECTID": 5535489,
+            "TRACT": "100700",
+            "CENTLON": "-094.9023388",
+            "BLKGRP": "1",
+            "AREALAND": 128543,
+            "HU100": 0,
+            "INTPTLON": "-094.9023388",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "121"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -94.902633,
+          "y": 38.532161
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

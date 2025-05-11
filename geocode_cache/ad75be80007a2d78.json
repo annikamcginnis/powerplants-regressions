@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:45:35.108610+00:00",
+  "elapsed": 0.165942,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4971",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:35 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.656489&y=42.625649"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.656489&y=42.625649",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 177189,
+            "GEOID": "25020",
+            "CENTLAT": "+42.6601740",
+            "AREAWATER": 463625325,
+            "STATE": "25",
+            "BASENAME": "First Essex & Middlesex",
+            "OID": "212904693077249",
+            "LSADC": "07",
+            "SLDU": "020",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6640716",
+            "NAME": "First Essex & Middlesex District",
+            "OBJECTID": 1489,
+            "CENTLON": "-070.8201401",
+            "LSY": "2018",
+            "HU100": 72948,
+            "AREALAND": 705010093,
+            "INTPTLON": "-070.8214735",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "09271",
+            "CENTLAT": "+42.3794881",
+            "AREAWATER": 185677268,
+            "BASENAME": "Boston, MA--NH",
+            "OID": "27021206517502",
+            "UA": "09271",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3789986",
+            "NAME": "Boston, MA--NH Urban Area",
+            "OBJECTID": 407,
+            "CENTLON": "-071.1422204",
+            "AREALAND": 4288728505,
+            "INTPTLON": "-071.1423438",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "26150",
+            "POP100": 29729,
+            "GEOID": "2500926150",
+            "CENTLAT": "+42.6306028",
+            "AREAWATER": 39662608,
+            "STATE": "25",
+            "BASENAME": "Gloucester",
+            "OID": "27690206485197",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.6288499",
+            "NAME": "Gloucester city",
+            "OBJECTID": 6721,
+            "CENTLON": "-070.6835958",
+            "COUSUBCC": "C5",
+            "HU100": 15133,
+            "AREALAND": 67852028,
+            "INTPTLON": "-070.6858747",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618297",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 40396,
+            "GEOID": "25087",
+            "CENTLAT": "+42.6342753",
+            "SLDL": "087",
+            "AREAWATER": 45468820,
+            "STATE": "25",
+            "BASENAME": "5th Essex",
+            "OID": "213904693077497",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6349971",
+            "NAME": "5th Essex District",
+            "OBJECTID": 4283,
+            "CENTLON": "-070.6999680",
+            "LSY": "2018",
+            "HU100": 21175,
+            "AREALAND": 122111574,
+            "INTPTLON": "-070.7019386",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 29729,
+            "GEOID": "2526150",
+            "CENTLAT": "+42.6306028",
+            "AREAWATER": 39662608,
+            "STATE": "25",
+            "BASENAME": "Gloucester",
+            "OID": "27890206494316",
+            "LSADC": "25",
+            "PLACE": "26150",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.6288499",
+            "NAME": "Gloucester city",
+            "OBJECTID": 6294,
+            "PLACECC": "C5",
+            "CENTLON": "-070.6835958",
+            "CBSAPCI": "N",
+            "HU100": 15133,
+            "AREALAND": 67852028,
+            "INTPTLON": "-070.6858747",
+            "PLACENS": "00618297",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 809829,
+            "GEOID": "25009",
+            "CENTLAT": "+42.6388126",
+            "AREAWATER": 870158604,
+            "STATE": "25",
+            "BASENAME": "Essex",
+            "OID": "27590206454990",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6427082",
+            "NAME": "Essex County",
+            "OBJECTID": 1871,
+            "CENTLON": "-070.8677685",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606931",
+            "AREALAND": 1275623186,
+            "INTPTLON": "-070.8649085",
+            "HU100": 327185,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 777832,
+            "GEOID": "2506",
+            "CENTLAT": "+42.6171664",
+            "CDSESSN": "116",
+            "AREAWATER": 864063305,
+            "STATE": "25",
+            "BASENAME": "6",
+            "OID": "211904690191977",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6171124",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 349,
+            "CENTLON": "-070.8852342",
+            "HU100": 317332,
+            "AREALAND": 1364547189,
+            "INTPTLON": "-070.8853911",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4406,
+            "GEOID": "25009221300",
+            "CENTLAT": "+42.6080888",
+            "AREAWATER": 3861408,
+            "STATE": "25",
+            "BASENAME": "2213",
+            "OID": "20790206510721",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.6064939",
+            "NAME": "Census Tract 2213",
+            "OBJECTID": 61247,
+            "TRACT": "221300",
+            "CENTLON": "-070.6467323",
+            "HU100": 2610,
+            "AREALAND": 9413987,
+            "INTPTLON": "-070.6400440",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 409,
+            "GEOID": "250092213003002",
+            "CENTLAT": "+42.6270741",
+            "BLOCK": "3002",
+            "AREAWATER": 14792,
+            "STATE": "25",
+            "BASENAME": "3002",
+            "OID": "210701007818395",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.6271227",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3002",
+            "OBJECTID": 7330209,
+            "TRACT": "221300",
+            "CENTLON": "-070.6469235",
+            "BLKGRP": "3",
+            "AREALAND": 1542462,
+            "HU100": 172,
+            "INTPTLON": "-070.6465559",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "009"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -70.656489,
+          "y": 42.625649
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

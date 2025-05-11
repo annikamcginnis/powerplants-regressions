@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:38:13.347655+00:00",
+  "elapsed": 0.167483,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4482",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:13 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.1817&y=46.3758"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.1817&y=46.3758",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 81820,
+            "GEOID": "27010",
+            "CENTLAT": "+46.5617637",
+            "AREAWATER": 859088964,
+            "STATE": "27",
+            "BASENAME": "10",
+            "OID": "212904486864815",
+            "LSADC": "LU",
+            "SLDU": "010",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5641443",
+            "NAME": "State Senate District 10",
+            "OBJECTID": 20,
+            "CENTLON": "-093.6562606",
+            "LSY": "2018",
+            "HU100": 55512,
+            "AREALAND": 7304102851,
+            "INTPTLON": "-093.6489304",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "09622",
+            "CENTLAT": "+46.3614847",
+            "AREAWATER": 2606175,
+            "BASENAME": "Brainerd, MN",
+            "OID": "27021506947995",
+            "UA": "09622",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.3613079",
+            "NAME": "Brainerd, MN Urban Area",
+            "OBJECTID": 1734,
+            "CENTLON": "-094.2135306",
+            "AREALAND": 41800334,
+            "INTPTLON": "-094.2140630",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "07300",
+            "POP100": 14395,
+            "GEOID": "2703507300",
+            "CENTLAT": "+46.3552274",
+            "AREAWATER": 1791237,
+            "STATE": "27",
+            "BASENAME": "Brainerd",
+            "OID": "27690506887150",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+46.3552689",
+            "NAME": "Brainerd city",
+            "OBJECTID": 20174,
+            "CENTLON": "-094.1983543",
+            "COUSUBCC": "C5",
+            "HU100": 6473,
+            "AREALAND": 31416124,
+            "INTPTLON": "-094.1983723",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02394238",
+            "UR": "M",
+            "COUNTY": "035"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 42197,
+            "GEOID": "2710A",
+            "CENTLAT": "+46.5410063",
+            "SLDL": "10A",
+            "AREAWATER": 205189430,
+            "STATE": "27",
+            "BASENAME": "10A",
+            "OID": "213904486864997",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5382741",
+            "NAME": "State House District 10A",
+            "OBJECTID": 686,
+            "CENTLON": "-094.2195023",
+            "LSY": "2018",
+            "HU100": 23849,
+            "AREALAND": 611937348,
+            "INTPTLON": "-094.2183472",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 14395,
+            "GEOID": "2707300",
+            "CENTLAT": "+46.3552274",
+            "AREAWATER": 1791237,
+            "STATE": "27",
+            "BASENAME": "Brainerd",
+            "OID": "27890506887751",
+            "LSADC": "25",
+            "PLACE": "07300",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3552689",
+            "NAME": "Brainerd city",
+            "OBJECTID": 15494,
+            "PLACECC": "C5",
+            "CENTLON": "-094.1983543",
+            "CBSAPCI": "Y",
+            "HU100": 6473,
+            "AREALAND": 31416124,
+            "INTPTLON": "-094.1983723",
+            "PLACENS": "02394238",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 66123,
+            "GEOID": "27035",
+            "CENTLAT": "+46.4818319",
+            "AREAWATER": 409718952,
+            "STATE": "27",
+            "BASENAME": "Crow Wing",
+            "OID": "27590506871450",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.4916528",
+            "NAME": "Crow Wing County",
+            "OBJECTID": 2984,
+            "CENTLON": "-094.0709442",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659463",
+            "AREALAND": 2585732032,
+            "INTPTLON": "-094.0707182",
+            "HU100": 41568,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "035"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 675929,
+            "GEOID": "2708",
+            "CENTLAT": "+47.2192931",
+            "CDSESSN": "116",
+            "AREAWATER": 12454742045,
+            "STATE": "27",
+            "BASENAME": "8",
+            "OID": "211904486864416",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.2503576",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 64,
+            "CENTLON": "-092.9477395",
+            "HU100": 366787,
+            "AREALAND": 72282931694,
+            "INTPTLON": "-092.9640512",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2843,
+            "GEOID": "27035951200",
+            "CENTLAT": "+46.3679370",
+            "AREAWATER": 802648,
+            "STATE": "27",
+            "BASENAME": "9512",
+            "OID": "20790506925662",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.3720676",
+            "NAME": "Census Tract 9512",
+            "OBJECTID": 41977,
+            "TRACT": "951200",
+            "CENTLON": "-094.2089272",
+            "HU100": 1402,
+            "AREALAND": 7926235,
+            "INTPTLON": "-094.2230653",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "035"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 9,
+            "GEOID": "270359512001005",
+            "CENTLAT": "+46.3729881",
+            "BLOCK": "1005",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "1005",
+            "OID": "210701005578684",
+            "LSADC": "BK",
+            "INTPTLAT": "+46.3729881",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1005",
+            "OBJECTID": 4904697,
+            "TRACT": "951200",
+            "CENTLON": "-094.1847798",
+            "BLKGRP": "1",
+            "AREALAND": 620031,
+            "HU100": 1,
+            "INTPTLON": "-094.1847798",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "035"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -94.1817,
+          "y": 46.3758
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

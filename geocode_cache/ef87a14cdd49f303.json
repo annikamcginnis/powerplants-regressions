@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:01:03.358084+00:00",
+  "elapsed": 0.441017,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4963",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:01:03 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.2583&y=38.0417"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.2583&y=38.0417",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1042389,
+            "GEOID": "06009",
+            "CENTLAT": "+37.8692954",
+            "AREAWATER": 252852057,
+            "STATE": "06",
+            "BASENAME": "9",
+            "OID": "212904690192874",
+            "LSADC": "LU",
+            "SLDU": "009",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.8695634",
+            "NAME": "State Senate District 9",
+            "OBJECTID": 984,
+            "CENTLON": "-122.2639442",
+            "LSY": "2018",
+            "HU100": 408931,
+            "AREALAND": 512974498,
+            "INTPTLON": "-122.2625626",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9714023,
+            "GEOID": "488",
+            "CENTLAT": "+37.6646428",
+            "AREAWATER": 3995182457,
+            "BASENAME": "San Jose-San Francisco-Oakland, CA",
+            "OID": "2619013782255227",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.6583275",
+            "NAME": "San Jose-San Francisco-Oakland, CA CSA",
+            "CSA": "488",
+            "OBJECTID": 172,
+            "CENTLON": "-121.7316210",
+            "HU100": 3606733,
+            "AREALAND": 35139202097,
+            "INTPTLON": "-121.7156006",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "78904",
+            "CENTLAT": "+37.7442467",
+            "AREAWATER": 31271476,
+            "BASENAME": "San Francisco--Oakland, CA",
+            "OID": "27021141325051",
+            "UA": "78904",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.7820693",
+            "NAME": "San Francisco--Oakland, CA Urban Area",
+            "OBJECTID": 202,
+            "CENTLON": "-122.2913780",
+            "AREALAND": 1330727047,
+            "INTPTLON": "-122.2659695",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93620",
+            "POP100": 270382,
+            "GEOID": "0601393620",
+            "CENTLAT": "+37.9838814",
+            "AREAWATER": 121252618,
+            "STATE": "06",
+            "BASENAME": "West Contra Costa",
+            "OID": "27690146149742",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.9842114",
+            "NAME": "West Contra Costa CCD",
+            "OBJECTID": 19253,
+            "CENTLON": "-122.3223570",
+            "COUSUBCC": "Z5",
+            "HU100": 95813,
+            "AREALAND": 176549600,
+            "INTPTLON": "-122.3217657",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935368",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 9653,
+            "GEOID": "0662490",
+            "CENTLAT": "+38.0377073",
+            "AREAWATER": 2286903,
+            "STATE": "06",
+            "BASENAME": "Rodeo",
+            "OID": "28090146154062",
+            "LSADC": "57",
+            "PLACE": "62490",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.0366050",
+            "NAME": "Rodeo CDP",
+            "OBJECTID": 29820,
+            "PLACECC": "U1",
+            "CENTLON": "-122.2540295",
+            "CBSAPCI": "N",
+            "HU100": 3202,
+            "AREALAND": 9741095,
+            "INTPTLON": "-122.2539556",
+            "PLACENS": "02409201",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 501442,
+            "GEOID": "06014",
+            "CENTLAT": "+37.9647989",
+            "SLDL": "014",
+            "AREAWATER": 159251961,
+            "STATE": "06",
+            "BASENAME": "14",
+            "OID": "213904690193284",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.9643849",
+            "NAME": "Assembly District 14",
+            "OBJECTID": 1222,
+            "CENTLON": "-122.0046583",
+            "LSY": "2018",
+            "HU100": 186493,
+            "AREALAND": 1074405278,
+            "INTPTLON": "-122.0033160",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1165927,
+            "GEOID": "06013",
+            "CENTLAT": "+37.9235478",
+            "AREAWATER": 225278783,
+            "STATE": "06",
+            "BASENAME": "Contra Costa",
+            "OID": "27590146137883",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.9194790",
+            "NAME": "Contra Costa County",
+            "OBJECTID": 1165,
+            "CENTLON": "-121.9509442",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01675903",
+            "AREALAND": 1856838508,
+            "INTPTLON": "-121.9515431",
+            "HU100": 423342,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 727926,
+            "GEOID": "0605",
+            "CENTLAT": "+38.5150544",
+            "CDSESSN": "116",
+            "AREAWATER": 319134942,
+            "STATE": "06",
+            "BASENAME": "5",
+            "OID": "211904492478192",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.5157184",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 17,
+            "CENTLON": "-122.4597757",
+            "HU100": 288339,
+            "AREALAND": 4482242169,
+            "INTPTLON": "-122.4624656",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6237,
+            "GEOID": "06013358000",
+            "CENTLAT": "+38.0473315",
+            "AREAWATER": 4054022,
+            "STATE": "06",
+            "BASENAME": "3580",
+            "OID": "20790146186500",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.0481856",
+            "NAME": "Census Tract 3580",
+            "OBJECTID": 85393,
+            "TRACT": "358000",
+            "CENTLON": "-122.2535585",
+            "HU100": 2224,
+            "AREALAND": 6891861,
+            "INTPTLON": "-122.2538488",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 613,
+            "GEOID": "060133580005038",
+            "CENTLAT": "+38.0371292",
+            "BLOCK": "5038",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "5038",
+            "OID": "210701000885439",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.0371292",
+            "FUNCSTAT": "S",
+            "NAME": "Block 5038",
+            "OBJECTID": 1880564,
+            "TRACT": "358000",
+            "CENTLON": "-122.2570287",
+            "BLKGRP": "5",
+            "AREALAND": 914276,
+            "HU100": 245,
+            "INTPTLON": "-122.2570287",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -122.2583,
+          "y": 38.0417
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

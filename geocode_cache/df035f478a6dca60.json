@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:52:04.790939+00:00",
+  "elapsed": 0.159661,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4924",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:52:04 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.84737&y=40.85652"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.84737&y=40.85652",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 339063,
+            "GEOID": "36034",
+            "CENTLAT": "+40.8538314",
+            "AREAWATER": 39320378,
+            "STATE": "36",
+            "BASENAME": "34",
+            "OID": "212904690195390",
+            "LSADC": "LU",
+            "SLDU": "034",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.8533935",
+            "NAME": "State Senate District 34",
+            "OBJECTID": 916,
+            "CENTLON": "-073.8348033",
+            "LSY": "2018",
+            "HU100": 131271,
+            "AREALAND": 64700337,
+            "INTPTLON": "-073.8350763",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 23582649,
+            "GEOID": "408",
+            "CENTLAT": "+41.0667541",
+            "AREAWATER": 8099265995,
+            "BASENAME": "New York-Newark, NY-NJ-CT-PA",
+            "OID": "2619013782255195",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7749300",
+            "NAME": "New York-Newark, NY-NJ-CT-PA CSA",
+            "CSA": "408",
+            "OBJECTID": 140,
+            "CENTLON": "-073.8753122",
+            "HU100": 9401953,
+            "AREALAND": 32113500421,
+            "INTPTLON": "-073.8737580",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "63217",
+            "CENTLAT": "+40.7122656",
+            "AREAWATER": 548707462,
+            "BASENAME": "New York--Jersey City--Newark, NY--NJ",
+            "OID": "27021287355931",
+            "UA": "63217",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7121519",
+            "NAME": "New York--Jersey City--Newark, NY--NJ Urban Area",
+            "OBJECTID": 331,
+            "CENTLON": "-073.9494543",
+            "AREALAND": 8412591091,
+            "INTPTLON": "-073.9501839",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "08510",
+            "POP100": 1472654,
+            "GEOID": "3600508510",
+            "CENTLAT": "+40.8492041",
+            "AREAWATER": 39362153,
+            "STATE": "36",
+            "BASENAME": "Bronx",
+            "OID": "27690287323430",
+            "LSADC": "21",
+            "FUNCSTAT": "G",
+            "INTPTLAT": "+40.8487111",
+            "NAME": "Bronx borough",
+            "OBJECTID": 33889,
+            "CENTLON": "-073.8530773",
+            "COUSUBCC": "Z1",
+            "HU100": 547030,
+            "AREALAND": 109224611,
+            "INTPTLON": "-073.8529390",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00978756",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 133812,
+            "GEOID": "36080",
+            "CENTLAT": "+40.8619900",
+            "SLDL": "080",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "80",
+            "OID": "213904690195670",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.8619900",
+            "NAME": "Assembly District 80",
+            "OBJECTID": 2357,
+            "CENTLON": "-073.8595949",
+            "LSY": "2018",
+            "HU100": 50061,
+            "AREALAND": 8242754,
+            "INTPTLON": "-073.8595949",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8804190,
+            "GEOID": "3651000",
+            "CENTLAT": "+40.6624937",
+            "AREAWATER": 445421632,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "OID": "27890287325779",
+            "LSADC": "25",
+            "PLACE": "51000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.6627117",
+            "NAME": "New York city",
+            "OBJECTID": 614,
+            "PLACECC": "C1",
+            "CENTLON": "-073.9389043",
+            "CBSAPCI": "Y",
+            "HU100": 3618635,
+            "AREALAND": 778165283,
+            "INTPTLON": "-073.9386769",
+            "PLACENS": "02395220",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1472654,
+            "GEOID": "36005",
+            "CENTLAT": "+40.8492041",
+            "AREAWATER": 39362153,
+            "STATE": "36",
+            "BASENAME": "Bronx",
+            "OID": "27590287318864",
+            "LSADC": "06",
+            "FUNCSTAT": "C",
+            "INTPTLAT": "+40.8487111",
+            "NAME": "Bronx County",
+            "OBJECTID": 3088,
+            "CENTLON": "-073.8530773",
+            "COUNTYCC": "H6",
+            "COUNTYNS": "00974101",
+            "AREALAND": 109224611,
+            "INTPTLON": "-073.8529390",
+            "HU100": 547030,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 750025,
+            "GEOID": "3614",
+            "CENTLAT": "+40.8125542",
+            "CDSESSN": "116",
+            "AREAWATER": 38935278,
+            "STATE": "36",
+            "BASENAME": "14",
+            "OID": "211904690193504",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.8097822",
+            "NAME": "Congressional District 14",
+            "OBJECTID": 383,
+            "CENTLON": "-073.8389648",
+            "HU100": 274446,
+            "AREALAND": 74026508,
+            "INTPTLON": "-073.8370035",
+            "CD116": "14",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2878,
+            "GEOID": "36005029600",
+            "CENTLAT": "+40.8553721",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "296",
+            "OID": "20790287344491",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.8553721",
+            "NAME": "Census Tract 296",
+            "OBJECTID": 37615,
+            "TRACT": "029600",
+            "CENTLON": "-073.8450221",
+            "HU100": 1014,
+            "AREALAND": 723313,
+            "INTPTLON": "-073.8450221",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 178,
+            "GEOID": "360050296002002",
+            "CENTLAT": "+40.8557400",
+            "BLOCK": "2002",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "2002",
+            "OID": "210701006030071",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.8557400",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2002",
+            "OBJECTID": 1474354,
+            "TRACT": "029600",
+            "CENTLON": "-073.8475595",
+            "BLKGRP": "2",
+            "AREALAND": 108616,
+            "HU100": 58,
+            "INTPTLON": "-073.8475595",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.84737,
+          "y": 40.85652
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

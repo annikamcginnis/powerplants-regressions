@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:01:53.711745+00:00",
+  "elapsed": 0.172565,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4875",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:01:53 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.778397&y=44.851028"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.778397&y=44.851028",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 94470,
+            "GEOID": "27047",
+            "CENTLAT": "+44.8196489",
+            "AREAWATER": 54678669,
+            "STATE": "27",
+            "BASENAME": "47",
+            "OID": "212904486864789",
+            "LSADC": "LU",
+            "SLDU": "047",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8213196",
+            "NAME": "State Senate District 47",
+            "OBJECTID": 360,
+            "CENTLON": "-093.8070509",
+            "LSY": "2018",
+            "HU100": 35584,
+            "AREALAND": 901482955,
+            "INTPTLON": "-093.8000913",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 4078788,
+            "GEOID": "378",
+            "CENTLAT": "+45.0455756",
+            "AREAWATER": 1512509911,
+            "BASENAME": "Minneapolis-St. Paul, MN-WI",
+            "OID": "2619013782255184",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.0450358",
+            "NAME": "Minneapolis-St. Paul, MN-WI CSA",
+            "CSA": "378",
+            "OBJECTID": 129,
+            "CENTLON": "-093.4646425",
+            "HU100": 1664221,
+            "AREALAND": 28418647879,
+            "INTPTLON": "-093.4695506",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "91054",
+            "CENTLAT": "+44.8412829",
+            "AREAWATER": 436643,
+            "BASENAME": "Waconia, MN",
+            "OID": "27021206512616",
+            "UA": "91054",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.8419875",
+            "NAME": "Waconia, MN Urban Area",
+            "OBJECTID": 897,
+            "CENTLON": "-093.7934569",
+            "AREALAND": 11854393,
+            "INTPTLON": "-093.7931948",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "67432",
+            "POP100": 13033,
+            "GEOID": "2701967432",
+            "CENTLAT": "+44.8421889",
+            "AREAWATER": 90661,
+            "STATE": "27",
+            "BASENAME": "Waconia",
+            "OID": "27690206485242",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.8415296",
+            "NAME": "Waconia city",
+            "OBJECTID": 1755,
+            "CENTLON": "-093.7896395",
+            "COUSUBCC": "C5",
+            "HU100": 4826,
+            "AREALAND": 13270685,
+            "INTPTLON": "-093.7900921",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02397159",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 47867,
+            "GEOID": "2747A",
+            "CENTLAT": "+44.8173941",
+            "SLDL": "47A",
+            "AREAWATER": 44207638,
+            "STATE": "27",
+            "BASENAME": "47A",
+            "OID": "213904486865119",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8160716",
+            "NAME": "State House District 47A",
+            "OBJECTID": 896,
+            "CENTLON": "-093.8328784",
+            "LSY": "2018",
+            "HU100": 17530,
+            "AREALAND": 805802284,
+            "INTPTLON": "-093.8322799",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 13033,
+            "GEOID": "2767432",
+            "CENTLAT": "+44.8421889",
+            "AREAWATER": 90661,
+            "STATE": "27",
+            "BASENAME": "Waconia",
+            "OID": "27890206494317",
+            "LSADC": "25",
+            "PLACE": "67432",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8415296",
+            "NAME": "Waconia city",
+            "OBJECTID": 16701,
+            "PLACECC": "C5",
+            "CENTLON": "-093.7896395",
+            "CBSAPCI": "N",
+            "HU100": 4826,
+            "AREALAND": 13270685,
+            "INTPTLON": "-093.7900921",
+            "PLACENS": "02397159",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 106922,
+            "GEOID": "27019",
+            "CENTLAT": "+44.8206603",
+            "AREAWATER": 56672107,
+            "STATE": "27",
+            "BASENAME": "Carver",
+            "OID": "27590206386020",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8213196",
+            "NAME": "Carver County",
+            "OBJECTID": 3111,
+            "CENTLON": "-093.8025288",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659455",
+            "AREALAND": 916911877,
+            "INTPTLON": "-093.8000913",
+            "HU100": 40380,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733957,
+            "GEOID": "2706",
+            "CENTLAT": "+45.3344980",
+            "CDSESSN": "116",
+            "AREAWATER": 409022097,
+            "STATE": "27",
+            "BASENAME": "6",
+            "OID": "211904486864215",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3368069",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 63,
+            "CENTLON": "-093.8524258",
+            "HU100": 282150,
+            "AREALAND": 7460845760,
+            "INTPTLON": "-093.8520551",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3773,
+            "GEOID": "27019090303",
+            "CENTLAT": "+44.8476335",
+            "AREAWATER": 363242,
+            "STATE": "27",
+            "BASENAME": "903.03",
+            "OID": "2079015503683848",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.8474681",
+            "NAME": "Census Tract 903.03",
+            "OBJECTID": 15617,
+            "TRACT": "090303",
+            "CENTLON": "-093.7906738",
+            "HU100": 1709,
+            "AREALAND": 3194209,
+            "INTPTLON": "-093.7899206",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 274,
+            "GEOID": "270190903032001",
+            "CENTLAT": "+44.8514150",
+            "BLOCK": "2001",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "2001",
+            "OID": "210701008557205",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.8514150",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2001",
+            "OBJECTID": 6638223,
+            "TRACT": "090303",
+            "CENTLON": "-093.7740436",
+            "BLKGRP": "2",
+            "AREALAND": 261293,
+            "HU100": 100,
+            "INTPTLON": "-093.7740436",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "019"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -93.778397,
+          "y": 44.851028
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:12:14.610400+00:00",
+  "elapsed": 0.160622,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4451",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:12:14 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.3086&y=39.1992"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.3086&y=39.1992",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 69353,
+            "GEOID": "20018",
+            "CENTLAT": "+39.1221435",
+            "AREAWATER": 24512432,
+            "STATE": "20",
+            "BASENAME": "18",
+            "OID": "212904692048818",
+            "LSADC": "LU",
+            "SLDU": "018",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.1118073",
+            "NAME": "State Senate District 18",
+            "OBJECTID": 1146,
+            "CENTLON": "-095.9571189",
+            "LSY": "2018",
+            "HU100": 31357,
+            "AREALAND": 1275758938,
+            "INTPTLON": "-095.9549663",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00481813",
+            "POP100": 2937880,
+            "GEOID": "20",
+            "CENTLAT": "+38.4938959",
+            "AREAWATER": 1345707497,
+            "STATE": "20",
+            "BASENAME": "Kansas",
+            "STUSAB": "KS",
+            "OID": "2749051425496",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4985464",
+            "DIVISION": "4",
+            "NAME": "Kansas",
+            "REGION": "2",
+            "OBJECTID": 6,
+            "CENTLON": "-098.3786217",
+            "AREALAND": 211753777874,
+            "INTPTLON": "-098.3834298",
+            "HU100": 1275689,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "91648",
+            "CENTLAT": "+39.2062833",
+            "AREAWATER": 5759,
+            "BASENAME": "Wamego, KS",
+            "OID": "27021165036452",
+            "UA": "91648",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.2071041",
+            "NAME": "Wamego, KS Urban Area",
+            "OBJECTID": 9,
+            "CENTLON": "-096.3084035",
+            "AREALAND": 6072775,
+            "INTPTLON": "-096.3087496",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "75350",
+            "POP100": 5670,
+            "GEOID": "2014975350",
+            "CENTLAT": "+39.2061093",
+            "AREAWATER": 1563117,
+            "STATE": "20",
+            "BASENAME": "Wamego",
+            "OID": "27690165027610",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.2063616",
+            "NAME": "Wamego township",
+            "OBJECTID": 7681,
+            "CENTLON": "-096.2963187",
+            "COUSUBCC": "T1",
+            "HU100": 2384,
+            "AREALAND": 50482884,
+            "INTPTLON": "-096.2991500",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00476425",
+            "UR": "M",
+            "COUNTY": "149"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 25553,
+            "GEOID": "20051",
+            "CENTLAT": "+38.9253557",
+            "SLDL": "051",
+            "AREAWATER": 40047589,
+            "STATE": "20",
+            "BASENAME": "51",
+            "OID": "213904692049582",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.9210448",
+            "NAME": "State House District 51",
+            "OBJECTID": 2608,
+            "CENTLON": "-096.2074057",
+            "LSY": "2018",
+            "HU100": 10544,
+            "AREALAND": 3286155774,
+            "INTPTLON": "-096.2119125",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4841,
+            "GEOID": "2075325",
+            "CENTLAT": "+39.2053617",
+            "AREAWATER": 104949,
+            "STATE": "20",
+            "BASENAME": "Wamego",
+            "OID": "27890165029386",
+            "LSADC": "25",
+            "PLACE": "75325",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.2052626",
+            "NAME": "Wamego city",
+            "OBJECTID": 15408,
+            "PLACECC": "C1",
+            "CENTLON": "-096.3099133",
+            "CBSAPCI": "N",
+            "HU100": 2051,
+            "AREALAND": 6199952,
+            "INTPTLON": "-096.3101259",
+            "PLACENS": "02397188",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 25348,
+            "GEOID": "20149",
+            "CENTLAT": "+39.3789816",
+            "AREAWATER": 54149295,
+            "STATE": "20",
+            "BASENAME": "Pottawatomie",
+            "OID": "27590165026199",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3821868",
+            "NAME": "Pottawatomie County",
+            "OBJECTID": 683,
+            "CENTLON": "-096.3423260",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00485038",
+            "AREALAND": 2177507162,
+            "INTPTLON": "-096.3371126",
+            "HU100": 9866,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "149"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 700773,
+            "GEOID": "2001",
+            "CENTLAT": "+38.7344691",
+            "CDSESSN": "116",
+            "AREAWATER": 595079553,
+            "STATE": "20",
+            "BASENAME": "1",
+            "OID": "211904691752364",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7315950",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 336,
+            "CENTLON": "-099.4118316",
+            "HU100": 314893,
+            "AREALAND": 136083289207,
+            "INTPTLON": "-099.4080367",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5991,
+            "GEOID": "20149000200",
+            "CENTLAT": "+39.1987767",
+            "AREAWATER": 2057018,
+            "STATE": "20",
+            "BASENAME": "2",
+            "OID": "20790165033174",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.1971773",
+            "NAME": "Census Tract 2",
+            "OBJECTID": 23010,
+            "TRACT": "000200",
+            "CENTLON": "-096.3247807",
+            "HU100": 2504,
+            "AREALAND": 55247816,
+            "INTPTLON": "-096.3326127",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "149"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "201490002002052",
+            "CENTLAT": "+39.1996055",
+            "BLOCK": "2052",
+            "AREAWATER": 0,
+            "STATE": "20",
+            "BASENAME": "2052",
+            "OID": "210701001905447",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.1996055",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2052",
+            "OBJECTID": 4447624,
+            "TRACT": "000200",
+            "CENTLON": "-096.3075607",
+            "BLKGRP": "2",
+            "AREALAND": 16043,
+            "HU100": 0,
+            "INTPTLON": "-096.3075607",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "149"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -96.3086,
+          "y": 39.1992
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

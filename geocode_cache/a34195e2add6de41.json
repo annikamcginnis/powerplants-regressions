@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:41:26.210545+00:00",
+  "elapsed": 0.158074,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4966",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:41:26 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.595975&y=43.440538"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.595975&y=43.440538",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 53942,
+            "GEOID": "33002",
+            "CENTLAT": "+43.7366806",
+            "AREAWATER": 118395829,
+            "STATE": "33",
+            "BASENAME": "2",
+            "OID": "212904692117037",
+            "LSADC": "LU",
+            "SLDU": "002",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.7429353",
+            "NAME": "State Senate District 2",
+            "OBJECTID": 1695,
+            "CENTLON": "-071.8053770",
+            "LSY": "2018",
+            "HU100": 31482,
+            "AREALAND": 2334122151,
+            "INTPTLON": "-071.8110465",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779794",
+            "POP100": 1377529,
+            "GEOID": "33",
+            "CENTLAT": "+43.6740331",
+            "AREAWATER": 1025973001,
+            "STATE": "33",
+            "BASENAME": "New Hampshire",
+            "STUSAB": "NH",
+            "OID": "27490227215319",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.6726907",
+            "DIVISION": "1",
+            "NAME": "New Hampshire",
+            "REGION": "1",
+            "OBJECTID": 23,
+            "CENTLON": "-071.5738496",
+            "AREALAND": 23190113978,
+            "INTPTLON": "-071.5843145",
+            "HU100": 638795,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "45856",
+            "CENTLAT": "+43.5431416",
+            "AREAWATER": 7562067,
+            "BASENAME": "Laconia, NH",
+            "OID": "27021286656762",
+            "UA": "45856",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.5422360",
+            "NAME": "Laconia, NH Urban Area",
+            "OBJECTID": 373,
+            "CENTLON": "-071.4446598",
+            "AREALAND": 73510794,
+            "INTPTLON": "-071.4436127",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "77060",
+            "POP100": 3962,
+            "GEOID": "3300177060",
+            "CENTLAT": "+43.4670675",
+            "AREAWATER": 2063453,
+            "STATE": "33",
+            "BASENAME": "Tilton",
+            "OID": "27690286625103",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.4712114",
+            "NAME": "Tilton town",
+            "OBJECTID": 3716,
+            "CENTLON": "-071.5748264",
+            "COUSUBCC": "T1",
+            "HU100": 1928,
+            "AREALAND": 28865232,
+            "INTPTLON": "-071.5764584",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00873739",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3324,
+            "GEOID": "3377100",
+            "CENTLAT": "+43.4443662",
+            "AREAWATER": 285251,
+            "STATE": "33",
+            "BASENAME": "Tilton Northfield",
+            "OID": "28090286626621",
+            "LSADC": "57",
+            "PLACE": "77100",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.4445264",
+            "NAME": "Tilton Northfield CDP",
+            "OBJECTID": 21175,
+            "PLACECC": "U2",
+            "CENTLON": "-071.5924174",
+            "CBSAPCI": "N",
+            "HU100": 1435,
+            "AREALAND": 8117186,
+            "INTPTLON": "-071.5926349",
+            "PLACENS": "02378093",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 6988,
+            "GEOID": "33004",
+            "CENTLAT": "+43.5159373",
+            "SLDL": "004",
+            "AREAWATER": 7958210,
+            "STATE": "33",
+            "BASENAME": "Belknap County No. 4",
+            "OID": "213904692117335",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.5116891",
+            "NAME": "State House District Belknap County No. 4",
+            "OBJECTID": 3926,
+            "CENTLON": "-071.5964319",
+            "LSY": "2018",
+            "HU100": 3623,
+            "AREALAND": 151560370,
+            "INTPTLON": "-071.5936889",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 63705,
+            "GEOID": "33001",
+            "CENTLAT": "+43.5179017",
+            "AREAWATER": 176541257,
+            "STATE": "33",
+            "BASENAME": "Belknap",
+            "OID": "27590286621899",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.5191091",
+            "NAME": "Belknap County",
+            "OBJECTID": 3120,
+            "CENTLON": "-071.4224504",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00873174",
+            "AREALAND": 1040779615,
+            "INTPTLON": "-071.4253661",
+            "HU100": 38252,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 697737,
+            "GEOID": "3301",
+            "CENTLAT": "+43.4580835",
+            "CDSESSN": "116",
+            "AREAWATER": 625319283,
+            "STATE": "33",
+            "BASENAME": "1",
+            "OID": "211904691755350",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.4647305",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 378,
+            "CENTLON": "-071.2066500",
+            "HU100": 327578,
+            "AREALAND": 6384304721,
+            "INTPTLON": "-071.2001774",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3962,
+            "GEOID": "33001965598",
+            "CENTLAT": "+43.4670675",
+            "AREAWATER": 2063453,
+            "STATE": "33",
+            "BASENAME": "9655.98",
+            "OID": "20790286630196",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.4712114",
+            "NAME": "Census Tract 9655.98",
+            "OBJECTID": 20511,
+            "TRACT": "965598",
+            "CENTLON": "-071.5748264",
+            "HU100": 1928,
+            "AREALAND": 28865232,
+            "INTPTLON": "-071.5764584",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 135,
+            "GEOID": "330019655981017",
+            "CENTLAT": "+43.4412073",
+            "BLOCK": "1017",
+            "AREAWATER": 0,
+            "STATE": "33",
+            "BASENAME": "1017",
+            "OID": "210701004676168",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.4412073",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1017",
+            "OBJECTID": 1357533,
+            "TRACT": "965598",
+            "CENTLON": "-071.6047038",
+            "BLKGRP": "1",
+            "AREALAND": 733618,
+            "HU100": 92,
+            "INTPTLON": "-071.6047038",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "001"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -71.595975,
+          "y": 43.440538
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

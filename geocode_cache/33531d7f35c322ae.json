@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T15:49:41.998726+00:00",
+  "elapsed": 0.1336,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3744",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:49:41 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.9144&y=42.7936"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.9144&y=42.7936",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 41731,
+            "GEOID": "50WDM",
+            "CENTLAT": "+42.9863838",
+            "AREAWATER": 26384701,
+            "STATE": "50",
+            "BASENAME": "Windham",
+            "OID": "212904693072189",
+            "LSADC": "L8",
+            "SLDU": "WDM",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.9872660",
+            "NAME": "Windham State Senate District",
+            "OBJECTID": 1479,
+            "CENTLON": "-072.7007778",
+            "LSY": "2018",
+            "HU100": 25933,
+            "AREALAND": 1839298665,
+            "INTPTLON": "-072.6847064",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "83950",
+            "POP100": 1344,
+            "GEOID": "5002583950",
+            "CENTLAT": "+42.7831042",
+            "AREAWATER": 6010224,
+            "STATE": "50",
+            "BASENAME": "Whitingham",
+            "OID": "27690264526436",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.7805148",
+            "NAME": "Whitingham town",
+            "OBJECTID": 2536,
+            "CENTLON": "-072.8668182",
+            "COUSUBCC": "T1",
+            "HU100": 909,
+            "AREALAND": 94938219,
+            "INTPTLON": "-072.8694433",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462261",
+            "UR": "R",
+            "COUNTY": "025"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 4321,
+            "GEOID": "50W-6",
+            "CENTLAT": "+42.8175565",
+            "SLDL": "W-6",
+            "AREAWATER": 11071978,
+            "STATE": "50",
+            "BASENAME": "Windham-6",
+            "OID": "213904693072241",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.8182629",
+            "NAME": "Windham-6 State House District",
+            "OBJECTID": 4379,
+            "CENTLON": "-072.8216988",
+            "LSY": "2018",
+            "HU100": 3901,
+            "AREALAND": 289788581,
+            "INTPTLON": "-072.8167509",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 45905,
+            "GEOID": "50025",
+            "CENTLAT": "+42.9903798",
+            "AREAWATER": 32919838,
+            "STATE": "50",
+            "BASENAME": "Windham",
+            "OID": "27590264497132",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9953348",
+            "NAME": "Windham County",
+            "OBJECTID": 3138,
+            "CENTLON": "-072.7138874",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461769",
+            "AREALAND": 2034346401,
+            "INTPTLON": "-072.7219550",
+            "HU100": 29916,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "025"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1344,
+            "GEOID": "50025968100",
+            "CENTLAT": "+42.7831042",
+            "AREAWATER": 6010224,
+            "STATE": "50",
+            "BASENAME": "9681",
+            "OID": "20790264578528",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.7805148",
+            "NAME": "Census Tract 9681",
+            "OBJECTID": 64963,
+            "TRACT": "968100",
+            "CENTLON": "-072.8668182",
+            "HU100": 909,
+            "AREALAND": 94938219,
+            "INTPTLON": "-072.8694433",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "025"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "500259681002006",
+            "CENTLAT": "+42.8100740",
+            "BLOCK": "2006",
+            "AREAWATER": 4049276,
+            "STATE": "50",
+            "BASENAME": "2006",
+            "OID": "210701004713964",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.8100740",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2006",
+            "OBJECTID": 1866759,
+            "TRACT": "968100",
+            "CENTLON": "-072.9034944",
+            "BLKGRP": "2",
+            "AREALAND": 0,
+            "HU100": 0,
+            "INTPTLON": "-072.9034944",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "W",
+            "UR": "R",
+            "COUNTY": "025"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.9144,
+          "y": 42.7936
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

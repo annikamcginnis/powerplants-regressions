@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:38:15.458930+00:00",
+  "elapsed": 0.510413,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4631",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:15 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.8678&y=38.6681"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.8678&y=38.6681",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 141454,
+            "GEOID": "24027",
+            "CENTLAT": "+38.6191668",
+            "AREAWATER": 9214611,
+            "STATE": "24",
+            "BASENAME": "27",
+            "OID": "212904691844434",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.6210019",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 1071,
+            "CENTLON": "-076.6935199",
+            "LSY": "2018",
+            "HU100": 51725,
+            "AREALAND": 935746784,
+            "INTPTLON": "-076.7048380",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01714934",
+            "POP100": 6177224,
+            "GEOID": "24",
+            "CENTLAT": "+38.9463607",
+            "AREAWATER": 6979171386,
+            "STATE": "24",
+            "BASENAME": "Maryland",
+            "STUSAB": "MD",
+            "OID": "27490140608205",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9466584",
+            "DIVISION": "5",
+            "NAME": "Maryland",
+            "REGION": "3",
+            "OBJECTID": 20,
+            "CENTLON": "-076.6789663",
+            "AREALAND": 25151895765,
+            "INTPTLON": "-076.6744939",
+            "HU100": 2530844,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9973383,
+            "GEOID": "548",
+            "CENTLAT": "+39.0282791",
+            "AREAWATER": 4067866689,
+            "BASENAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",
+            "OID": "2619013782255247",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.0246056",
+            "NAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",
+            "CSA": "548",
+            "OBJECTID": 103,
+            "CENTLON": "-077.3083318",
+            "HU100": 4006033,
+            "AREALAND": 32735838394,
+            "INTPTLON": "-077.3105306",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90980",
+            "POP100": 20480,
+            "GEOID": "2403390980",
+            "CENTLAT": "+38.7006243",
+            "AREAWATER": 761316,
+            "STATE": "24",
+            "BASENAME": "11, Brandywine",
+            "OID": "27690286313752",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7038463",
+            "NAME": "District 11, Brandywine",
+            "OBJECTID": 23783,
+            "CENTLON": "-076.8436236",
+            "COUSUBCC": "Z1",
+            "HU100": 7064,
+            "AREALAND": 122888690,
+            "INTPTLON": "-076.8397759",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929448",
+            "UR": "M",
+            "COUNTY": "033"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 10550,
+            "GEOID": "2409325",
+            "CENTLAT": "+38.6963280",
+            "AREAWATER": 201861,
+            "STATE": "24",
+            "BASENAME": "Brandywine",
+            "OID": "28090286317585",
+            "LSADC": "57",
+            "PLACE": "09325",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.6850775",
+            "NAME": "Brandywine CDP",
+            "OBJECTID": 30183,
+            "PLACECC": "U1",
+            "CENTLON": "-076.8845784",
+            "CBSAPCI": "N",
+            "HU100": 3629,
+            "AREALAND": 54493647,
+            "INTPTLON": "-076.8859926",
+            "PLACENS": "02389232",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 50488,
+            "GEOID": "2427A",
+            "CENTLAT": "+38.6279636",
+            "SLDL": "27A",
+            "AREAWATER": 1391257,
+            "STATE": "24",
+            "BASENAME": "27A",
+            "OID": "213904691844794",
+            "LSADC": "L6",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.6279699",
+            "NAME": "State Legislative Subdistrict 27A",
+            "OBJECTID": 3437,
+            "CENTLON": "-076.8121929",
+            "LSY": "2018",
+            "HU100": 18274,
+            "AREALAND": 311967721,
+            "INTPTLON": "-076.8142505",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 967201,
+            "GEOID": "24033",
+            "CENTLAT": "+38.8293079",
+            "AREAWATER": 41922695,
+            "STATE": "24",
+            "BASENAME": "Prince George's",
+            "OID": "27590286309965",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.8292778",
+            "NAME": "Prince George's County",
+            "OBJECTID": 1339,
+            "CENTLON": "-076.8472801",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01714670",
+            "AREALAND": 1250057213,
+            "INTPTLON": "-076.8481880",
+            "HU100": 359957,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "033"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 795379,
+            "GEOID": "2405",
+            "CENTLAT": "+38.4746485",
+            "CDSESSN": "116",
+            "AREAWATER": 2066519525,
+            "STATE": "24",
+            "BASENAME": "5",
+            "OID": "211904690760337",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.4718173",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 199,
+            "CENTLON": "-076.7132342",
+            "HU100": 295964,
+            "AREALAND": 3840026634,
+            "INTPTLON": "-076.7120357",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6009,
+            "GEOID": "24033801003",
+            "CENTLAT": "+38.6792056",
+            "AREAWATER": 457953,
+            "STATE": "24",
+            "BASENAME": "8010.03",
+            "OID": "207903711045701",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.6794572",
+            "NAME": "Census Tract 8010.03",
+            "OBJECTID": 72459,
+            "TRACT": "801003",
+            "CENTLON": "-076.8605074",
+            "HU100": 2238,
+            "AREALAND": 61935778,
+            "INTPTLON": "-076.8631539",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "033"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 228,
+            "GEOID": "240338010032012",
+            "CENTLAT": "+38.6790057",
+            "BLOCK": "2012",
+            "AREAWATER": 4199,
+            "STATE": "24",
+            "BASENAME": "2012",
+            "OID": "210701008477570",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.6794572",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2012",
+            "OBJECTID": 561968,
+            "TRACT": "801003",
+            "CENTLON": "-076.8633192",
+            "BLKGRP": "2",
+            "AREALAND": 1922475,
+            "HU100": 91,
+            "INTPTLON": "-076.8631539",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "033"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.8678,
+          "y": 38.6681
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

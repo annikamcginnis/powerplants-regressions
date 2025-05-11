@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:03:20.858016+00:00",
+  "elapsed": 0.166461,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4898",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:03:20 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.174679&y=43.435775"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.174679&y=43.435775",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 176570,
+            "GEOID": "55020",
+            "CENTLAT": "+43.4801216",
+            "AREAWATER": 2357570008,
+            "STATE": "55",
+            "BASENAME": "20",
+            "OID": "212904691748223",
+            "LSADC": "LU",
+            "SLDU": "020",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.4773772",
+            "NAME": "State Senate District 20",
+            "OBJECTID": 1158,
+            "CENTLON": "-087.8517520",
+            "LSY": "2018",
+            "HU100": 75968,
+            "AREALAND": 2543863373,
+            "INTPTLON": "-087.8506671",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2053232,
+            "GEOID": "376",
+            "CENTLAT": "+43.0980691",
+            "AREAWATER": 6229970640,
+            "BASENAME": "Milwaukee-Racine-Waukesha, WI",
+            "OID": "2619013782255183",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.0999544",
+            "NAME": "Milwaukee-Racine-Waukesha, WI CSA",
+            "CSA": "376",
+            "OBJECTID": 128,
+            "CENTLON": "-088.0793626",
+            "HU100": 905900,
+            "AREALAND": 9777425547,
+            "INTPTLON": "-088.0792459",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "93916",
+            "CENTLAT": "+43.4169291",
+            "AREAWATER": 1168975,
+            "BASENAME": "West Bend, WI",
+            "OID": "27021245903608",
+            "UA": "93916",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.4174792",
+            "NAME": "West Bend, WI Urban Area",
+            "OBJECTID": 28,
+            "CENTLON": "-088.1831557",
+            "AREALAND": 44229767,
+            "INTPTLON": "-088.1829636",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "85350",
+            "POP100": 31752,
+            "GEOID": "5513185350",
+            "CENTLAT": "+43.4173406",
+            "AREAWATER": 403725,
+            "STATE": "55",
+            "BASENAME": "West Bend",
+            "OID": "27690245862864",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+43.4174925",
+            "NAME": "West Bend city",
+            "OBJECTID": 31794,
+            "CENTLON": "-088.1818356",
+            "COUSUBCC": "C5",
+            "HU100": 14300,
+            "AREALAND": 40222917,
+            "INTPTLON": "-088.1816855",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01584399",
+            "UR": "M",
+            "COUNTY": "131"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 59054,
+            "GEOID": "55058",
+            "CENTLAT": "+43.3439461",
+            "SLDL": "058",
+            "AREAWATER": 6540184,
+            "STATE": "55",
+            "BASENAME": "58",
+            "OID": "213904691751518",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.3480073",
+            "NAME": "Assembly District 58",
+            "OBJECTID": 3740,
+            "CENTLON": "-088.2257187",
+            "LSY": "2018",
+            "HU100": 26046,
+            "AREALAND": 228029974,
+            "INTPTLON": "-088.2258108",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 31752,
+            "GEOID": "5585350",
+            "CENTLAT": "+43.4173406",
+            "AREAWATER": 403725,
+            "STATE": "55",
+            "BASENAME": "West Bend",
+            "OID": "27890245872219",
+            "LSADC": "25",
+            "PLACE": "85350",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.4174925",
+            "NAME": "West Bend city",
+            "OBJECTID": 1322,
+            "PLACECC": "C5",
+            "CENTLON": "-088.1818356",
+            "CBSAPCI": "N",
+            "HU100": 14300,
+            "AREALAND": 40222917,
+            "INTPTLON": "-088.1816855",
+            "PLACENS": "01584399",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 136761,
+            "GEOID": "55131",
+            "CENTLAT": "+43.3683623",
+            "AREAWATER": 12999404,
+            "STATE": "55",
+            "BASENAME": "Washington",
+            "OID": "27590245814468",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.3911560",
+            "NAME": "Washington County",
+            "OBJECTID": 947,
+            "CENTLON": "-088.2307901",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581125",
+            "AREALAND": 1115362166,
+            "INTPTLON": "-088.2329166",
+            "HU100": 58311,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "131"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 735571,
+            "GEOID": "5505",
+            "CENTLAT": "+43.1989178",
+            "CDSESSN": "116",
+            "AREAWATER": 165430505,
+            "STATE": "55",
+            "BASENAME": "5",
+            "OID": "211904691757254",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.1995976",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 360,
+            "CENTLON": "-088.5343423",
+            "HU100": 322906,
+            "AREALAND": 4897677837,
+            "INTPTLON": "-088.5315279",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4544,
+            "GEOID": "55131420105",
+            "CENTLAT": "+43.4427515",
+            "AREAWATER": 434103,
+            "STATE": "55",
+            "BASENAME": "4201.05",
+            "OID": "207903716827592",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.4416474",
+            "NAME": "Census Tract 4201.05",
+            "OBJECTID": 76045,
+            "TRACT": "420105",
+            "CENTLON": "-088.1760065",
+            "HU100": 1918,
+            "AREALAND": 6505035,
+            "INTPTLON": "-088.1714926",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "131"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 6,
+            "GEOID": "551314201052006",
+            "CENTLAT": "+43.4367974",
+            "BLOCK": "2006",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "2006",
+            "OID": "210701005982691",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.4367974",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2006",
+            "OBJECTID": 7729969,
+            "TRACT": "420105",
+            "CENTLON": "-088.1752718",
+            "BLKGRP": "2",
+            "AREALAND": 269579,
+            "HU100": 3,
+            "INTPTLON": "-088.1752718",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "131"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -88.174679,
+          "y": 43.435775
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

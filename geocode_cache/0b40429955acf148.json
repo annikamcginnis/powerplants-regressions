@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:37:17.856875+00:00",
+  "elapsed": 0.193276,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4103",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:37:17 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.775577&y=45.334575"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.775577&y=45.334575",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 93342,
+            "GEOID": "27030",
+            "CENTLAT": "+45.2830554",
+            "AREAWATER": 23042887,
+            "STATE": "27",
+            "BASENAME": "30",
+            "OID": "212904486864823",
+            "LSADC": "LU",
+            "SLDU": "030",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.2798537",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 114,
+            "CENTLON": "-093.6496213",
+            "LSY": "2018",
+            "HU100": 33072,
+            "AREALAND": 396322131,
+            "INTPTLON": "-093.6419418",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 4078788,
+            "GEOID": "378",
+            "CENTLAT": "+45.0455756",
+            "AREAWATER": 1512509911,
+            "BASENAME": "Minneapolis-St. Paul, MN-WI",
+            "OID": "2619013782255184",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.0450358",
+            "NAME": "Minneapolis-St. Paul, MN-WI CSA",
+            "CSA": "378",
+            "OBJECTID": 129,
+            "CENTLON": "-093.4646425",
+            "HU100": 1664221,
+            "AREALAND": 28418647879,
+            "INTPTLON": "-093.4695506",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "05770",
+            "POP100": 7924,
+            "GEOID": "2714105770",
+            "CENTLAT": "+45.3426200",
+            "AREAWATER": 4639149,
+            "STATE": "27",
+            "BASENAME": "Big Lake",
+            "OID": "27690424311572",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.3417794",
+            "NAME": "Big Lake township",
+            "OBJECTID": 26091,
+            "CENTLON": "-093.7100952",
+            "COUSUBCC": "T1",
+            "HU100": 2814,
+            "AREALAND": 99659035,
+            "INTPTLON": "-093.7149074",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00663589",
+            "UR": "M",
+            "COUNTY": "141"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 44819,
+            "GEOID": "2730A",
+            "CENTLAT": "+45.3321394",
+            "SLDL": "30A",
+            "AREAWATER": 10607884,
+            "STATE": "27",
+            "BASENAME": "30A",
+            "OID": "213904486865159",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3326452",
+            "NAME": "State House District 30A",
+            "OBJECTID": 1000,
+            "CENTLON": "-093.6386004",
+            "LSY": "2018",
+            "HU100": 16465,
+            "AREALAND": 216241525,
+            "INTPTLON": "-093.6390902",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 97183,
+            "GEOID": "27141",
+            "CENTLAT": "+45.4439830",
+            "AREAWATER": 46966086,
+            "STATE": "27",
+            "BASENAME": "Sherburne",
+            "OID": "27590424291585",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.4531762",
+            "NAME": "Sherburne County",
+            "OBJECTID": 2685,
+            "CENTLON": "-093.7744401",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659515",
+            "AREALAND": 1121230367,
+            "INTPTLON": "-093.7691300",
+            "HU100": 35909,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "141"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733957,
+            "GEOID": "2706",
+            "CENTLAT": "+45.3344980",
+            "CDSESSN": "116",
+            "AREAWATER": 409022097,
+            "STATE": "27",
+            "BASENAME": "6",
+            "OID": "211904486864215",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3368069",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 63,
+            "CENTLON": "-093.8524258",
+            "HU100": 282150,
+            "AREALAND": 7460845760,
+            "INTPTLON": "-093.8520551",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5397,
+            "GEOID": "27141030410",
+            "CENTLAT": "+45.3171779",
+            "AREAWATER": 1773945,
+            "STATE": "27",
+            "BASENAME": "304.10",
+            "OID": "2079015482047180",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.3168917",
+            "NAME": "Census Tract 304.10",
+            "OBJECTID": 4504,
+            "TRACT": "030410",
+            "CENTLON": "-093.7344552",
+            "HU100": 1991,
+            "AREALAND": 44825385,
+            "INTPTLON": "-093.7343930",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "141"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "271410304102006",
+            "CENTLAT": "+45.3347868",
+            "BLOCK": "2006",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "2006",
+            "OID": "210701008553937",
+            "LSADC": "BK",
+            "INTPTLAT": "+45.3347868",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2006",
+            "OBJECTID": 4829796,
+            "TRACT": "030410",
+            "CENTLON": "-093.7763896",
+            "BLKGRP": "2",
+            "AREALAND": 9236,
+            "HU100": 0,
+            "INTPTLON": "-093.7763896",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "141"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -93.775577,
+          "y": 45.334575
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:12:33.620907+00:00",
+  "elapsed": 0.192217,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4528",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:12:33 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.108333&y=44.901667"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.108333&y=44.901667",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 24953,
+            "GEOID": "46005",
+            "CENTLAT": "+44.8907188",
+            "AREAWATER": 34022220,
+            "STATE": "46",
+            "BASENAME": "5",
+            "OID": "212904690192043",
+            "LSADC": "LU",
+            "SLDU": "005",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8932711",
+            "NAME": "State Senate District 5",
+            "OBJECTID": 800,
+            "CENTLON": "-097.1272397",
+            "LSY": "2018",
+            "HU100": 11781,
+            "AREALAND": 337100810,
+            "INTPTLON": "-097.1281880",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01785534",
+            "POP100": 886667,
+            "GEOID": "46",
+            "CENTLAT": "+44.4445675",
+            "AREAWATER": 3383664203,
+            "STATE": "46",
+            "BASENAME": "South Dakota",
+            "STUSAB": "SD",
+            "OID": "2749092876144",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4467957",
+            "DIVISION": "4",
+            "NAME": "South Dakota",
+            "REGION": "2",
+            "OBJECTID": 9,
+            "CENTLON": "-100.2270264",
+            "AREALAND": 196345992286,
+            "INTPTLON": "-100.2381762",
+            "HU100": 393375,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "92701",
+            "CENTLAT": "+44.9009816",
+            "AREAWATER": 32904,
+            "BASENAME": "Watertown, SD",
+            "OID": "27021682223651",
+            "UA": "92701",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9009216",
+            "NAME": "Watertown, SD Urban Area",
+            "OBJECTID": 1546,
+            "CENTLON": "-097.1131387",
+            "AREALAND": 32048929,
+            "INTPTLON": "-097.1134602",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "69300",
+            "POP100": 22655,
+            "GEOID": "4602969300",
+            "CENTLAT": "+44.9094803",
+            "AREAWATER": 20656866,
+            "STATE": "46",
+            "BASENAME": "Watertown",
+            "OID": "27690682223611",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.9091876",
+            "NAME": "Watertown city",
+            "OBJECTID": 28161,
+            "CENTLON": "-097.1532066",
+            "COUSUBCC": "C5",
+            "HU100": 10878,
+            "AREALAND": 46929237,
+            "INTPTLON": "-097.1556848",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01267627",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 24953,
+            "GEOID": "46005",
+            "CENTLAT": "+44.8907188",
+            "SLDL": "005",
+            "AREAWATER": 34022220,
+            "STATE": "46",
+            "BASENAME": "5",
+            "OID": "213904690192142",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8932711",
+            "NAME": "State House District 5",
+            "OBJECTID": 1676,
+            "CENTLON": "-097.1272397",
+            "LSY": "2018",
+            "HU100": 11781,
+            "AREALAND": 337100810,
+            "INTPTLON": "-097.1281880",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 22655,
+            "GEOID": "4669300",
+            "CENTLAT": "+44.9094803",
+            "AREAWATER": 20656866,
+            "STATE": "46",
+            "BASENAME": "Watertown",
+            "OID": "27890682223618",
+            "LSADC": "25",
+            "PLACE": "69300",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9091876",
+            "NAME": "Watertown city",
+            "OBJECTID": 7143,
+            "PLACECC": "C5",
+            "CENTLON": "-097.1532066",
+            "CBSAPCI": "Y",
+            "HU100": 10878,
+            "AREALAND": 46929237,
+            "INTPTLON": "-097.1556848",
+            "PLACENS": "01267627",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 28325,
+            "GEOID": "46029",
+            "CENTLAT": "+44.9778169",
+            "AREAWATER": 76608858,
+            "STATE": "46",
+            "BASENAME": "Codington",
+            "OID": "27590682223588",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9662852",
+            "NAME": "Codington County",
+            "OBJECTID": 2330,
+            "CENTLON": "-097.1886160",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01265791",
+            "AREALAND": 1780837048,
+            "INTPTLON": "-097.1988375",
+            "HU100": 13211,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 886667,
+            "GEOID": "4600",
+            "CENTLAT": "+44.4445675",
+            "CDSESSN": "116",
+            "AREAWATER": 3383664203,
+            "STATE": "46",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692356963",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.4467957",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 340,
+            "CENTLON": "-100.2270264",
+            "HU100": 393375,
+            "AREALAND": 196345992286,
+            "INTPTLON": "-100.2381762",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2403,
+            "GEOID": "46029954402",
+            "CENTLAT": "+44.8966513",
+            "AREAWATER": 0,
+            "STATE": "46",
+            "BASENAME": "9544.02",
+            "OID": "2079015491010128",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.8966513",
+            "NAME": "Census Tract 9544.02",
+            "OBJECTID": 18800,
+            "TRACT": "954402",
+            "CENTLON": "-097.1169764",
+            "HU100": 1364,
+            "AREALAND": 1746486,
+            "INTPTLON": "-097.1169764",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "029"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 7,
+            "GEOID": "460299544021000",
+            "CENTLAT": "+44.9014632",
+            "BLOCK": "1000",
+            "AREAWATER": 0,
+            "STATE": "46",
+            "BASENAME": "1000",
+            "OID": "210701002471346",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.9014632",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1000",
+            "OBJECTID": 93892,
+            "TRACT": "954402",
+            "CENTLON": "-097.1092810",
+            "BLKGRP": "1",
+            "AREALAND": 41180,
+            "HU100": 2,
+            "INTPTLON": "-097.1092810",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "029"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.108333,
+          "y": 44.901667
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

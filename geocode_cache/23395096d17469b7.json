@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:03:19.097545+00:00",
+  "elapsed": 0.185934,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4503",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:03:19 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.1178&y=44.5431"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.1178&y=44.5431",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 77119,
+            "GEOID": "27016",
+            "CENTLAT": "+44.6004348",
+            "AREAWATER": 78630371,
+            "STATE": "27",
+            "BASENAME": "16",
+            "OID": "212904486864893",
+            "LSADC": "LU",
+            "SLDU": "016",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.5934317",
+            "NAME": "State Senate District 16",
+            "OBJECTID": 586,
+            "CENTLON": "-095.5646772",
+            "LSY": "2018",
+            "HU100": 35298,
+            "AREALAND": 8817696396,
+            "INTPTLON": "-095.5747724",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "73990",
+            "CENTLAT": "+44.5407447",
+            "AREAWATER": 13019,
+            "BASENAME": "Redwood Falls, MN",
+            "OID": "27021688085459",
+            "UA": "73990",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5407572",
+            "NAME": "Redwood Falls, MN Urban Area",
+            "OBJECTID": 1034,
+            "CENTLON": "-095.1042648",
+            "AREALAND": 8520508,
+            "INTPTLON": "-095.1035515",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "53656",
+            "POP100": 5102,
+            "GEOID": "2712753656",
+            "CENTLAT": "+44.5469602",
+            "AREAWATER": 316512,
+            "STATE": "27",
+            "BASENAME": "Redwood Falls",
+            "OID": "27690688061770",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.5471247",
+            "NAME": "Redwood Falls city",
+            "OBJECTID": 17655,
+            "CENTLON": "-095.1030763",
+            "COUSUBCC": "C5",
+            "HU100": 2441,
+            "AREALAND": 13678602,
+            "INTPTLON": "-095.1026371",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02396342",
+            "UR": "M",
+            "COUNTY": "127"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 39311,
+            "GEOID": "2716B",
+            "CENTLAT": "+44.3479897",
+            "SLDL": "16B",
+            "AREAWATER": 25251305,
+            "STATE": "27",
+            "BASENAME": "16B",
+            "OID": "213904486864917",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.3523038",
+            "NAME": "State House District 16B",
+            "OBJECTID": 1976,
+            "CENTLON": "-094.9519255",
+            "LSY": "2018",
+            "HU100": 17906,
+            "AREALAND": 3392014424,
+            "INTPTLON": "-094.9500329",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 5102,
+            "GEOID": "2753656",
+            "CENTLAT": "+44.5469602",
+            "AREAWATER": 316512,
+            "STATE": "27",
+            "BASENAME": "Redwood Falls",
+            "OID": "27890250773108",
+            "LSADC": "25",
+            "PLACE": "53656",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.5471247",
+            "NAME": "Redwood Falls city",
+            "OBJECTID": 2984,
+            "PLACECC": "C5",
+            "CENTLON": "-095.1030763",
+            "CBSAPCI": "N",
+            "HU100": 2441,
+            "AREALAND": 13678602,
+            "INTPTLON": "-095.1026371",
+            "PLACENS": "02396342",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 15425,
+            "GEOID": "27127",
+            "CENTLAT": "+44.4036079",
+            "AREAWATER": 8220826,
+            "STATE": "27",
+            "BASENAME": "Redwood",
+            "OID": "27590688037486",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4035357",
+            "NAME": "Redwood County",
+            "OBJECTID": 3186,
+            "CENTLON": "-095.2539171",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659509",
+            "AREALAND": 2275493325,
+            "INTPTLON": "-095.2542415",
+            "HU100": 7086,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "127"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 673514,
+            "GEOID": "2707",
+            "CENTLAT": "+46.5548229",
+            "CDSESSN": "116",
+            "AREAWATER": 5058813380,
+            "STATE": "27",
+            "BASENAME": "7",
+            "OID": "211904486864171",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5530202",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 61,
+            "CENTLON": "-095.6788945",
+            "HU100": 327543,
+            "AREALAND": 86581615754,
+            "INTPTLON": "-095.6759048",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2114,
+            "GEOID": "27127750300",
+            "CENTLAT": "+44.5343499",
+            "AREAWATER": 432566,
+            "STATE": "27",
+            "BASENAME": "7503",
+            "OID": "20790688085441",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5358442",
+            "NAME": "Census Tract 7503",
+            "OBJECTID": 78576,
+            "TRACT": "750300",
+            "CENTLON": "-095.1408011",
+            "HU100": 1041,
+            "AREALAND": 10611394,
+            "INTPTLON": "-095.1537157",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "127"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 56,
+            "GEOID": "271277503001000",
+            "CENTLAT": "+44.5449500",
+            "BLOCK": "1000",
+            "AREAWATER": 3694,
+            "STATE": "27",
+            "BASENAME": "1000",
+            "OID": "210701004729902",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.5479214",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1000",
+            "OBJECTID": 3290002,
+            "TRACT": "750300",
+            "CENTLON": "-095.1185946",
+            "BLKGRP": "1",
+            "AREALAND": 228748,
+            "HU100": 35,
+            "INTPTLON": "-095.1208645",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "127"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -95.1178,
+          "y": 44.5431
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

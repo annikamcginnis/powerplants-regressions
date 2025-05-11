@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:40:30.332070+00:00",
+  "elapsed": 0.154618,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4858",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:40:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.590556&y=40.540556"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.590556&y=40.540556",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 327588,
+            "GEOID": "39012",
+            "CENTLAT": "+40.4168863",
+            "AREAWATER": 71617943,
+            "STATE": "39",
+            "BASENAME": "12",
+            "OID": "212904692054843",
+            "LSADC": "LU",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.4169946",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 1246,
+            "CENTLON": "-084.1907936",
+            "LSY": "2018",
+            "HU100": 144629,
+            "AREALAND": 6887063146,
+            "INTPTLON": "-084.1911333",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 220087,
+            "GEOID": "338",
+            "CENTLAT": "+40.6772957",
+            "AREAWATER": 44211563,
+            "BASENAME": "Lima-Van Wert-Celina, OH",
+            "OID": "2619013782255165",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6666963",
+            "NAME": "Lima-Van Wert-Celina, OH CSA",
+            "CSA": "338",
+            "OBJECTID": 110,
+            "CENTLON": "-084.3962881",
+            "HU100": 94864,
+            "AREALAND": 4339602671,
+            "INTPTLON": "-084.3872644",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "14860",
+            "CENTLAT": "+40.5535766",
+            "AREAWATER": 181760,
+            "BASENAME": "Celina, OH",
+            "OID": "27021350077936",
+            "UA": "14860",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5533456",
+            "NAME": "Celina, OH Urban Area",
+            "OBJECTID": 425,
+            "CENTLON": "-084.5575002",
+            "AREALAND": 15764453,
+            "INTPTLON": "-084.5573444",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "38724",
+            "POP100": 13802,
+            "GEOID": "3910738724",
+            "CENTLAT": "+40.5431053",
+            "AREAWATER": 20054635,
+            "STATE": "39",
+            "BASENAME": "Jefferson",
+            "OID": "27690350007538",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5451005",
+            "NAME": "Jefferson township",
+            "OBJECTID": 13663,
+            "CENTLON": "-084.5681538",
+            "COUSUBCC": "T1",
+            "HU100": 6267,
+            "AREALAND": 87181802,
+            "INTPTLON": "-084.5679850",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086628",
+            "UR": "M",
+            "COUNTY": "107"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 116562,
+            "GEOID": "39084",
+            "CENTLAT": "+40.4291320",
+            "SLDL": "084",
+            "AREAWATER": 36328564,
+            "STATE": "39",
+            "BASENAME": "84",
+            "OID": "213904692055664",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.4259194",
+            "NAME": "State House District 84",
+            "OBJECTID": 2538,
+            "CENTLON": "-084.4665556",
+            "LSY": "2018",
+            "HU100": 49295,
+            "AREALAND": 3400604761,
+            "INTPTLON": "-084.4637066",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 10935,
+            "GEOID": "3912868",
+            "CENTLAT": "+40.5550185",
+            "AREAWATER": 843060,
+            "STATE": "39",
+            "BASENAME": "Celina",
+            "OID": "27890350018207",
+            "LSADC": "25",
+            "PLACE": "12868",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5554888",
+            "NAME": "Celina city",
+            "OBJECTID": 16017,
+            "PLACECC": "C1",
+            "CENTLON": "-084.5625884",
+            "CBSAPCI": "Y",
+            "HU100": 4951,
+            "AREALAND": 13022296,
+            "INTPTLON": "-084.5614225",
+            "PLACENS": "02393778",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 42528,
+            "GEOID": "39107",
+            "CENTLAT": "+40.5398835",
+            "AREAWATER": 28431995,
+            "STATE": "39",
+            "BASENAME": "Mercer",
+            "OID": "27590349989034",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5353325",
+            "NAME": "Mercer County",
+            "OBJECTID": 3134,
+            "CENTLON": "-084.6293616",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074066",
+            "AREALAND": 1197732211,
+            "INTPTLON": "-084.6320588",
+            "HU100": 17888,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "107"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 731052,
+            "GEOID": "3905",
+            "CENTLAT": "+41.1544014",
+            "CDSESSN": "116",
+            "AREAWATER": 72956784,
+            "STATE": "39",
+            "BASENAME": "5",
+            "OID": "211904690779001",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.1557510",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 144,
+            "CENTLON": "-084.0414125",
+            "HU100": 317751,
+            "AREALAND": 14571403402,
+            "INTPTLON": "-084.0447886",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4857,
+            "GEOID": "39107967400",
+            "CENTLAT": "+40.5476737",
+            "AREAWATER": 69968,
+            "STATE": "39",
+            "BASENAME": "9674",
+            "OID": "20790350076305",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5487435",
+            "NAME": "Census Tract 9674",
+            "OBJECTID": 40688,
+            "TRACT": "967400",
+            "CENTLON": "-084.6039048",
+            "HU100": 2101,
+            "AREALAND": 23552503,
+            "INTPTLON": "-084.6031111",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "107"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 7,
+            "GEOID": "391079674004018",
+            "CENTLAT": "+40.5418662",
+            "BLOCK": "4018",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "4018",
+            "OID": "210701004269216",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.5418662",
+            "FUNCSTAT": "S",
+            "NAME": "Block 4018",
+            "OBJECTID": 7338996,
+            "TRACT": "967400",
+            "CENTLON": "-084.5927001",
+            "BLKGRP": "4",
+            "AREALAND": 329286,
+            "HU100": 1,
+            "INTPTLON": "-084.5927001",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "107"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -84.590556,
+          "y": 40.540556
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

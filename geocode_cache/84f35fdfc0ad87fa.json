@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:13:09.549230+00:00",
+  "elapsed": 0.155225,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4942",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:13:09 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.654017&y=44.856372"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-89.654017&y=44.856372",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 176184,
+            "GEOID": "55029",
+            "CENTLAT": "+45.3475954",
+            "AREAWATER": 346631810,
+            "STATE": "55",
+            "BASENAME": "29",
+            "OID": "212904691749258",
+            "LSADC": "LU",
+            "SLDU": "029",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3449229",
+            "NAME": "State Senate District 29",
+            "OBJECTID": 1222,
+            "CENTLON": "-090.5924026",
+            "LSY": "2018",
+            "HU100": 86757,
+            "AREALAND": 10713149343,
+            "INTPTLON": "-090.5950232",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 311012,
+            "GEOID": "554",
+            "CENTLAT": "+44.8236289",
+            "AREAWATER": 252224233,
+            "BASENAME": "Wausau-Stevens Point-Wisconsin Rapids, WI",
+            "OID": "2619013782255248",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.8244788",
+            "NAME": "Wausau-Stevens Point-Wisconsin Rapids, WI CSA",
+            "CSA": "554",
+            "OBJECTID": 104,
+            "CENTLON": "-089.7577835",
+            "HU100": 141559,
+            "AREALAND": 10406081260,
+            "INTPTLON": "-089.7547087",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "93025",
+            "CENTLAT": "+44.9080335",
+            "AREAWATER": 8674389,
+            "BASENAME": "Wausau, WI",
+            "OID": "27021451876841",
+            "UA": "93025",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9013083",
+            "NAME": "Wausau, WI Urban Area",
+            "OBJECTID": 2642,
+            "CENTLON": "-089.6288250",
+            "AREALAND": 126229977,
+            "INTPTLON": "-089.6335054",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "40550",
+            "POP100": 8353,
+            "GEOID": "5507340550",
+            "CENTLAT": "+44.8163820",
+            "AREAWATER": 945091,
+            "STATE": "55",
+            "BASENAME": "Kronenwetter",
+            "OID": "27690451872051",
+            "LSADC": "47",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.8198931",
+            "NAME": "Kronenwetter village",
+            "OBJECTID": 21522,
+            "CENTLON": "-089.5806307",
+            "COUSUBCC": "C5",
+            "HU100": 3356,
+            "AREALAND": 133662189,
+            "INTPTLON": "-089.5886734",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01992855",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 60462,
+            "GEOID": "55086",
+            "CENTLAT": "+44.8369342",
+            "SLDL": "086",
+            "AREAWATER": 63725246,
+            "STATE": "55",
+            "BASENAME": "86",
+            "OID": "213904691750139",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8370896",
+            "NAME": "Assembly District 86",
+            "OBJECTID": 3879,
+            "CENTLON": "-089.7669294",
+            "LSY": "2018",
+            "HU100": 25457,
+            "AREALAND": 1510938193,
+            "INTPTLON": "-089.7569803",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8353,
+            "GEOID": "5540550",
+            "CENTLAT": "+44.8163820",
+            "AREAWATER": 945091,
+            "STATE": "55",
+            "BASENAME": "Kronenwetter",
+            "OID": "27890451873849",
+            "LSADC": "47",
+            "PLACE": "40550",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8198931",
+            "NAME": "Kronenwetter village",
+            "OBJECTID": 7742,
+            "PLACECC": "C5",
+            "CENTLON": "-089.5806307",
+            "CBSAPCI": "N",
+            "HU100": 3356,
+            "AREALAND": 133662189,
+            "INTPTLON": "-089.5886734",
+            "PLACENS": "01992855",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 138013,
+            "GEOID": "55073",
+            "CENTLAT": "+44.8984444",
+            "AREAWATER": 80651079,
+            "STATE": "55",
+            "BASENAME": "Marathon",
+            "OID": "27590451872011",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8980363",
+            "NAME": "Marathon County",
+            "OBJECTID": 2509,
+            "CENTLON": "-089.7591184",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581096",
+            "AREALAND": 4002035761,
+            "INTPTLON": "-089.7578230",
+            "HU100": 59828,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 732582,
+            "GEOID": "5507",
+            "CENTLAT": "+45.6964456",
+            "CDSESSN": "116",
+            "AREAWATER": 7699323947,
+            "STATE": "55",
+            "BASENAME": "7",
+            "OID": "211904691757608",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.6989971",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 361,
+            "CENTLON": "-090.6579277",
+            "HU100": 413630,
+            "AREALAND": 59671488659,
+            "INTPTLON": "-090.6553345",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4215,
+            "GEOID": "55073001204",
+            "CENTLAT": "+44.8106783",
+            "AREAWATER": 2098679,
+            "STATE": "55",
+            "BASENAME": "12.04",
+            "OID": "2079015482493004",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.8198931",
+            "NAME": "Census Tract 12.04",
+            "OBJECTID": 57064,
+            "TRACT": "001204",
+            "CENTLON": "-089.5909615",
+            "HU100": 1951,
+            "AREALAND": 140620571,
+            "INTPTLON": "-089.5886734",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 76,
+            "GEOID": "550730012042004",
+            "CENTLAT": "+44.8506333",
+            "BLOCK": "2004",
+            "AREAWATER": 87043,
+            "STATE": "55",
+            "BASENAME": "2004",
+            "OID": "210701005990449",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.8507497",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2004",
+            "OBJECTID": 8050620,
+            "TRACT": "001204",
+            "CENTLON": "-089.6572257",
+            "BLKGRP": "2",
+            "AREALAND": 1732391,
+            "HU100": 34,
+            "INTPTLON": "-089.6567619",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "073"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -89.654017,
+          "y": 44.856372
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

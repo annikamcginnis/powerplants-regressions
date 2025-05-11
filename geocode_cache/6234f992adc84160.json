@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T15:37:59.341396+00:00",
+  "elapsed": 0.258718,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4516",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:37:59 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.643056&y=42.449722"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.643056&y=42.449722",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 169214,
+            "GEOID": "25009",
+            "CENTLAT": "+42.5354472",
+            "AREAWATER": 19304312,
+            "STATE": "25",
+            "BASENAME": "Worcester & Middlesex",
+            "OID": "212904693077265",
+            "LSADC": "07",
+            "SLDU": "009",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.5391451",
+            "NAME": "Worcester & Middlesex District",
+            "OBJECTID": 1526,
+            "CENTLON": "-071.7711001",
+            "LSY": "2018",
+            "HU100": 70085,
+            "AREALAND": 689590811,
+            "INTPTLON": "-071.7719336",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "97291",
+            "CENTLAT": "+42.2305533",
+            "AREAWATER": 30788965,
+            "BASENAME": "Worcester, MA--CT",
+            "OID": "27021260153666",
+            "UA": "97291",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2312978",
+            "NAME": "Worcester, MA--CT Urban Area",
+            "OBJECTID": 163,
+            "CENTLON": "-071.7373688",
+            "AREALAND": 674150071,
+            "INTPTLON": "-071.7374261",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "06365",
+            "POP100": 5665,
+            "GEOID": "2502706365",
+            "CENTLAT": "+42.4361599",
+            "AREAWATER": 345877,
+            "STATE": "25",
+            "BASENAME": "Bolton",
+            "OID": "27690515417217",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.4399331",
+            "NAME": "Bolton town",
+            "OBJECTID": 26831,
+            "CENTLON": "-071.6072812",
+            "COUSUBCC": "T1",
+            "HU100": 1982,
+            "AREALAND": 51659942,
+            "INTPTLON": "-071.6018846",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618357",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 43677,
+            "GEOID": "25120",
+            "CENTLAT": "+42.4229772",
+            "SLDL": "120",
+            "AREAWATER": 3367417,
+            "STATE": "25",
+            "BASENAME": "3rd Middlesex",
+            "OID": "213904693077517",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.4174985",
+            "NAME": "3rd Middlesex District",
+            "OBJECTID": 4317,
+            "CENTLON": "-071.5483956",
+            "LSY": "2018",
+            "HU100": 17995,
+            "AREALAND": 139873239,
+            "INTPTLON": "-071.5504512",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 862111,
+            "GEOID": "25027",
+            "CENTLAT": "+42.3510196",
+            "AREAWATER": 177366263,
+            "STATE": "25",
+            "BASENAME": "Worcester",
+            "OID": "27590260056196",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3116934",
+            "NAME": "Worcester County",
+            "OBJECTID": 602,
+            "CENTLON": "-071.9073643",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606940",
+            "AREALAND": 3912627580,
+            "INTPTLON": "-071.9402820",
+            "HU100": 351764,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 796664,
+            "GEOID": "2503",
+            "CENTLAT": "+42.5849002",
+            "CDSESSN": "116",
+            "AREAWATER": 76141310,
+            "STATE": "25",
+            "BASENAME": "3",
+            "OID": "211904690191852",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.5895154",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 343,
+            "CENTLON": "-071.5748392",
+            "HU100": 309817,
+            "AREALAND": 1962263265,
+            "INTPTLON": "-071.5728279",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5665,
+            "GEOID": "25027715100",
+            "CENTLAT": "+42.4361599",
+            "AREAWATER": 345877,
+            "STATE": "25",
+            "BASENAME": "7151",
+            "OID": "20790515417446",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.4399331",
+            "NAME": "Census Tract 7151",
+            "OBJECTID": 19819,
+            "TRACT": "715100",
+            "CENTLON": "-071.6072812",
+            "HU100": 1982,
+            "AREALAND": 51659942,
+            "INTPTLON": "-071.6018846",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 46,
+            "GEOID": "250277151003021",
+            "CENTLAT": "+42.4500388",
+            "BLOCK": "3021",
+            "AREAWATER": 0,
+            "STATE": "25",
+            "BASENAME": "3021",
+            "OID": "210701007846301",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.4500388",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3021",
+            "OBJECTID": 6346529,
+            "TRACT": "715100",
+            "CENTLON": "-071.6434347",
+            "BLKGRP": "3",
+            "AREALAND": 615942,
+            "HU100": 20,
+            "INTPTLON": "-071.6434347",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "027"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -71.643056,
+          "y": 42.449722
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

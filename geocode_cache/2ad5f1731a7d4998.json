@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T15:42:17.111885+00:00",
+  "elapsed": 0.23516,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4480",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:42:17 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.4283&y=27.8139"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.4283&y=27.8139",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 907674,
+            "GEOID": "48020",
+            "CENTLAT": "+27.1795446",
+            "AREAWATER": 180482909,
+            "STATE": "48",
+            "BASENAME": "20",
+            "OID": "212904690778967",
+            "LSADC": "LU",
+            "SLDU": "020",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+27.1839760",
+            "NAME": "State Senate District 20",
+            "OBJECTID": 874,
+            "CENTLON": "-098.0636379",
+            "LSY": "2018",
+            "HU100": 339535,
+            "AREALAND": 9722374092,
+            "INTPTLON": "-098.0792374",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 525875,
+            "GEOID": "204",
+            "CENTLAT": "+27.5346922",
+            "AREAWATER": 3414602611,
+            "BASENAME": "Corpus Christi-Kingsville-Alice, TX",
+            "OID": "2619013782255112",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+27.5374554",
+            "NAME": "Corpus Christi-Kingsville-Alice, TX CSA",
+            "CSA": "204",
+            "OBJECTID": 19,
+            "CENTLON": "-097.8130198",
+            "HU100": 230875,
+            "AREALAND": 17568127346,
+            "INTPTLON": "-097.8140532",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "20287",
+            "CENTLAT": "+27.7500788",
+            "AREAWATER": 3706849,
+            "BASENAME": "Corpus Christi, TX",
+            "OID": "27021391756567",
+            "UA": "20287",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+27.7493588",
+            "NAME": "Corpus Christi, TX Urban Area",
+            "OBJECTID": 1658,
+            "CENTLON": "-097.4168552",
+            "AREALAND": 334817107,
+            "INTPTLON": "-097.4172292",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90850",
+            "POP100": 304018,
+            "GEOID": "4835590850",
+            "CENTLAT": "+27.7063299",
+            "AREAWATER": 145581080,
+            "STATE": "48",
+            "BASENAME": "Corpus Christi",
+            "OID": "27690484771244",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+27.7013960",
+            "NAME": "Corpus Christi CCD",
+            "OBJECTID": 20179,
+            "CENTLON": "-097.4441159",
+            "COUSUBCC": "Z5",
+            "HU100": 125867,
+            "AREALAND": 771634707,
+            "INTPTLON": "-097.4379228",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938648",
+            "UR": "M",
+            "COUNTY": "355"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 170673,
+            "GEOID": "48034",
+            "CENTLAT": "+27.7508284",
+            "SLDL": "034",
+            "AREAWATER": 80137360,
+            "STATE": "48",
+            "BASENAME": "34",
+            "OID": "213904690781921",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+27.7490019",
+            "NAME": "State House District 34",
+            "OBJECTID": 4700,
+            "CENTLON": "-097.6951930",
+            "LSY": "2018",
+            "HU100": 67824,
+            "AREALAND": 1652788075,
+            "INTPTLON": "-097.6977011",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 353178,
+            "GEOID": "48355",
+            "CENTLAT": "+27.7351832",
+            "AREAWATER": 845316413,
+            "STATE": "48",
+            "BASENAME": "Nueces",
+            "OID": "27590484717179",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+27.7400315",
+            "NAME": "Nueces County",
+            "OBJECTID": 2893,
+            "CENTLON": "-097.5162420",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383963",
+            "AREALAND": 2173169293,
+            "INTPTLON": "-097.5162143",
+            "HU100": 151255,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "355"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 739697,
+            "GEOID": "4827",
+            "CENTLAT": "+28.7805276",
+            "CDSESSN": "116",
+            "AREAWATER": 4534662739,
+            "STATE": "48",
+            "BASENAME": "27",
+            "OID": "211904690225176",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.7829945",
+            "NAME": "Congressional District 27",
+            "OBJECTID": 321,
+            "CENTLON": "-096.8403808",
+            "HU100": 324695,
+            "AREALAND": 23622889496,
+            "INTPTLON": "-096.8414071",
+            "CD116": "27",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2654,
+            "GEOID": "48355006300",
+            "CENTLAT": "+27.8442322",
+            "AREAWATER": 72943929,
+            "STATE": "48",
+            "BASENAME": "63",
+            "OID": "207903714755739",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+27.8518463",
+            "NAME": "Census Tract 63",
+            "OBJECTID": 44277,
+            "TRACT": "006300",
+            "CENTLON": "-097.4509971",
+            "HU100": 1579,
+            "AREALAND": 41462398,
+            "INTPTLON": "-097.4391650",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "355"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 7,
+            "GEOID": "483550063001122",
+            "CENTLAT": "+27.8163349",
+            "BLOCK": "1122",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "1122",
+            "OID": "210701000658935",
+            "LSADC": "BK",
+            "INTPTLAT": "+27.8163349",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1122",
+            "OBJECTID": 1110298,
+            "TRACT": "006300",
+            "CENTLON": "-097.4383936",
+            "BLKGRP": "1",
+            "AREALAND": 2278230,
+            "HU100": 0,
+            "INTPTLON": "-097.4383936",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "355"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.4283,
+          "y": 27.8139
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

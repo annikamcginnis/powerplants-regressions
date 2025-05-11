@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:45:32.669473+00:00",
+  "elapsed": 0.150613,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4536",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:32 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.847984&y=39.156733"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.847984&y=39.156733",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 184339,
+            "GEOID": "29010",
+            "CENTLAT": "+39.0645343",
+            "AREAWATER": 178018587,
+            "STATE": "29",
+            "BASENAME": "10",
+            "OID": "212904690744986",
+            "LSADC": "LU",
+            "SLDU": "010",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.0644769",
+            "NAME": "State Senate District 10",
+            "OBJECTID": 1640,
+            "CENTLON": "-091.6100891",
+            "LSY": "2018",
+            "HU100": 78025,
+            "AREALAND": 9753574482,
+            "INTPTLON": "-091.6047648",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779791",
+            "POP100": 6154913,
+            "GEOID": "29",
+            "CENTLAT": "+38.3569829",
+            "AREAWATER": 2487215790,
+            "STATE": "29",
+            "BASENAME": "Missouri",
+            "STUSAB": "MO",
+            "OID": "2749046934061",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.3507500",
+            "DIVISION": "4",
+            "NAME": "Missouri",
+            "REGION": "2",
+            "OBJECTID": 4,
+            "CENTLON": "-092.4580564",
+            "AREALAND": 178052563675,
+            "INTPTLON": "-092.4567826",
+            "HU100": 2786621,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 260542,
+            "GEOID": "190",
+            "CENTLAT": "+39.1159378",
+            "AREAWATER": 70646304,
+            "BASENAME": "Columbia-Moberly-Mexico, MO",
+            "OID": "2619013782255107",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.1214338",
+            "NAME": "Columbia-Moberly-Mexico, MO CSA",
+            "CSA": "190",
+            "OBJECTID": 14,
+            "CENTLON": "-092.3896971",
+            "HU100": 112800,
+            "AREALAND": 7482646686,
+            "INTPTLON": "-092.3861986",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "68744",
+            "POP100": 5383,
+            "GEOID": "2900768744",
+            "CENTLAT": "+39.1574267",
+            "AREAWATER": 2223414,
+            "STATE": "29",
+            "BASENAME": "South Fork",
+            "OID": "27690234923634",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.1579764",
+            "NAME": "South Fork township",
+            "OBJECTID": 16617,
+            "CENTLON": "-091.8343603",
+            "COUSUBCC": "Z1",
+            "HU100": 2370,
+            "AREALAND": 117803245,
+            "INTPTLON": "-091.8354059",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00766247",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 34338,
+            "GEOID": "29043",
+            "CENTLAT": "+39.0968937",
+            "SLDL": "043",
+            "AREAWATER": 27119985,
+            "STATE": "29",
+            "BASENAME": "43",
+            "OID": "213904690745479",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.1001271",
+            "NAME": "State House District 43",
+            "OBJECTID": 3945,
+            "CENTLON": "-091.8437360",
+            "LSY": "2018",
+            "HU100": 15081,
+            "AREALAND": 2971251352,
+            "INTPTLON": "-091.8409963",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 11469,
+            "GEOID": "2947648",
+            "CENTLAT": "+39.1625511",
+            "AREAWATER": 953557,
+            "STATE": "29",
+            "BASENAME": "Mexico",
+            "OID": "27890234928101",
+            "LSADC": "25",
+            "PLACE": "47648",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.1621687",
+            "NAME": "Mexico city",
+            "OBJECTID": 17695,
+            "PLACECC": "C1",
+            "CENTLON": "-091.8711258",
+            "CBSAPCI": "Y",
+            "HU100": 5200,
+            "AREALAND": 31425549,
+            "INTPTLON": "-091.8727697",
+            "PLACENS": "02395107",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 24962,
+            "GEOID": "29007",
+            "CENTLAT": "+39.2158827",
+            "AREAWATER": 11843439,
+            "STATE": "29",
+            "BASENAME": "Audrain",
+            "OID": "27590234916465",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.2144810",
+            "NAME": "Audrain County",
+            "OBJECTID": 2388,
+            "CENTLON": "-091.8415250",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00758458",
+            "AREALAND": 1792918159,
+            "INTPTLON": "-091.8434182",
+            "HU100": 10542,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 777217,
+            "GEOID": "2904",
+            "CENTLAT": "+38.2816636",
+            "CDSESSN": "116",
+            "AREAWATER": 744415509,
+            "STATE": "29",
+            "BASENAME": "4",
+            "OID": "211904690724942",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.2824253",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 120,
+            "CENTLON": "-093.3141152",
+            "HU100": 351707,
+            "AREALAND": 37313803627,
+            "INTPTLON": "-093.3189947",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3649,
+            "GEOID": "29007950700",
+            "CENTLAT": "+39.1431976",
+            "AREAWATER": 916075,
+            "STATE": "29",
+            "BASENAME": "9507",
+            "OID": "20790234954264",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.1441034",
+            "NAME": "Census Tract 9507",
+            "OBJECTID": 58157,
+            "TRACT": "950700",
+            "CENTLON": "-091.8668159",
+            "HU100": 1615,
+            "AREALAND": 29045320,
+            "INTPTLON": "-091.8647962",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "290079507004005",
+            "CENTLAT": "+39.1566091",
+            "BLOCK": "4005",
+            "AREAWATER": 2275,
+            "STATE": "29",
+            "BASENAME": "4005",
+            "OID": "210701006440047",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.1585391",
+            "FUNCSTAT": "S",
+            "NAME": "Block 4005",
+            "OBJECTID": 3573904,
+            "TRACT": "950700",
+            "CENTLON": "-091.8512428",
+            "BLKGRP": "4",
+            "AREALAND": 992703,
+            "HU100": 0,
+            "INTPTLON": "-091.8544153",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "007"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -91.847984,
+          "y": 39.156733
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

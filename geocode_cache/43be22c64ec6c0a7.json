@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:34:37.933943+00:00",
+  "elapsed": 0.20719,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4096",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:34:37 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.5064&y=44.1936"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.5064&y=44.1936",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 184473,
+            "GEOID": "55019",
+            "CENTLAT": "+44.1992715",
+            "AREAWATER": 144572470,
+            "STATE": "55",
+            "BASENAME": "19",
+            "OID": "212904691748420",
+            "LSADC": "LU",
+            "SLDU": "019",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.2038715",
+            "NAME": "State Senate District 19",
+            "OBJECTID": 1295,
+            "CENTLON": "-088.6204579",
+            "LSY": "2018",
+            "HU100": 80414,
+            "AREALAND": 827566608,
+            "INTPTLON": "-088.6178785",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 414877,
+            "GEOID": "118",
+            "CENTLAT": "+44.2101754",
+            "AREAWATER": 595054344,
+            "BASENAME": "Appleton-Oshkosh-Neenah, WI",
+            "OID": "2619013782255081",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.2906032",
+            "NAME": "Appleton-Oshkosh-Neenah, WI CSA",
+            "CSA": "118",
+            "OBJECTID": 74,
+            "CENTLON": "-088.4686198",
+            "HU100": 176688,
+            "AREALAND": 3601389268,
+            "INTPTLON": "-088.3723255",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "55775",
+            "POP100": 3702,
+            "GEOID": "5513955775",
+            "CENTLAT": "+44.1581849",
+            "AREAWATER": 26250626,
+            "STATE": "55",
+            "BASENAME": "Neenah",
+            "OID": "27690134690737",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.1561035",
+            "NAME": "Neenah town",
+            "OBJECTID": 20468,
+            "CENTLON": "-088.4589866",
+            "COUSUBCC": "T1",
+            "HU100": 1447,
+            "AREALAND": 20192154,
+            "INTPTLON": "-088.4425662",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01583785",
+            "UR": "M",
+            "COUNTY": "139"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 61992,
+            "GEOID": "55055",
+            "CENTLAT": "+44.2041051",
+            "SLDL": "055",
+            "AREAWATER": 30286836,
+            "STATE": "55",
+            "BASENAME": "55",
+            "OID": "213904691750257",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.2044008",
+            "NAME": "Assembly District 55",
+            "OBJECTID": 3896,
+            "CENTLON": "-088.5207339",
+            "LSY": "2018",
+            "HU100": 27188,
+            "AREALAND": 211406700,
+            "INTPTLON": "-088.5180587",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 171730,
+            "GEOID": "55139",
+            "CENTLAT": "+44.0687934",
+            "AREAWATER": 372631716,
+            "STATE": "55",
+            "BASENAME": "Winnebago",
+            "OID": "27590134683020",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0857068",
+            "NAME": "Winnebago County",
+            "OBJECTID": 1571,
+            "CENTLON": "-088.6446580",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581129",
+            "AREALAND": 1125859770,
+            "INTPTLON": "-088.6681488",
+            "HU100": 76046,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "139"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 727774,
+            "GEOID": "5506",
+            "CENTLAT": "+43.7774680",
+            "CDSESSN": "116",
+            "AREAWATER": 7315824707,
+            "STATE": "55",
+            "BASENAME": "6",
+            "OID": "211904691758027",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.7792439",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 363,
+            "CENTLON": "-088.2811384",
+            "HU100": 330699,
+            "AREALAND": 12740812855,
+            "INTPTLON": "-088.2744226",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6371,
+            "GEOID": "55139003703",
+            "CENTLAT": "+44.1610034",
+            "AREAWATER": 181983,
+            "STATE": "55",
+            "BASENAME": "37.03",
+            "OID": "2079015482981592",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.1604759",
+            "NAME": "Census Tract 37.03",
+            "OBJECTID": 66575,
+            "TRACT": "003703",
+            "CENTLON": "-088.5079162",
+            "HU100": 2495,
+            "AREALAND": 22408176,
+            "INTPTLON": "-088.5129804",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "139"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 137,
+            "GEOID": "551390037032031",
+            "CENTLAT": "+44.1926386",
+            "BLOCK": "2031",
+            "AREAWATER": 1175,
+            "STATE": "55",
+            "BASENAME": "2031",
+            "OID": "210701006020099",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.1938755",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2031",
+            "OBJECTID": 7146813,
+            "TRACT": "003703",
+            "CENTLON": "-088.5140928",
+            "BLKGRP": "2",
+            "AREALAND": 2485104,
+            "HU100": 61,
+            "INTPTLON": "-088.5140710",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "139"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -88.5064,
+          "y": 44.1936
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

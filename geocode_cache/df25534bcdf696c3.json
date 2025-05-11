@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:34:40.648261+00:00",
+  "elapsed": 0.171756,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4120",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:34:40 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.201537&y=44.78879"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.201537&y=44.78879",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 79553,
+            "GEOID": "27017",
+            "CENTLAT": "+45.0380198",
+            "AREAWATER": 222316329,
+            "STATE": "27",
+            "BASENAME": "17",
+            "OID": "212904486864763",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.0435020",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 268,
+            "CENTLON": "-095.2554673",
+            "LSY": "2018",
+            "HU100": 36593,
+            "AREALAND": 7854462633,
+            "INTPTLON": "-095.2572422",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "53890",
+            "POP100": 1301,
+            "GEOID": "2712953890",
+            "CENTLAT": "+44.7907850",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "Renville",
+            "OID": "27690250762376",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.7907850",
+            "NAME": "Renville city",
+            "OBJECTID": 15467,
+            "CENTLON": "-095.2047939",
+            "COUSUBCC": "C5",
+            "HU100": 554,
+            "AREALAND": 3421990,
+            "INTPTLON": "-095.2047939",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02396350",
+            "UR": "R",
+            "COUNTY": "129"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 38652,
+            "GEOID": "2717A",
+            "CENTLAT": "+44.9920337",
+            "SLDL": "17A",
+            "AREAWATER": 56537100,
+            "STATE": "27",
+            "BASENAME": "17A",
+            "OID": "213904486865081",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.9857356",
+            "NAME": "State House District 17A",
+            "OBJECTID": 541,
+            "CENTLON": "-095.3354596",
+            "LSY": "2018",
+            "HU100": 17852,
+            "AREALAND": 6163934866,
+            "INTPTLON": "-095.3307720",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1301,
+            "GEOID": "2753890",
+            "CENTLAT": "+44.7907850",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "Renville",
+            "OID": "27890250773109",
+            "LSADC": "25",
+            "PLACE": "53890",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.7907850",
+            "NAME": "Renville city",
+            "OBJECTID": 18015,
+            "PLACECC": "C5",
+            "CENTLON": "-095.2047939",
+            "CBSAPCI": "N",
+            "HU100": 554,
+            "AREALAND": 3421990,
+            "INTPTLON": "-095.2047939",
+            "PLACENS": "02396350",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 14723,
+            "GEOID": "27129",
+            "CENTLAT": "+44.7268787",
+            "AREAWATER": 10851893,
+            "STATE": "27",
+            "BASENAME": "Renville",
+            "OID": "27590250756632",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.7236969",
+            "NAME": "Renville County",
+            "OBJECTID": 2026,
+            "CENTLON": "-094.9469133",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659510",
+            "AREALAND": 2545711095,
+            "INTPTLON": "-094.9556169",
+            "HU100": 6913,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "129"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 673514,
+            "GEOID": "2707",
+            "CENTLAT": "+46.5548229",
+            "CDSESSN": "116",
+            "AREAWATER": 5058813380,
+            "STATE": "27",
+            "BASENAME": "7",
+            "OID": "211904486864171",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5530202",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 61,
+            "CENTLON": "-095.6788945",
+            "HU100": 327543,
+            "AREALAND": 86581615754,
+            "INTPTLON": "-095.6759048",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2642,
+            "GEOID": "27129790400",
+            "CENTLAT": "+44.6576380",
+            "AREAWATER": 480060,
+            "STATE": "27",
+            "BASENAME": "7904",
+            "OID": "20790250776799",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.6505783",
+            "NAME": "Census Tract 7904",
+            "OBJECTID": 65990,
+            "TRACT": "790400",
+            "CENTLON": "-095.0778144",
+            "HU100": 1186,
+            "AREALAND": 454881499,
+            "INTPTLON": "-095.0835406",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "129"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 17,
+            "GEOID": "271297904003069",
+            "CENTLAT": "+44.7874757",
+            "BLOCK": "3069",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "3069",
+            "OID": "210701005602261",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.7874757",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3069",
+            "OBJECTID": 5932310,
+            "TRACT": "790400",
+            "CENTLON": "-095.2018385",
+            "BLKGRP": "3",
+            "AREALAND": 164903,
+            "HU100": 3,
+            "INTPTLON": "-095.2018385",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "129"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -95.201537,
+          "y": 44.78879
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

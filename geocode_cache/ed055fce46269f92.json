@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:58:36.298337+00:00",
+  "elapsed": 0.143993,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4132",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:58:36 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.537222&y=47.769722"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.537222&y=47.769722",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 161193,
+            "GEOID": "53006",
+            "CENTLAT": "+47.5892903",
+            "AREAWATER": 9818072,
+            "STATE": "53",
+            "BASENAME": "6",
+            "OID": "212904690194644",
+            "LSADC": "LU",
+            "SLDU": "006",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.5906822",
+            "NAME": "State Senate District 6",
+            "OBJECTID": 839,
+            "CENTLON": "-117.5548273",
+            "LSY": "2018",
+            "HU100": 66112,
+            "AREALAND": 952732543,
+            "INTPTLON": "-117.5532449",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779804",
+            "POP100": 7705281,
+            "GEOID": "53",
+            "CENTLAT": "+47.4148772",
+            "AREAWATER": 12549742084,
+            "STATE": "53",
+            "BASENAME": "Washington",
+            "STUSAB": "WA",
+            "OID": "27490225755057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4073238",
+            "DIVISION": "9",
+            "NAME": "Washington",
+            "REGION": "4",
+            "OBJECTID": 35,
+            "CENTLON": "-120.5954943",
+            "AREALAND": 172117960159,
+            "INTPTLON": "-120.5757999",
+            "HU100": 3202241,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 757146,
+            "GEOID": "518",
+            "CENTLAT": "+47.9840483",
+            "AREAWATER": 390812319,
+            "BASENAME": "Spokane-Spokane Valley-Coeur d'Alene, WA-ID",
+            "OID": "2619013782255235",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.9846984",
+            "NAME": "Spokane-Spokane Valley-Coeur d'Alene, WA-ID CSA",
+            "CSA": "518",
+            "OBJECTID": 91,
+            "CENTLON": "-117.4418841",
+            "HU100": 320997,
+            "AREALAND": 14190795346,
+            "INTPTLON": "-117.4543719",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90880",
+            "POP100": 35365,
+            "GEOID": "5306390880",
+            "CENTLAT": "+47.9125904",
+            "AREAWATER": 3173108,
+            "STATE": "53",
+            "BASENAME": "Deer Park",
+            "OID": "27690481567777",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.9148834",
+            "NAME": "Deer Park CCD",
+            "OBJECTID": 28950,
+            "CENTLON": "-117.4370404",
+            "COUSUBCC": "Z5",
+            "HU100": 13598,
+            "AREALAND": 463342953,
+            "INTPTLON": "-117.4414217",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939493",
+            "UR": "M",
+            "COUNTY": "063"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 161193,
+            "GEOID": "53006",
+            "CENTLAT": "+47.5892903",
+            "SLDL": "006",
+            "AREAWATER": 9818072,
+            "STATE": "53",
+            "BASENAME": "6",
+            "OID": "213904690194768",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.5906822",
+            "NAME": "State House District 6",
+            "OBJECTID": 1683,
+            "CENTLON": "-117.5548273",
+            "LSY": "2018",
+            "HU100": 66112,
+            "AREALAND": 952732543,
+            "INTPTLON": "-117.5532449",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 539339,
+            "GEOID": "53063",
+            "CENTLAT": "+47.6200803",
+            "AREAWATER": 43418590,
+            "STATE": "53",
+            "BASENAME": "Spokane",
+            "OID": "27590481567768",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.6203752",
+            "NAME": "Spokane County",
+            "OBJECTID": 1303,
+            "CENTLON": "-117.4042985",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01529225",
+            "AREALAND": 4569307859,
+            "INTPTLON": "-117.4033714",
+            "HU100": 224019,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "063"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 751208,
+            "GEOID": "5305",
+            "CENTLAT": "+47.5767401",
+            "CDSESSN": "116",
+            "AREAWATER": 598783840,
+            "STATE": "53",
+            "BASENAME": "5",
+            "OID": "211904690193020",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.5732049",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 181,
+            "CENTLON": "-117.8762342",
+            "HU100": 321447,
+            "AREALAND": 40076211609,
+            "INTPTLON": "-117.8675495",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4115,
+            "GEOID": "53063010508",
+            "CENTLAT": "+47.7922923",
+            "AREAWATER": 323369,
+            "STATE": "53",
+            "BASENAME": "105.08",
+            "OID": "2079015503718491",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.7898700",
+            "NAME": "Census Tract 105.08",
+            "OBJECTID": 27988,
+            "TRACT": "010508",
+            "CENTLON": "-117.4782887",
+            "HU100": 1530,
+            "AREALAND": 64863942,
+            "INTPTLON": "-117.5017593",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "063"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 44,
+            "GEOID": "530630105081040",
+            "CENTLAT": "+47.7710929",
+            "BLOCK": "1040",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "1040",
+            "OID": "210701008216585",
+            "LSADC": "BK",
+            "INTPTLAT": "+47.7710929",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1040",
+            "OBJECTID": 3616765,
+            "TRACT": "010508",
+            "CENTLON": "-117.5244944",
+            "BLKGRP": "1",
+            "AREALAND": 879834,
+            "HU100": 18,
+            "INTPTLON": "-117.5244944",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "063"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -117.537222,
+          "y": 47.769722
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

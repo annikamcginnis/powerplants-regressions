@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:53:34.686363+00:00",
+  "elapsed": 0.14664,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4465",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:53:34 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-158.02361&y=21.4287"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-158.02361&y=21.4287",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 58114,
+            "GEOID": "15018",
+            "CENTLAT": "+21.4390509",
+            "AREAWATER": 8307,
+            "STATE": "15",
+            "BASENAME": "18",
+            "OID": "212904689816458",
+            "LSADC": "LU",
+            "SLDU": "018",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+21.4410863",
+            "NAME": "State Senate District 18",
+            "OBJECTID": 708,
+            "CENTLON": "-157.9799634",
+            "LSY": "2018",
+            "HU100": 19739,
+            "AREALAND": 85651630,
+            "INTPTLON": "-157.9803627",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779782",
+            "POP100": 1455271,
+            "GEOID": "15",
+            "CENTLAT": "+21.0508739",
+            "AREAWATER": 11777652106,
+            "STATE": "15",
+            "BASENAME": "Hawaii",
+            "STUSAB": "HI",
+            "OID": "2749047648128",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+19.8281671",
+            "DIVISION": "9",
+            "NAME": "Hawaii",
+            "REGION": "4",
+            "OBJECTID": 47,
+            "CENTLON": "-157.9936887",
+            "AREALAND": 16634147166,
+            "INTPTLON": "-155.4950421",
+            "HU100": 561066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "39889",
+            "CENTLAT": "+21.3586724",
+            "AREAWATER": 8571102,
+            "BASENAME": "Honolulu, HI",
+            "OID": "2702132391318100",
+            "UA": "39889",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+21.3587528",
+            "NAME": "Honolulu, HI Urban Area",
+            "OBJECTID": 2211,
+            "CENTLON": "-157.9356309",
+            "AREALAND": 375480534,
+            "INTPTLON": "-157.9348944",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90270",
+            "POP100": 360841,
+            "GEOID": "1500390270",
+            "CENTLAT": "+21.3676775",
+            "AREAWATER": 198861074,
+            "STATE": "15",
+            "BASENAME": "Ewa",
+            "OID": "2769047647888",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+21.3682481",
+            "NAME": "Ewa CCD",
+            "OBJECTID": 30370,
+            "CENTLON": "-158.0200853",
+            "COUSUBCC": "Z5",
+            "HU100": 113256,
+            "AREALAND": 426595706,
+            "INTPTLON": "-158.0214964",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935640",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 28121,
+            "GEOID": "1551050",
+            "CENTLAT": "+21.4465061",
+            "AREAWATER": 0,
+            "STATE": "15",
+            "BASENAME": "Mililani Town",
+            "OID": "2809047647976",
+            "LSADC": "57",
+            "PLACE": "51050",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+21.4465061",
+            "NAME": "Mililani Town CDP",
+            "OBJECTID": 20275,
+            "PLACECC": "U1",
+            "CENTLON": "-158.0146437",
+            "CBSAPCI": "N",
+            "HU100": 9541,
+            "AREALAND": 10384095,
+            "INTPTLON": "-158.0146437",
+            "PLACENS": "02414101",
+            "MTFCC": "G4210",
+            "UR": "U"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 28003,
+            "GEOID": "15037",
+            "CENTLAT": "+21.4289899",
+            "SLDL": "037",
+            "AREAWATER": 0,
+            "STATE": "15",
+            "BASENAME": "37",
+            "OID": "213904689816539",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+21.4289899",
+            "NAME": "State House District 37",
+            "OBJECTID": 2784,
+            "CENTLON": "-158.0148049",
+            "LSY": "2018",
+            "HU100": 10347,
+            "AREALAND": 23493497,
+            "INTPTLON": "-158.0148049",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1016508,
+            "GEOID": "15003",
+            "CENTLAT": "+23.8728034",
+            "AREAWATER": 4054877012,
+            "STATE": "15",
+            "BASENAME": "Honolulu",
+            "OID": "2759047647837",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+21.4613654",
+            "NAME": "Honolulu County",
+            "OBJECTID": 420,
+            "CENTLON": "-164.4436095",
+            "COUNTYCC": "H6",
+            "COUNTYNS": "00365281",
+            "AREALAND": 1555612626,
+            "INTPTLON": "-158.2019740",
+            "HU100": 370665,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 729831,
+            "GEOID": "1501",
+            "CENTLAT": "+21.3239372",
+            "CDSESSN": "116",
+            "AREAWATER": 456757723,
+            "STATE": "15",
+            "BASENAME": "1",
+            "OID": "211904689807822",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+21.3226396",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 161,
+            "CENTLON": "-157.9030923",
+            "HU100": 279616,
+            "AREALAND": 541344282,
+            "INTPTLON": "-157.9059542",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3223,
+            "GEOID": "15003008933",
+            "CENTLAT": "+21.4256237",
+            "AREAWATER": 0,
+            "STATE": "15",
+            "BASENAME": "89.33",
+            "OID": "2079015504940496",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+21.4256237",
+            "NAME": "Census Tract 89.33",
+            "OBJECTID": 45640,
+            "TRACT": "008933",
+            "CENTLON": "-158.0198786",
+            "HU100": 1100,
+            "AREALAND": 4010652,
+            "INTPTLON": "-158.0198786",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "003"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 1341,
+            "GEOID": "150030089331001",
+            "CENTLAT": "+21.4330829",
+            "BLOCK": "1001",
+            "AREAWATER": 0,
+            "STATE": "15",
+            "BASENAME": "1001",
+            "OID": "210701000459956",
+            "LSADC": "BK",
+            "INTPTLAT": "+21.4319753",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1001",
+            "OBJECTID": 3251611,
+            "TRACT": "008933",
+            "CENTLON": "-158.0245299",
+            "BLKGRP": "1",
+            "AREALAND": 1300175,
+            "HU100": 475,
+            "INTPTLON": "-158.0258085",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "003"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -158.02361,
+          "y": 21.4287
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

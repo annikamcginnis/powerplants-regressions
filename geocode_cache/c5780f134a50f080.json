@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:52:43.750625+00:00",
+  "elapsed": 0.172948,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4977",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:52:43 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-118.29571&y=34.099359"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-118.29571&y=34.099359",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 901386,
+            "GEOID": "06024",
+            "CENTLAT": "+34.0755384",
+            "AREAWATER": 1535574,
+            "STATE": "06",
+            "BASENAME": "24",
+            "OID": "212904690192957",
+            "LSADC": "LU",
+            "SLDU": "024",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.0746121",
+            "NAME": "State Senate District 24",
+            "OBJECTID": 959,
+            "CENTLON": "-118.2285722",
+            "LSY": "2018",
+            "HU100": 345566,
+            "AREALAND": 156733018,
+            "INTPTLON": "-118.2283710",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 18644680,
+            "GEOID": "348",
+            "CENTLAT": "+34.4706942",
+            "AREAWATER": 3480748723,
+            "BASENAME": "Los Angeles-Long Beach, CA",
+            "OID": "2619013782255168",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4637584",
+            "NAME": "Los Angeles-Long Beach, CA CSA",
+            "CSA": "348",
+            "OBJECTID": 113,
+            "CENTLON": "-116.6480307",
+            "HU100": 6595294,
+            "AREALAND": 87982392819,
+            "INTPTLON": "-116.6585523",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "51445",
+            "CENTLAT": "+33.9845921",
+            "AREAWATER": 48266720,
+            "BASENAME": "Los Angeles--Long Beach--Anaheim, CA",
+            "OID": "27021435571723",
+            "UA": "51445",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9849958",
+            "NAME": "Los Angeles--Long Beach--Anaheim, CA Urban Area",
+            "OBJECTID": 1194,
+            "CENTLON": "-118.1231791",
+            "AREALAND": 4239359620,
+            "INTPTLON": "-118.1223950",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91750",
+            "POP100": 2561896,
+            "GEOID": "0603791750",
+            "CENTLAT": "+33.9935756",
+            "AREAWATER": 134970488,
+            "STATE": "06",
+            "BASENAME": "Los Angeles",
+            "OID": "276901115259678",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9957303",
+            "NAME": "Los Angeles CCD",
+            "OBJECTID": 6732,
+            "CENTLON": "-118.3584785",
+            "COUSUBCC": "Z5",
+            "HU100": 1049426,
+            "AREALAND": 692197997,
+            "INTPTLON": "-118.3580343",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935180",
+            "UR": "M",
+            "COUNTY": "037"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 473713,
+            "GEOID": "06043",
+            "CENTLAT": "+34.2500825",
+            "SLDL": "043",
+            "AREAWATER": 2054581,
+            "STATE": "06",
+            "BASENAME": "43",
+            "OID": "213904690192998",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.2473143",
+            "NAME": "Assembly District 43",
+            "OBJECTID": 1637,
+            "CENTLON": "-118.2438618",
+            "LSY": "2018",
+            "HU100": 204298,
+            "AREALAND": 420587030,
+            "INTPTLON": "-118.2481533",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3898747,
+            "GEOID": "0644000",
+            "CENTLAT": "+34.1070250",
+            "AREAWATER": 83031312,
+            "STATE": "06",
+            "BASENAME": "Los Angeles",
+            "OID": "278901115263549",
+            "LSADC": "25",
+            "PLACE": "44000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.0193936",
+            "NAME": "Los Angeles city",
+            "OBJECTID": 1675,
+            "PLACECC": "C1",
+            "CENTLON": "-118.4111735",
+            "CBSAPCI": "Y",
+            "HU100": 1496453,
+            "AREALAND": 1215978552,
+            "INTPTLON": "-118.4108248",
+            "PLACENS": "02410877",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 10014009,
+            "GEOID": "06037",
+            "CENTLAT": "+34.1959606",
+            "AREAWATER": 1787501506,
+            "STATE": "06",
+            "BASENAME": "Los Angeles",
+            "OID": "275901063468976",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.1963983",
+            "NAME": "Los Angeles County",
+            "OBJECTID": 368,
+            "CENTLON": "-118.2618061",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277283",
+            "AREALAND": 10513491099,
+            "INTPTLON": "-118.2618616",
+            "HU100": 3591981,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "037"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 712964,
+            "GEOID": "0628",
+            "CENTLAT": "+34.2496648",
+            "CDSESSN": "116",
+            "AREAWATER": 2402675,
+            "STATE": "06",
+            "BASENAME": "28",
+            "OID": "211904492478461",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.2500576",
+            "NAME": "Congressional District 28",
+            "OBJECTID": 57,
+            "CENTLON": "-118.2909939",
+            "HU100": 331621,
+            "AREALAND": 565802977,
+            "INTPTLON": "-118.2914520",
+            "CD116": "28",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4072,
+            "GEOID": "06037191201",
+            "CENTLAT": "+34.0985766",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "1912.01",
+            "OID": "207901115293172",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.0985766",
+            "NAME": "Census Tract 1912.01",
+            "OBJECTID": 41446,
+            "TRACT": "191201",
+            "CENTLON": "-118.2961735",
+            "HU100": 1798,
+            "AREALAND": 572288,
+            "INTPTLON": "-118.2961735",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "037"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 200,
+            "GEOID": "060371912011004",
+            "CENTLAT": "+34.1005052",
+            "BLOCK": "1004",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "1004",
+            "OID": "210701001775534",
+            "LSADC": "BK",
+            "INTPTLAT": "+34.1005052",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1004",
+            "OBJECTID": 1222121,
+            "TRACT": "191201",
+            "CENTLON": "-118.2955884",
+            "BLKGRP": "1",
+            "AREALAND": 28525,
+            "HU100": 109,
+            "INTPTLON": "-118.2955884",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "037"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -118.29571,
+          "y": 34.099359
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

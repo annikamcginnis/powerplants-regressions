@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:49:30.985086+00:00",
+  "elapsed": 0.129235,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4557",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:49:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-77.94429&y=43.30141"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-77.94429&y=43.30141",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 295755,
+            "GEOID": "36056",
+            "CENTLAT": "+43.3978824",
+            "AREAWATER": 1068241800,
+            "STATE": "36",
+            "BASENAME": "56",
+            "OID": "212904690195338",
+            "LSADC": "LU",
+            "SLDU": "056",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.3564263",
+            "NAME": "State Senate District 56",
+            "OBJECTID": 799,
+            "CENTLON": "-077.7852732",
+            "LSY": "2018",
+            "HU100": 132827,
+            "AREALAND": 554016666,
+            "INTPTLON": "-077.9060148",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1182337,
+            "GEOID": "464",
+            "CENTLAT": "+43.1133281",
+            "AREAWATER": 5306502453,
+            "BASENAME": "Rochester-Batavia-Seneca Falls, NY",
+            "OID": "2619013782255218",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.1128620",
+            "NAME": "Rochester-Batavia-Seneca Falls, NY CSA",
+            "CSA": "464",
+            "OBJECTID": 163,
+            "CENTLON": "-077.5311252",
+            "HU100": 531572,
+            "AREALAND": 10574012434,
+            "INTPTLON": "-077.5353493",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "31797",
+            "POP100": 8725,
+            "GEOID": "3605531797",
+            "CENTLAT": "+43.3222401",
+            "AREAWATER": 3472050,
+            "STATE": "36",
+            "BASENAME": "Hamlin",
+            "OID": "27690104603036",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.3223938",
+            "NAME": "Hamlin town",
+            "OBJECTID": 8114,
+            "CENTLON": "-077.9130489",
+            "COUSUBCC": "T1",
+            "HU100": 3781,
+            "AREALAND": 112014230,
+            "INTPTLON": "-077.9203167",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00979039",
+            "UR": "R",
+            "COUNTY": "055"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 5177,
+            "GEOID": "3631786",
+            "CENTLAT": "+43.3022945",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "Hamlin",
+            "OID": "280903939115527",
+            "LSADC": "57",
+            "PLACE": "31786",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.3022945",
+            "NAME": "Hamlin CDP",
+            "OBJECTID": 32003,
+            "PLACECC": "U1",
+            "CENTLON": "-077.9216822",
+            "CBSAPCI": "N",
+            "HU100": 2195,
+            "AREALAND": 19895321,
+            "INTPTLON": "-077.9216822",
+            "PLACENS": "02631636",
+            "MTFCC": "G4210",
+            "UR": "R"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 128283,
+            "GEOID": "36139",
+            "CENTLAT": "+43.2746393",
+            "SLDL": "139",
+            "AREAWATER": 1727232755,
+            "STATE": "36",
+            "BASENAME": "139",
+            "OID": "213904690195746",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.2741081",
+            "NAME": "Assembly District 139",
+            "OBJECTID": 2744,
+            "CENTLON": "-078.1348741",
+            "LSY": "2018",
+            "HU100": 56642,
+            "AREALAND": 2545650669,
+            "INTPTLON": "-078.1345918",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 759443,
+            "GEOID": "36055",
+            "CENTLAT": "+43.3087245",
+            "AREAWATER": 1838271361,
+            "STATE": "36",
+            "BASENAME": "Monroe",
+            "OID": "27590104596909",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.2503466",
+            "NAME": "Monroe County",
+            "OBJECTID": 2649,
+            "CENTLON": "-077.6801146",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974126",
+            "AREALAND": 1701475181,
+            "INTPTLON": "-077.7005177",
+            "HU100": 336262,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "055"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 720092,
+            "GEOID": "3627",
+            "CENTLAT": "+43.0020677",
+            "CDSESSN": "116",
+            "AREAWATER": 3223385171,
+            "STATE": "36",
+            "BASENAME": "27",
+            "OID": "211904690193494",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.0008504",
+            "NAME": "Congressional District 27",
+            "OBJECTID": 381,
+            "CENTLON": "-078.3163764",
+            "HU100": 320704,
+            "AREALAND": 10289875129,
+            "INTPTLON": "-078.3168825",
+            "CD116": "27",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4074,
+            "GEOID": "36055015102",
+            "CENTLAT": "+43.3271087",
+            "AREAWATER": 1833014,
+            "STATE": "36",
+            "BASENAME": "151.02",
+            "OID": "20790104630877",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.3307284",
+            "NAME": "Census Tract 151.02",
+            "OBJECTID": 57693,
+            "TRACT": "015102",
+            "CENTLON": "-077.9532952",
+            "HU100": 1819,
+            "AREALAND": 59651728,
+            "INTPTLON": "-077.9527355",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "055"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 268,
+            "GEOID": "360550151021003",
+            "CENTLAT": "+43.3039508",
+            "BLOCK": "1003",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "1003",
+            "OID": "210701004596280",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.3039508",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1003",
+            "OBJECTID": 4768568,
+            "TRACT": "015102",
+            "CENTLON": "-077.9480182",
+            "BLKGRP": "1",
+            "AREALAND": 1225404,
+            "HU100": 127,
+            "INTPTLON": "-077.9480182",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "055"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -77.94429,
+          "y": 43.30141
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

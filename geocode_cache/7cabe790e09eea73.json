@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:40:52.850187+00:00",
+  "elapsed": 0.153636,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4495",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:40:52 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.481387&y=45.637537"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.481387&y=45.637537",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 257372,
+            "GEOID": "26037",
+            "CENTLAT": "+45.9424141",
+            "AREAWATER": 13089252053,
+            "STATE": "26",
+            "BASENAME": "37",
+            "OID": "212904690195052",
+            "LSADC": "LU",
+            "SLDU": "037",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.8164961",
+            "NAME": "State Senate District 37",
+            "OBJECTID": 1052,
+            "CENTLON": "-085.0275960",
+            "LSY": "2018",
+            "HU100": 155019,
+            "AREALAND": 15588154072,
+            "INTPTLON": "-085.3003257",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779789",
+            "POP100": 10077331,
+            "GEOID": "26",
+            "CENTLAT": "+44.8382252",
+            "AREAWATER": 103872203398,
+            "STATE": "26",
+            "BASENAME": "Michigan",
+            "STUSAB": "MI",
+            "OID": "2749048217992",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8441768",
+            "DIVISION": "3",
+            "NAME": "Michigan",
+            "REGION": "2",
+            "OBJECTID": 54,
+            "CENTLON": "-085.6650495",
+            "AREALAND": 146614604273,
+            "INTPTLON": "-085.6604907",
+            "HU100": 4570173,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "15859",
+            "CENTLAT": "+45.6141458",
+            "AREAWATER": 194614,
+            "BASENAME": "Cheboygan, MI",
+            "OID": "2702152644845",
+            "UA": "15859",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.6502895",
+            "NAME": "Cheboygan, MI Urban Area",
+            "OBJECTID": 944,
+            "CENTLON": "-084.4923234",
+            "AREALAND": 15612124,
+            "INTPTLON": "-084.4860321",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "15000",
+            "POP100": 4770,
+            "GEOID": "2603115000",
+            "CENTLAT": "+45.6412181",
+            "AREAWATER": 341780,
+            "STATE": "26",
+            "BASENAME": "Cheboygan",
+            "OID": "2769052644760",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+45.6419135",
+            "NAME": "Cheboygan city",
+            "OBJECTID": 30763,
+            "CENTLON": "-084.4686055",
+            "COUSUBCC": "C5",
+            "HU100": 2438,
+            "AREALAND": 17775080,
+            "INTPTLON": "-084.4687630",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01626066",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 93246,
+            "GEOID": "26107",
+            "CENTLAT": "+46.0732962",
+            "SLDL": "107",
+            "AREAWATER": 6881193145,
+            "STATE": "26",
+            "BASENAME": "107",
+            "OID": "213904690195210",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.0835839",
+            "NAME": "State House District 107",
+            "OBJECTID": 2817,
+            "CENTLON": "-084.7699095",
+            "LSY": "2018",
+            "HU100": 60183,
+            "AREALAND": 8353850892,
+            "INTPTLON": "-084.7335908",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4770,
+            "GEOID": "2615000",
+            "CENTLAT": "+45.6412181",
+            "AREAWATER": 341780,
+            "STATE": "26",
+            "BASENAME": "Cheboygan",
+            "OID": "2789052644776",
+            "LSADC": "25",
+            "PLACE": "15000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.6419135",
+            "NAME": "Cheboygan city",
+            "OBJECTID": 15937,
+            "PLACECC": "C5",
+            "CENTLON": "-084.4686055",
+            "CBSAPCI": "N",
+            "HU100": 2438,
+            "AREALAND": 17775080,
+            "INTPTLON": "-084.4687630",
+            "PLACENS": "01626066",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 25579,
+            "GEOID": "26031",
+            "CENTLAT": "+45.4725940",
+            "AREAWATER": 440607445,
+            "STATE": "26",
+            "BASENAME": "Cheboygan",
+            "OID": "2759052644753",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.4760217",
+            "NAME": "Cheboygan County",
+            "OBJECTID": 1562,
+            "CENTLON": "-084.4920249",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01622958",
+            "AREALAND": 1852564001,
+            "INTPTLON": "-084.4954307",
+            "HU100": 17631,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 704350,
+            "GEOID": "2601",
+            "CENTLAT": "+46.1633289",
+            "CDSESSN": "116",
+            "AREAWATER": 75781913171,
+            "STATE": "26",
+            "BASENAME": "1",
+            "OID": "211904690193358",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.1573045",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 163,
+            "CENTLON": "-086.4367294",
+            "HU100": 434867,
+            "AREALAND": 64824859099,
+            "INTPTLON": "-086.4369120",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2900,
+            "GEOID": "26031960200",
+            "CENTLAT": "+45.6589712",
+            "AREAWATER": 5618194,
+            "STATE": "26",
+            "BASENAME": "9602",
+            "OID": "2079052644820",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.6588536",
+            "NAME": "Census Tract 9602",
+            "OBJECTID": 50777,
+            "TRACT": "960200",
+            "CENTLON": "-084.5025195",
+            "HU100": 1572,
+            "AREALAND": 18178974,
+            "INTPTLON": "-084.5028775",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 16,
+            "GEOID": "260319602002013",
+            "CENTLAT": "+45.6400637",
+            "BLOCK": "2013",
+            "AREAWATER": 0,
+            "STATE": "26",
+            "BASENAME": "2013",
+            "OID": "210701002728007",
+            "LSADC": "BK",
+            "INTPTLAT": "+45.6371240",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2013",
+            "OBJECTID": 2813835,
+            "TRACT": "960200",
+            "CENTLON": "-084.4791157",
+            "BLKGRP": "2",
+            "AREALAND": 109403,
+            "HU100": 24,
+            "INTPTLON": "-084.4803328",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "031"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -84.481387,
+          "y": 45.637537
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

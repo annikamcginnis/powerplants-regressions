@@ -1,0 +1,278 @@
+{
+  "created_at": "2025-05-01T15:41:45.971574+00:00",
+  "elapsed": 0.199562,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4067",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:41:45 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.6925&y=32.913333"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.6925&y=32.913333",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 94191,
+            "GEOID": "45040",
+            "CENTLAT": "+33.2250966",
+            "AREAWATER": 37832943,
+            "STATE": "45",
+            "BASENAME": "40",
+            "OID": "212904690194015",
+            "LSADC": "LU",
+            "SLDU": "040",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2241030",
+            "NAME": "State Senate District 40",
+            "OBJECTID": 1369,
+            "CENTLON": "-081.1443606",
+            "LSY": "2018",
+            "HU100": 46085,
+            "AREALAND": 4875683651,
+            "INTPTLON": "-081.1507344",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779799",
+            "POP100": 5118425,
+            "GEOID": "45",
+            "CENTLAT": "+33.8758222",
+            "AREAWATER": 5074311415,
+            "STATE": "45",
+            "BASENAME": "South Carolina",
+            "STUSAB": "SC",
+            "OID": "27490140244538",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.8741776",
+            "DIVISION": "5",
+            "NAME": "South Carolina",
+            "REGION": "3",
+            "OBJECTID": 43,
+            "CENTLON": "-080.8583129",
+            "AREALAND": 77866132568,
+            "INTPTLON": "-080.8542639",
+            "HU100": 2344963,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "91513",
+            "CENTLAT": "+32.9077257",
+            "AREAWATER": 126488,
+            "BASENAME": "Walterboro, SC",
+            "OID": "27021463659211",
+            "UA": "91513",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.9078674",
+            "NAME": "Walterboro, SC Urban Area",
+            "OBJECTID": 1440,
+            "CENTLON": "-080.6682813",
+            "AREALAND": 21077235,
+            "INTPTLON": "-080.6681204",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93601",
+            "POP100": 20963,
+            "GEOID": "4502993601",
+            "CENTLAT": "+32.9541906",
+            "AREAWATER": 1625574,
+            "STATE": "45",
+            "BASENAME": "Walterboro",
+            "OID": "27690463645235",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.9576753",
+            "NAME": "Walterboro CCD",
+            "OBJECTID": 20983,
+            "CENTLON": "-080.6741358",
+            "COUSUBCC": "Z5",
+            "HU100": 9518,
+            "AREALAND": 688685285,
+            "INTPTLON": "-080.6741614",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938458",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 32448,
+            "GEOID": "45090",
+            "CENTLAT": "+33.0715473",
+            "SLDL": "090",
+            "AREAWATER": 10649767,
+            "STATE": "45",
+            "BASENAME": "HD-090",
+            "OID": "213904690194171",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.0626710",
+            "NAME": "State House District HD-090",
+            "OBJECTID": 1359,
+            "CENTLON": "-080.9307564",
+            "LSY": "2018",
+            "HU100": 15640,
+            "AREALAND": 2739177002,
+            "INTPTLON": "-080.9337614",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 38604,
+            "GEOID": "45029",
+            "CENTLAT": "+32.8431989",
+            "AREAWATER": 198865069,
+            "STATE": "45",
+            "BASENAME": "Colleton",
+            "OID": "27590463641489",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.8350184",
+            "NAME": "Colleton County",
+            "OBJECTID": 2389,
+            "CENTLON": "-080.6492596",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01247991",
+            "AREALAND": 2736331638,
+            "INTPTLON": "-080.6552438",
+            "HU100": 19824,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 646463,
+            "GEOID": "4506",
+            "CENTLAT": "+33.2153059",
+            "CDSESSN": "116",
+            "AREAWATER": 864425365,
+            "STATE": "45",
+            "BASENAME": "6",
+            "OID": "211904690192881",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2082080",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 130,
+            "CENTLON": "-080.5279742",
+            "HU100": 303207,
+            "AREALAND": 20883796159,
+            "INTPTLON": "-080.5239865",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2622,
+            "GEOID": "45029970502",
+            "CENTLAT": "+32.9074761",
+            "AREAWATER": 0,
+            "STATE": "45",
+            "BASENAME": "9705.02",
+            "OID": "2079015503003843",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.9074761",
+            "NAME": "Census Tract 9705.02",
+            "OBJECTID": 20724,
+            "TRACT": "970502",
+            "CENTLON": "-080.6820939",
+            "HU100": 1280,
+            "AREALAND": 9779574,
+            "INTPTLON": "-080.6820939",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "029"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 213,
+            "GEOID": "450299705022010",
+            "CENTLAT": "+32.9177449",
+            "BLOCK": "2010",
+            "AREAWATER": 0,
+            "STATE": "45",
+            "BASENAME": "2010",
+            "OID": "210701004547748",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.9177449",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2010",
+            "OBJECTID": 2572008,
+            "TRACT": "970502",
+            "CENTLON": "-080.6888152",
+            "BLKGRP": "2",
+            "AREALAND": 1261956,
+            "HU100": 91,
+            "INTPTLON": "-080.6888152",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "029"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.6925,
+          "y": 32.913333
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

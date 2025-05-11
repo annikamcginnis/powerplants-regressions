@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:57:27.212850+00:00",
+  "elapsed": 0.174805,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4133",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:57:27 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-83.638&y=33.8388"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-83.638&y=33.8388",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 203757,
+            "GEOID": "13046",
+            "CENTLAT": "+33.8347619",
+            "AREAWATER": 12016578,
+            "STATE": "13",
+            "BASENAME": "46",
+            "OID": "212904487270261",
+            "LSADC": "LU",
+            "SLDU": "046",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.8352371",
+            "NAME": "State Senate District 46",
+            "OBJECTID": 655,
+            "CENTLON": "-083.5883195",
+            "LSY": "2018",
+            "HU100": 79477,
+            "AREALAND": 1211835624,
+            "INTPTLON": "-083.5961682",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01705317",
+            "POP100": 10711908,
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": 4418749570,
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 37,
+            "CENTLON": "-083.4165286",
+            "AREALAND": 149486234922,
+            "INTPTLON": "-083.4235109",
+            "HU100": 4410956,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 6930423,
+            "GEOID": "122",
+            "CENTLAT": "+33.7283603",
+            "AREAWATER": 671939141,
+            "BASENAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL",
+            "OID": "2619013782255083",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7282990",
+            "NAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL CSA",
+            "CSA": "122",
+            "OBJECTID": 76,
+            "CENTLON": "-084.3485918",
+            "HU100": 2753914,
+            "AREALAND": 33807581912,
+            "INTPTLON": "-084.3477277",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91320",
+            "POP100": 5725,
+            "GEOID": "1329791320",
+            "CENTLAT": "+33.7961800",
+            "AREAWATER": 1298717,
+            "STATE": "13",
+            "BASENAME": "Good Hope",
+            "OID": "27690424264872",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7968458",
+            "NAME": "Good Hope CCD",
+            "OBJECTID": 19795,
+            "CENTLON": "-083.5989257",
+            "COUSUBCC": "Z5",
+            "HU100": 2218,
+            "AREALAND": 163550796,
+            "INTPTLON": "-083.6014089",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936290",
+            "UR": "R",
+            "COUNTY": "297"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 61063,
+            "GEOID": "13115",
+            "CENTLAT": "+33.7688398",
+            "SLDL": "115",
+            "AREAWATER": 7057830,
+            "STATE": "13",
+            "BASENAME": "115",
+            "OID": "213904487270308",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.7661053",
+            "NAME": "State House District 115",
+            "OBJECTID": 854,
+            "CENTLON": "-083.7025934",
+            "LSY": "2018",
+            "HU100": 23061,
+            "AREALAND": 680277192,
+            "INTPTLON": "-083.7058464",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 96673,
+            "GEOID": "13297",
+            "CENTLAT": "+33.7815436",
+            "AREAWATER": 8234387,
+            "STATE": "13",
+            "BASENAME": "Walton",
+            "OID": "27590424243458",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.7838866",
+            "NAME": "Walton County",
+            "OBJECTID": 361,
+            "CENTLON": "-083.7338347",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00351264",
+            "AREALAND": 846461373,
+            "INTPTLON": "-083.7318290",
+            "HU100": 35473,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "297"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 775012,
+            "GEOID": "1310",
+            "CENTLAT": "+33.4267928",
+            "CDSESSN": "116",
+            "AREAWATER": 459258593,
+            "STATE": "13",
+            "BASENAME": "10",
+            "OID": "211904486864423",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.4241891",
+            "NAME": "Congressional District 10",
+            "OBJECTID": 51,
+            "CENTLON": "-083.0606489",
+            "HU100": 311115,
+            "AREALAND": 18384789422,
+            "INTPTLON": "-083.0622517",
+            "CD116": "10",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5725,
+            "GEOID": "13297110200",
+            "CENTLAT": "+33.7961800",
+            "AREAWATER": 1298717,
+            "STATE": "13",
+            "BASENAME": "1102",
+            "OID": "20790424296103",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7968458",
+            "NAME": "Census Tract 1102",
+            "OBJECTID": 27188,
+            "TRACT": "110200",
+            "CENTLON": "-083.5989257",
+            "HU100": 2218,
+            "AREALAND": 163550796,
+            "INTPTLON": "-083.6014089",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "297"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 16,
+            "GEOID": "132971102001050",
+            "CENTLAT": "+33.8373654",
+            "BLOCK": "1050",
+            "AREAWATER": 6658,
+            "STATE": "13",
+            "BASENAME": "1050",
+            "OID": "210701005180313",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.8373807",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1050",
+            "OBJECTID": 3696060,
+            "TRACT": "110200",
+            "CENTLON": "-083.6357108",
+            "BLKGRP": "1",
+            "AREALAND": 832762,
+            "HU100": 6,
+            "INTPTLON": "-083.6356885",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "297"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -83.638,
+          "y": 33.8388
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

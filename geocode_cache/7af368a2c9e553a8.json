@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:40:39.371679+00:00",
+  "elapsed": 0.251406,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4882",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:40:39 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.6689&y=35.837841"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.6689&y=35.837841",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 239900,
+            "GEOID": "37018",
+            "CENTLAT": "+36.0407415",
+            "AREAWATER": 36630348,
+            "STATE": "37",
+            "BASENAME": "18",
+            "OID": "212904690224537",
+            "LSADC": "LU",
+            "SLDU": "018",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.0431118",
+            "NAME": "State Senate District 18",
+            "OBJECTID": 1515,
+            "CENTLON": "-078.3636049",
+            "LSY": "2018",
+            "HU100": 97455,
+            "AREALAND": 1797937427,
+            "INTPTLON": "-078.3602390",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01027616",
+            "POP100": 10439388,
+            "GEOID": "37",
+            "CENTLAT": "+35.5401756",
+            "AREAWATER": 13456395178,
+            "STATE": "37",
+            "BASENAME": "North Carolina",
+            "STUSAB": "NC",
+            "OID": "2749018629826",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5397100",
+            "DIVISION": "5",
+            "NAME": "North Carolina",
+            "REGION": "3",
+            "OBJECTID": 24,
+            "CENTLON": "-079.1299320",
+            "AREALAND": 125933025759,
+            "INTPTLON": "-079.1308636",
+            "HU100": 4708710,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2106463,
+            "GEOID": "450",
+            "CENTLAT": "+35.9418901",
+            "AREAWATER": 271305148,
+            "BASENAME": "Raleigh-Durham-Cary, NC",
+            "OID": "2619013782255212",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.9419746",
+            "NAME": "Raleigh-Durham-Cary, NC CSA",
+            "CSA": "450",
+            "OBJECTID": 157,
+            "CENTLON": "-078.7225486",
+            "HU100": 877771,
+            "AREALAND": 12071662215,
+            "INTPTLON": "-078.7226938",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "73261",
+            "CENTLAT": "+35.7800624",
+            "AREAWATER": 13870659,
+            "BASENAME": "Raleigh, NC",
+            "OID": "2702119000802",
+            "UA": "73261",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.7788313",
+            "NAME": "Raleigh, NC Urban Area",
+            "OBJECTID": 1230,
+            "CENTLON": "-078.6777202",
+            "AREALAND": 1436973664,
+            "INTPTLON": "-078.6794259",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91548",
+            "POP100": 61113,
+            "GEOID": "3718391548",
+            "CENTLAT": "+35.8687417",
+            "AREAWATER": 593969,
+            "STATE": "37",
+            "BASENAME": "House Creek",
+            "OID": "27690166216772",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8668677",
+            "NAME": "House Creek township",
+            "OBJECTID": 18841,
+            "CENTLON": "-078.6875191",
+            "COUSUBCC": "Z1",
+            "HU100": 31029,
+            "AREALAND": 56524440,
+            "INTPTLON": "-078.6865569",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01027263",
+            "UR": "M",
+            "COUNTY": "183"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 87563,
+            "GEOID": "37034",
+            "CENTLAT": "+35.8461204",
+            "SLDL": "034",
+            "AREAWATER": 250040,
+            "STATE": "37",
+            "BASENAME": "34",
+            "OID": "213904690224756",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8451638",
+            "NAME": "State House District 34",
+            "OBJECTID": 3707,
+            "CENTLON": "-078.6546736",
+            "LSY": "2018",
+            "HU100": 45930,
+            "AREALAND": 62293747,
+            "INTPTLON": "-078.6564462",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 467665,
+            "GEOID": "3755000",
+            "CENTLAT": "+35.8323155",
+            "AREAWATER": 2821590,
+            "STATE": "37",
+            "BASENAME": "Raleigh",
+            "OID": "27890147559348",
+            "LSADC": "25",
+            "PLACE": "55000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.8302035",
+            "NAME": "Raleigh city",
+            "OBJECTID": 13984,
+            "PLACECC": "C1",
+            "CENTLON": "-078.6429286",
+            "CBSAPCI": "Y",
+            "HU100": 208114,
+            "AREALAND": 381028394,
+            "INTPTLON": "-078.6414930",
+            "PLACENS": "02404590",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1129410,
+            "GEOID": "37183",
+            "CENTLAT": "+35.7902352",
+            "AREAWATER": 58082284,
+            "STATE": "37",
+            "BASENAME": "Wake",
+            "OID": "2759019000509",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.7898464",
+            "NAME": "Wake County",
+            "OBJECTID": 1708,
+            "CENTLON": "-078.6504760",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01008592",
+            "AREALAND": 2161570492,
+            "INTPTLON": "-078.6506240",
+            "HU100": 462582,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "183"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 875363,
+            "GEOID": "3704",
+            "CENTLAT": "+35.9509410",
+            "CDSESSN": "116",
+            "AREAWATER": 18000829,
+            "STATE": "37",
+            "BASENAME": "4",
+            "OID": "211904690224403",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.1025691",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 371,
+            "CENTLON": "-078.9306820",
+            "HU100": 376394,
+            "AREALAND": 1897010641,
+            "INTPTLON": "-079.0620671",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4044,
+            "GEOID": "37183051700",
+            "CENTLAT": "+35.8222444",
+            "AREAWATER": 29014,
+            "STATE": "37",
+            "BASENAME": "517",
+            "OID": "20790166218329",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.8213404",
+            "NAME": "Census Tract 517",
+            "OBJECTID": 84145,
+            "TRACT": "051700",
+            "CENTLON": "-078.6529129",
+            "HU100": 1810,
+            "AREALAND": 4940274,
+            "INTPTLON": "-078.6579511",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "183"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "371830517003000",
+            "CENTLAT": "+35.8374976",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "3000",
+            "OID": "210701008335799",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.8374976",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 5822452,
+            "TRACT": "051700",
+            "CENTLON": "-078.6683179",
+            "BLKGRP": "3",
+            "AREALAND": 201091,
+            "HU100": 0,
+            "INTPTLON": "-078.6683179",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "183"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -78.6689,
+          "y": 35.837841
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

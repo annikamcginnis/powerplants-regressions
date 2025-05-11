@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:36:54.924231+00:00",
+  "elapsed": 0.155011,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4122",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:36:54 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.632038&y=39.832769"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.632038&y=39.832769",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 65701,
+            "GEOID": "20036",
+            "CENTLAT": "+39.4803507",
+            "AREAWATER": 168170299,
+            "STATE": "20",
+            "BASENAME": "36",
+            "OID": "212904692012054",
+            "LSADC": "LU",
+            "SLDU": "036",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4750774",
+            "NAME": "State Senate District 36",
+            "OBJECTID": 1046,
+            "CENTLON": "-098.2416445",
+            "LSY": "2018",
+            "HU100": 34775,
+            "AREALAND": 25455796521,
+            "INTPTLON": "-098.2386293",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00481813",
+            "POP100": 2937880,
+            "GEOID": "20",
+            "CENTLAT": "+38.4938959",
+            "AREAWATER": 1345707497,
+            "STATE": "20",
+            "BASENAME": "Kansas",
+            "STUSAB": "KS",
+            "OID": "2749051425496",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4985464",
+            "DIVISION": "4",
+            "NAME": "Kansas",
+            "REGION": "2",
+            "OBJECTID": 6,
+            "CENTLON": "-098.3786217",
+            "AREALAND": 211753777874,
+            "INTPTLON": "-098.3834298",
+            "HU100": 1275689,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "05600",
+            "POP100": 2007,
+            "GEOID": "2015705600",
+            "CENTLAT": "+39.8245160",
+            "AREAWATER": 97235,
+            "STATE": "20",
+            "BASENAME": "Belleville",
+            "OID": "2769068675727",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+39.8243366",
+            "NAME": "Belleville city",
+            "OBJECTID": 16694,
+            "CENTLON": "-097.6336614",
+            "COUSUBCC": "C5",
+            "HU100": 1157,
+            "AREALAND": 5324509,
+            "INTPTLON": "-097.6338554",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00485546",
+            "UR": "R",
+            "COUNTY": "157"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 21349,
+            "GEOID": "20106",
+            "CENTLAT": "+39.7958927",
+            "SLDL": "106",
+            "AREAWATER": 40520545,
+            "STATE": "20",
+            "BASENAME": "106",
+            "OID": "213904692049996",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.7942176",
+            "NAME": "State House District 106",
+            "OBJECTID": 2456,
+            "CENTLON": "-097.1714757",
+            "LSY": "2018",
+            "HU100": 10849,
+            "AREALAND": 7437238134,
+            "INTPTLON": "-097.1703716",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2007,
+            "GEOID": "2005600",
+            "CENTLAT": "+39.8245160",
+            "AREAWATER": 97235,
+            "STATE": "20",
+            "BASENAME": "Belleville",
+            "OID": "2789068675747",
+            "LSADC": "25",
+            "PLACE": "05600",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.8243366",
+            "NAME": "Belleville city",
+            "OBJECTID": 9447,
+            "PLACECC": "C5",
+            "CENTLON": "-097.6336614",
+            "CBSAPCI": "N",
+            "HU100": 1157,
+            "AREALAND": 5324509,
+            "INTPTLON": "-097.6338554",
+            "PLACENS": "00485546",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 4674,
+            "GEOID": "20157",
+            "CENTLAT": "+39.8277664",
+            "AREAWATER": 7951912,
+            "STATE": "20",
+            "BASENAME": "Republic",
+            "OID": "2759068675724",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.8289061",
+            "NAME": "Republic County",
+            "OBJECTID": 121,
+            "CENTLON": "-097.6506225",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00485042",
+            "AREALAND": 1857998463,
+            "INTPTLON": "-097.6508830",
+            "HU100": 2676,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "157"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 700773,
+            "GEOID": "2001",
+            "CENTLAT": "+38.7344691",
+            "CDSESSN": "116",
+            "AREAWATER": 595079553,
+            "STATE": "20",
+            "BASENAME": "1",
+            "OID": "211904691752364",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7315950",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 336,
+            "CENTLON": "-099.4118316",
+            "HU100": 314893,
+            "AREALAND": 136083289207,
+            "INTPTLON": "-099.4080367",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2173,
+            "GEOID": "20157978300",
+            "CENTLAT": "+39.8260762",
+            "AREAWATER": 156646,
+            "STATE": "20",
+            "BASENAME": "9783",
+            "OID": "2079068675759",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.8260395",
+            "NAME": "Census Tract 9783",
+            "OBJECTID": 83445,
+            "TRACT": "978300",
+            "CENTLON": "-097.6305038",
+            "HU100": 1235,
+            "AREALAND": 44057957,
+            "INTPTLON": "-097.6301308",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "157"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "201579783001026",
+            "CENTLAT": "+39.8326923",
+            "BLOCK": "1026",
+            "AREAWATER": 0,
+            "STATE": "20",
+            "BASENAME": "1026",
+            "OID": "210701001589941",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.8326923",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1026",
+            "OBJECTID": 700626,
+            "TRACT": "978300",
+            "CENTLON": "-097.6321685",
+            "BLKGRP": "1",
+            "AREALAND": 22301,
+            "HU100": 0,
+            "INTPTLON": "-097.6321685",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "157"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.632038,
+          "y": 39.832769
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

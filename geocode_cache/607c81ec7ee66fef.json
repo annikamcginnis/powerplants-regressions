@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:53:20.815415+00:00",
+  "elapsed": 0.167577,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4120",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:53:20 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.4537&y=33.8553"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.4537&y=33.8553",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1018706,
+            "GEOID": "06028",
+            "CENTLAT": "+33.7273697",
+            "AREAWATER": 225230941,
+            "STATE": "06",
+            "BASENAME": "28",
+            "OID": "212904690192889",
+            "LSADC": "LU",
+            "SLDU": "028",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.7302775",
+            "NAME": "State Senate District 28",
+            "OBJECTID": 990,
+            "CENTLON": "-115.8412640",
+            "LSY": "2018",
+            "HU100": 416275,
+            "AREALAND": 16506290898,
+            "INTPTLON": "-115.8931674",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 18644680,
+            "GEOID": "348",
+            "CENTLAT": "+34.4706942",
+            "AREAWATER": 3480748723,
+            "BASENAME": "Los Angeles-Long Beach, CA",
+            "OID": "2619013782255168",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4637584",
+            "NAME": "Los Angeles-Long Beach, CA CSA",
+            "CSA": "348",
+            "OBJECTID": 113,
+            "CENTLON": "-116.6480307",
+            "HU100": 6595294,
+            "AREALAND": 87982392819,
+            "INTPTLON": "-116.6585523",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91530",
+            "POP100": 28249,
+            "GEOID": "0606591530",
+            "CENTLAT": "+33.8060295",
+            "AREAWATER": 11044699,
+            "STATE": "06",
+            "BASENAME": "Lake Mathews",
+            "OID": "27690435461391",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.8075179",
+            "NAME": "Lake Mathews CCD",
+            "OBJECTID": 35281,
+            "CENTLON": "-117.3936836",
+            "COUSUBCC": "Z5",
+            "HU100": 8242,
+            "AREALAND": 200539014,
+            "INTPTLON": "-117.3935767",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935158",
+            "UR": "M",
+            "COUNTY": "065"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 550459,
+            "GEOID": "06067",
+            "CENTLAT": "+33.6866916",
+            "SLDL": "067",
+            "AREAWATER": 27868958,
+            "STATE": "06",
+            "BASENAME": "67",
+            "OID": "213904690193041",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.6833814",
+            "NAME": "Assembly District 67",
+            "OBJECTID": 1178,
+            "CENTLON": "-117.2724201",
+            "LSY": "2018",
+            "HU100": 179705,
+            "AREALAND": 1459192117,
+            "INTPTLON": "-117.2737542",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 2418185,
+            "GEOID": "06065",
+            "CENTLAT": "+33.7464053",
+            "AREAWATER": 243201314,
+            "STATE": "06",
+            "BASENAME": "Riverside",
+            "OID": "27590435411091",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.7298275",
+            "NAME": "Riverside County",
+            "OBJECTID": 2419,
+            "CENTLON": "-115.9939621",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277297",
+            "AREALAND": 18671921166,
+            "INTPTLON": "-116.0022389",
+            "HU100": 848549,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "065"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 811655,
+            "GEOID": "0642",
+            "CENTLAT": "+33.6789753",
+            "CDSESSN": "116",
+            "AREAWATER": 44105315,
+            "STATE": "06",
+            "BASENAME": "42",
+            "OID": "211904492478372",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.6799491",
+            "NAME": "Congressional District 42",
+            "OBJECTID": 97,
+            "CENTLON": "-117.2259097",
+            "HU100": 256851,
+            "AREALAND": 2424753563,
+            "INTPTLON": "-117.2275252",
+            "CD116": "42",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 8742,
+            "GEOID": "06065042008",
+            "CENTLAT": "+33.8501741",
+            "AREAWATER": 10906247,
+            "STATE": "06",
+            "BASENAME": "420.08",
+            "OID": "20790435542941",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.8481383",
+            "NAME": "Census Tract 420.08",
+            "OBJECTID": 38070,
+            "TRACT": "042008",
+            "CENTLON": "-117.3981770",
+            "HU100": 2657,
+            "AREALAND": 43822552,
+            "INTPTLON": "-117.4083363",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "065"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "060650420083019",
+            "CENTLAT": "+33.8522086",
+            "BLOCK": "3019",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "3019",
+            "OID": "210701002175716",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.8522086",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3019",
+            "OBJECTID": 1113483,
+            "TRACT": "042008",
+            "CENTLON": "-117.4550212",
+            "BLKGRP": "3",
+            "AREALAND": 531542,
+            "HU100": 0,
+            "INTPTLON": "-117.4550212",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "065"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -117.4537,
+          "y": 33.8553
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T16:13:32.900563+00:00",
+  "elapsed": 0.142221,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4069",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:13:32 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.424133&y=37.581339"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.424133&y=37.581339",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 75467,
+            "GEOID": "20026",
+            "CENTLAT": "+37.6001320",
+            "AREAWATER": 9221227,
+            "STATE": "20",
+            "BASENAME": "26",
+            "OID": "212904692011711",
+            "LSADC": "LU",
+            "SLDU": "026",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.6013075",
+            "NAME": "State Senate District 26",
+            "OBJECTID": 1121,
+            "CENTLON": "-097.5316744",
+            "LSY": "2018",
+            "HU100": 28726,
+            "AREALAND": 882969907,
+            "INTPTLON": "-097.5258866",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00481813",
+            "POP100": 2937880,
+            "GEOID": "20",
+            "CENTLAT": "+38.4938959",
+            "AREAWATER": 1345707497,
+            "STATE": "20",
+            "BASENAME": "Kansas",
+            "STUSAB": "KS",
+            "OID": "2749051425496",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4985464",
+            "DIVISION": "4",
+            "NAME": "Kansas",
+            "REGION": "2",
+            "OBJECTID": 6,
+            "CENTLON": "-098.3786217",
+            "AREALAND": 211753777874,
+            "INTPTLON": "-098.3834298",
+            "HU100": 1275689,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 682159,
+            "GEOID": "556",
+            "CENTLAT": "+37.5527505",
+            "AREAWATER": 103463385,
+            "BASENAME": "Wichita-Winfield, KS",
+            "OID": "2619013782255249",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.5523449",
+            "NAME": "Wichita-Winfield, KS CSA",
+            "CSA": "556",
+            "OBJECTID": 105,
+            "CENTLON": "-097.1588563",
+            "HU100": 290992,
+            "AREALAND": 13659089647,
+            "INTPTLON": "-097.1559638",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "74300",
+            "POP100": 660,
+            "GEOID": "2017374300",
+            "CENTLAT": "+37.5957959",
+            "AREAWATER": 385657,
+            "STATE": "20",
+            "BASENAME": "Waco",
+            "OID": "27690362471702",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.6002723",
+            "NAME": "Waco township",
+            "OBJECTID": 16569,
+            "CENTLON": "-097.4292462",
+            "COUSUBCC": "T1",
+            "HU100": 278,
+            "AREALAND": 64413030,
+            "INTPTLON": "-097.4349151",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00474181",
+            "UR": "M",
+            "COUNTY": "173"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 23769,
+            "GEOID": "20093",
+            "CENTLAT": "+37.5537442",
+            "SLDL": "093",
+            "AREAWATER": 5383261,
+            "STATE": "20",
+            "BASENAME": "93",
+            "OID": "213904692049797",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.5518610",
+            "NAME": "State House District 93",
+            "OBJECTID": 2419,
+            "CENTLON": "-097.5719739",
+            "LSY": "2018",
+            "HU100": 9111,
+            "AREALAND": 770776347,
+            "INTPTLON": "-097.5723161",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 523824,
+            "GEOID": "20173",
+            "CENTLAT": "+37.6846943",
+            "AREAWATER": 31558986,
+            "STATE": "20",
+            "BASENAME": "Sedgwick",
+            "OID": "27590329468427",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.6810450",
+            "NAME": "Sedgwick County",
+            "OBJECTID": 3126,
+            "CENTLON": "-097.4610429",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00485049",
+            "AREALAND": 2582051713,
+            "INTPTLON": "-097.4610535",
+            "HU100": 223640,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "173"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 731814,
+            "GEOID": "2004",
+            "CENTLAT": "+37.5477516",
+            "CDSESSN": "116",
+            "AREAWATER": 190336765,
+            "STATE": "20",
+            "BASENAME": "4",
+            "OID": "211904691753141",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.5544654",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 338,
+            "CENTLON": "-097.7398849",
+            "HU100": 317664,
+            "AREALAND": 37074975584,
+            "INTPTLON": "-097.7439831",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6133,
+            "GEOID": "20173009605",
+            "CENTLAT": "+37.5779399",
+            "AREAWATER": 834618,
+            "STATE": "20",
+            "BASENAME": "96.05",
+            "OID": "207903714753002",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.5777368",
+            "NAME": "Census Tract 96.05",
+            "OBJECTID": 54268,
+            "TRACT": "009605",
+            "CENTLON": "-097.5111735",
+            "HU100": 2154,
+            "AREALAND": 221654178,
+            "INTPTLON": "-097.5122625",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "173"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "201730096052096",
+            "CENTLAT": "+37.5868259",
+            "BLOCK": "2096",
+            "AREAWATER": 118306,
+            "STATE": "20",
+            "BASENAME": "2096",
+            "OID": "210701006636132",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.5885929",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2096",
+            "OBJECTID": 7326775,
+            "TRACT": "009605",
+            "CENTLON": "-097.4214906",
+            "BLKGRP": "2",
+            "AREALAND": 981099,
+            "HU100": 0,
+            "INTPTLON": "-097.4214323",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "173"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.424133,
+          "y": 37.581339
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

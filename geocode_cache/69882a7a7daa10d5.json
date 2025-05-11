@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:11:47.151899+00:00",
+  "elapsed": 0.238436,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4909",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:11:47 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.51277&y=30.077307"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.51277&y=30.077307",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1009368,
+            "GEOID": "48007",
+            "CENTLAT": "+29.9774491",
+            "AREAWATER": 7441750,
+            "STATE": "48",
+            "BASENAME": "7",
+            "OID": "212904690778983",
+            "LSADC": "LU",
+            "SLDU": "007",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+29.9772115",
+            "NAME": "State Senate District 7",
+            "OBJECTID": 1127,
+            "CENTLON": "-095.6006164",
+            "LSY": "2018",
+            "HU100": 366658,
+            "AREALAND": 924461058,
+            "INTPTLON": "-095.6005756",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 7312270,
+            "GEOID": "288",
+            "CENTLAT": "+29.6770696",
+            "AREAWATER": 4500860693,
+            "BASENAME": "Houston-The Woodlands, TX",
+            "OID": "2619013782255142",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+29.6782333",
+            "NAME": "Houston-The Woodlands, TX CSA",
+            "CSA": "288",
+            "OBJECTID": 49,
+            "CENTLON": "-095.5626786",
+            "HU100": 2821424,
+            "AREALAND": 30655552246,
+            "INTPTLON": "-095.5614997",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "40429",
+            "CENTLAT": "+29.7738235",
+            "AREAWATER": 66558913,
+            "BASENAME": "Houston, TX",
+            "OID": "27021142459070",
+            "UA": "40429",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+29.7730212",
+            "NAME": "Houston, TX Urban Area",
+            "OBJECTID": 205,
+            "CENTLON": "-095.4019505",
+            "AREALAND": 4539436477,
+            "INTPTLON": "-095.4003948",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92845",
+            "POP100": 862922,
+            "GEOID": "4820192845",
+            "CENTLAT": "+30.0170142",
+            "AREAWATER": 13721733,
+            "STATE": "48",
+            "BASENAME": "Northwest Harris",
+            "OID": "27690325949088",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.0099984",
+            "NAME": "Northwest Harris CCD",
+            "OBJECTID": 11828,
+            "CENTLON": "-095.6626778",
+            "COUSUBCC": "Z5",
+            "HU100": 310802,
+            "AREALAND": 1124416168,
+            "INTPTLON": "-095.6608651",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939050",
+            "UR": "M",
+            "COUNTY": "201"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 239896,
+            "GEOID": "48150",
+            "CENTLAT": "+30.0809042",
+            "SLDL": "150",
+            "AREAWATER": 2062599,
+            "STATE": "48",
+            "BASENAME": "150",
+            "OID": "213904690781656",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.0789393",
+            "NAME": "State House District 150",
+            "OBJECTID": 4667,
+            "CENTLON": "-095.4917095",
+            "LSY": "2018",
+            "HU100": 88398,
+            "AREALAND": 225231731,
+            "INTPTLON": "-095.4883887",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2304580,
+            "GEOID": "4835000",
+            "CENTLAT": "+29.7859455",
+            "AREAWATER": 80896867,
+            "STATE": "48",
+            "BASENAME": "Houston",
+            "OID": "27890262361690",
+            "LSADC": "25",
+            "PLACE": "35000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+29.7857435",
+            "NAME": "Houston city",
+            "OBJECTID": 18630,
+            "PLACECC": "C1",
+            "CENTLON": "-095.3886094",
+            "CBSAPCI": "Y",
+            "HU100": 998195,
+            "AREALAND": 1658742854,
+            "INTPTLON": "-095.3888059",
+            "PLACENS": "02410796",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 4731145,
+            "GEOID": "48201",
+            "CENTLAT": "+29.8573014",
+            "AREAWATER": 182431712,
+            "STATE": "48",
+            "BASENAME": "Harris",
+            "OID": "27590325947046",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+29.8572730",
+            "NAME": "Harris County",
+            "OBJECTID": 1383,
+            "CENTLON": "-095.3920502",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383886",
+            "AREALAND": 4421015900,
+            "INTPTLON": "-095.3930371",
+            "HU100": 1842683,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "201"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 916386,
+            "GEOID": "4808",
+            "CENTLAT": "+30.8193980",
+            "CDSESSN": "116",
+            "AREAWATER": 410974323,
+            "STATE": "48",
+            "BASENAME": "8",
+            "OID": "211904690225215",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.8332407",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 410,
+            "CENTLON": "-095.5476753",
+            "HU100": 360050,
+            "AREALAND": 15681867232,
+            "INTPTLON": "-095.5436034",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 10035,
+            "GEOID": "48201554902",
+            "CENTLAT": "+30.0977881",
+            "AREAWATER": 47091,
+            "STATE": "48",
+            "BASENAME": "5549.02",
+            "OID": "207903717156316",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.0975632",
+            "NAME": "Census Tract 5549.02",
+            "OBJECTID": 63571,
+            "TRACT": "554902",
+            "CENTLON": "-095.5199919",
+            "HU100": 3898,
+            "AREALAND": 12720652,
+            "INTPTLON": "-095.5205480",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "201"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 13,
+            "GEOID": "482015549022015",
+            "CENTLAT": "+30.0777022",
+            "BLOCK": "2015",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "2015",
+            "OID": "210701004757116",
+            "LSADC": "BK",
+            "INTPTLAT": "+30.0777022",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2015",
+            "OBJECTID": 3480823,
+            "TRACT": "554902",
+            "CENTLON": "-095.5148821",
+            "BLKGRP": "2",
+            "AREALAND": 300409,
+            "HU100": 1,
+            "INTPTLON": "-095.5148821",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "201"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -95.51277,
+          "y": 30.077307
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:12:29.209693+00:00",
+  "elapsed": 0.202216,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4485",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:12:29 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.7278&y=35.737748"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.7278&y=35.737748",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 186134,
+            "GEOID": "37046",
+            "CENTLAT": "+35.8930662",
+            "AREAWATER": 28251178,
+            "STATE": "37",
+            "BASENAME": "46",
+            "OID": "212904690224549",
+            "LSADC": "LU",
+            "SLDU": "046",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8898479",
+            "NAME": "State Senate District 46",
+            "OBJECTID": 1521,
+            "CENTLON": "-081.6874086",
+            "LSY": "2018",
+            "HU100": 90311,
+            "AREALAND": 3175897456,
+            "INTPTLON": "-081.6921678",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01027616",
+            "POP100": 10439388,
+            "GEOID": "37",
+            "CENTLAT": "+35.5401756",
+            "AREAWATER": 13456395178,
+            "STATE": "37",
+            "BASENAME": "North Carolina",
+            "STUSAB": "NC",
+            "OID": "2749018629826",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5397100",
+            "DIVISION": "5",
+            "NAME": "North Carolina",
+            "REGION": "3",
+            "OBJECTID": 24,
+            "CENTLON": "-079.1299320",
+            "AREALAND": 125933025759,
+            "INTPTLON": "-079.1308636",
+            "HU100": 4708710,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "38647",
+            "CENTLAT": "+35.7583096",
+            "AREAWATER": 5389228,
+            "BASENAME": "Hickory, NC",
+            "OID": "27021202950068",
+            "UA": "38647",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.7549214",
+            "NAME": "Hickory, NC Urban Area",
+            "OBJECTID": 365,
+            "CENTLON": "-081.4206489",
+            "AREALAND": 573260796,
+            "INTPTLON": "-081.4210744",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92136",
+            "POP100": 27704,
+            "GEOID": "3702392136",
+            "CENTLAT": "+35.7057047",
+            "AREAWATER": 327488,
+            "STATE": "37",
+            "BASENAME": "Morganton",
+            "OID": "27690303199910",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.7070488",
+            "NAME": "Morganton township",
+            "OBJECTID": 31718,
+            "CENTLON": "-081.6879495",
+            "COUSUBCC": "Z1",
+            "HU100": 11913,
+            "AREALAND": 154654887,
+            "INTPTLON": "-081.6902106",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01026464",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 77046,
+            "GEOID": "37086",
+            "CENTLAT": "+35.7875710",
+            "SLDL": "086",
+            "AREAWATER": 20628006,
+            "STATE": "37",
+            "BASENAME": "86",
+            "OID": "213904690224619",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.7799602",
+            "NAME": "State House District 86",
+            "OBJECTID": 3571,
+            "CENTLON": "-081.7205567",
+            "LSY": "2018",
+            "HU100": 35206,
+            "AREALAND": 990368890,
+            "INTPTLON": "-081.7317066",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 17474,
+            "GEOID": "3744400",
+            "CENTLAT": "+35.7408362",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "Morganton",
+            "OID": "27890303214818",
+            "LSADC": "25",
+            "PLACE": "44400",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.7408362",
+            "NAME": "Morganton city",
+            "OBJECTID": 15910,
+            "PLACECC": "C1",
+            "CENTLON": "-081.7003543",
+            "CBSAPCI": "Y",
+            "HU100": 7559,
+            "AREALAND": 49841815,
+            "INTPTLON": "-081.7003543",
+            "PLACENS": "02404304",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 87570,
+            "GEOID": "37023",
+            "CENTLAT": "+35.7495690",
+            "AREAWATER": 20719897,
+            "STATE": "37",
+            "BASENAME": "Burke",
+            "OID": "27590303166978",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.7461820",
+            "NAME": "Burke County",
+            "OBJECTID": 2261,
+            "CENTLON": "-081.7046133",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01008539",
+            "AREALAND": 1311146879,
+            "INTPTLON": "-081.7061795",
+            "HU100": 39525,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 768561,
+            "GEOID": "3711",
+            "CENTLAT": "+35.5211339",
+            "CDSESSN": "116",
+            "AREAWATER": 190948120,
+            "STATE": "37",
+            "BASENAME": "11",
+            "OID": "211904690224412",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.5214138",
+            "NAME": "Congressional District 11",
+            "OBJECTID": 374,
+            "CENTLON": "-082.8099773",
+            "HU100": 399511,
+            "AREALAND": 17106240158,
+            "INTPTLON": "-082.8102435",
+            "CD116": "11",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5112,
+            "GEOID": "37023021400",
+            "CENTLAT": "+35.7286661",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "214",
+            "OID": "207903717484744",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.7286661",
+            "NAME": "Census Tract 214",
+            "OBJECTID": 16292,
+            "TRACT": "021400",
+            "CENTLON": "-081.7121721",
+            "HU100": 2160,
+            "AREALAND": 19428741,
+            "INTPTLON": "-081.7121721",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 179,
+            "GEOID": "370230214003002",
+            "CENTLAT": "+35.7365959",
+            "BLOCK": "3002",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "3002",
+            "OID": "210701007208581",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.7365959",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3002",
+            "OBJECTID": 2492211,
+            "TRACT": "021400",
+            "CENTLON": "-081.7330400",
+            "BLKGRP": "3",
+            "AREALAND": 562141,
+            "HU100": 91,
+            "INTPTLON": "-081.7330400",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "023"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.7278,
+          "y": 35.737748
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

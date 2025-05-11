@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:06:21.438958+00:00",
+  "elapsed": 0.167801,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4516",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:06:21 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-98.5894&y=33.8625"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-98.5894&y=33.8625",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1027265,
+            "GEOID": "48030",
+            "CENTLAT": "+33.2839537",
+            "AREAWATER": 749658335,
+            "STATE": "48",
+            "BASENAME": "30",
+            "OID": "212904690779057",
+            "LSADC": "LU",
+            "SLDU": "030",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2869989",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 1413,
+            "CENTLON": "-097.8885260",
+            "LSY": "2018",
+            "HU100": 413449,
+            "AREALAND": 31078332351,
+            "INTPTLON": "-097.8774784",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "95104",
+            "CENTLAT": "+33.9049001",
+            "AREAWATER": 0,
+            "BASENAME": "Wichita Falls, TX",
+            "OID": "27021214127845",
+            "UA": "95104",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9049001",
+            "NAME": "Wichita Falls, TX Urban Area",
+            "OBJECTID": 441,
+            "CENTLON": "-098.5188678",
+            "AREALAND": 131530216,
+            "INTPTLON": "-098.5188678",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "94215",
+            "POP100": 106662,
+            "GEOID": "4848594215",
+            "CENTLAT": "+33.9300036",
+            "AREAWATER": 4612742,
+            "STATE": "48",
+            "BASENAME": "Wichita Falls",
+            "OID": "27690707424820",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.9265249",
+            "NAME": "Wichita Falls CCD",
+            "OBJECTID": 33527,
+            "CENTLON": "-098.5463040",
+            "COUSUBCC": "Z5",
+            "HU100": 45460,
+            "AREALAND": 503510377,
+            "INTPTLON": "-098.5448707",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939325",
+            "UR": "M",
+            "COUNTY": "485"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 156041,
+            "GEOID": "48069",
+            "CENTLAT": "+33.7476369",
+            "SLDL": "069",
+            "AREAWATER": 252012190,
+            "STATE": "48",
+            "BASENAME": "69",
+            "OID": "213904690781313",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.7266167",
+            "NAME": "State House District 69",
+            "OBJECTID": 4629,
+            "CENTLON": "-099.0032545",
+            "LSY": "2018",
+            "HU100": 68979,
+            "AREALAND": 13059081818,
+            "INTPTLON": "-099.0217819",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 102316,
+            "GEOID": "4879000",
+            "CENTLAT": "+33.9072361",
+            "AREAWATER": 61486,
+            "STATE": "48",
+            "BASENAME": "Wichita Falls",
+            "OID": "27890707442970",
+            "LSADC": "25",
+            "PLACE": "79000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.9066543",
+            "NAME": "Wichita Falls city",
+            "OBJECTID": 4688,
+            "PLACECC": "C1",
+            "CENTLON": "-098.5290610",
+            "CBSAPCI": "Y",
+            "HU100": 43625,
+            "AREALAND": 186506076,
+            "INTPTLON": "-098.5258481",
+            "PLACENS": "02412261",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 129350,
+            "GEOID": "48485",
+            "CENTLAT": "+33.9879956",
+            "AREAWATER": 13644166,
+            "STATE": "48",
+            "BASENAME": "Wichita",
+            "OID": "27590707269905",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.9882125",
+            "NAME": "Wichita County",
+            "OBJECTID": 1125,
+            "CENTLON": "-098.7035022",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01384028",
+            "AREALAND": 1625459967,
+            "INTPTLON": "-098.7080098",
+            "HU100": 55519,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "485"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 707470,
+            "GEOID": "4813",
+            "CENTLAT": "+34.8353485",
+            "CDSESSN": "116",
+            "AREAWATER": 762549126,
+            "STATE": "48",
+            "BASENAME": "13",
+            "OID": "211904690225257",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.8376887",
+            "NAME": "Congressional District 13",
+            "OBJECTID": 424,
+            "CENTLON": "-100.5933333",
+            "HU100": 308687,
+            "AREALAND": 99328212501,
+            "INTPTLON": "-100.5978721",
+            "CD116": "13",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2696,
+            "GEOID": "48485012401",
+            "CENTLAT": "+33.8524643",
+            "AREAWATER": 110725,
+            "STATE": "48",
+            "BASENAME": "124.01",
+            "OID": "2079015503678913",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.8507288",
+            "NAME": "Census Tract 124.01",
+            "OBJECTID": 4635,
+            "TRACT": "012401",
+            "CENTLON": "-098.6194041",
+            "HU100": 1199,
+            "AREALAND": 18601152,
+            "INTPTLON": "-098.6201070",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "485"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 152,
+            "GEOID": "484850124011023",
+            "CENTLAT": "+33.8663958",
+            "BLOCK": "1023",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "1023",
+            "OID": "210701006600201",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.8663958",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1023",
+            "OBJECTID": 6066211,
+            "TRACT": "012401",
+            "CENTLON": "-098.5883251",
+            "BLKGRP": "1",
+            "AREALAND": 1725906,
+            "HU100": 56,
+            "INTPTLON": "-098.5883251",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "485"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -98.5894,
+          "y": 33.8625
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

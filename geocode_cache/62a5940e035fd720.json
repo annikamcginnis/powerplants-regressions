@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T15:48:19.812578+00:00",
+  "elapsed": 0.159019,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3769",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:48:19 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.97124&y=44.43415"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.97124&y=44.43415",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 39171,
+            "GEOID": "50CAL",
+            "CENTLAT": "+44.3648557",
+            "AREAWATER": 28640508,
+            "STATE": "50",
+            "BASENAME": "Caledonia",
+            "OID": "212904693072171",
+            "LSADC": "L8",
+            "SLDU": "CAL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.3721501",
+            "NAME": "Caledonia State Senate District",
+            "OBJECTID": 1476,
+            "CENTLON": "-072.1305121",
+            "LSY": "2018",
+            "HU100": 20821,
+            "AREALAND": 2259965486,
+            "INTPTLON": "-072.1337219",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "62200",
+            "POP100": 7364,
+            "GEOID": "5000562200",
+            "CENTLAT": "+44.4553843",
+            "AREAWATER": 920357,
+            "STATE": "50",
+            "BASENAME": "St. Johnsbury",
+            "OID": "27690485254284",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4603024",
+            "NAME": "St. Johnsbury town",
+            "OBJECTID": 31835,
+            "CENTLON": "-072.0114923",
+            "COUSUBCC": "T1",
+            "HU100": 3508,
+            "AREALAND": 94461064,
+            "INTPTLON": "-072.0049239",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462199",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 7364,
+            "GEOID": "50CA3",
+            "CENTLAT": "+44.4553843",
+            "SLDL": "CA3",
+            "AREAWATER": 920357,
+            "STATE": "50",
+            "BASENAME": "Caledonia-3",
+            "OID": "213904693072247",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.4603024",
+            "NAME": "Caledonia-3 State House District",
+            "OBJECTID": 4381,
+            "CENTLON": "-072.0114923",
+            "LSY": "2018",
+            "HU100": 3508,
+            "AREALAND": 94461064,
+            "INTPTLON": "-072.0049239",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 30233,
+            "GEOID": "50005",
+            "CENTLAT": "+44.4643816",
+            "AREAWATER": 22375999,
+            "STATE": "50",
+            "BASENAME": "Caledonia",
+            "OID": "27590485237558",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4687907",
+            "NAME": "Caledonia County",
+            "OBJECTID": 2398,
+            "CENTLON": "-072.1023902",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461759",
+            "AREALAND": 1680273211,
+            "INTPTLON": "-072.1121676",
+            "HU100": 15997,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3655,
+            "GEOID": "50005957500",
+            "CENTLAT": "+44.4525191",
+            "AREAWATER": 491103,
+            "STATE": "50",
+            "BASENAME": "9575",
+            "OID": "20790485309839",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.4446557",
+            "NAME": "Census Tract 9575",
+            "OBJECTID": 45575,
+            "TRACT": "957500",
+            "CENTLON": "-071.9825403",
+            "HU100": 1654,
+            "AREALAND": 46867610,
+            "INTPTLON": "-071.9816114",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 126,
+            "GEOID": "500059575001002",
+            "CENTLAT": "+44.4575634",
+            "BLOCK": "1002",
+            "AREAWATER": 8005,
+            "STATE": "50",
+            "BASENAME": "1002",
+            "OID": "210701004678056",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.4577725",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1002",
+            "OBJECTID": 2338524,
+            "TRACT": "957500",
+            "CENTLON": "-071.9692661",
+            "BLKGRP": "1",
+            "AREALAND": 12919841,
+            "HU100": 58,
+            "INTPTLON": "-071.9690582",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -71.97124,
+          "y": 44.43415
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

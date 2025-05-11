@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:43:30.091828+00:00",
+  "elapsed": 0.164897,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4083",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:43:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.3756&y=30.8606"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.3756&y=30.8606",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 113424,
+            "GEOID": "22030",
+            "CENTLAT": "+30.7719010",
+            "AREAWATER": 75524806,
+            "STATE": "22",
+            "BASENAME": "30",
+            "OID": "212904492477267",
+            "LSADC": "LU",
+            "SLDU": "030",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.7743245",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 140,
+            "CENTLON": "-093.3078768",
+            "LSY": "2018",
+            "HU100": 49280,
+            "AREALAND": 7970887507,
+            "INTPTLON": "-093.3092150",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01629543",
+            "POP100": 4657757,
+            "GEOID": "22",
+            "CENTLAT": "+30.9025928",
+            "AREAWATER": 23737664982,
+            "STATE": "22",
+            "BASENAME": "Louisiana",
+            "STUSAB": "LA",
+            "OID": "2749052402301",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.8634368",
+            "DIVISION": "7",
+            "NAME": "Louisiana",
+            "REGION": "3",
+            "OBJECTID": 36,
+            "CENTLON": "-091.7982299",
+            "AREALAND": 111913975425,
+            "INTPTLON": "-091.7987173",
+            "HU100": 2073200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 85299,
+            "GEOID": "217",
+            "CENTLAT": "+30.8944450",
+            "AREAWATER": 57085105,
+            "BASENAME": "DeRidder-Fort Polk South, LA",
+            "OID": "2619013782255117",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.8949967",
+            "NAME": "DeRidder-Fort Polk South, LA CSA",
+            "CSA": "217",
+            "OBJECTID": 24,
+            "CENTLON": "-093.2585021",
+            "HU100": 37724,
+            "AREALAND": 6434038486,
+            "INTPTLON": "-093.2623440",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "94564",
+            "POP100": 3622,
+            "GEOID": "2201194564",
+            "CENTLAT": "+30.8263513",
+            "AREAWATER": 916573,
+            "STATE": "22",
+            "BASENAME": "3E",
+            "OID": "27690118665947",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.8310089",
+            "NAME": "District 3E",
+            "OBJECTID": 23438,
+            "CENTLON": "-093.3524645",
+            "COUSUBCC": "Z1",
+            "HU100": 1567,
+            "AREALAND": 89963775,
+            "INTPTLON": "-093.3511083",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929994",
+            "UR": "M",
+            "COUNTY": "011"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 41987,
+            "GEOID": "22030",
+            "CENTLAT": "+31.0259025",
+            "SLDL": "030",
+            "AREAWATER": 7969201,
+            "STATE": "22",
+            "BASENAME": "30",
+            "OID": "213904492477433",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.0231894",
+            "NAME": "State House District 30",
+            "OBJECTID": 659,
+            "CENTLON": "-093.2599457",
+            "LSY": "2018",
+            "HU100": 19095,
+            "AREALAND": 791219273,
+            "INTPTLON": "-093.2579433",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 36549,
+            "GEOID": "22011",
+            "CENTLAT": "+30.6485502",
+            "AREAWATER": 21944259,
+            "STATE": "22",
+            "BASENAME": "Beauregard",
+            "OID": "27590118665939",
+            "LSADC": "15",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.6450184",
+            "NAME": "Beauregard Parish",
+            "OBJECTID": 3211,
+            "CENTLON": "-093.3433985",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00558436",
+            "AREALAND": 2997852789,
+            "INTPTLON": "-093.3402526",
+            "HU100": 15771,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "011"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 728346,
+            "GEOID": "2204",
+            "CENTLAT": "+31.7917445",
+            "CDSESSN": "116",
+            "AREAWATER": 1104879605,
+            "STATE": "22",
+            "BASENAME": "4",
+            "OID": "211904486863904",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.7920513",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 99,
+            "CENTLON": "-093.1775495",
+            "HU100": 337484,
+            "AREALAND": 32210671190,
+            "INTPTLON": "-093.1795973",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5084,
+            "GEOID": "22011960200",
+            "CENTLAT": "+30.8060614",
+            "AREAWATER": 2470946,
+            "STATE": "22",
+            "BASENAME": "9602",
+            "OID": "20790118665979",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.8030741",
+            "NAME": "Census Tract 9602",
+            "OBJECTID": 24238,
+            "TRACT": "960200",
+            "CENTLON": "-093.3270893",
+            "HU100": 2130,
+            "AREALAND": 322194164,
+            "INTPTLON": "-093.3204577",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "011"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "220119602001015",
+            "CENTLAT": "+30.8601266",
+            "BLOCK": "1015",
+            "AREAWATER": 5787,
+            "STATE": "22",
+            "BASENAME": "1015",
+            "OID": "210701000348814",
+            "LSADC": "BK",
+            "INTPTLAT": "+30.8580064",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1015",
+            "OBJECTID": 1779596,
+            "TRACT": "960200",
+            "CENTLON": "-093.3725474",
+            "BLKGRP": "1",
+            "AREALAND": 1850170,
+            "HU100": 0,
+            "INTPTLON": "-093.3708708",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -93.3756,
+          "y": 30.8606
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

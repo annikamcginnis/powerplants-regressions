@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:41:27.792433+00:00",
+  "elapsed": 0.145806,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4476",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:41:27 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-114.412523&y=42.540968"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-114.412523&y=42.540968",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 54914,
+            "GEOID": "16024",
+            "CENTLAT": "+42.5650077",
+            "AREAWATER": 603061,
+            "STATE": "16",
+            "BASENAME": "24",
+            "OID": "212904486864687",
+            "LSADC": "LU",
+            "SLDU": "024",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.5658794",
+            "NAME": "State Senate District 24",
+            "OBJECTID": 152,
+            "CENTLON": "-114.4738286",
+            "LSY": "2018",
+            "HU100": 21501,
+            "AREALAND": 97794333,
+            "INTPTLON": "-114.4735303",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779783",
+            "POP100": 1839106,
+            "GEOID": "16",
+            "CENTLAT": "+44.3524056",
+            "AREAWATER": 2391577745,
+            "STATE": "16",
+            "BASENAME": "Idaho",
+            "STUSAB": "ID",
+            "OID": "27490130780184",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.3484222",
+            "DIVISION": "8",
+            "NAME": "Idaho",
+            "REGION": "4",
+            "OBJECTID": 22,
+            "CENTLON": "-114.6136830",
+            "AREALAND": 214049923496,
+            "INTPTLON": "-114.5588538",
+            "HU100": 751859,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "89245",
+            "CENTLAT": "+42.5628099",
+            "AREAWATER": 281269,
+            "BASENAME": "Twin Falls, ID",
+            "OID": "27021150024514",
+            "UA": "89245",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5628909",
+            "NAME": "Twin Falls, ID Urban Area",
+            "OBJECTID": 495,
+            "CENTLON": "-114.4532737",
+            "AREALAND": 57151291,
+            "INTPTLON": "-114.4540938",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93565",
+            "POP100": 59430,
+            "GEOID": "1608393565",
+            "CENTLAT": "+42.5394256",
+            "AREAWATER": 2090922,
+            "STATE": "16",
+            "BASENAME": "Twin Falls",
+            "OID": "27690149970914",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5402759",
+            "NAME": "Twin Falls CCD",
+            "OBJECTID": 4347,
+            "CENTLON": "-114.4842487",
+            "COUSUBCC": "Z5",
+            "HU100": 23211,
+            "AREALAND": 203861711,
+            "INTPTLON": "-114.4867944",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936821",
+            "UR": "M",
+            "COUNTY": "083"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 54914,
+            "GEOID": "16024",
+            "CENTLAT": "+42.5650077",
+            "SLDL": "024",
+            "AREAWATER": 603061,
+            "STATE": "16",
+            "BASENAME": "24",
+            "OID": "213904486864757",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.5658794",
+            "NAME": "State House District 24",
+            "OBJECTID": 130,
+            "CENTLON": "-114.4738286",
+            "LSY": "2018",
+            "HU100": 21501,
+            "AREALAND": 97794333,
+            "INTPTLON": "-114.4735303",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 51807,
+            "GEOID": "1682810",
+            "CENTLAT": "+42.5645199",
+            "AREAWATER": 295784,
+            "STATE": "16",
+            "BASENAME": "Twin Falls",
+            "OID": "27890149987345",
+            "LSADC": "25",
+            "PLACE": "82810",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.5640886",
+            "NAME": "Twin Falls city",
+            "OBJECTID": 15556,
+            "PLACECC": "C1",
+            "CENTLON": "-114.4613215",
+            "CBSAPCI": "Y",
+            "HU100": 20439,
+            "AREALAND": 50129859,
+            "INTPTLON": "-114.4612136",
+            "PLACENS": "02412120",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 90046,
+            "GEOID": "16083",
+            "CENTLAT": "+42.3554313",
+            "AREAWATER": 18070790,
+            "STATE": "16",
+            "BASENAME": "Twin Falls",
+            "OID": "27590149965307",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.3523090",
+            "NAME": "Twin Falls County",
+            "OBJECTID": 1851,
+            "CENTLON": "-114.6668799",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00399334",
+            "AREALAND": 4977206090,
+            "INTPTLON": "-114.6656386",
+            "HU100": 34693,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "083"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 884215,
+            "GEOID": "1602",
+            "CENTLAT": "+43.4638114",
+            "CDSESSN": "116",
+            "AREAWATER": 1081237125,
+            "STATE": "16",
+            "BASENAME": "2",
+            "OID": "211904486864195",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.4439256",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 249,
+            "CENTLON": "-113.3564063",
+            "HU100": 357783,
+            "AREALAND": 111951590360,
+            "INTPTLON": "-113.3642618",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3274,
+            "GEOID": "16083000600",
+            "CENTLAT": "+42.5061877",
+            "AREAWATER": 1079362,
+            "STATE": "16",
+            "BASENAME": "6",
+            "OID": "20790150018048",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5102560",
+            "NAME": "Census Tract 6",
+            "OBJECTID": 65811,
+            "TRACT": "000600",
+            "CENTLON": "-114.4842200",
+            "HU100": 1241,
+            "AREALAND": 109213386,
+            "INTPTLON": "-114.4894060",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "083"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "160830006002006",
+            "CENTLAT": "+42.5391616",
+            "BLOCK": "2006",
+            "AREAWATER": 0,
+            "STATE": "16",
+            "BASENAME": "2006",
+            "OID": "210701002360221",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.5391616",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2006",
+            "OBJECTID": 2861975,
+            "TRACT": "000600",
+            "CENTLON": "-114.4117219",
+            "BLKGRP": "2",
+            "AREALAND": 580344,
+            "HU100": 0,
+            "INTPTLON": "-114.4117219",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "083"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -114.412523,
+          "y": 42.540968
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:09:43.071937+00:00",
+  "elapsed": 0.151758,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4908",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:09:43 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.120886&y=41.776109"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.120886&y=41.776109",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 96889,
+            "GEOID": "09008",
+            "CENTLAT": "+41.9128193",
+            "AREAWATER": 23703231,
+            "STATE": "09",
+            "BASENAME": "8",
+            "OID": "212904692443768",
+            "LSADC": "LU",
+            "SLDU": "008",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.9286112",
+            "NAME": "State Senate District 8",
+            "OBJECTID": 1774,
+            "CENTLON": "-072.9944286",
+            "LSY": "2018",
+            "HU100": 42510,
+            "AREALAND": 771056691,
+            "INTPTLON": "-073.0176292",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779780",
+            "POP100": 3605944,
+            "GEOID": "09",
+            "CENTLAT": "+41.5751437",
+            "AREAWATER": 1816426151,
+            "STATE": "09",
+            "BASENAME": "Connecticut",
+            "STUSAB": "CT",
+            "OID": "27490331955805",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.5798637",
+            "DIVISION": "1",
+            "NAME": "Connecticut",
+            "REGION": "1",
+            "OBJECTID": 26,
+            "CENTLON": "-072.7393081",
+            "AREALAND": 12541688516,
+            "INTPTLON": "-072.7466572",
+            "HU100": 1530197,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 23582649,
+            "GEOID": "408",
+            "CENTLAT": "+41.0667541",
+            "AREAWATER": 8099265995,
+            "BASENAME": "New York-Newark, NY-NJ-CT-PA",
+            "OID": "2619013782255195",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7749300",
+            "NAME": "New York-Newark, NY-NJ-CT-PA CSA",
+            "CSA": "408",
+            "OBJECTID": 140,
+            "CENTLON": "-073.8753122",
+            "HU100": 9401953,
+            "AREALAND": 32113500421,
+            "INTPTLON": "-073.8737580",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "88192",
+            "CENTLAT": "+41.8246201",
+            "AREAWATER": 1680940,
+            "BASENAME": "Torrington, CT",
+            "OID": "27021347589909",
+            "UA": "88192",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.8239544",
+            "NAME": "Torrington, CT Urban Area",
+            "OBJECTID": 1226,
+            "CENTLON": "-073.0981629",
+            "AREALAND": 56356547,
+            "INTPTLON": "-073.0967390",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "76570",
+            "POP100": 35515,
+            "GEOID": "0900576570",
+            "CENTLAT": "+41.8349436",
+            "AREAWATER": 1441410,
+            "STATE": "09",
+            "BASENAME": "Torrington",
+            "OID": "27690347493861",
+            "LSADC": "43",
+            "FUNCSTAT": "C",
+            "INTPTLAT": "+41.8341999",
+            "NAME": "Torrington town",
+            "OBJECTID": 26585,
+            "CENTLON": "-073.1281564",
+            "COUSUBCC": "T5",
+            "HU100": 17040,
+            "AREALAND": 102982068,
+            "INTPTLON": "-073.1314705",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00213517",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 22498,
+            "GEOID": "09065",
+            "CENTLAT": "+41.8032122",
+            "SLDL": "065",
+            "AREAWATER": 41601,
+            "STATE": "09",
+            "BASENAME": "65",
+            "OID": "213904692443806",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.8041772",
+            "NAME": "State House District 65",
+            "OBJECTID": 4327,
+            "CENTLON": "-073.1203421",
+            "LSY": "2018",
+            "HU100": 11049,
+            "AREALAND": 19443976,
+            "INTPTLON": "-073.1196263",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "Y",
+            "POP100": 35515,
+            "GEOID": "0976500",
+            "CENTLAT": "+41.8349436",
+            "AREAWATER": 1441410,
+            "STATE": "09",
+            "BASENAME": "Torrington",
+            "OID": "27890347500322",
+            "LSADC": "25",
+            "PLACE": "76500",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.8341999",
+            "NAME": "Torrington city",
+            "OBJECTID": 12984,
+            "PLACECC": "C1",
+            "CENTLON": "-073.1281564",
+            "CBSAPCI": "Y",
+            "HU100": 17040,
+            "AREALAND": 102982068,
+            "INTPTLON": "-073.1314705",
+            "PLACENS": "02378293",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 185186,
+            "GEOID": "09005",
+            "CENTLAT": "+41.7922625",
+            "AREAWATER": 62350378,
+            "STATE": "09",
+            "BASENAME": "Litchfield",
+            "OID": "27590347483092",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.7918833",
+            "NAME": "Litchfield County",
+            "OBJECTID": 2391,
+            "CENTLON": "-073.2454035",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00212796",
+            "AREALAND": 2384123146,
+            "INTPTLON": "-073.2354042",
+            "HU100": 87615,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 726213,
+            "GEOID": "0905",
+            "CENTLAT": "+41.6903839",
+            "CDSESSN": "116",
+            "AREAWATER": 88600398,
+            "STATE": "09",
+            "BASENAME": "5",
+            "OID": "211904693077028",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.6943231",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 441,
+            "CENTLON": "-073.2189542",
+            "HU100": 308558,
+            "AREALAND": 3231442020,
+            "INTPTLON": "-073.2099985",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2385,
+            "GEOID": "09005310801",
+            "CENTLAT": "+41.7857877",
+            "AREAWATER": 4873,
+            "STATE": "09",
+            "BASENAME": "3108.01",
+            "OID": "20790347531667",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.7855548",
+            "NAME": "Census Tract 3108.01",
+            "OBJECTID": 50891,
+            "TRACT": "310801",
+            "CENTLON": "-073.1258010",
+            "HU100": 1177,
+            "AREALAND": 4102152,
+            "INTPTLON": "-073.1255099",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 44,
+            "GEOID": "090053108012010",
+            "CENTLAT": "+41.7826150",
+            "BLOCK": "2010",
+            "AREAWATER": 0,
+            "STATE": "09",
+            "BASENAME": "2010",
+            "OID": "210701006033165",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.7826150",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2010",
+            "OBJECTID": 6109508,
+            "TRACT": "310801",
+            "CENTLON": "-073.1194833",
+            "BLKGRP": "2",
+            "AREALAND": 301271,
+            "HU100": 23,
+            "INTPTLON": "-073.1194833",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.120886,
+          "y": 41.776109
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

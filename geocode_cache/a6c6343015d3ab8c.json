@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:40:11.477380+00:00",
+  "elapsed": 0.2002,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4844",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:40:11 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.299431&y=37.176646"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.299431&y=37.176646",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 188978,
+            "GEOID": "29032",
+            "CENTLAT": "+37.1637031",
+            "AREAWATER": 53951488,
+            "STATE": "29",
+            "BASENAME": "32",
+            "OID": "212904690744788",
+            "LSADC": "LU",
+            "SLDU": "032",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.1695920",
+            "NAME": "State Senate District 32",
+            "OBJECTID": 1636,
+            "CENTLON": "-094.2006900",
+            "LSY": "2018",
+            "HU100": 81084,
+            "AREALAND": 4540950809,
+            "INTPTLON": "-094.2092749",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779791",
+            "POP100": 6154913,
+            "GEOID": "29",
+            "CENTLAT": "+38.3569829",
+            "AREAWATER": 2487215790,
+            "STATE": "29",
+            "BASENAME": "Missouri",
+            "STUSAB": "MO",
+            "OID": "2749046934061",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.3507500",
+            "DIVISION": "4",
+            "NAME": "Missouri",
+            "REGION": "2",
+            "OBJECTID": 4,
+            "CENTLON": "-092.4580564",
+            "AREALAND": 178052563675,
+            "INTPTLON": "-092.4567826",
+            "HU100": 2786621,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 211694,
+            "GEOID": "309",
+            "CENTLAT": "+36.9953943",
+            "AREAWATER": 47592994,
+            "BASENAME": "Joplin-Miami, MO-OK",
+            "OID": "2619013782255153",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+36.9948377",
+            "NAME": "Joplin-Miami, MO-OK CSA",
+            "CSA": "309",
+            "OBJECTID": 60,
+            "CENTLON": "-094.4702973",
+            "HU100": 91023,
+            "AREALAND": 4491240365,
+            "INTPTLON": "-094.4714560",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "14266",
+            "CENTLAT": "+37.1659779",
+            "AREAWATER": 0,
+            "BASENAME": "Carthage, MO",
+            "OID": "27021427170594",
+            "UA": "14266",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.1659779",
+            "NAME": "Carthage, MO Urban Area",
+            "OBJECTID": 1617,
+            "CENTLON": "-094.3202469",
+            "AREALAND": 22231408,
+            "INTPTLON": "-094.3202469",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "46064",
+            "POP100": 15769,
+            "GEOID": "2909746064",
+            "CENTLAT": "+37.2057208",
+            "AREAWATER": 235472,
+            "STATE": "29",
+            "BASENAME": "Marion",
+            "OID": "27690427116183",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.2066920",
+            "NAME": "Marion township",
+            "OBJECTID": 26621,
+            "CENTLON": "-094.3454531",
+            "COUSUBCC": "Z1",
+            "HU100": 5994,
+            "AREALAND": 109730170,
+            "INTPTLON": "-094.3610235",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00766815",
+            "UR": "M",
+            "COUNTY": "097"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 38946,
+            "GEOID": "29163",
+            "CENTLAT": "+37.1630097",
+            "SLDL": "163",
+            "AREAWATER": 899210,
+            "STATE": "29",
+            "BASENAME": "163",
+            "OID": "213904690745567",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.1632746",
+            "NAME": "State House District 163",
+            "OBJECTID": 3770,
+            "CENTLON": "-094.4328322",
+            "LSY": "2018",
+            "HU100": 15359,
+            "AREALAND": 331062259,
+            "INTPTLON": "-094.4348920",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 15522,
+            "GEOID": "2911656",
+            "CENTLAT": "+37.1502331",
+            "AREAWATER": 95852,
+            "STATE": "29",
+            "BASENAME": "Carthage",
+            "OID": "27890427128263",
+            "LSADC": "25",
+            "PLACE": "11656",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1506054",
+            "NAME": "Carthage city",
+            "OBJECTID": 6727,
+            "PLACECC": "C1",
+            "CENTLON": "-094.3224782",
+            "CBSAPCI": "N",
+            "HU100": 6094,
+            "AREALAND": 30171885,
+            "INTPTLON": "-094.3278681",
+            "PLACENS": "02393760",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 122761,
+            "GEOID": "29097",
+            "CENTLAT": "+37.2035589",
+            "AREAWATER": 7163887,
+            "STATE": "29",
+            "BASENAME": "Jasper",
+            "OID": "27590427005067",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.2051967",
+            "NAME": "Jasper County",
+            "OBJECTID": 1201,
+            "CENTLON": "-094.3405846",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00758503",
+            "AREALAND": 1653723325,
+            "INTPTLON": "-094.3372594",
+            "HU100": 52739,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "097"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 792419,
+            "GEOID": "2907",
+            "CENTLAT": "+36.9888166",
+            "CDSESSN": "116",
+            "AREAWATER": 248662809,
+            "STATE": "29",
+            "BASENAME": "7",
+            "OID": "211904690725399",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+36.9910613",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 200,
+            "CENTLON": "-093.6980779",
+            "HU100": 358116,
+            "AREALAND": 16243519727,
+            "INTPTLON": "-093.7063517",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5203,
+            "GEOID": "29097011600",
+            "CENTLAT": "+37.1828493",
+            "AREAWATER": 327941,
+            "STATE": "29",
+            "BASENAME": "116",
+            "OID": "20790427168653",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.1826467",
+            "NAME": "Census Tract 116",
+            "OBJECTID": 51821,
+            "TRACT": "011600",
+            "CENTLON": "-094.3191057",
+            "HU100": 1970,
+            "AREALAND": 23506905,
+            "INTPTLON": "-094.3199862",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "097"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 6,
+            "GEOID": "290970116003036",
+            "CENTLAT": "+37.1757942",
+            "BLOCK": "3036",
+            "AREAWATER": 0,
+            "STATE": "29",
+            "BASENAME": "3036",
+            "OID": "210701006530614",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.1757942",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3036",
+            "OBJECTID": 3024300,
+            "TRACT": "011600",
+            "CENTLON": "-094.2957506",
+            "BLKGRP": "3",
+            "AREALAND": 474885,
+            "HU100": 1,
+            "INTPTLON": "-094.2957506",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "097"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -94.299431,
+          "y": 37.176646
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T15:47:23.461836+00:00",
+  "elapsed": 0.140913,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3759",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:47:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.418566&y=43.632074"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.418566&y=43.632074",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 61057,
+            "GEOID": "50WSR",
+            "CENTLAT": "+43.5596344",
+            "AREAWATER": 21835962,
+            "STATE": "50",
+            "BASENAME": "Windsor",
+            "OID": "212904693072200",
+            "LSADC": "L8",
+            "SLDU": "WSR",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.5724477",
+            "NAME": "Windsor State Senate District",
+            "OBJECTID": 1482,
+            "CENTLON": "-072.6037646",
+            "LSY": "2018",
+            "HU100": 37147,
+            "AREALAND": 2730403243,
+            "INTPTLON": "-072.5988132",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "32275",
+            "POP100": 10686,
+            "GEOID": "5002732275",
+            "CENTLAT": "+43.6643903",
+            "AREAWATER": 2286446,
+            "STATE": "50",
+            "BASENAME": "Hartford",
+            "OID": "27690261449269",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.6646844",
+            "NAME": "Hartford town",
+            "OBJECTID": 8337,
+            "CENTLON": "-072.3864534",
+            "COUSUBCC": "T1",
+            "HU100": 6024,
+            "AREALAND": 116655881,
+            "INTPTLON": "-072.3861377",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462116",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 8170,
+            "GEOID": "50Y42",
+            "CENTLAT": "+43.6486717",
+            "SLDL": "Y42",
+            "AREAWATER": 866324,
+            "STATE": "50",
+            "BASENAME": "Windsor-4-2",
+            "OID": "213904693072488",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.6502325",
+            "NAME": "Windsor-4-2 State House District",
+            "OBJECTID": 4716,
+            "CENTLON": "-072.3605404",
+            "LSY": "2018",
+            "HU100": 4145,
+            "AREALAND": 55136529,
+            "INTPTLON": "-072.3599454",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 57753,
+            "GEOID": "50027",
+            "CENTLAT": "+43.5793009",
+            "AREAWATER": 19354761,
+            "STATE": "50",
+            "BASENAME": "Windsor",
+            "OID": "27590261406059",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.5724477",
+            "NAME": "Windsor County",
+            "OBJECTID": 1634,
+            "CENTLON": "-072.5862322",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461770",
+            "AREALAND": 2511727722,
+            "INTPTLON": "-072.5988132",
+            "HU100": 34625,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3677,
+            "GEOID": "50027965501",
+            "CENTLAT": "+43.6555385",
+            "AREAWATER": 1572402,
+            "STATE": "50",
+            "BASENAME": "9655.01",
+            "OID": "207903694542874",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.6530324",
+            "NAME": "Census Tract 9655.01",
+            "OBJECTID": 8428,
+            "TRACT": "965501",
+            "CENTLON": "-072.4083057",
+            "HU100": 2399,
+            "AREALAND": 69406369,
+            "INTPTLON": "-072.4103690",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 29,
+            "GEOID": "500279655013043",
+            "CENTLAT": "+43.6286675",
+            "BLOCK": "3043",
+            "AREAWATER": 6582,
+            "STATE": "50",
+            "BASENAME": "3043",
+            "OID": "210701004727602",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.6285287",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3043",
+            "OBJECTID": 1073783,
+            "TRACT": "965501",
+            "CENTLON": "-072.4144391",
+            "BLKGRP": "3",
+            "AREALAND": 840094,
+            "HU100": 13,
+            "INTPTLON": "-072.4143567",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "027"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.418566,
+          "y": 43.632074
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

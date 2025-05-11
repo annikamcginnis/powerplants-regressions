@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:11:32.153839+00:00",
+  "elapsed": 0.189556,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4937",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:11:32 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.6319&y=40.5317"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.6319&y=40.5317",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 345350,
+            "GEOID": "39030",
+            "CENTLAT": "+39.7900901",
+            "AREAWATER": 130029815,
+            "STATE": "39",
+            "BASENAME": "30",
+            "OID": "212904692055280",
+            "LSADC": "LU",
+            "SLDU": "030",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.7957317",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 1796,
+            "CENTLON": "-081.3937754",
+            "LSY": "2018",
+            "HU100": 161764,
+            "AREALAND": 11161526761,
+            "INTPTLON": "-081.3823908",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2657149,
+            "GEOID": "430",
+            "CENTLAT": "+40.4874507",
+            "AREAWATER": 216144200,
+            "BASENAME": "Pittsburgh-New Castle-Weirton, PA-OH-WV",
+            "OID": "2619013782255205",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4870610",
+            "NAME": "Pittsburgh-New Castle-Weirton, PA-OH-WV CSA",
+            "CSA": "430",
+            "OBJECTID": 150,
+            "CENTLON": "-079.8419857",
+            "HU100": 1257734,
+            "AREALAND": 18253289364,
+            "INTPTLON": "-079.8421993",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "84859",
+            "CENTLAT": "+40.3732677",
+            "AREAWATER": 3205592,
+            "BASENAME": "Steubenville--Weirton, OH--WV--PA",
+            "OID": "2702132391317913",
+            "UA": "84859",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.3734601",
+            "NAME": "Steubenville--Weirton, OH--WV--PA Urban Area",
+            "OBJECTID": 1382,
+            "CENTLON": "-080.6152668",
+            "AREALAND": 120028973,
+            "INTPTLON": "-080.6148589",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "70086",
+            "POP100": 1171,
+            "GEOID": "3908170086",
+            "CENTLAT": "+40.5513081",
+            "AREAWATER": 1107997,
+            "STATE": "39",
+            "BASENAME": "Saline",
+            "OID": "27690757770823",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5513931",
+            "NAME": "Saline township",
+            "OBJECTID": 35332,
+            "CENTLON": "-080.6954210",
+            "COUSUBCC": "T1",
+            "HU100": 561,
+            "AREALAND": 54620880,
+            "INTPTLON": "-080.6967434",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086383",
+            "UR": "M",
+            "COUNTY": "081"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 113512,
+            "GEOID": "39096",
+            "CENTLAT": "+40.0291198",
+            "SLDL": "096",
+            "AREAWATER": 16153470,
+            "STATE": "39",
+            "BASENAME": "96",
+            "OID": "213904692057878",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3345154",
+            "NAME": "State House District 96",
+            "OBJECTID": 2383,
+            "CENTLON": "-080.9173166",
+            "LSY": "2018",
+            "HU100": 55902,
+            "AREALAND": 2776370314,
+            "INTPTLON": "-080.7737137",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 267,
+            "GEOID": "3975000",
+            "CENTLAT": "+40.5254361",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "Stratton",
+            "OID": "27890757770866",
+            "LSADC": "47",
+            "PLACE": "75000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5254361",
+            "NAME": "Stratton village",
+            "OBJECTID": 11320,
+            "PLACECC": "C1",
+            "CENTLON": "-080.6314335",
+            "CBSAPCI": "N",
+            "HU100": 151,
+            "AREALAND": 1389871,
+            "INTPTLON": "-080.6314335",
+            "PLACENS": "02399917",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 65249,
+            "GEOID": "39081",
+            "CENTLAT": "+40.3848405",
+            "AREAWATER": 7335056,
+            "STATE": "39",
+            "BASENAME": "Jefferson",
+            "OID": "27590412002388",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.3993836",
+            "NAME": "Jefferson County",
+            "OBJECTID": 3057,
+            "CENTLON": "-080.7609613",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074053",
+            "AREALAND": 1057037100,
+            "INTPTLON": "-080.7635272",
+            "HU100": 31125,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "081"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 687118,
+            "GEOID": "3906",
+            "CENTLAT": "+39.7686441",
+            "CDSESSN": "116",
+            "AREAWATER": 202720476,
+            "STATE": "39",
+            "BASENAME": "6",
+            "OID": "211904690778984",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.7714087",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 140,
+            "CENTLON": "-081.5649073",
+            "HU100": 317109,
+            "AREALAND": 18685758233,
+            "INTPTLON": "-081.5750390",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1555,
+            "GEOID": "39081011000",
+            "CENTLAT": "+40.5610117",
+            "AREAWATER": 1131293,
+            "STATE": "39",
+            "BASENAME": "110",
+            "OID": "20790757771169",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5683910",
+            "NAME": "Census Tract 110",
+            "OBJECTID": 66280,
+            "TRACT": "011000",
+            "CENTLON": "-080.7529316",
+            "HU100": 745,
+            "AREALAND": 115888851,
+            "INTPTLON": "-080.7575181",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "081"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "390810110001042",
+            "CENTLAT": "+40.5321066",
+            "BLOCK": "1042",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "1042",
+            "OID": "210701003799721",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.5321066",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1042",
+            "OBJECTID": 1776954,
+            "TRACT": "011000",
+            "CENTLON": "-080.6329129",
+            "BLKGRP": "1",
+            "AREALAND": 373636,
+            "HU100": 0,
+            "INTPTLON": "-080.6329129",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "081"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.6319,
+          "y": 40.5317
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

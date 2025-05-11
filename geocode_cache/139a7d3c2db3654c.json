@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:54:31.874918+00:00",
+  "elapsed": 0.218671,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4825",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:54:31 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-92.6497&y=32.5256"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-92.6497&y=32.5256",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 119065,
+            "GEOID": "22035",
+            "CENTLAT": "+32.1080246",
+            "AREAWATER": 55572389,
+            "STATE": "22",
+            "BASENAME": "35",
+            "OID": "212904492477232",
+            "LSADC": "LU",
+            "SLDU": "035",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.1010308",
+            "NAME": "State Senate District 35",
+            "OBJECTID": 512,
+            "CENTLON": "-092.4861674",
+            "LSY": "2018",
+            "HU100": 51237,
+            "AREALAND": 4512802701,
+            "INTPTLON": "-092.4811720",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01629543",
+            "POP100": 4657757,
+            "GEOID": "22",
+            "CENTLAT": "+30.9025928",
+            "AREAWATER": 23737664982,
+            "STATE": "22",
+            "BASENAME": "Louisiana",
+            "STUSAB": "LA",
+            "OID": "2749052402301",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.8634368",
+            "DIVISION": "7",
+            "NAME": "Louisiana",
+            "REGION": "3",
+            "OBJECTID": 36,
+            "CENTLON": "-091.7982299",
+            "AREALAND": 111913975425,
+            "INTPTLON": "-091.7987173",
+            "HU100": 2073200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 255500,
+            "GEOID": "384",
+            "CENTLAT": "+32.7109281",
+            "AREAWATER": 159765345,
+            "BASENAME": "Monroe-Ruston, LA",
+            "OID": "2619013782255186",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.7100624",
+            "NAME": "Monroe-Ruston, LA CSA",
+            "CSA": "384",
+            "OBJECTID": 131,
+            "CENTLON": "-092.2102097",
+            "HU100": 112595,
+            "AREALAND": 7132398680,
+            "INTPTLON": "-092.2122365",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "76987",
+            "CENTLAT": "+32.5356648",
+            "AREAWATER": 143866,
+            "BASENAME": "Ruston, LA",
+            "OID": "27021286626288",
+            "UA": "76987",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.5348539",
+            "NAME": "Ruston, LA Urban Area",
+            "OBJECTID": 372,
+            "CENTLON": "-092.6444200",
+            "AREALAND": 63306519,
+            "INTPTLON": "-092.6431855",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "95007",
+            "POP100": 4820,
+            "GEOID": "2206195007",
+            "CENTLAT": "+32.5660789",
+            "AREAWATER": 0,
+            "STATE": "22",
+            "BASENAME": "6",
+            "OID": "27690286618427",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.5438503",
+            "NAME": "District 6",
+            "OBJECTID": 32939,
+            "CENTLON": "-092.6512461",
+            "COUSUBCC": "Z1",
+            "HU100": 2308,
+            "AREALAND": 30062510,
+            "INTPTLON": "-092.6752550",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02405106",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 44998,
+            "GEOID": "22012",
+            "CENTLAT": "+32.7816017",
+            "SLDL": "012",
+            "AREAWATER": 74993875,
+            "STATE": "22",
+            "BASENAME": "12",
+            "OID": "213904492477302",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.7825271",
+            "NAME": "State House District 12",
+            "OBJECTID": 1817,
+            "CENTLON": "-092.4344993",
+            "LSY": "2018",
+            "HU100": 20970,
+            "AREALAND": 3070125284,
+            "INTPTLON": "-092.4364457",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 22166,
+            "GEOID": "2266655",
+            "CENTLAT": "+32.5328445",
+            "AREAWATER": 175428,
+            "STATE": "22",
+            "BASENAME": "Ruston",
+            "OID": "27890286620764",
+            "LSADC": "25",
+            "PLACE": "66655",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.5329861",
+            "NAME": "Ruston city",
+            "OBJECTID": 18846,
+            "PLACECC": "C1",
+            "CENTLON": "-092.6362902",
+            "CBSAPCI": "Y",
+            "HU100": 9669,
+            "AREALAND": 54750521,
+            "INTPTLON": "-092.6353270",
+            "PLACENS": "02404660",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 48396,
+            "GEOID": "22061",
+            "CENTLAT": "+32.6016117",
+            "AREAWATER": 1897706,
+            "STATE": "22",
+            "BASENAME": "Lincoln",
+            "OID": "27590286612095",
+            "LSADC": "15",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6018231",
+            "NAME": "Lincoln Parish",
+            "OBJECTID": 471,
+            "CENTLON": "-092.6648911",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00558077",
+            "AREALAND": 1221532395,
+            "INTPTLON": "-092.6623026",
+            "HU100": 20370,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 739244,
+            "GEOID": "2205",
+            "CENTLAT": "+31.7648186",
+            "CDSESSN": "116",
+            "AREAWATER": 1117421090,
+            "STATE": "22",
+            "BASENAME": "5",
+            "OID": "211904486863682",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.7648359",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 226,
+            "CENTLON": "-091.8225541",
+            "HU100": 326841,
+            "AREALAND": 37431544173,
+            "INTPTLON": "-091.8233319",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 7490,
+            "GEOID": "22061961000",
+            "CENTLAT": "+32.4874207",
+            "AREAWATER": 42670,
+            "STATE": "22",
+            "BASENAME": "9610",
+            "OID": "20790286624582",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.4887072",
+            "NAME": "Census Tract 9610",
+            "OBJECTID": 35729,
+            "TRACT": "961000",
+            "CENTLON": "-092.6848432",
+            "HU100": 2547,
+            "AREALAND": 47192197,
+            "INTPTLON": "-092.6906841",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "220619610001005",
+            "CENTLAT": "+32.5269001",
+            "BLOCK": "1005",
+            "AREAWATER": 0,
+            "STATE": "22",
+            "BASENAME": "1005",
+            "OID": "210701003289076",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.5269001",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1005",
+            "OBJECTID": 5643591,
+            "TRACT": "961000",
+            "CENTLON": "-092.6502002",
+            "BLKGRP": "1",
+            "AREALAND": 72940,
+            "HU100": 0,
+            "INTPTLON": "-092.6502002",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "061"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -92.6497,
+          "y": 32.5256
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

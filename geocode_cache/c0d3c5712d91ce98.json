@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:51:06.599126+00:00",
+  "elapsed": 0.141057,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4928",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:51:06 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-83.317748&y=39.943015"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-83.317748&y=39.943015",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 347791,
+            "GEOID": "39010",
+            "CENTLAT": "+39.8357211",
+            "AREAWATER": 23542908,
+            "STATE": "39",
+            "BASENAME": "10",
+            "OID": "212904692055142",
+            "LSADC": "LU",
+            "SLDU": "010",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.8381424",
+            "NAME": "State Senate District 10",
+            "OBJECTID": 1256,
+            "CENTLON": "-083.6790947",
+            "LSY": "2018",
+            "HU100": 148539,
+            "AREALAND": 3305470535,
+            "INTPTLON": "-083.6854215",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2544048,
+            "GEOID": "198",
+            "CENTLAT": "+39.9821021",
+            "AREAWATER": 220534871,
+            "BASENAME": "Columbus-Marion-Zanesville, OH",
+            "OID": "2619013782255110",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9840992",
+            "NAME": "Columbus-Marion-Zanesville, OH CSA",
+            "CSA": "198",
+            "OBJECTID": 17,
+            "CENTLON": "-082.7708665",
+            "HU100": 1080980,
+            "AREALAND": 21928681112,
+            "INTPTLON": "-082.7703228",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "94132",
+            "CENTLAT": "+39.9499447",
+            "AREAWATER": 52370,
+            "BASENAME": "West Jefferson--Lake Darby, OH",
+            "OID": "27021340839558",
+            "UA": "94132",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9443989",
+            "NAME": "West Jefferson--Lake Darby, OH Urban Area",
+            "OBJECTID": 222,
+            "CENTLON": "-083.2824910",
+            "AREALAND": 13121059,
+            "INTPTLON": "-083.3390098",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "38696",
+            "POP100": 7212,
+            "GEOID": "3909738696",
+            "CENTLAT": "+39.9559936",
+            "AREAWATER": 104775,
+            "STATE": "39",
+            "BASENAME": "Jefferson",
+            "OID": "27690340738786",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9559693",
+            "NAME": "Jefferson township",
+            "OBJECTID": 4725,
+            "CENTLON": "-083.3005770",
+            "COUSUBCC": "T1",
+            "HU100": 2982,
+            "AREALAND": 109765018,
+            "INTPTLON": "-083.3087008",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01086544",
+            "UR": "M",
+            "COUNTY": "097"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 113207,
+            "GEOID": "39074",
+            "CENTLAT": "+39.8296969",
+            "SLDL": "074",
+            "AREAWATER": 14694603,
+            "STATE": "39",
+            "BASENAME": "74",
+            "OID": "213904692057776",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.9686796",
+            "NAME": "State House District 74",
+            "OBJECTID": 2380,
+            "CENTLON": "-083.5708871",
+            "LSY": "2018",
+            "HU100": 44558,
+            "AREALAND": 2223404019,
+            "INTPTLON": "-083.4113502",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4137,
+            "GEOID": "3983580",
+            "CENTLAT": "+39.9475482",
+            "AREAWATER": 51601,
+            "STATE": "39",
+            "BASENAME": "West Jefferson",
+            "OID": "27890340760156",
+            "LSADC": "47",
+            "PLACE": "83580",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.9493998",
+            "NAME": "West Jefferson village",
+            "OBJECTID": 9512,
+            "PLACECC": "C1",
+            "CENTLON": "-083.3076182",
+            "CBSAPCI": "N",
+            "HU100": 1737,
+            "AREALAND": 25606304,
+            "INTPTLON": "-083.3084227",
+            "PLACENS": "02400132",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 43824,
+            "GEOID": "39097",
+            "CENTLAT": "+39.8938682",
+            "AREAWATER": 2129636,
+            "STATE": "39",
+            "BASENAME": "Madison",
+            "OID": "27590340719125",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.8966074",
+            "NAME": "Madison County",
+            "OBJECTID": 1920,
+            "CENTLON": "-083.4002800",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074061",
+            "AREALAND": 1206451441,
+            "INTPTLON": "-083.4008847",
+            "HU100": 16216,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "097"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 766337,
+            "GEOID": "3915",
+            "CENTLAT": "+39.5775827",
+            "CDSESSN": "116",
+            "AREAWATER": 99845179,
+            "STATE": "39",
+            "BASENAME": "15",
+            "OID": "211904690779014",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.5778602",
+            "NAME": "Congressional District 15",
+            "OBJECTID": 147,
+            "CENTLON": "-082.7522960",
+            "HU100": 323643,
+            "AREALAND": 12273450555,
+            "INTPTLON": "-082.7562053",
+            "CD116": "15",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2666,
+            "GEOID": "39097040400",
+            "CENTLAT": "+39.9742250",
+            "AREAWATER": 73051,
+            "STATE": "39",
+            "BASENAME": "404",
+            "OID": "20790340830086",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.9809629",
+            "NAME": "Census Tract 404",
+            "OBJECTID": 64382,
+            "TRACT": "040400",
+            "CENTLON": "-083.3093264",
+            "HU100": 1049,
+            "AREALAND": 68610745,
+            "INTPTLON": "-083.2991081",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "097"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "390970404001043",
+            "CENTLAT": "+39.9464704",
+            "BLOCK": "1043",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "1043",
+            "OID": "210701008018468",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.9464704",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1043",
+            "OBJECTID": 3559485,
+            "TRACT": "040400",
+            "CENTLON": "-083.3208631",
+            "BLKGRP": "1",
+            "AREALAND": 1048845,
+            "HU100": 0,
+            "INTPTLON": "-083.3208631",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "097"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -83.317748,
+          "y": 39.943015
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

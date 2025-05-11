@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T16:12:00.967729+00:00",
+  "elapsed": 0.16606,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4226",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:12:00 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.26974&y=42.151092"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.26974&y=42.151092",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 165484,
+            "GEOID": "25008",
+            "CENTLAT": "+42.3509263",
+            "AREAWATER": 107836589,
+            "STATE": "25",
+            "BASENAME": "Worcester, Hampden, Hampshire & Middlesex",
+            "OID": "212904693077307",
+            "LSADC": "07",
+            "SLDU": "008",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3482616",
+            "NAME": "Worcester, Hampden, Hampshire & Middlesex District",
+            "OBJECTID": 1649,
+            "CENTLON": "-072.1153222",
+            "LSY": "2018",
+            "HU100": 71329,
+            "AREALAND": 2183309872,
+            "INTPTLON": "-072.1211635",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "52144",
+            "POP100": 12448,
+            "GEOID": "2501352144",
+            "CENTLAT": "+42.1887927",
+            "AREAWATER": 1093565,
+            "STATE": "25",
+            "BASENAME": "Palmer Town",
+            "OID": "27690249177290",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.1888618",
+            "NAME": "Palmer Town city",
+            "OBJECTID": 8514,
+            "CENTLON": "-072.3111656",
+            "COUSUBCC": "C5",
+            "HU100": 5854,
+            "AREALAND": 81773519,
+            "INTPTLON": "-072.3064803",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00619387",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 42200,
+            "GEOID": "25102",
+            "CENTLAT": "+42.1606590",
+            "SLDL": "102",
+            "AREAWATER": 24009761,
+            "STATE": "25",
+            "BASENAME": "1st Hampden",
+            "OID": "213904693077491",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1626383",
+            "NAME": "1st Hampden District",
+            "OBJECTID": 4794,
+            "CENTLON": "-072.2142221",
+            "LSY": "2018",
+            "HU100": 19418,
+            "AREALAND": 486704733,
+            "INTPTLON": "-072.2149714",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 12448,
+            "GEOID": "2552144",
+            "CENTLAT": "+42.1887927",
+            "AREAWATER": 1093565,
+            "STATE": "25",
+            "BASENAME": "Palmer Town",
+            "OID": "278903710004600",
+            "LSADC": "25",
+            "PLACE": "52144",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1888618",
+            "NAME": "Palmer Town city",
+            "OBJECTID": 10284,
+            "PLACECC": "C5",
+            "CENTLON": "-072.3111656",
+            "CBSAPCI": "N",
+            "HU100": 5854,
+            "AREALAND": 81773519,
+            "INTPTLON": "-072.3064803",
+            "PLACENS": "00619387",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 465825,
+            "GEOID": "25013",
+            "CENTLAT": "+42.1353416",
+            "AREAWATER": 44418900,
+            "STATE": "25",
+            "BASENAME": "Hampden",
+            "OID": "27590249163642",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1361975",
+            "NAME": "Hampden County",
+            "OBJECTID": 959,
+            "CENTLON": "-072.6315164",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606933",
+            "AREALAND": 1598027523,
+            "INTPTLON": "-072.6356476",
+            "HU100": 197033,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 730467,
+            "GEOID": "2501",
+            "CENTLAT": "+42.3220873",
+            "CDSESSN": "116",
+            "AREAWATER": 129683314,
+            "STATE": "25",
+            "BASENAME": "1",
+            "OID": "211904690191786",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3310441",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 342,
+            "CENTLON": "-072.8559719",
+            "HU100": 326979,
+            "AREALAND": 6086808204,
+            "INTPTLON": "-072.8641784",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6156,
+            "GEOID": "25013810100",
+            "CENTLAT": "+42.1889960",
+            "AREAWATER": 500228,
+            "STATE": "25",
+            "BASENAME": "8101",
+            "OID": "20790249212386",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.1820762",
+            "NAME": "Census Tract 8101",
+            "OBJECTID": 35636,
+            "TRACT": "810100",
+            "CENTLON": "-072.2881396",
+            "HU100": 2876,
+            "AREALAND": 50694356,
+            "INTPTLON": "-072.2759715",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 34,
+            "GEOID": "250138101001044",
+            "CENTLAT": "+42.1516502",
+            "BLOCK": "1044",
+            "AREAWATER": 0,
+            "STATE": "25",
+            "BASENAME": "1044",
+            "OID": "210701006754552",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.1516502",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1044",
+            "OBJECTID": 1977667,
+            "TRACT": "810100",
+            "CENTLON": "-072.2705140",
+            "BLKGRP": "1",
+            "AREALAND": 341862,
+            "HU100": 19,
+            "INTPTLON": "-072.2705140",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "013"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.26974,
+          "y": 42.151092
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

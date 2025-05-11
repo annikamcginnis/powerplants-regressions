@@ -1,0 +1,262 @@
+{
+  "created_at": "2025-05-01T16:00:48.636793+00:00",
+  "elapsed": 0.148878,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3698",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:00:48 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.705431&y=42.114742"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-96.705431&y=42.114742",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 38052,
+            "GEOID": "31017",
+            "CENTLAT": "+42.2352765",
+            "AREAWATER": 15687056,
+            "STATE": "31",
+            "BASENAME": "17",
+            "OID": "212904486795019",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.2416698",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 216,
+            "CENTLON": "-096.7794205",
+            "LSY": "2018",
+            "HU100": 13998,
+            "AREALAND": 2850996379,
+            "INTPTLON": "-096.7745317",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779792",
+            "POP100": 1961504,
+            "GEOID": "31",
+            "CENTLAT": "+41.5381064",
+            "AREAWATER": 1371117957,
+            "STATE": "31",
+            "BASENAME": "Nebraska",
+            "STUSAB": "NE",
+            "OID": "2749072488932",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.5433053",
+            "DIVISION": "4",
+            "NAME": "Nebraska",
+            "REGION": "2",
+            "OBJECTID": 33,
+            "CENTLON": "-099.7949769",
+            "AREALAND": 198957373531,
+            "INTPTLON": "-099.8118646",
+            "HU100": 844278,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "38767",
+            "POP100": 1297,
+            "GEOID": "3117338767",
+            "CENTLAT": "+42.1264864",
+            "AREAWATER": 463033,
+            "STATE": "31",
+            "BASENAME": "Pender",
+            "OID": "27690488332826",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1264736",
+            "NAME": "Pender township",
+            "OBJECTID": 17198,
+            "CENTLON": "-096.6872829",
+            "COUSUBCC": "T1",
+            "HU100": 565,
+            "AREALAND": 77524050,
+            "INTPTLON": "-096.6773179",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00838184",
+            "UR": "R",
+            "COUNTY": "173"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1115,
+            "GEOID": "3138750",
+            "CENTLAT": "+42.1106149",
+            "AREAWATER": 0,
+            "STATE": "31",
+            "BASENAME": "Pender",
+            "OID": "27890488335803",
+            "LSADC": "47",
+            "PLACE": "38750",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1106149",
+            "NAME": "Pender village",
+            "OBJECTID": 687,
+            "PLACECC": "C1",
+            "CENTLON": "-096.7115151",
+            "CBSAPCI": "N",
+            "HU100": 499,
+            "AREALAND": 1829038,
+            "INTPTLON": "-096.7115151",
+            "PLACENS": "02399647",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 6773,
+            "GEOID": "31173",
+            "CENTLAT": "+42.1582054",
+            "AREAWATER": 6458648,
+            "STATE": "31",
+            "BASENAME": "Thurston",
+            "OID": "27590488320795",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1540613",
+            "NAME": "Thurston County",
+            "OBJECTID": 1289,
+            "CENTLON": "-096.5440045",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00835908",
+            "AREALAND": 1019377275,
+            "INTPTLON": "-096.5339428",
+            "HU100": 2283,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "173"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 659816,
+            "GEOID": "3101",
+            "CENTLAT": "+41.3754274",
+            "CDSESSN": "116",
+            "AREAWATER": 252763716,
+            "STATE": "31",
+            "BASENAME": "1",
+            "OID": "211904486719836",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3744593",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 69,
+            "CENTLON": "-096.8288949",
+            "HU100": 277437,
+            "AREALAND": 22993091638,
+            "INTPTLON": "-096.8286623",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4181,
+            "GEOID": "31173940100",
+            "CENTLAT": "+42.1079036",
+            "AREAWATER": 3618898,
+            "STATE": "31",
+            "BASENAME": "9401",
+            "OID": "20790488343442",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.1079088",
+            "NAME": "Census Tract 9401",
+            "OBJECTID": 75242,
+            "TRACT": "940100",
+            "CENTLON": "-096.5054703",
+            "HU100": 1427,
+            "AREALAND": 576805986,
+            "INTPTLON": "-096.5188141",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "173"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "311739401003009",
+            "CENTLAT": "+42.1155556",
+            "BLOCK": "3009",
+            "AREAWATER": 0,
+            "STATE": "31",
+            "BASENAME": "3009",
+            "OID": "210701001994686",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.1155556",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3009",
+            "OBJECTID": 590477,
+            "TRACT": "940100",
+            "CENTLON": "-096.7054453",
+            "BLKGRP": "3",
+            "AREALAND": 49578,
+            "HU100": 0,
+            "INTPTLON": "-096.7054453",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "173"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -96.705431,
+          "y": 42.114742
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

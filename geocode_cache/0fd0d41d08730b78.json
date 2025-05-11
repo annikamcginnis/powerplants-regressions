@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:48:31.070977+00:00",
+  "elapsed": 0.164638,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4158",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:48:31 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.403328&y=48.430028"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.403328&y=48.430028",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 13255,
+            "GEOID": "38019",
+            "CENTLAT": "+48.1462822",
+            "AREAWATER": 14985426,
+            "STATE": "38",
+            "BASENAME": "19",
+            "OID": "212904690171357",
+            "LSADC": "LU",
+            "SLDU": "019",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+48.1440480",
+            "NAME": "State Senate District 19",
+            "OBJECTID": 685,
+            "CENTLON": "-097.5410288",
+            "LSY": "2018",
+            "HU100": 6121,
+            "AREALAND": 4109037952,
+            "INTPTLON": "-097.5466961",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779797",
+            "POP100": 779094,
+            "GEOID": "38",
+            "CENTLAT": "+47.4504657",
+            "AREAWATER": 4410633765,
+            "STATE": "38",
+            "BASENAME": "North Dakota",
+            "STUSAB": "ND",
+            "OID": "2749051615269",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4421740",
+            "DIVISION": "4",
+            "NAME": "North Dakota",
+            "REGION": "2",
+            "OBJECTID": 48,
+            "CENTLON": "-100.4660576",
+            "AREALAND": 178698456949,
+            "INTPTLON": "-100.4608258",
+            "HU100": 370642,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "31820",
+            "POP100": 4170,
+            "GEOID": "3809931820",
+            "CENTLAT": "+48.4142368",
+            "AREAWATER": 680743,
+            "STATE": "38",
+            "BASENAME": "Grafton",
+            "OID": "27690465490148",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+48.4139099",
+            "NAME": "Grafton city",
+            "OBJECTID": 11358,
+            "CENTLON": "-097.4055237",
+            "COUSUBCC": "C5",
+            "HU100": 1966,
+            "AREALAND": 8554285,
+            "INTPTLON": "-097.4061640",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01036063",
+            "UR": "R",
+            "COUNTY": "099"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 13255,
+            "GEOID": "38019",
+            "CENTLAT": "+48.1462822",
+            "SLDL": "019",
+            "AREAWATER": 14985426,
+            "STATE": "38",
+            "BASENAME": "19",
+            "OID": "213904690191740",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+48.1440480",
+            "NAME": "State House District 19",
+            "OBJECTID": 1113,
+            "CENTLON": "-097.5410288",
+            "LSY": "2018",
+            "HU100": 6121,
+            "AREALAND": 4109037952,
+            "INTPTLON": "-097.5466961",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4170,
+            "GEOID": "3831820",
+            "CENTLAT": "+48.4142368",
+            "AREAWATER": 680743,
+            "STATE": "38",
+            "BASENAME": "Grafton",
+            "OID": "27890465517695",
+            "LSADC": "25",
+            "PLACE": "31820",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.4139099",
+            "NAME": "Grafton city",
+            "OBJECTID": 9911,
+            "PLACECC": "C5",
+            "CENTLON": "-097.4055237",
+            "CBSAPCI": "N",
+            "HU100": 1966,
+            "AREALAND": 8554285,
+            "INTPTLON": "-097.4061640",
+            "PLACENS": "01036063",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 10563,
+            "GEOID": "38099",
+            "CENTLAT": "+48.3697555",
+            "AREAWATER": 32181391,
+            "STATE": "38",
+            "BASENAME": "Walsh",
+            "OID": "27590465476903",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+48.3769789",
+            "NAME": "Walsh County",
+            "OBJECTID": 97,
+            "CENTLON": "-097.7212898",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01034214",
+            "AREALAND": 3319346397,
+            "INTPTLON": "-097.7222304",
+            "HU100": 5202,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "099"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 779094,
+            "GEOID": "3800",
+            "CENTLAT": "+47.4504657",
+            "CDSESSN": "116",
+            "AREAWATER": 4410633765,
+            "STATE": "38",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692356459",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.4421740",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 133,
+            "CENTLON": "-100.4660576",
+            "HU100": 370642,
+            "AREALAND": 178698456949,
+            "INTPTLON": "-100.4608258",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1508,
+            "GEOID": "38099957900",
+            "CENTLAT": "+48.4202108",
+            "AREAWATER": 680743,
+            "STATE": "38",
+            "BASENAME": "9579",
+            "OID": "20790465530320",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+48.4204239",
+            "NAME": "Census Tract 9579",
+            "OBJECTID": 61509,
+            "TRACT": "957900",
+            "CENTLON": "-097.3874328",
+            "HU100": 680,
+            "AREALAND": 15170890,
+            "INTPTLON": "-097.3888961",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "099"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "380999579002013",
+            "CENTLAT": "+48.4282833",
+            "BLOCK": "2013",
+            "AREAWATER": 0,
+            "STATE": "38",
+            "BASENAME": "2013",
+            "OID": "210701005510569",
+            "LSADC": "BK",
+            "INTPTLAT": "+48.4282833",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2013",
+            "OBJECTID": 3398599,
+            "TRACT": "957900",
+            "CENTLON": "-097.4007093",
+            "BLKGRP": "2",
+            "AREALAND": 269524,
+            "HU100": 0,
+            "INTPTLON": "-097.4007093",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "099"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.403328,
+          "y": 48.430028
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

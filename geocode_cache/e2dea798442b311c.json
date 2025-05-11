@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:06:22.923272+00:00",
+  "elapsed": 0.156814,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4931",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:06:22 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.5214&y=25.9131"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-97.5214&y=25.9131",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 831674,
+            "GEOID": "48027",
+            "CENTLAT": "+26.7266548",
+            "AREAWATER": 3322819117,
+            "STATE": "48",
+            "BASENAME": "27",
+            "OID": "212904690778953",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.7269313",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 961,
+            "CENTLON": "-097.6239676",
+            "LSY": "2018",
+            "HU100": 296530,
+            "AREALAND": 11024240313,
+            "INTPTLON": "-097.6410367",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 441181,
+            "GEOID": "154",
+            "CENTLAT": "+26.2753821",
+            "AREAWATER": 1499303439,
+            "BASENAME": "Brownsville-Harlingen-Raymondville, TX",
+            "OID": "2619013782255092",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+26.2749341",
+            "NAME": "Brownsville-Harlingen-Raymondville, TX CSA",
+            "CSA": "154",
+            "OBJECTID": 85,
+            "CENTLON": "-097.5056736",
+            "HU100": 161675,
+            "AREALAND": 3839171215,
+            "INTPTLON": "-097.5035498",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "10972",
+            "CENTLAT": "+25.9550254",
+            "AREAWATER": 6262482,
+            "BASENAME": "Brownsville, TX",
+            "OID": "27021711982743",
+            "UA": "10972",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+25.9559110",
+            "NAME": "Brownsville, TX Urban Area",
+            "OBJECTID": 2571,
+            "CENTLON": "-097.4771105",
+            "AREALAND": 160844426,
+            "INTPTLON": "-097.4766820",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90480",
+            "POP100": 218643,
+            "GEOID": "4806190480",
+            "CENTLAT": "+25.9654553",
+            "AREAWATER": 15954571,
+            "STATE": "48",
+            "BASENAME": "Brownsville",
+            "OID": "27690711959253",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+25.9648763",
+            "NAME": "Brownsville CCD",
+            "OBJECTID": 20751,
+            "CENTLON": "-097.5125403",
+            "COUSUBCC": "Z5",
+            "HU100": 73368,
+            "AREALAND": 349243104,
+            "INTPTLON": "-097.5121795",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938571",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 186538,
+            "GEOID": "48038",
+            "CENTLAT": "+26.0797876",
+            "SLDL": "038",
+            "AREAWATER": 26387607,
+            "STATE": "48",
+            "BASENAME": "38",
+            "OID": "213904690779699",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.0784583",
+            "NAME": "State House District 38",
+            "OBJECTID": 4484,
+            "CENTLON": "-097.6304365",
+            "LSY": "2018",
+            "HU100": 63606,
+            "AREALAND": 708294407,
+            "INTPTLON": "-097.6301689",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 186738,
+            "GEOID": "4810768",
+            "CENTLAT": "+25.9975323",
+            "AREAWATER": 35368996,
+            "STATE": "48",
+            "BASENAME": "Brownsville",
+            "OID": "27890711964344",
+            "LSADC": "25",
+            "PLACE": "10768",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+25.9956886",
+            "NAME": "Brownsville city",
+            "OBJECTID": 18154,
+            "PLACECC": "C1",
+            "CENTLON": "-097.4580126",
+            "CBSAPCI": "Y",
+            "HU100": 63191,
+            "AREALAND": 340653330,
+            "INTPTLON": "-097.4508477",
+            "PLACENS": "02409924",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 421017,
+            "GEOID": "48061",
+            "CENTLAT": "+26.1513529",
+            "AREAWATER": 996418659,
+            "STATE": "48",
+            "BASENAME": "Cameron",
+            "OID": "27590711958439",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+26.1029227",
+            "NAME": "Cameron County",
+            "OBJECTID": 3075,
+            "CENTLON": "-097.4529520",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383816",
+            "AREALAND": 2309519001,
+            "INTPTLON": "-097.4789584",
+            "HU100": 154905,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 711851,
+            "GEOID": "4834",
+            "CENTLAT": "+27.5619872",
+            "CDSESSN": "116",
+            "AREAWATER": 3363353143,
+            "STATE": "48",
+            "BASENAME": "34",
+            "OID": "211904690225218",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+26.7738163",
+            "NAME": "Congressional District 34",
+            "OBJECTID": 411,
+            "CENTLON": "-097.6239697",
+            "HU100": 268050,
+            "AREALAND": 21216098450,
+            "INTPTLON": "-097.9253663",
+            "CD116": "34",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4990,
+            "GEOID": "48061012800",
+            "CENTLAT": "+25.9158831",
+            "AREAWATER": 711303,
+            "STATE": "48",
+            "BASENAME": "128",
+            "OID": "20790711982610",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+25.9160013",
+            "NAME": "Census Tract 128",
+            "OBJECTID": 82406,
+            "TRACT": "012800",
+            "CENTLON": "-097.5241451",
+            "HU100": 1713,
+            "AREALAND": 8829838,
+            "INTPTLON": "-097.5284995",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "061"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 107,
+            "GEOID": "480610128002013",
+            "CENTLAT": "+25.9139450",
+            "BLOCK": "2013",
+            "AREAWATER": 4671,
+            "STATE": "48",
+            "BASENAME": "2013",
+            "OID": "210701000979286",
+            "LSADC": "BK",
+            "INTPTLAT": "+25.9121240",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2013",
+            "OBJECTID": 2327847,
+            "TRACT": "012800",
+            "CENTLON": "-097.5215743",
+            "BLKGRP": "2",
+            "AREALAND": 296307,
+            "HU100": 42,
+            "INTPTLON": "-097.5215274",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "061"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -97.5214,
+          "y": 25.9131
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

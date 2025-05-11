@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:02:23.393028+00:00",
+  "elapsed": 0.186781,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4871",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:02:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.0086&y=44.54"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.0086&y=44.54",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 180949,
+            "GEOID": "55030",
+            "CENTLAT": "+44.8355857",
+            "AREAWATER": 764965420,
+            "STATE": "55",
+            "BASENAME": "30",
+            "OID": "212904691749540",
+            "LSADC": "LU",
+            "SLDU": "030",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8385725",
+            "NAME": "State Senate District 30",
+            "OBJECTID": 1228,
+            "CENTLON": "-087.8855606",
+            "LSY": "2018",
+            "HU100": 78598,
+            "AREALAND": 1484930308,
+            "INTPTLON": "-087.8828502",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 373404,
+            "GEOID": "267",
+            "CENTLAT": "+44.7463453",
+            "AREAWATER": 2596091214,
+            "BASENAME": "Green Bay-Shawano, WI",
+            "OID": "2619013782255133",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.7460629",
+            "NAME": "Green Bay-Shawano, WI CSA",
+            "CSA": "267",
+            "OBJECTID": 40,
+            "CENTLON": "-088.1080199",
+            "HU100": 168428,
+            "AREALAND": 8083006851,
+            "INTPTLON": "-088.1079420",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "34813",
+            "CENTLAT": "+44.5017501",
+            "AREAWATER": 7376524,
+            "BASENAME": "Green Bay, WI",
+            "OID": "27021483540311",
+            "UA": "34813",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5024596",
+            "NAME": "Green Bay, WI Urban Area",
+            "OBJECTID": 2365,
+            "CENTLON": "-088.0410209",
+            "AREALAND": 294373919,
+            "INTPTLON": "-088.0398863",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "31000",
+            "POP100": 107395,
+            "GEOID": "5500931000",
+            "CENTLAT": "+44.5207352",
+            "AREAWATER": 26620486,
+            "STATE": "55",
+            "BASENAME": "Green Bay",
+            "OID": "27690483515486",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.5215424",
+            "NAME": "Green Bay city",
+            "OBJECTID": 35657,
+            "CENTLON": "-087.9855013",
+            "COUSUBCC": "C5",
+            "HU100": 45789,
+            "AREALAND": 117789200,
+            "INTPTLON": "-087.9865684",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01583309",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 57912,
+            "GEOID": "55090",
+            "CENTLAT": "+44.5301242",
+            "SLDL": "090",
+            "AREAWATER": 26515833,
+            "STATE": "55",
+            "BASENAME": "90",
+            "OID": "213904691750344",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.5301639",
+            "NAME": "Assembly District 90",
+            "OBJECTID": 3912,
+            "CENTLON": "-087.9956978",
+            "LSY": "2018",
+            "HU100": 26285,
+            "AREALAND": 44716226,
+            "INTPTLON": "-087.9927976",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 107395,
+            "GEOID": "5531000",
+            "CENTLAT": "+44.5207352",
+            "AREAWATER": 26620486,
+            "STATE": "55",
+            "BASENAME": "Green Bay",
+            "OID": "27890483522714",
+            "LSADC": "25",
+            "PLACE": "31000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.5215424",
+            "NAME": "Green Bay city",
+            "OBJECTID": 18151,
+            "PLACECC": "C5",
+            "CENTLON": "-087.9855013",
+            "CBSAPCI": "Y",
+            "HU100": 45789,
+            "AREALAND": 117789200,
+            "INTPTLON": "-087.9865684",
+            "PLACENS": "01583309",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 268740,
+            "GEOID": "55009",
+            "CENTLAT": "+44.4741420",
+            "AREAWATER": 221810753,
+            "STATE": "55",
+            "BASENAME": "Brown",
+            "OID": "27590483513055",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.4740244",
+            "NAME": "Brown County",
+            "OBJECTID": 2499,
+            "CENTLON": "-087.9928859",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581064",
+            "AREALAND": 1372931376,
+            "INTPTLON": "-087.9961303",
+            "HU100": 112908,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 751967,
+            "GEOID": "5508",
+            "CENTLAT": "+44.8340001",
+            "CDSESSN": "116",
+            "AREAWATER": 8180776855,
+            "STATE": "55",
+            "BASENAME": "8",
+            "OID": "211904691758528",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8312557",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 364,
+            "CENTLON": "-087.9365341",
+            "HU100": 352673,
+            "AREALAND": 17629589556,
+            "INTPTLON": "-087.9368111",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2596,
+            "GEOID": "55009000100",
+            "CENTLAT": "+44.5453236",
+            "AREAWATER": 4547718,
+            "STATE": "55",
+            "BASENAME": "1",
+            "OID": "20790483531338",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5487323",
+            "NAME": "Census Tract 1",
+            "OBJECTID": 4553,
+            "TRACT": "000100",
+            "CENTLON": "-088.0198381",
+            "HU100": 1084,
+            "AREALAND": 7277462,
+            "INTPTLON": "-088.0229546",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "009"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "550090001001003",
+            "CENTLAT": "+44.5397446",
+            "BLOCK": "1003",
+            "AREAWATER": 57955,
+            "STATE": "55",
+            "BASENAME": "1003",
+            "OID": "210701005909135",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.5400217",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1003",
+            "OBJECTID": 3248295,
+            "TRACT": "000100",
+            "CENTLON": "-088.0101059",
+            "BLKGRP": "1",
+            "AREALAND": 247743,
+            "HU100": 0,
+            "INTPTLON": "-088.0101624",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "009"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -88.0086,
+          "y": 44.54
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

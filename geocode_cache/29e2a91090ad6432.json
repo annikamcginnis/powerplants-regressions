@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:42:45.949297+00:00",
+  "elapsed": 0.157261,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4564",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:42:45 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.613255&y=38.751822"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.613255&y=38.751822",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 131856,
+            "GEOID": "21017",
+            "CENTLAT": "+38.5333939",
+            "AREAWATER": 20681953,
+            "STATE": "21",
+            "BASENAME": "17",
+            "OID": "212904487270836",
+            "LSADC": "LU",
+            "SLDU": "017",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.5408736",
+            "NAME": "State Senate District 17",
+            "OBJECTID": 197,
+            "CENTLON": "-084.5907047",
+            "LSY": "2018",
+            "HU100": 51152,
+            "AREALAND": 1679204357,
+            "INTPTLON": "-084.6191498",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779786",
+            "POP100": 4505836,
+            "GEOID": "21",
+            "CENTLAT": "+37.5351655",
+            "AREAWATER": 2368025703,
+            "STATE": "21",
+            "BASENAME": "Kentucky",
+            "STUSAB": "KY",
+            "OID": "27490100360204",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5336844",
+            "DIVISION": "6",
+            "NAME": "Kentucky",
+            "REGION": "3",
+            "OBJECTID": 49,
+            "CENTLON": "-085.3018167",
+            "AREALAND": 102282796080,
+            "INTPTLON": "-085.2929801",
+            "HU100": 1994323,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2316022,
+            "GEOID": "178",
+            "CENTLAT": "+39.1013177",
+            "AREAWATER": 244512844,
+            "BASENAME": "Cincinnati-Wilmington-Maysville, OH-KY-IN",
+            "OID": "2619013782255103",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.0991397",
+            "NAME": "Cincinnati-Wilmington-Maysville, OH-KY-IN CSA",
+            "CSA": "178",
+            "OBJECTID": 10,
+            "CENTLON": "-084.3972825",
+            "HU100": 983524,
+            "AREALAND": 13455780769,
+            "INTPTLON": "-084.3961792",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90896",
+            "POP100": 8472,
+            "GEOID": "2108190896",
+            "CENTLAT": "+38.7549904",
+            "AREAWATER": 1103510,
+            "STATE": "21",
+            "BASENAME": "Crittenden",
+            "OID": "27690106081714",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.7564440",
+            "NAME": "Crittenden CCD",
+            "OBJECTID": 23055,
+            "CENTLON": "-084.6452368",
+            "COUSUBCC": "Z5",
+            "HU100": 3187,
+            "AREALAND": 128128133,
+            "INTPTLON": "-084.6469603",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936957",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 50034,
+            "GEOID": "21061",
+            "CENTLAT": "+38.6197629",
+            "SLDL": "061",
+            "AREAWATER": 12681549,
+            "STATE": "21",
+            "BASENAME": "61",
+            "OID": "213904487271368",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.6190039",
+            "NAME": "State House District 61",
+            "OBJECTID": 291,
+            "CENTLON": "-084.5967746",
+            "LSY": "2018",
+            "HU100": 19448,
+            "AREALAND": 1170510610,
+            "INTPTLON": "-084.5884292",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4023,
+            "GEOID": "2118568",
+            "CENTLAT": "+38.7755214",
+            "AREAWATER": 70996,
+            "STATE": "21",
+            "BASENAME": "Crittenden",
+            "OID": "27890106082251",
+            "LSADC": "25",
+            "PLACE": "18568",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.7885009",
+            "NAME": "Crittenden city",
+            "OBJECTID": 9904,
+            "PLACECC": "C1",
+            "CENTLON": "-084.6136416",
+            "CBSAPCI": "N",
+            "HU100": 1482,
+            "AREALAND": 8818832,
+            "INTPTLON": "-084.6019178",
+            "PLACENS": "02404156",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 24941,
+            "GEOID": "21081",
+            "CENTLAT": "+38.6487538",
+            "AREAWATER": 7243449,
+            "STATE": "21",
+            "BASENAME": "Grant",
+            "OID": "27590106080635",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.6491670",
+            "NAME": "Grant County",
+            "OBJECTID": 1231,
+            "CENTLON": "-084.6245645",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00516887",
+            "AREALAND": 668157704,
+            "INTPTLON": "-084.6259245",
+            "HU100": 10050,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 773543,
+            "GEOID": "2104",
+            "CENTLAT": "+38.5725901",
+            "CDSESSN": "116",
+            "AREAWATER": 294315545,
+            "STATE": "21",
+            "BASENAME": "4",
+            "OID": "211904487269735",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.5689729",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 259,
+            "CENTLON": "-084.4279635",
+            "HU100": 320204,
+            "AREALAND": 11328347081,
+            "INTPTLON": "-084.4370062",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5550,
+            "GEOID": "21081920101",
+            "CENTLAT": "+38.7503280",
+            "AREAWATER": 963862,
+            "STATE": "21",
+            "BASENAME": "9201.01",
+            "OID": "2079015486678728",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.7492181",
+            "NAME": "Census Tract 9201.01",
+            "OBJECTID": 33201,
+            "TRACT": "920101",
+            "CENTLON": "-084.6742110",
+            "HU100": 2055,
+            "AREALAND": 91940966,
+            "INTPTLON": "-084.6723704",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "210819201012021",
+            "CENTLAT": "+38.7512069",
+            "BLOCK": "2021",
+            "AREAWATER": 0,
+            "STATE": "21",
+            "BASENAME": "2021",
+            "OID": "210701004353646",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.7512069",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2021",
+            "OBJECTID": 2829329,
+            "TRACT": "920101",
+            "CENTLON": "-084.6183403",
+            "BLKGRP": "2",
+            "AREALAND": 366136,
+            "HU100": 0,
+            "INTPTLON": "-084.6183403",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "081"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -84.613255,
+          "y": 38.751822
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

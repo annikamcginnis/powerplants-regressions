@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:40:11.075304+00:00",
+  "elapsed": 0.19921,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4571",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:40:11 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.7875&y=35.021111"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.7875&y=35.021111",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 192645,
+            "GEOID": "37019",
+            "CENTLAT": "+35.0235621",
+            "AREAWATER": 11213104,
+            "STATE": "37",
+            "BASENAME": "19",
+            "OID": "212904690224470",
+            "LSADC": "LU",
+            "SLDU": "019",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.0249837",
+            "NAME": "State Senate District 19",
+            "OBJECTID": 1422,
+            "CENTLON": "-078.7800794",
+            "LSY": "2018",
+            "HU100": 82793,
+            "AREALAND": 1296419969,
+            "INTPTLON": "-078.7818061",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01027616",
+            "POP100": 10439388,
+            "GEOID": "37",
+            "CENTLAT": "+35.5401756",
+            "AREAWATER": 13456395178,
+            "STATE": "37",
+            "BASENAME": "North Carolina",
+            "STUSAB": "NC",
+            "OID": "2749018629826",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5397100",
+            "DIVISION": "5",
+            "NAME": "North Carolina",
+            "REGION": "3",
+            "OBJECTID": 24,
+            "CENTLON": "-079.1299320",
+            "AREALAND": 125933025759,
+            "INTPTLON": "-079.1308636",
+            "HU100": 4708710,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 834094,
+            "GEOID": "246",
+            "CENTLAT": "+35.0543596",
+            "AREAWATER": 75936801,
+            "BASENAME": "Fayetteville-Sanford-Lumberton, NC",
+            "OID": "2619013782255128",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.0541716",
+            "NAME": "Fayetteville-Sanford-Lumberton, NC CSA",
+            "CSA": "246",
+            "OBJECTID": 35,
+            "CENTLON": "-079.1383247",
+            "HU100": 352728,
+            "AREALAND": 9989117191,
+            "INTPTLON": "-079.1427459",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90572",
+            "POP100": 13004,
+            "GEOID": "3705190572",
+            "CENTLAT": "+34.9653410",
+            "AREAWATER": 1926503,
+            "STATE": "37",
+            "BASENAME": "Cedar Creek",
+            "OID": "2769018793994",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.9729063",
+            "NAME": "Cedar Creek township",
+            "OBJECTID": 28696,
+            "CENTLON": "-078.7415966",
+            "COUSUBCC": "Z1",
+            "HU100": 5667,
+            "AREALAND": 286243419,
+            "INTPTLON": "-078.7358381",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01026597",
+            "UR": "M",
+            "COUNTY": "051"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1388,
+            "GEOID": "3769740",
+            "CENTLAT": "+35.0346936",
+            "AREAWATER": 20082,
+            "STATE": "37",
+            "BASENAME": "Vander",
+            "OID": "2809018794107",
+            "LSADC": "57",
+            "PLACE": "69740",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.0382736",
+            "NAME": "Vander CDP",
+            "OBJECTID": 27509,
+            "PLACECC": "U1",
+            "CENTLON": "-078.7887232",
+            "CBSAPCI": "N",
+            "HU100": 620,
+            "AREALAND": 9606437,
+            "INTPTLON": "-078.7853830",
+            "PLACENS": "02402962",
+            "MTFCC": "G4210",
+            "UR": "R"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 91486,
+            "GEOID": "37045",
+            "CENTLAT": "+35.0300238",
+            "SLDL": "045",
+            "AREAWATER": 9733112,
+            "STATE": "37",
+            "BASENAME": "45",
+            "OID": "213904690224587",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.0302658",
+            "NAME": "State House District 45",
+            "OBJECTID": 3519,
+            "CENTLON": "-078.7643855",
+            "LSY": "2018",
+            "HU100": 36141,
+            "AREALAND": 1177206265,
+            "INTPTLON": "-078.7645030",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 334728,
+            "GEOID": "37051",
+            "CENTLAT": "+35.0486511",
+            "AREAWATER": 15336702,
+            "STATE": "37",
+            "BASENAME": "Cumberland",
+            "OID": "2759018793964",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.0501921",
+            "NAME": "Cumberland County",
+            "OBJECTID": 615,
+            "CENTLON": "-078.8275970",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01026124",
+            "AREALAND": 1690112815,
+            "INTPTLON": "-078.8287187",
+            "HU100": 142175,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "051"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 768917,
+            "GEOID": "3709",
+            "CENTLAT": "+34.8539709",
+            "CDSESSN": "116",
+            "AREAWATER": 85773395,
+            "STATE": "37",
+            "BASENAME": "9",
+            "OID": "211904690224415",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.8530785",
+            "NAME": "Congressional District 9",
+            "OBJECTID": 375,
+            "CENTLON": "-079.5366778",
+            "HU100": 309612,
+            "AREALAND": 10035536696,
+            "INTPTLON": "-079.5357000",
+            "CD116": "09",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3498,
+            "GEOID": "37051001401",
+            "CENTLAT": "+35.0138412",
+            "AREAWATER": 1083966,
+            "STATE": "37",
+            "BASENAME": "14.01",
+            "OID": "2079015672789114",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.0124190",
+            "NAME": "Census Tract 14.01",
+            "OBJECTID": 55682,
+            "TRACT": "001401",
+            "CENTLON": "-078.8136556",
+            "HU100": 1548,
+            "AREALAND": 57003731,
+            "INTPTLON": "-078.8034092",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "051"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 26,
+            "GEOID": "370510014012022",
+            "CENTLAT": "+35.0224408",
+            "BLOCK": "2022",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "2022",
+            "OID": "210701008165509",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.0224408",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2022",
+            "OBJECTID": 4705564,
+            "TRACT": "001401",
+            "CENTLON": "-078.7913568",
+            "BLKGRP": "2",
+            "AREALAND": 709539,
+            "HU100": 11,
+            "INTPTLON": "-078.7913568",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "051"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -78.7875,
+          "y": 35.021111
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

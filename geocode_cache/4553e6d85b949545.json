@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:45:25.445801+00:00",
+  "elapsed": 0.175006,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4154",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:25 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-77.314427&y=39.69373"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-77.314427&y=39.69373",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 141284,
+            "GEOID": "24004",
+            "CENTLAT": "+39.4977482",
+            "AREAWATER": 11386629,
+            "STATE": "24",
+            "BASENAME": "4",
+            "OID": "212904691844562",
+            "LSADC": "LU",
+            "SLDU": "004",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4945627",
+            "NAME": "State Senate District 4",
+            "OBJECTID": 1041,
+            "CENTLON": "-077.3703217",
+            "LSY": "2018",
+            "HU100": 51535,
+            "AREALAND": 1404715452,
+            "INTPTLON": "-077.3714249",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01714934",
+            "POP100": 6177224,
+            "GEOID": "24",
+            "CENTLAT": "+38.9463607",
+            "AREAWATER": 6979171386,
+            "STATE": "24",
+            "BASENAME": "Maryland",
+            "STUSAB": "MD",
+            "OID": "27490140608205",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9466584",
+            "DIVISION": "5",
+            "NAME": "Maryland",
+            "REGION": "3",
+            "OBJECTID": 20,
+            "CENTLON": "-076.6789663",
+            "AREALAND": 25151895765,
+            "INTPTLON": "-076.6744939",
+            "HU100": 2530844,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9973383,
+            "GEOID": "548",
+            "CENTLAT": "+39.0282791",
+            "AREAWATER": 4067866689,
+            "BASENAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",
+            "OID": "2619013782255247",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.0246056",
+            "NAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",
+            "CSA": "548",
+            "OBJECTID": 103,
+            "CENTLON": "-077.3083318",
+            "HU100": 4006033,
+            "AREALAND": 32735838394,
+            "INTPTLON": "-077.3105306",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90408",
+            "POP100": 7415,
+            "GEOID": "2402190408",
+            "CENTLAT": "+39.6831487",
+            "AREAWATER": 675177,
+            "STATE": "24",
+            "BASENAME": "5, Emmitsburg",
+            "OID": "27690155275726",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.6725373",
+            "NAME": "District 5, Emmitsburg",
+            "OBJECTID": 25772,
+            "CENTLON": "-077.3178991",
+            "COUSUBCC": "Z1",
+            "HU100": 2175,
+            "AREALAND": 119630534,
+            "INTPTLON": "-077.3162822",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929629",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 141284,
+            "GEOID": "24004",
+            "CENTLAT": "+39.4977482",
+            "SLDL": "004",
+            "AREAWATER": 11386629,
+            "STATE": "24",
+            "BASENAME": "4",
+            "OID": "213904691844845",
+            "LSADC": "L5",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4945627",
+            "NAME": "State Legislative District 4",
+            "OBJECTID": 3442,
+            "CENTLON": "-077.3703217",
+            "LSY": "2018",
+            "HU100": 51535,
+            "AREALAND": 1404715452,
+            "INTPTLON": "-077.3714249",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 271717,
+            "GEOID": "24021",
+            "CENTLAT": "+39.4720786",
+            "AREAWATER": 17674490,
+            "STATE": "24",
+            "BASENAME": "Frederick",
+            "OID": "27590155269558",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.4701773",
+            "NAME": "Frederick County",
+            "OBJECTID": 1088,
+            "CENTLON": "-077.3980420",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01711211",
+            "AREALAND": 1710921853,
+            "INTPTLON": "-077.3976358",
+            "HU100": 103493,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 784442,
+            "GEOID": "2408",
+            "CENTLAT": "+39.4329417",
+            "CDSESSN": "116",
+            "AREAWATER": 24012236,
+            "STATE": "24",
+            "BASENAME": "8",
+            "OID": "211904690760711",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4222951",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 333,
+            "CENTLON": "-077.2510775",
+            "HU100": 308084,
+            "AREALAND": 2226433523,
+            "INTPTLON": "-077.2420033",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5872,
+            "GEOID": "24021766800",
+            "CENTLAT": "+39.6931571",
+            "AREAWATER": 263692,
+            "STATE": "24",
+            "BASENAME": "7668",
+            "OID": "207903716780606",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.6979835",
+            "NAME": "Census Tract 7668",
+            "OBJECTID": 48413,
+            "TRACT": "766800",
+            "CENTLON": "-077.3402829",
+            "HU100": 1535,
+            "AREALAND": 41749046,
+            "INTPTLON": "-077.3449280",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 7,
+            "GEOID": "240217668002042",
+            "CENTLAT": "+39.6941316",
+            "BLOCK": "2042",
+            "AREAWATER": 39707,
+            "STATE": "24",
+            "BASENAME": "2042",
+            "OID": "210701008427892",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.6942696",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2042",
+            "OBJECTID": 1900674,
+            "TRACT": "766800",
+            "CENTLON": "-077.3114960",
+            "BLKGRP": "2",
+            "AREALAND": 417000,
+            "HU100": 1,
+            "INTPTLON": "-077.3129873",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -77.314427,
+          "y": 39.69373
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

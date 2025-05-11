@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T15:49:05.945585+00:00",
+  "elapsed": 0.153179,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4467",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:49:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.335193&y=30.470351"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.335193&y=30.470351",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 537834,
+            "GEOID": "12001",
+            "CENTLAT": "+30.6004845",
+            "AREAWATER": 1767421857,
+            "STATE": "12",
+            "BASENAME": "1",
+            "OID": "212904690226130",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.6003951",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1388,
+            "CENTLON": "-087.1061867",
+            "LSY": "2018",
+            "HU100": 233006,
+            "AREALAND": 5035906108,
+            "INTPTLON": "-087.1057012",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00294478",
+            "POP100": 21538187,
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": 45975808217,
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 17,
+            "CENTLON": "-082.5022125",
+            "AREALAND": 138958484319,
+            "INTPTLON": "-082.5143005",
+            "HU100": 9865350,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 546662,
+            "GEOID": "426",
+            "CENTLAT": "+30.7552151",
+            "AREAWATER": 1777292690,
+            "BASENAME": "Pensacola-Ferry Pass, FL-AL",
+            "OID": "2619013782255202",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.7648803",
+            "NAME": "Pensacola-Ferry Pass, FL-AL CSA",
+            "CSA": "426",
+            "OBJECTID": 147,
+            "CENTLON": "-087.1582526",
+            "HU100": 237928,
+            "AREALAND": 6772305209,
+            "INTPTLON": "-087.1650927",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "68482",
+            "CENTLAT": "+30.4869403",
+            "AREAWATER": 21560293,
+            "BASENAME": "Pensacola, FL--AL",
+            "OID": "2702190327034",
+            "UA": "68482",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4847613",
+            "NAME": "Pensacola, FL--AL Urban Area",
+            "OBJECTID": 1003,
+            "CENTLON": "-087.2656761",
+            "AREALAND": 679971435,
+            "INTPTLON": "-087.2643361",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92691",
+            "POP100": 247560,
+            "GEOID": "1203392691",
+            "CENTLAT": "+30.3114601",
+            "AREAWATER": 1193769066,
+            "STATE": "12",
+            "BASENAME": "Pensacola",
+            "OID": "27690117564091",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.3218570",
+            "NAME": "Pensacola CCD",
+            "OBJECTID": 11361,
+            "CENTLON": "-087.2397406",
+            "COUSUBCC": "Z5",
+            "HU100": 115228,
+            "AREALAND": 405499915,
+            "INTPTLON": "-087.2333900",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935894",
+            "UR": "M",
+            "COUNTY": "033"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 173738,
+            "GEOID": "12001",
+            "CENTLAT": "+30.7553922",
+            "SLDL": "001",
+            "AREAWATER": 38187009,
+            "STATE": "12",
+            "BASENAME": "1",
+            "OID": "213904690228671",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.7542751",
+            "NAME": "State House District 1",
+            "OBJECTID": 2262,
+            "CENTLON": "-087.3917277",
+            "LSY": "2018",
+            "HU100": 72897,
+            "AREALAND": 1435964602,
+            "INTPTLON": "-087.3941640",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 321905,
+            "GEOID": "12033",
+            "CENTLAT": "+30.5265753",
+            "AREAWATER": 1213972864,
+            "STATE": "12",
+            "BASENAME": "Escambia",
+            "OID": "27590117561516",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+30.5299979",
+            "NAME": "Escambia County",
+            "OBJECTID": 1337,
+            "CENTLON": "-087.3139299",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00295737",
+            "AREALAND": 1701603649,
+            "INTPTLON": "-087.3203222",
+            "HU100": 145390,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "033"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 807881,
+            "GEOID": "1201",
+            "CENTLAT": "+30.6184008",
+            "CDSESSN": "116",
+            "AREAWATER": 3559638678,
+            "STATE": "12",
+            "BASENAME": "1",
+            "OID": "211904690220908",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+30.6135464",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 286,
+            "CENTLON": "-086.6761984",
+            "HU100": 384093,
+            "AREALAND": 10407256217,
+            "INTPTLON": "-086.6728965",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2593,
+            "GEOID": "12033003305",
+            "CENTLAT": "+30.4504129",
+            "AREAWATER": 7330700,
+            "STATE": "12",
+            "BASENAME": "33.05",
+            "OID": "207903939220603",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+30.4525016",
+            "NAME": "Census Tract 33.05",
+            "OBJECTID": 35045,
+            "TRACT": "003305",
+            "CENTLON": "-087.3481555",
+            "HU100": 875,
+            "AREALAND": 16832065,
+            "INTPTLON": "-087.3412804",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "033"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "120330033051001",
+            "CENTLAT": "+30.4711683",
+            "BLOCK": "1001",
+            "AREAWATER": 512,
+            "STATE": "12",
+            "BASENAME": "1001",
+            "OID": "210701001457438",
+            "LSADC": "BK",
+            "INTPTLAT": "+30.4697445",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1001",
+            "OBJECTID": 3189678,
+            "TRACT": "003305",
+            "CENTLON": "-087.3411267",
+            "BLKGRP": "1",
+            "AREALAND": 2938213,
+            "HU100": 0,
+            "INTPTLON": "-087.3403629",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "033"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -87.335193,
+          "y": 30.470351
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

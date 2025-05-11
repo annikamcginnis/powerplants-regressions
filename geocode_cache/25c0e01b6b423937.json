@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:47:08.519112+00:00",
+  "elapsed": 0.202549,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4492",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:47:08 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.2597&y=43.8292"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.2597&y=43.8292",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 179156,
+            "GEOID": "55032",
+            "CENTLAT": "+43.6096465",
+            "AREAWATER": 211818041,
+            "STATE": "55",
+            "BASENAME": "32",
+            "OID": "212904691749106",
+            "LSADC": "LU",
+            "SLDU": "032",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.6082788",
+            "NAME": "State Senate District 32",
+            "OBJECTID": 1219,
+            "CENTLON": "-090.8971065",
+            "LSY": "2018",
+            "HU100": 79842,
+            "AREALAND": 5606687138,
+            "INTPTLON": "-090.8946075",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "45910",
+            "CENTLAT": "+43.8631867",
+            "AREAWATER": 6301358,
+            "BASENAME": "La Crosse, WI--MN",
+            "OID": "27021189594476",
+            "UA": "45910",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.8626017",
+            "NAME": "La Crosse, WI--MN Urban Area",
+            "OBJECTID": 276,
+            "CENTLON": "-091.2387644",
+            "AREALAND": 109395269,
+            "INTPTLON": "-091.2394189",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "40775",
+            "POP100": 52680,
+            "GEOID": "5506340775",
+            "CENTLAT": "+43.8241065",
+            "AREAWATER": 5398947,
+            "STATE": "55",
+            "BASENAME": "La Crosse",
+            "OID": "27690711957342",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+43.8246851",
+            "NAME": "La Crosse city",
+            "OBJECTID": 24822,
+            "CENTLON": "-091.2267357",
+            "COUSUBCC": "C5",
+            "HU100": 24221,
+            "AREALAND": 56210692,
+            "INTPTLON": "-091.2246156",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01583499",
+            "UR": "M",
+            "COUNTY": "063"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 58704,
+            "GEOID": "55095",
+            "CENTLAT": "+43.8394394",
+            "SLDL": "095",
+            "AREAWATER": 28485104,
+            "STATE": "55",
+            "BASENAME": "95",
+            "OID": "213904691751029",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.8397049",
+            "NAME": "Assembly District 95",
+            "OBJECTID": 4024,
+            "CENTLON": "-091.2470511",
+            "LSY": "2018",
+            "HU100": 26942,
+            "AREALAND": 69089334,
+            "INTPTLON": "-091.2474631",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 52680,
+            "GEOID": "5540775",
+            "CENTLAT": "+43.8241065",
+            "AREAWATER": 5398947,
+            "STATE": "55",
+            "BASENAME": "La Crosse",
+            "OID": "27890711957735",
+            "LSADC": "25",
+            "PLACE": "40775",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.8246851",
+            "NAME": "La Crosse city",
+            "OBJECTID": 16854,
+            "PLACECC": "C5",
+            "CENTLON": "-091.2267357",
+            "CBSAPCI": "Y",
+            "HU100": 24221,
+            "AREALAND": 56210692,
+            "INTPTLON": "-091.2246156",
+            "PLACENS": "01583499",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 120784,
+            "GEOID": "55063",
+            "CENTLAT": "+43.9064775",
+            "AREAWATER": 73159122,
+            "STATE": "55",
+            "BASENAME": "La Crosse",
+            "OID": "27590695004695",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.9082222",
+            "NAME": "La Crosse County",
+            "OBJECTID": 199,
+            "CENTLON": "-091.1151639",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581091",
+            "AREALAND": 1170166356,
+            "INTPTLON": "-091.1117584",
+            "HU100": 52774,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "063"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733584,
+            "GEOID": "5503",
+            "CENTLAT": "+44.0641972",
+            "CDSESSN": "116",
+            "AREAWATER": 815067592,
+            "STATE": "55",
+            "BASENAME": "3",
+            "OID": "211904691757155",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0562970",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 358,
+            "CENTLON": "-090.9094840",
+            "HU100": 329051,
+            "AREALAND": 28794049224,
+            "INTPTLON": "-090.8917476",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4462,
+            "GEOID": "55063010300",
+            "CENTLAT": "+43.8671847",
+            "AREAWATER": 1960905,
+            "STATE": "55",
+            "BASENAME": "103",
+            "OID": "20790711958422",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.8807049",
+            "NAME": "Census Tract 103",
+            "OBJECTID": 77517,
+            "TRACT": "010300",
+            "CENTLON": "-091.2592785",
+            "HU100": 2127,
+            "AREALAND": 11357804,
+            "INTPTLON": "-091.2578243",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "063"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "550630103001082",
+            "CENTLAT": "+43.8311558",
+            "BLOCK": "1082",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "1082",
+            "OID": "210701005942463",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.8311558",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1082",
+            "OBJECTID": 6303129,
+            "TRACT": "010300",
+            "CENTLON": "-091.2626915",
+            "BLKGRP": "1",
+            "AREALAND": 203780,
+            "HU100": 0,
+            "INTPTLON": "-091.2626915",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "063"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -91.2597,
+          "y": 43.8292
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:36:30.575437+00:00",
+  "elapsed": 0.165775,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4558",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:36:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.499461&y=40.167136"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.499461&y=40.167136",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 100845,
+            "GEOID": "49027",
+            "CENTLAT": "+38.5121101",
+            "AREAWATER": 367172778,
+            "STATE": "49",
+            "BASENAME": "27",
+            "OID": "212904690703311",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.5285940",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 1834,
+            "CENTLON": "-110.1107366",
+            "LSY": "2018",
+            "HU100": 38847,
+            "AREALAND": 47536401308,
+            "INTPTLON": "-110.0621466",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01455989",
+            "POP100": 3271616,
+            "GEOID": "49",
+            "CENTLAT": "+39.3063102",
+            "AREAWATER": 6529987297,
+            "STATE": "49",
+            "BASENAME": "Utah",
+            "STUSAB": "UT",
+            "OID": "27490187824724",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3349925",
+            "DIVISION": "8",
+            "NAME": "Utah",
+            "REGION": "4",
+            "OBJECTID": 39,
+            "CENTLON": "-111.6703458",
+            "AREALAND": 213355058738,
+            "INTPTLON": "-111.6563326",
+            "HU100": 1151414,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2701129,
+            "GEOID": "482",
+            "CENTLAT": "+40.6908170",
+            "AREAWATER": 5200372254,
+            "BASENAME": "Salt Lake City-Provo-Orem, UT",
+            "OID": "2619013782255225",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6892830",
+            "NAME": "Salt Lake City-Provo-Orem, UT CSA",
+            "CSA": "482",
+            "OBJECTID": 170,
+            "CENTLON": "-112.5591484",
+            "HU100": 921854,
+            "AREALAND": 60495574535,
+            "INTPTLON": "-112.5553578",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93311",
+            "POP100": 56362,
+            "GEOID": "4904993311",
+            "CENTLAT": "+40.0049055",
+            "AREAWATER": 181838,
+            "STATE": "49",
+            "BASENAME": "Springville-Mapleton",
+            "OID": "27690478495686",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.0181272",
+            "NAME": "Springville-Mapleton CCD",
+            "OBJECTID": 17727,
+            "CENTLON": "-111.3544992",
+            "COUSUBCC": "Z5",
+            "HU100": 16177,
+            "AREALAND": 2091096251,
+            "INTPTLON": "-111.3557612",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939421",
+            "UR": "M",
+            "COUNTY": "049"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 169,
+            "GEOID": "4935823",
+            "CENTLAT": "+40.2084452",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "Hobble Creek",
+            "OID": "2809019627124874",
+            "LSADC": "57",
+            "PLACE": "35823",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.1917204",
+            "NAME": "Hobble Creek CDP",
+            "OBJECTID": 26344,
+            "PLACECC": "U1",
+            "CENTLON": "-111.4858260",
+            "CBSAPCI": "N",
+            "HU100": 59,
+            "AREALAND": 5548116,
+            "INTPTLON": "-111.4967074",
+            "PLACENS": "02813359",
+            "MTFCC": "G4210",
+            "UR": "R"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 48242,
+            "GEOID": "49065",
+            "CENTLAT": "+40.0110039",
+            "SLDL": "065",
+            "AREAWATER": 181838,
+            "STATE": "49",
+            "BASENAME": "65",
+            "OID": "213904690703396",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.0212175",
+            "NAME": "State House District 65",
+            "OBJECTID": 3727,
+            "CENTLON": "-111.3424430",
+            "LSY": "2018",
+            "HU100": 13597,
+            "AREALAND": 1994558585,
+            "INTPTLON": "-111.3395652",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 659399,
+            "GEOID": "49049",
+            "CENTLAT": "+40.1198329",
+            "AREAWATER": 362967850,
+            "STATE": "49",
+            "BASENAME": "Utah",
+            "OID": "27590190526679",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1204248",
+            "NAME": "Utah County",
+            "OBJECTID": 1844,
+            "CENTLON": "-111.6696798",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01448038",
+            "AREALAND": 5190543916,
+            "INTPTLON": "-111.6685082",
+            "HU100": 192570,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "049"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 786714,
+            "GEOID": "4903",
+            "CENTLAT": "+38.6695220",
+            "CDSESSN": "116",
+            "AREAWATER": 457543486,
+            "STATE": "49",
+            "BASENAME": "3",
+            "OID": "211904690703639",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.6967640",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 435,
+            "CENTLON": "-110.2168037",
+            "HU100": 260632,
+            "AREALAND": 51991196201,
+            "INTPTLON": "-110.2164022",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1094,
+            "GEOID": "49049010900",
+            "CENTLAT": "+40.0639800",
+            "AREAWATER": 448739,
+            "STATE": "49",
+            "BASENAME": "109",
+            "OID": "207903717249972",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.0668653",
+            "NAME": "Census Tract 109",
+            "OBJECTID": 68597,
+            "TRACT": "010900",
+            "CENTLON": "-111.3863313",
+            "HU100": 703,
+            "AREALAND": 2393995115,
+            "INTPTLON": "-111.3869803",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "049"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "490490109002175",
+            "CENTLAT": "+40.1673798",
+            "BLOCK": "2175",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "2175",
+            "OID": "210701004223377",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.1673798",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2175",
+            "OBJECTID": 6341600,
+            "TRACT": "010900",
+            "CENTLON": "-111.4988229",
+            "BLKGRP": "2",
+            "AREALAND": 134779,
+            "HU100": 0,
+            "INTPTLON": "-111.4988229",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "049"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -111.499461,
+          "y": 40.167136
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

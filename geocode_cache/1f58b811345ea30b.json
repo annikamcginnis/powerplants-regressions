@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:56:39.888878+00:00",
+  "elapsed": 0.539815,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4481",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:56:39 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.897951&y=42.252975"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.897951&y=42.252975",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 296830,
+            "GEOID": "36046",
+            "CENTLAT": "+42.4474949",
+            "AREAWATER": 123068419,
+            "STATE": "36",
+            "BASENAME": "46",
+            "OID": "212904690195452",
+            "LSADC": "LU",
+            "SLDU": "046",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.4475407",
+            "NAME": "State Senate District 46",
+            "OBJECTID": 932,
+            "CENTLON": "-074.1609419",
+            "LSY": "2018",
+            "HU100": 145430,
+            "AREALAND": 4918393741,
+            "INTPTLON": "-074.1687709",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "14644",
+            "CENTLAT": "+42.2461688",
+            "AREAWATER": 225648,
+            "BASENAME": "Catskill, NY",
+            "OID": "27021720145169",
+            "UA": "14644",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2128254",
+            "NAME": "Catskill, NY Urban Area",
+            "OBJECTID": 2628,
+            "CENTLON": "-073.9065339",
+            "AREALAND": 16633988,
+            "INTPTLON": "-073.8696118",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "13013",
+            "POP100": 11298,
+            "GEOID": "3603913013",
+            "CENTLAT": "+42.2062651",
+            "AREAWATER": 9650633,
+            "STATE": "36",
+            "BASENAME": "Catskill",
+            "OID": "27690720132518",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.2086890",
+            "NAME": "Catskill town",
+            "OBJECTID": 32639,
+            "CENTLON": "-073.9435348",
+            "COUSUBCC": "T1",
+            "HU100": 6146,
+            "AREALAND": 156530002,
+            "INTPTLON": "-073.9388876",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00978803",
+            "UR": "M",
+            "COUNTY": "039"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 429,
+            "GEOID": "3641784",
+            "CENTLAT": "+42.2553070",
+            "AREAWATER": 24336,
+            "STATE": "36",
+            "BASENAME": "Leeds",
+            "OID": "28090720136459",
+            "LSADC": "57",
+            "PLACE": "41784",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2553839",
+            "NAME": "Leeds CDP",
+            "OBJECTID": 30318,
+            "PLACECC": "U1",
+            "CENTLON": "-073.8928906",
+            "CBSAPCI": "N",
+            "HU100": 268,
+            "AREALAND": 2391391,
+            "INTPTLON": "-073.8935328",
+            "PLACENS": "02390049",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 128534,
+            "GEOID": "36102",
+            "CENTLAT": "+42.4188212",
+            "SLDL": "102",
+            "AREAWATER": 73336705,
+            "STATE": "36",
+            "BASENAME": "102",
+            "OID": "213904690195622",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.4192002",
+            "NAME": "Assembly District 102",
+            "OBJECTID": 2737,
+            "CENTLON": "-074.3302252",
+            "LSY": "2018",
+            "HU100": 74254,
+            "AREALAND": 5225229865,
+            "INTPTLON": "-074.3249584",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 47931,
+            "GEOID": "36039",
+            "CENTLAT": "+42.2765618",
+            "AREAWATER": 28201061,
+            "STATE": "36",
+            "BASENAME": "Greene",
+            "OID": "27590720072149",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.2798211",
+            "NAME": "Greene County",
+            "OBJECTID": 803,
+            "CENTLON": "-074.1228803",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974118",
+            "AREALAND": 1676140499,
+            "INTPTLON": "-074.1420253",
+            "HU100": 28926,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "039"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 698673,
+            "GEOID": "3619",
+            "CENTLAT": "+42.2139220",
+            "CDSESSN": "116",
+            "AREAWATER": 429646320,
+            "STATE": "36",
+            "BASENAME": "19",
+            "OID": "211904690193762",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.2278105",
+            "NAME": "Congressional District 19",
+            "OBJECTID": 400,
+            "CENTLON": "-074.4208629",
+            "HU100": 359919,
+            "AREALAND": 20557311808,
+            "INTPTLON": "-074.4256329",
+            "CD116": "19",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2972,
+            "GEOID": "36039081102",
+            "CENTLAT": "+42.1943210",
+            "AREAWATER": 5265778,
+            "STATE": "36",
+            "BASENAME": "811.02",
+            "OID": "207903694825074",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.1910934",
+            "NAME": "Census Tract 811.02",
+            "OBJECTID": 40953,
+            "TRACT": "081102",
+            "CENTLON": "-073.9191109",
+            "HU100": 1464,
+            "AREALAND": 61390645,
+            "INTPTLON": "-073.9163600",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "039"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 22,
+            "GEOID": "360390811022008",
+            "CENTLAT": "+42.2540127",
+            "BLOCK": "2008",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "2008",
+            "OID": "210701006031275",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.2540127",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2008",
+            "OBJECTID": 2884678,
+            "TRACT": "081102",
+            "CENTLON": "-073.9020521",
+            "BLKGRP": "2",
+            "AREALAND": 107285,
+            "HU100": 14,
+            "INTPTLON": "-073.9020521",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "039"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.897951,
+          "y": 42.252975
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

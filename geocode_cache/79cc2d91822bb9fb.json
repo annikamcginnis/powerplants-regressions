@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:38:48.830610+00:00",
+  "elapsed": 0.173178,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4104",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:48 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.363333&y=35.541944"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.363333&y=35.541944",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 209285,
+            "GEOID": "37033",
+            "CENTLAT": "+35.4967879",
+            "AREAWATER": 57156455,
+            "STATE": "37",
+            "BASENAME": "33",
+            "OID": "212904690224519",
+            "LSADC": "LU",
+            "SLDU": "033",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.5061440",
+            "NAME": "State Senate District 33",
+            "OBJECTID": 1506,
+            "CENTLON": "-080.4051284",
+            "LSY": "2018",
+            "HU100": 90856,
+            "AREALAND": 2348424464,
+            "INTPTLON": "-080.4102214",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01027616",
+            "POP100": 10439388,
+            "GEOID": "37",
+            "CENTLAT": "+35.5401756",
+            "AREAWATER": 13456395178,
+            "STATE": "37",
+            "BASENAME": "North Carolina",
+            "STUSAB": "NC",
+            "OID": "2749018629826",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5397100",
+            "DIVISION": "5",
+            "NAME": "North Carolina",
+            "REGION": "3",
+            "OBJECTID": 24,
+            "CENTLON": "-079.1299320",
+            "AREALAND": 125933025759,
+            "INTPTLON": "-079.1308636",
+            "HU100": 4708710,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2822352,
+            "GEOID": "172",
+            "CENTLAT": "+35.1884081",
+            "AREAWATER": 337197598,
+            "BASENAME": "Charlotte-Concord, NC-SC",
+            "OID": "2619013782255100",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.1893442",
+            "NAME": "Charlotte-Concord, NC-SC CSA",
+            "CSA": "172",
+            "OBJECTID": 7,
+            "CENTLON": "-080.8159440",
+            "HU100": 1179478,
+            "AREALAND": 16722883058,
+            "INTPTLON": "-080.8162710",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91256",
+            "POP100": 11629,
+            "GEOID": "3715991256",
+            "CENTLAT": "+35.5410993",
+            "AREAWATER": 217501,
+            "STATE": "37",
+            "BASENAME": "Gold Hill",
+            "OID": "27690164115484",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.5400135",
+            "NAME": "Gold Hill township",
+            "OBJECTID": 18292,
+            "CENTLON": "-080.4106442",
+            "COUSUBCC": "Z1",
+            "HU100": 4913,
+            "AREALAND": 83738779,
+            "INTPTLON": "-080.4100960",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01027145",
+            "UR": "M",
+            "COUNTY": "159"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 85078,
+            "GEOID": "37076",
+            "CENTLAT": "+35.6005775",
+            "SLDL": "076",
+            "AREAWATER": 29291139,
+            "STATE": "37",
+            "BASENAME": "76",
+            "OID": "213904690224653",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.6044088",
+            "NAME": "State House District 76",
+            "OBJECTID": 3605,
+            "CENTLON": "-080.3969170",
+            "LSY": "2018",
+            "HU100": 36934,
+            "AREALAND": 607504682,
+            "INTPTLON": "-080.3921731",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 146875,
+            "GEOID": "37159",
+            "CENTLAT": "+35.6394197",
+            "AREAWATER": 31968195,
+            "STATE": "37",
+            "BASENAME": "Rowan",
+            "OID": "27590164107018",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.6413550",
+            "NAME": "Rowan County",
+            "OBJECTID": 445,
+            "CENTLON": "-080.5246302",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01008583",
+            "AREALAND": 1325058763,
+            "INTPTLON": "-080.5217214",
+            "HU100": 63200,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "159"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 810614,
+            "GEOID": "3708",
+            "CENTLAT": "+35.2973658",
+            "CDSESSN": "116",
+            "AREAWATER": 123084850,
+            "STATE": "37",
+            "BASENAME": "8",
+            "OID": "211904690224418",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2954791",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 376,
+            "CENTLON": "-079.7958658",
+            "HU100": 345543,
+            "AREALAND": 7651206113,
+            "INTPTLON": "-079.7805272",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6349,
+            "GEOID": "37159050903",
+            "CENTLAT": "+35.5992150",
+            "AREAWATER": 1407652,
+            "STATE": "37",
+            "BASENAME": "509.03",
+            "OID": "207903717429062",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.6042106",
+            "NAME": "Census Tract 509.03",
+            "OBJECTID": 77659,
+            "TRACT": "050903",
+            "CENTLON": "-080.3775486",
+            "HU100": 2704,
+            "AREALAND": 74644390,
+            "INTPTLON": "-080.3808197",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "159"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 74,
+            "GEOID": "371590509032031",
+            "CENTLAT": "+35.5434221",
+            "BLOCK": "2031",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "2031",
+            "OID": "210701008211399",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.5434221",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2031",
+            "OBJECTID": 5381780,
+            "TRACT": "050903",
+            "CENTLON": "-080.3626020",
+            "BLKGRP": "2",
+            "AREALAND": 871659,
+            "HU100": 32,
+            "INTPTLON": "-080.3626020",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "159"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.363333,
+          "y": 35.541944
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

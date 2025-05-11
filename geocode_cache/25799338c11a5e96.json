@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T15:35:45.278250+00:00",
+  "elapsed": 0.177794,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4436",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:35:45 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.7612&y=41.890026"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.7612&y=41.890026",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 320311,
+            "GEOID": "39032",
+            "CENTLAT": "+41.5288140",
+            "AREAWATER": 71673730,
+            "STATE": "39",
+            "BASENAME": "32",
+            "OID": "212904692055023",
+            "LSADC": "LU",
+            "SLDU": "032",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.5313358",
+            "NAME": "State Senate District 32",
+            "OBJECTID": 1252,
+            "CENTLON": "-080.7829832",
+            "LSY": "2018",
+            "HU100": 149134,
+            "AREALAND": 3736710861,
+            "INTPTLON": "-080.7755335",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01085497",
+            "POP100": 11799448,
+            "GEOID": "39",
+            "CENTLAT": "+40.4097282",
+            "AREAWATER": 10274656132,
+            "STATE": "39",
+            "BASENAME": "Ohio",
+            "STUSAB": "OH",
+            "OID": "2749046634335",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4149297",
+            "DIVISION": "3",
+            "NAME": "Ohio",
+            "REGION": "2",
+            "OBJECTID": 40,
+            "CENTLON": "-082.7168530",
+            "AREALAND": 105823700104,
+            "INTPTLON": "-082.7119975",
+            "HU100": 5242524,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3633962,
+            "GEOID": "184",
+            "CENTLAT": "+41.3582701",
+            "AREAWATER": 7933921665,
+            "BASENAME": "Cleveland-Akron-Canton, OH",
+            "OID": "2619013782255104",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.3608812",
+            "NAME": "Cleveland-Akron-Canton, OH CSA",
+            "CSA": "184",
+            "OBJECTID": 11,
+            "CENTLON": "-081.5713982",
+            "HU100": 1662778,
+            "AREALAND": 16670788120,
+            "INTPTLON": "-081.5787755",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "03466",
+            "CENTLAT": "+41.8718828",
+            "AREAWATER": 467129,
+            "BASENAME": "Ashtabula, OH",
+            "OID": "27021284773187",
+            "UA": "03466",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.8717990",
+            "NAME": "Ashtabula, OH Urban Area",
+            "OBJECTID": 1903,
+            "CENTLON": "-080.8096601",
+            "AREALAND": 56175650,
+            "INTPTLON": "-080.8156650",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "02652",
+            "POP100": 19585,
+            "GEOID": "3900702652",
+            "CENTLAT": "+41.8823867",
+            "AREAWATER": 434388,
+            "STATE": "39",
+            "BASENAME": "Ashtabula",
+            "OID": "27690284765745",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.8826695",
+            "NAME": "Ashtabula township",
+            "OBJECTID": 4069,
+            "CENTLON": "-080.7653458",
+            "COUSUBCC": "T1",
+            "HU100": 9409,
+            "AREALAND": 52194315,
+            "INTPTLON": "-080.7662124",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01085719",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 106819,
+            "GEOID": "39099",
+            "CENTLAT": "+41.7213252",
+            "SLDL": "099",
+            "AREAWATER": 10400706,
+            "STATE": "39",
+            "BASENAME": "99",
+            "OID": "213904692058137",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.7204851",
+            "NAME": "State House District 99",
+            "OBJECTID": 2393,
+            "CENTLON": "-080.8157439",
+            "LSY": "2018",
+            "HU100": 49186,
+            "AREALAND": 1763146883,
+            "INTPTLON": "-080.8150197",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 97574,
+            "GEOID": "39007",
+            "CENTLAT": "+41.8956694",
+            "AREAWATER": 1724513202,
+            "STATE": "39",
+            "BASENAME": "Ashtabula",
+            "OID": "27590284763771",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.9066369",
+            "NAME": "Ashtabula County",
+            "OBJECTID": 1376,
+            "CENTLON": "-080.7590467",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01074017",
+            "AREALAND": 1818345034,
+            "INTPTLON": "-080.7455916",
+            "HU100": 46237,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 730056,
+            "GEOID": "3914",
+            "CENTLAT": "+41.7519957",
+            "CDSESSN": "116",
+            "AREAWATER": 3730278343,
+            "STATE": "39",
+            "BASENAME": "14",
+            "OID": "211904690778978",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.7511641",
+            "NAME": "Congressional District 14",
+            "OBJECTID": 139,
+            "CENTLON": "-081.0157639",
+            "HU100": 318452,
+            "AREALAND": 5063849520,
+            "INTPTLON": "-081.0194752",
+            "CD116": "14",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2093,
+            "GEOID": "39007000300",
+            "CENTLAT": "+41.8895107",
+            "AREAWATER": 2658832,
+            "STATE": "39",
+            "BASENAME": "3",
+            "OID": "20790284771874",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.8881299",
+            "NAME": "Census Tract 3",
+            "OBJECTID": 43351,
+            "TRACT": "000300",
+            "CENTLON": "-080.7358867",
+            "HU100": 988,
+            "AREALAND": 37572875,
+            "INTPTLON": "-080.7366176",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "390070003001008",
+            "CENTLAT": "+41.8890294",
+            "BLOCK": "1008",
+            "AREAWATER": 0,
+            "STATE": "39",
+            "BASENAME": "1008",
+            "OID": "210701004005853",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.8890294",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1008",
+            "OBJECTID": 5255652,
+            "TRACT": "000300",
+            "CENTLON": "-080.7640669",
+            "BLKGRP": "1",
+            "AREALAND": 171949,
+            "HU100": 0,
+            "INTPTLON": "-080.7640669",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "007"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.7612,
+          "y": 41.890026
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T16:07:56.837882+00:00",
+  "elapsed": 0.159057,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4125",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:07:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-68.683833&y=44.912667"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-68.683833&y=44.912667",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 37215,
+            "GEOID": "23005",
+            "CENTLAT": "+45.3639994",
+            "AREAWATER": 156558331,
+            "STATE": "23",
+            "BASENAME": "5",
+            "OID": "212904492476875",
+            "LSADC": "LU",
+            "SLDU": "005",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3604314",
+            "NAME": "State Senate District 5",
+            "OBJECTID": 75,
+            "CENTLON": "-068.6452467",
+            "LSY": "2018",
+            "HU100": 18036,
+            "AREALAND": 2173473997,
+            "INTPTLON": "-068.6373023",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779787",
+            "POP100": 1362359,
+            "GEOID": "23",
+            "CENTLAT": "+45.2610879",
+            "AREAWATER": 11744937116,
+            "STATE": "23",
+            "BASENAME": "Maine",
+            "STUSAB": "ME",
+            "OID": "27490100936543",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.4092843",
+            "DIVISION": "1",
+            "NAME": "Maine",
+            "REGION": "1",
+            "OBJECTID": 50,
+            "CENTLON": "-069.2136626",
+            "AREALAND": 79888428972,
+            "INTPTLON": "-068.6666160",
+            "HU100": 739072,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "55225",
+            "POP100": 7431,
+            "GEOID": "2301955225",
+            "CENTLAT": "+44.9491080",
+            "AREAWATER": 11462028,
+            "STATE": "23",
+            "BASENAME": "Old Town",
+            "OID": "27690105053714",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.9541709",
+            "NAME": "Old Town city",
+            "OBJECTID": 19276,
+            "CENTLON": "-068.7248762",
+            "COUSUBCC": "C5",
+            "HU100": 3745,
+            "AREALAND": 100552749,
+            "INTPTLON": "-068.7396886",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00582648",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 7801,
+            "GEOID": "23122",
+            "CENTLAT": "+45.0440142",
+            "SLDL": "122",
+            "AREAWATER": 48971779,
+            "STATE": "23",
+            "BASENAME": "122",
+            "OID": "213904492476981",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.9370524",
+            "NAME": "State House District 122",
+            "OBJECTID": 674,
+            "CENTLON": "-068.6788333",
+            "LSY": "2018",
+            "HU100": 3918,
+            "AREALAND": 120321611,
+            "INTPTLON": "-068.7154794",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 7431,
+            "GEOID": "2355225",
+            "CENTLAT": "+44.9491080",
+            "AREAWATER": 11462028,
+            "STATE": "23",
+            "BASENAME": "Old Town",
+            "OID": "27890105056807",
+            "LSADC": "25",
+            "PLACE": "55225",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9541709",
+            "NAME": "Old Town city",
+            "OBJECTID": 10877,
+            "PLACECC": "C5",
+            "CENTLON": "-068.7248762",
+            "CBSAPCI": "N",
+            "HU100": 3745,
+            "AREALAND": 100552749,
+            "INTPTLON": "-068.7396886",
+            "PLACENS": "00582648",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 152199,
+            "GEOID": "23019",
+            "CENTLAT": "+45.3972249",
+            "AREAWATER": 413983093,
+            "STATE": "23",
+            "BASENAME": "Penobscot",
+            "OID": "27590105052618",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.4092843",
+            "NAME": "Penobscot County",
+            "OBJECTID": 2416,
+            "CENTLON": "-068.6508946",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00581295",
+            "AREALAND": 8798699726,
+            "INTPTLON": "-068.6666160",
+            "HU100": 74878,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 658148,
+            "GEOID": "2302",
+            "CENTLAT": "+45.5004265",
+            "CDSESSN": "116",
+            "AREAWATER": 7013114511,
+            "STATE": "23",
+            "BASENAME": "2",
+            "OID": "211904486863073",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.5100010",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 35,
+            "CENTLON": "-069.0896714",
+            "HU100": 372647,
+            "AREALAND": 71374604925,
+            "INTPTLON": "-069.0853097",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2630,
+            "GEOID": "23019007200",
+            "CENTLAT": "+44.9518610",
+            "AREAWATER": 10742712,
+            "STATE": "23",
+            "BASENAME": "72",
+            "OID": "20790105061077",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9541709",
+            "NAME": "Census Tract 72",
+            "OBJECTID": 26065,
+            "TRACT": "007200",
+            "CENTLON": "-068.7348133",
+            "HU100": 1312,
+            "AREALAND": 86111186,
+            "INTPTLON": "-068.7396886",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "230190072001014",
+            "CENTLAT": "+44.9109886",
+            "BLOCK": "1014",
+            "AREAWATER": 50712,
+            "STATE": "23",
+            "BASENAME": "1014",
+            "OID": "210701008139291",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.9109886",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1014",
+            "OBJECTID": 5609061,
+            "TRACT": "007200",
+            "CENTLON": "-068.6837149",
+            "BLKGRP": "1",
+            "AREALAND": 0,
+            "HU100": 0,
+            "INTPTLON": "-068.6837149",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "W",
+            "UR": "R",
+            "COUNTY": "019"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -68.683833,
+          "y": 44.912667
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

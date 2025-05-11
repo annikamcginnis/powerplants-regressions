@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:43:07.380454+00:00",
+  "elapsed": 0.176443,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4167",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:43:07 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.144835&y=41.801491"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.144835&y=41.801491",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 182588,
+            "GEOID": "25036",
+            "CENTLAT": "+41.8568823",
+            "AREAWATER": 84635942,
+            "STATE": "25",
+            "BASENAME": "First Plymouth & Bristol",
+            "OID": "212904693077271",
+            "LSADC": "07",
+            "SLDU": "036",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.8615743",
+            "NAME": "First Plymouth & Bristol District",
+            "OBJECTID": 1529,
+            "CENTLON": "-070.9072361",
+            "LSY": "2018",
+            "HU100": 75562,
+            "AREALAND": 749207206,
+            "INTPTLON": "-070.9108494",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "16950",
+            "POP100": 8101,
+            "GEOID": "2500516950",
+            "CENTLAT": "+41.8359703",
+            "AREAWATER": 1496405,
+            "STATE": "25",
+            "BASENAME": "Dighton",
+            "OID": "27690406240851",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.8292730",
+            "NAME": "Dighton town",
+            "OBJECTID": 5329,
+            "CENTLON": "-071.1552527",
+            "COUSUBCC": "T1",
+            "HU100": 2978,
+            "AREALAND": 57059731,
+            "INTPTLON": "-071.1520870",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618280",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 44702,
+            "GEOID": "25073",
+            "CENTLAT": "+41.7961661",
+            "SLDL": "073",
+            "AREAWATER": 18149020,
+            "STATE": "25",
+            "BASENAME": "5th Bristol",
+            "OID": "213904693077451",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.7965245",
+            "NAME": "5th Bristol District",
+            "OBJECTID": 4609,
+            "CENTLON": "-071.1604400",
+            "LSY": "2018",
+            "HU100": 18048,
+            "AREALAND": 116821009,
+            "INTPTLON": "-071.1596688",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 579200,
+            "GEOID": "25005",
+            "CENTLAT": "+41.7567464",
+            "AREAWATER": 357461179,
+            "STATE": "25",
+            "BASENAME": "Bristol",
+            "OID": "27590264619750",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.7485884",
+            "NAME": "Bristol County",
+            "OBJECTID": 1083,
+            "CENTLON": "-071.0880848",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00606929",
+            "AREALAND": 1432553462,
+            "INTPTLON": "-071.0888940",
+            "HU100": 243464,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 777137,
+            "GEOID": "2504",
+            "CENTLAT": "+41.9909334",
+            "CDSESSN": "116",
+            "AREAWATER": 86336453,
+            "STATE": "25",
+            "BASENAME": "4",
+            "OID": "211904690191888",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.9972149",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 345,
+            "CENTLON": "-071.2318909",
+            "HU100": 304979,
+            "AREALAND": 1730853132,
+            "INTPTLON": "-071.2275358",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 8101,
+            "GEOID": "25005615100",
+            "CENTLAT": "+41.8359703",
+            "AREAWATER": 1496405,
+            "STATE": "25",
+            "BASENAME": "6151",
+            "OID": "20790406290212",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.8292730",
+            "NAME": "Census Tract 6151",
+            "OBJECTID": 65175,
+            "TRACT": "615100",
+            "CENTLON": "-071.1552527",
+            "HU100": 2978,
+            "AREALAND": 57059731,
+            "INTPTLON": "-071.1520870",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 101,
+            "GEOID": "250056151005029",
+            "CENTLAT": "+41.7981336",
+            "BLOCK": "5029",
+            "AREAWATER": 2552,
+            "STATE": "25",
+            "BASENAME": "5029",
+            "OID": "210701007762786",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.7985915",
+            "FUNCSTAT": "S",
+            "NAME": "Block 5029",
+            "OBJECTID": 5284194,
+            "TRACT": "615100",
+            "CENTLON": "-071.1431566",
+            "BLKGRP": "5",
+            "AREALAND": 1854500,
+            "HU100": 38,
+            "INTPTLON": "-071.1426064",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -71.144835,
+          "y": 41.801491
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

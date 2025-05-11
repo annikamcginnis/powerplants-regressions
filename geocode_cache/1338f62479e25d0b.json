@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:50:24.009107+00:00",
+  "elapsed": 0.158216,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4178",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:50:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.051111&y=44.933611"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.051111&y=44.933611",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 48522,
+            "GEOID": "50FRA",
+            "CENTLAT": "+44.8571840",
+            "AREAWATER": 200148486,
+            "STATE": "50",
+            "BASENAME": "Franklin",
+            "OID": "212904693072130",
+            "LSADC": "L8",
+            "SLDU": "FRA",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8615968",
+            "NAME": "Franklin State Senate District",
+            "OBJECTID": 1445,
+            "CENTLON": "-072.9890099",
+            "LSY": "2018",
+            "HU100": 22357,
+            "AREALAND": 1451019801,
+            "INTPTLON": "-072.9810950",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 285369,
+            "GEOID": "162",
+            "CENTLAT": "+44.5558124",
+            "AREAWATER": 677806802,
+            "BASENAME": "Burlington-South Burlington-Barre, VT",
+            "OID": "2619013782255095",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.5676947",
+            "NAME": "Burlington-South Burlington-Barre, VT CSA",
+            "CSA": "162",
+            "OBJECTID": 2,
+            "CENTLON": "-072.8995086",
+            "HU100": 131637,
+            "AREALAND": 5015011839,
+            "INTPTLON": "-072.9027635",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "33025",
+            "POP100": 3472,
+            "GEOID": "5001133025",
+            "CENTLAT": "+44.9655749",
+            "AREAWATER": 23347411,
+            "STATE": "50",
+            "BASENAME": "Highgate",
+            "OID": "27690255223605",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9631977",
+            "NAME": "Highgate town",
+            "OBJECTID": 30969,
+            "CENTLON": "-073.0561740",
+            "COUSUBCC": "T1",
+            "HU100": 1600,
+            "AREALAND": 132245625,
+            "INTPTLON": "-073.0598568",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462118",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 8728,
+            "GEOID": "50F-5",
+            "CENTLAT": "+44.9699118",
+            "SLDL": "F-5",
+            "AREAWATER": 30533920,
+            "STATE": "50",
+            "BASENAME": "Franklin-5",
+            "OID": "213904693072344",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.9658284",
+            "NAME": "Franklin-5 State House District",
+            "OBJECTID": 4356,
+            "CENTLON": "-072.8525451",
+            "LSY": "2018",
+            "HU100": 4137,
+            "AREALAND": 450859629,
+            "INTPTLON": "-072.8487188",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 49946,
+            "GEOID": "50011",
+            "CENTLAT": "+44.8577769",
+            "AREAWATER": 150143028,
+            "STATE": "50",
+            "BASENAME": "Franklin",
+            "OID": "27590255216238",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8589643",
+            "NAME": "Franklin County",
+            "OBJECTID": 132,
+            "CENTLON": "-072.9132157",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461762",
+            "AREALAND": 1633443915,
+            "INTPTLON": "-072.9094023",
+            "HU100": 22642,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "011"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3472,
+            "GEOID": "50011010101",
+            "CENTLAT": "+44.9655749",
+            "AREAWATER": 23347411,
+            "STATE": "50",
+            "BASENAME": "101.01",
+            "OID": "2079015500893540",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9631977",
+            "NAME": "Census Tract 101.01",
+            "OBJECTID": 27986,
+            "TRACT": "010101",
+            "CENTLON": "-073.0561740",
+            "HU100": 1600,
+            "AREALAND": 132245625,
+            "INTPTLON": "-073.0598568",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "500110101013025",
+            "CENTLAT": "+44.9335155",
+            "BLOCK": "3025",
+            "AREAWATER": 5328,
+            "STATE": "50",
+            "BASENAME": "3025",
+            "OID": "210701004621820",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.9335155",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3025",
+            "OBJECTID": 628772,
+            "TRACT": "010101",
+            "CENTLON": "-073.0513210",
+            "BLKGRP": "3",
+            "AREALAND": 0,
+            "HU100": 0,
+            "INTPTLON": "-073.0513210",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "W",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.051111,
+          "y": 44.933611
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

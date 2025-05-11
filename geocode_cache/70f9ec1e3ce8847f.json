@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:42:29.222402+00:00",
+  "elapsed": 0.158187,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4970",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:42:29 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.889188&y=28.740206"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.889188&y=28.740206",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 584669,
+            "GEOID": "12012",
+            "CENTLAT": "+28.8802886",
+            "AREAWATER": 555132906,
+            "STATE": "12",
+            "BASENAME": "12",
+            "OID": "212904690226095",
+            "LSADC": "LU",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.8806747",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 1355,
+            "CENTLON": "-081.8893241",
+            "LSY": "2018",
+            "HU100": 295781,
+            "AREALAND": 4755878511,
+            "INTPTLON": "-081.8899129",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00294478",
+            "POP100": 21538187,
+            "GEOID": "12",
+            "CENTLAT": "+28.4062029",
+            "AREAWATER": 45975808217,
+            "STATE": "12",
+            "BASENAME": "Florida",
+            "STUSAB": "FL",
+            "OID": "2749046365780",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.3989775",
+            "DIVISION": "5",
+            "NAME": "Florida",
+            "REGION": "3",
+            "OBJECTID": 17,
+            "CENTLON": "-082.5022125",
+            "AREALAND": 138958484319,
+            "INTPTLON": "-082.5143005",
+            "HU100": 9865350,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 4222422,
+            "GEOID": "422",
+            "CENTLAT": "+28.4420863",
+            "AREAWATER": 3037216350,
+            "BASENAME": "Orlando-Lakeland-Deltona, FL",
+            "OID": "2619013782255199",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.4407966",
+            "NAME": "Orlando-Lakeland-Deltona, FL CSA",
+            "CSA": "422",
+            "OBJECTID": 144,
+            "CENTLON": "-081.4742897",
+            "HU100": 1817344,
+            "AREALAND": 20902444759,
+            "INTPTLON": "-081.4742934",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "48799",
+            "CENTLAT": "+28.8244500",
+            "AREAWATER": 21383616,
+            "BASENAME": "Leesburg--Eustis--Tavares, FL",
+            "OID": "27021345088862",
+            "UA": "48799",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.7931470",
+            "NAME": "Leesburg--Eustis--Tavares, FL Urban Area",
+            "OBJECTID": 310,
+            "CENTLON": "-081.7669203",
+            "AREALAND": 222984477,
+            "INTPTLON": "-081.8947089",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91541",
+            "POP100": 19386,
+            "GEOID": "1206991541",
+            "CENTLAT": "+28.7184629",
+            "AREAWATER": 54681389,
+            "STATE": "12",
+            "BASENAME": "Howey-in-the-Hills-Okahumpka",
+            "OID": "27690404128482",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.7188577",
+            "NAME": "Howey-in-the-Hills-Okahumpka CCD",
+            "OBJECTID": 25210,
+            "CENTLON": "-081.8581708",
+            "COUSUBCC": "Z5",
+            "HU100": 11357,
+            "AREALAND": 162452918,
+            "INTPTLON": "-081.8599981",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935801",
+            "UR": "M",
+            "COUNTY": "069"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 213960,
+            "GEOID": "12032",
+            "CENTLAT": "+28.5757804",
+            "SLDL": "032",
+            "AREAWATER": 294502482,
+            "STATE": "12",
+            "BASENAME": "32",
+            "OID": "213904690229787",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.5748130",
+            "NAME": "State House District 32",
+            "OBJECTID": 4572,
+            "CENTLON": "-081.8133211",
+            "LSY": "2018",
+            "HU100": 93194,
+            "AREALAND": 1154655229,
+            "INTPTLON": "-081.8119792",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 27000,
+            "GEOID": "1239875",
+            "CENTLAT": "+28.7672718",
+            "AREAWATER": 9036274,
+            "STATE": "12",
+            "BASENAME": "Leesburg",
+            "OID": "27890404137080",
+            "LSADC": "25",
+            "PLACE": "39875",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.7172063",
+            "NAME": "Leesburg city",
+            "OBJECTID": 16326,
+            "PLACECC": "C1",
+            "CENTLON": "-081.8962769",
+            "CBSAPCI": "N",
+            "HU100": 13109,
+            "AREALAND": 99576573,
+            "INTPTLON": "-081.9030893",
+            "PLACENS": "02404907",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 383956,
+            "GEOID": "12069",
+            "CENTLAT": "+28.7611296",
+            "AREAWATER": 531492923,
+            "STATE": "12",
+            "BASENAME": "Lake",
+            "OID": "27590404118252",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+28.7641128",
+            "NAME": "Lake County",
+            "OBJECTID": 918,
+            "CENTLON": "-081.7116792",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00308551",
+            "AREALAND": 2464507354,
+            "INTPTLON": "-081.7122822",
+            "HU100": 177628,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "069"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 820835,
+            "GEOID": "1211",
+            "CENTLAT": "+28.7822839",
+            "CDSESSN": "116",
+            "AREAWATER": 2054670305,
+            "STATE": "12",
+            "BASENAME": "11",
+            "OID": "211904690222364",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+28.7859153",
+            "NAME": "Congressional District 11",
+            "OBJECTID": 295,
+            "CENTLON": "-082.2793792",
+            "HU100": 412450,
+            "AREALAND": 6237484040,
+            "INTPTLON": "-082.2696935",
+            "CD116": "11",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3322,
+            "GEOID": "12069031107",
+            "CENTLAT": "+28.7361743",
+            "AREAWATER": 5535479,
+            "STATE": "12",
+            "BASENAME": "311.07",
+            "OID": "2079015482527285",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+28.7290518",
+            "NAME": "Census Tract 311.07",
+            "OBJECTID": 19133,
+            "TRACT": "031107",
+            "CENTLON": "-081.9212689",
+            "HU100": 2087,
+            "AREALAND": 51240564,
+            "INTPTLON": "-081.9378331",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "069"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "120690311072070",
+            "CENTLAT": "+28.7400594",
+            "BLOCK": "2070",
+            "AREAWATER": 0,
+            "STATE": "12",
+            "BASENAME": "2070",
+            "OID": "210701001109379",
+            "LSADC": "BK",
+            "INTPTLAT": "+28.7400594",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2070",
+            "OBJECTID": 4344429,
+            "TRACT": "031107",
+            "CENTLON": "-081.8893997",
+            "BLKGRP": "2",
+            "AREALAND": 85864,
+            "HU100": 0,
+            "INTPTLON": "-081.8893997",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "069"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.889188,
+          "y": 28.740206
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

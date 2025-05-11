@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:35:23.517541+00:00",
+  "elapsed": 0.173338,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4172",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:35:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.00635&y=43.06435"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.00635&y=43.06435",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 56527,
+            "GEOID": "33008",
+            "CENTLAT": "+43.2368438",
+            "AREAWATER": 61235907,
+            "STATE": "33",
+            "BASENAME": "8",
+            "OID": "212904692117076",
+            "LSADC": "LU",
+            "SLDU": "008",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.2319493",
+            "NAME": "State Senate District 8",
+            "OBJECTID": 1825,
+            "CENTLON": "-072.0508858",
+            "LSY": "2018",
+            "HU100": 29265,
+            "AREALAND": 2061918327,
+            "INTPTLON": "-072.0503165",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779794",
+            "POP100": 1377529,
+            "GEOID": "33",
+            "CENTLAT": "+43.6740331",
+            "AREAWATER": 1025973001,
+            "STATE": "33",
+            "BASENAME": "New Hampshire",
+            "STUSAB": "NH",
+            "OID": "27490227215319",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.6726907",
+            "DIVISION": "1",
+            "NAME": "New Hampshire",
+            "REGION": "1",
+            "OBJECTID": 23,
+            "CENTLON": "-071.5738496",
+            "AREALAND": 23190113978,
+            "INTPTLON": "-071.5843145",
+            "HU100": 638795,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "01700",
+            "POP100": 2651,
+            "GEOID": "3301101700",
+            "CENTLAT": "+43.0533507",
+            "AREAWATER": 2119618,
+            "STATE": "33",
+            "BASENAME": "Antrim",
+            "OID": "27690227203907",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.0502919",
+            "NAME": "Antrim town",
+            "OBJECTID": 9625,
+            "CENTLON": "-071.9829827",
+            "COUSUBCC": "T1",
+            "HU100": 1265,
+            "AREALAND": 92449640,
+            "INTPTLON": "-071.9819675",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00873533",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 8852,
+            "GEOID": "33501",
+            "CENTLAT": "+43.1065827",
+            "SLDL": "501",
+            "AREAWATER": 5412634,
+            "STATE": "33",
+            "BASENAME": "Hillsborough County No. 1",
+            "OID": "213904692117174",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.1129039",
+            "NAME": "State House District Hillsborough County No. 1",
+            "OBJECTID": 2510,
+            "CENTLON": "-071.9683002",
+            "LSY": "2018",
+            "HU100": 4214,
+            "AREALAND": 226997334,
+            "INTPTLON": "-071.9762316",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 422937,
+            "GEOID": "33011",
+            "CENTLAT": "+42.9151895",
+            "AREAWATER": 41320770,
+            "STATE": "33",
+            "BASENAME": "Hillsborough",
+            "OID": "27590227197195",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9115317",
+            "NAME": "Hillsborough County",
+            "OBJECTID": 2837,
+            "CENTLON": "-071.7157606",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00873179",
+            "AREALAND": 2270191096,
+            "INTPTLON": "-071.7230554",
+            "HU100": 175571,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "011"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 679792,
+            "GEOID": "3302",
+            "CENTLAT": "+43.7616565",
+            "CDSESSN": "116",
+            "AREAWATER": 400653718,
+            "STATE": "33",
+            "BASENAME": "2",
+            "OID": "211904691755513",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.7641775",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 260,
+            "CENTLON": "-071.7242238",
+            "HU100": 311217,
+            "AREALAND": 16805809257,
+            "INTPTLON": "-071.7213985",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2651,
+            "GEOID": "33011025000",
+            "CENTLAT": "+43.0533507",
+            "AREAWATER": 2119618,
+            "STATE": "33",
+            "BASENAME": "250",
+            "OID": "20790227224749",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.0502919",
+            "NAME": "Census Tract 250",
+            "OBJECTID": 73958,
+            "TRACT": "025000",
+            "CENTLON": "-071.9829827",
+            "HU100": 1265,
+            "AREALAND": 92449640,
+            "INTPTLON": "-071.9819675",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 35,
+            "GEOID": "330110250002067",
+            "CENTLAT": "+43.0509851",
+            "BLOCK": "2067",
+            "AREAWATER": 0,
+            "STATE": "33",
+            "BASENAME": "2067",
+            "OID": "210701007698850",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.0509851",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2067",
+            "OBJECTID": 7633502,
+            "TRACT": "025000",
+            "CENTLON": "-072.0217040",
+            "BLKGRP": "2",
+            "AREALAND": 16755794,
+            "HU100": 21,
+            "INTPTLON": "-072.0217040",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.00635,
+          "y": 43.06435
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

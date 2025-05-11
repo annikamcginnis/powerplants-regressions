@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:45:52.735699+00:00",
+  "elapsed": 0.146818,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4113",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:52 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-118.917&y=46.06"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-118.917&y=46.06",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 147441,
+            "GEOID": "53016",
+            "CENTLAT": "+46.2190687",
+            "AREAWATER": 205666126,
+            "STATE": "53",
+            "BASENAME": "16",
+            "OID": "212904690194762",
+            "LSADC": "LU",
+            "SLDU": "016",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.2240918",
+            "NAME": "State Senate District 16",
+            "OBJECTID": 899,
+            "CENTLON": "-118.7245597",
+            "LSY": "2018",
+            "HU100": 53872,
+            "AREALAND": 8778754351,
+            "INTPTLON": "-118.7102583",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779804",
+            "POP100": 7705281,
+            "GEOID": "53",
+            "CENTLAT": "+47.4148772",
+            "AREAWATER": 12549742084,
+            "STATE": "53",
+            "BASENAME": "Washington",
+            "STUSAB": "WA",
+            "OID": "27490225755057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4073238",
+            "DIVISION": "9",
+            "NAME": "Washington",
+            "REGION": "4",
+            "OBJECTID": 35,
+            "CENTLON": "-120.5954943",
+            "AREALAND": 172117960159,
+            "INTPTLON": "-120.5757999",
+            "HU100": 3202241,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 366206,
+            "GEOID": "313",
+            "CENTLAT": "+46.3236482",
+            "AREAWATER": 289734681,
+            "BASENAME": "Kennewick-Richland-Walla Walla, WA",
+            "OID": "2619013782255156",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.3143453",
+            "NAME": "Kennewick-Richland-Walla Walla, WA CSA",
+            "CSA": "313",
+            "OBJECTID": 63,
+            "CENTLON": "-119.0219008",
+            "HU100": 134787,
+            "AREALAND": 10908398695,
+            "INTPTLON": "-119.0302311",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90368",
+            "POP100": 4040,
+            "GEOID": "5307190368",
+            "CENTLAT": "+46.1416853",
+            "AREAWATER": 54498831,
+            "STATE": "53",
+            "BASENAME": "Burbank",
+            "OID": "27690255508169",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.1423858",
+            "NAME": "Burbank CCD",
+            "OBJECTID": 8456,
+            "CENTLON": "-118.8924431",
+            "COUSUBCC": "Z5",
+            "HU100": 1447,
+            "AREALAND": 314052572,
+            "INTPTLON": "-118.8939860",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939461",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 147441,
+            "GEOID": "53016",
+            "CENTLAT": "+46.2190687",
+            "SLDL": "016",
+            "AREAWATER": 205666126,
+            "STATE": "53",
+            "BASENAME": "16",
+            "OID": "213904690194860",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.2240918",
+            "NAME": "State House District 16",
+            "OBJECTID": 2244,
+            "CENTLON": "-118.7245597",
+            "LSY": "2018",
+            "HU100": 53872,
+            "AREALAND": 8778754351,
+            "INTPTLON": "-118.7102583",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 62584,
+            "GEOID": "53071",
+            "CENTLAT": "+46.2296578",
+            "AREAWATER": 74932288,
+            "STATE": "53",
+            "BASENAME": "Walla Walla",
+            "OID": "27590255494604",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.2546057",
+            "NAME": "Walla Walla County",
+            "OBJECTID": 2176,
+            "CENTLON": "-118.4785089",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01531819",
+            "AREALAND": 3289370358,
+            "INTPTLON": "-118.4803697",
+            "HU100": 24971,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 751843,
+            "GEOID": "5304",
+            "CENTLAT": "+47.2858620",
+            "CDSESSN": "116",
+            "AREAWATER": 807768880,
+            "STATE": "53",
+            "BASENAME": "4",
+            "OID": "211904690193026",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.2946268",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 182,
+            "CENTLON": "-119.7071486",
+            "HU100": 279421,
+            "AREALAND": 49848528613,
+            "INTPTLON": "-119.7071777",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5718,
+            "GEOID": "53071920000",
+            "CENTLAT": "+46.3280269",
+            "AREAWATER": 74619508,
+            "STATE": "53",
+            "BASENAME": "9200",
+            "OID": "20790255532448",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.3553354",
+            "NAME": "Census Tract 9200",
+            "OBJECTID": 5790,
+            "TRACT": "920000",
+            "CENTLON": "-118.5876053",
+            "HU100": 1993,
+            "AREALAND": 1636131024,
+            "INTPTLON": "-118.5793362",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 11,
+            "GEOID": "530719200002070",
+            "CENTLAT": "+46.0470331",
+            "BLOCK": "2070",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "2070",
+            "OID": "210701007866346",
+            "LSADC": "BK",
+            "INTPTLAT": "+46.0598786",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2070",
+            "OBJECTID": 1852512,
+            "TRACT": "920000",
+            "CENTLON": "-118.9274133",
+            "BLKGRP": "2",
+            "AREALAND": 568363,
+            "HU100": 2,
+            "INTPTLON": "-118.9149982",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -118.917,
+          "y": 46.06
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

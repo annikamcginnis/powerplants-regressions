@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:53:08.434720+00:00",
+  "elapsed": 0.145377,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4116",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:53:08 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-112.279722&y=43.631944"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-112.279722&y=43.631944",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 47643,
+            "GEOID": "16035",
+            "CENTLAT": "+44.0180376",
+            "AREAWATER": 122343277,
+            "STATE": "16",
+            "BASENAME": "35",
+            "OID": "212904486864657",
+            "LSADC": "LU",
+            "SLDU": "035",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0205798",
+            "NAME": "State Senate District 35",
+            "OBJECTID": 2,
+            "CENTLON": "-112.3744540",
+            "LSY": "2018",
+            "HU100": 20358,
+            "AREALAND": 18019251067,
+            "INTPTLON": "-112.3716159",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779783",
+            "POP100": 1839106,
+            "GEOID": "16",
+            "CENTLAT": "+44.3524056",
+            "AREAWATER": 2391577745,
+            "STATE": "16",
+            "BASENAME": "Idaho",
+            "STUSAB": "ID",
+            "OID": "27490130780184",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.3484222",
+            "DIVISION": "8",
+            "NAME": "Idaho",
+            "REGION": "4",
+            "OBJECTID": 22,
+            "CENTLON": "-114.6136830",
+            "AREALAND": 214049923496,
+            "INTPTLON": "-114.5588538",
+            "HU100": 751859,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 271722,
+            "GEOID": "292",
+            "CENTLAT": "+43.6614201",
+            "AREAWATER": 287856050,
+            "BASENAME": "Idaho Falls-Rexburg-Blackfoot, ID",
+            "OID": "2619013782255144",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.6694779",
+            "NAME": "Idaho Falls-Rexburg-Blackfoot, ID CSA",
+            "CSA": "292",
+            "OBJECTID": 51,
+            "CENTLON": "-112.1997004",
+            "HU100": 96118,
+            "AREALAND": 24923736886,
+            "INTPTLON": "-112.2048193",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92335",
+            "POP100": 2310,
+            "GEOID": "1605192335",
+            "CENTLAT": "+43.8535686",
+            "AREAWATER": 16463042,
+            "STATE": "16",
+            "BASENAME": "Mud Lake-Hamer",
+            "OID": "27690267452094",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.8557708",
+            "NAME": "Mud Lake-Hamer CCD",
+            "OBJECTID": 28601,
+            "CENTLON": "-112.3994565",
+            "COUSUBCC": "Z5",
+            "HU100": 811,
+            "AREALAND": 2198025809,
+            "INTPTLON": "-112.4053903",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936727",
+            "UR": "R",
+            "COUNTY": "051"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 47643,
+            "GEOID": "16035",
+            "CENTLAT": "+44.0180376",
+            "SLDL": "035",
+            "AREAWATER": 122343277,
+            "STATE": "16",
+            "BASENAME": "35",
+            "OID": "213904486864727",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0205798",
+            "NAME": "State House District 35",
+            "OBJECTID": 769,
+            "CENTLON": "-112.3744540",
+            "LSY": "2018",
+            "HU100": 20358,
+            "AREALAND": 18019251067,
+            "INTPTLON": "-112.3716159",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 30891,
+            "GEOID": "16051",
+            "CENTLAT": "+43.8201266",
+            "AREAWATER": 31166194,
+            "STATE": "16",
+            "BASENAME": "Jefferson",
+            "OID": "27590267441651",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.7969649",
+            "NAME": "Jefferson County",
+            "OBJECTID": 147,
+            "CENTLON": "-112.3110284",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00399751",
+            "AREALAND": 2832619466,
+            "INTPTLON": "-112.3185879",
+            "HU100": 10134,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "051"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 884215,
+            "GEOID": "1602",
+            "CENTLAT": "+43.4638114",
+            "CDSESSN": "116",
+            "AREAWATER": 1081237125,
+            "STATE": "16",
+            "BASENAME": "2",
+            "OID": "211904486864195",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.4439256",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 249,
+            "CENTLON": "-113.3564063",
+            "HU100": 357783,
+            "AREALAND": 111951590360,
+            "INTPTLON": "-113.3642618",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3986,
+            "GEOID": "16051960100",
+            "CENTLAT": "+43.8400872",
+            "AREAWATER": 22042228,
+            "STATE": "16",
+            "BASENAME": "9601",
+            "OID": "20790267464568",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.8267161",
+            "NAME": "Census Tract 9601",
+            "OBJECTID": 17829,
+            "TRACT": "960100",
+            "CENTLON": "-112.3683810",
+            "HU100": 1406,
+            "AREALAND": 2475576808,
+            "INTPTLON": "-112.3662009",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "051"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 1,
+            "GEOID": "160519601003134",
+            "CENTLAT": "+43.6409748",
+            "BLOCK": "3134",
+            "AREAWATER": 0,
+            "STATE": "16",
+            "BASENAME": "3134",
+            "OID": "210701002839598",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.6409748",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3134",
+            "OBJECTID": 4352063,
+            "TRACT": "960100",
+            "CENTLON": "-112.2626062",
+            "BLKGRP": "3",
+            "AREALAND": 10317135,
+            "HU100": 2,
+            "INTPTLON": "-112.2626062",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "051"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -112.279722,
+          "y": 43.631944
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

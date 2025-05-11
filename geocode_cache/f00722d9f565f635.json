@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-11T00:26:35.967031+00:00",
+  "elapsed": 0.32747,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4997",
+    "Content-Type": "application/json",
+    "Date": "Sun, 11 May 2025 00:26:35 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a484a104eeff8fbd65250a30055abaea2a44f370464422947b5a75c90c4bb7e1738f304e19951288094a8749541054c889"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a484a104eeff8fbd65250a30055abaea2a44f370464422947b5a75c90c4bb7e1738f304e19951288094a8749541054c889",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.62789195&y=39.27050978"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.62789195&y=39.27050978",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 71,
+            "GEOID": "24ZZZ",
+            "CENTLAT": "+38.5056135",
+            "AREAWATER": 6341590252,
+            "STATE": "24",
+            "BASENAME": "State Senate Districts not defined",
+            "OID": "212904692443689",
+            "LSADC": "00",
+            "SLDU": "ZZZ",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+38.7770305",
+            "NAME": "State Senate Districts not defined",
+            "OBJECTID": 1485,
+            "CENTLON": "-076.2364418",
+            "LSY": "2018",
+            "HU100": 18,
+            "AREALAND": 0,
+            "INTPTLON": "-076.1546455",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01714934",
+            "POP100": 6177224,
+            "GEOID": "24",
+            "CENTLAT": "+38.9463607",
+            "AREAWATER": 6979171386,
+            "STATE": "24",
+            "BASENAME": "Maryland",
+            "STUSAB": "MD",
+            "OID": "27490140608205",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9466584",
+            "DIVISION": "5",
+            "NAME": "Maryland",
+            "REGION": "3",
+            "OBJECTID": 20,
+            "CENTLON": "-076.6789663",
+            "AREALAND": 25151895765,
+            "INTPTLON": "-076.6744939",
+            "HU100": 2530844,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9973383,
+            "GEOID": "548",
+            "CENTLAT": "+39.0282791",
+            "AREAWATER": 4067866689,
+            "BASENAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",
+            "OID": "2619013782255247",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.0246056",
+            "NAME": "Washington-Baltimore-Arlington, DC-MD-VA-WV-PA CSA",
+            "CSA": "548",
+            "OBJECTID": 103,
+            "CENTLON": "-077.3083318",
+            "HU100": 4006033,
+            "AREALAND": 32735838394,
+            "INTPTLON": "-077.3105306",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "04843",
+            "CENTLAT": "+39.2360668",
+            "AREAWATER": 55784905,
+            "BASENAME": "Baltimore, MD",
+            "OID": "27021157166071",
+            "UA": "04843",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.2364801",
+            "NAME": "Baltimore, MD Urban Area",
+            "OBJECTID": 594,
+            "CENTLON": "-076.6427644",
+            "AREALAND": 1696273764,
+            "INTPTLON": "-076.6424988",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90000",
+            "POP100": 585708,
+            "GEOID": "2451090000",
+            "CENTLAT": "+39.3009639",
+            "AREAWATER": 28758743,
+            "STATE": "24",
+            "BASENAME": "Baltimore",
+            "OID": "27690165683116",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+39.3000324",
+            "NAME": "Baltimore city",
+            "OBJECTID": 14934,
+            "CENTLON": "-076.6106288",
+            "COUSUBCC": "Z7",
+            "HU100": 293249,
+            "AREALAND": 209649327,
+            "INTPTLON": "-076.6104761",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01702381",
+            "UR": "U",
+            "COUNTY": "510"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 71,
+            "GEOID": "24ZZZ",
+            "CENTLAT": "+38.5056135",
+            "SLDL": "ZZZ",
+            "AREAWATER": 6341590252,
+            "STATE": "24",
+            "BASENAME": "State House Districts not defined",
+            "OID": "213904692443691",
+            "LSADC": "00",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+38.7770305",
+            "NAME": "State House Districts not defined",
+            "OBJECTID": 4820,
+            "CENTLON": "-076.2364418",
+            "LSY": "2018",
+            "HU100": 18,
+            "AREALAND": 0,
+            "INTPTLON": "-076.1546455",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 585708,
+            "GEOID": "2404000",
+            "CENTLAT": "+39.3009639",
+            "AREAWATER": 28758743,
+            "STATE": "24",
+            "BASENAME": "Baltimore",
+            "OID": "27890165683117",
+            "LSADC": "25",
+            "PLACE": "04000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3000324",
+            "NAME": "Baltimore city",
+            "OBJECTID": 17780,
+            "PLACECC": "C7",
+            "CENTLON": "-076.6106288",
+            "CBSAPCI": "Y",
+            "HU100": 293249,
+            "AREALAND": 209649327,
+            "INTPTLON": "-076.6104761",
+            "PLACENS": "01702381",
+            "MTFCC": "G4110",
+            "UR": "U"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 585708,
+            "GEOID": "24510",
+            "CENTLAT": "+39.3009639",
+            "AREAWATER": 28758743,
+            "STATE": "24",
+            "BASENAME": "Baltimore",
+            "OID": "27590165683114",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+39.3000324",
+            "NAME": "Baltimore city",
+            "OBJECTID": 151,
+            "CENTLON": "-076.6106288",
+            "COUNTYCC": "C7",
+            "COUNTYNS": "01702381",
+            "AREALAND": 209649327,
+            "INTPTLON": "-076.6104761",
+            "HU100": 293249,
+            "MTFCC": "G4020",
+            "UR": "U",
+            "COUNTY": "510"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 785331,
+            "GEOID": "2402",
+            "CENTLAT": "+39.3388074",
+            "CDSESSN": "116",
+            "AREAWATER": 440362296,
+            "STATE": "24",
+            "BASENAME": "2",
+            "OID": "211904690760523",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.3395186",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 331,
+            "CENTLON": "-076.4293820",
+            "HU100": 320754,
+            "AREALAND": 903003118,
+            "INTPTLON": "-076.4287016",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2177,
+            "GEOID": "24510210100",
+            "CENTLAT": "+39.2764921",
+            "AREAWATER": 192308,
+            "STATE": "24",
+            "BASENAME": "2101",
+            "OID": "20790165683662",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.2766193",
+            "NAME": "Census Tract 2101",
+            "OBJECTID": 63688,
+            "TRACT": "210100",
+            "CENTLON": "-076.6267252",
+            "HU100": 1216,
+            "AREALAND": 1288245,
+            "INTPTLON": "-076.6265676",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "510"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "245102101001039",
+            "CENTLAT": "+39.2708778",
+            "BLOCK": "1039",
+            "AREAWATER": 179085,
+            "STATE": "24",
+            "BASENAME": "1039",
+            "OID": "210701007710691",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.2708778",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1039",
+            "OBJECTID": 5921827,
+            "TRACT": "210100",
+            "CENTLON": "-076.6249302",
+            "BLKGRP": "1",
+            "AREALAND": 0,
+            "HU100": 0,
+            "INTPTLON": "-076.6249302",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "W",
+            "UR": "U",
+            "COUNTY": "510"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.62789195,
+          "y": 39.27050978
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

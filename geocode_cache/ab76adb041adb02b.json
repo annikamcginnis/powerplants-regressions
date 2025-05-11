@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:47:51.497944+00:00",
+  "elapsed": 0.179131,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4087",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:47:51 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.1055&y=41.1694"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.1055&y=41.1694",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 231603,
+            "GEOID": "42050",
+            "CENTLAT": "+41.6083352",
+            "AREAWATER": 96690085,
+            "STATE": "42",
+            "BASENAME": "50",
+            "OID": "212904690193388",
+            "LSADC": "LU",
+            "SLDU": "050",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.6031710",
+            "NAME": "State Senate District 50",
+            "OBJECTID": 905,
+            "CENTLON": "-080.0876317",
+            "LSY": "2018",
+            "HU100": 109696,
+            "AREALAND": 5587428628,
+            "INTPTLON": "-080.0802300",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779798",
+            "POP100": 13002700,
+            "GEOID": "42",
+            "CENTLAT": "+40.9011320",
+            "AREAWATER": 3397760687,
+            "STATE": "42",
+            "BASENAME": "Pennsylvania",
+            "STUSAB": "PA",
+            "OID": "27490163788605",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9046013",
+            "DIVISION": "2",
+            "NAME": "Pennsylvania",
+            "REGION": "1",
+            "OBJECTID": 34,
+            "CENTLON": "-077.8369304",
+            "AREALAND": 115881934065,
+            "INTPTLON": "-077.8275298",
+            "HU100": 5742828,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 643120,
+            "GEOID": "566",
+            "CENTLAT": "+41.1276979",
+            "AREAWATER": 116599780,
+            "BASENAME": "Youngstown-Warren, OH-PA",
+            "OID": "2619013782255251",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.1279201",
+            "NAME": "Youngstown-Warren, OH-PA CSA",
+            "CSA": "566",
+            "OBJECTID": 107,
+            "CENTLON": "-080.6173669",
+            "HU100": 299302,
+            "AREALAND": 5786100344,
+            "INTPTLON": "-080.6175542",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "60336",
+            "POP100": 4806,
+            "GEOID": "4208560336",
+            "CENTLAT": "+41.1681379",
+            "AREAWATER": 694471,
+            "STATE": "42",
+            "BASENAME": "Pine",
+            "OID": "27690280894723",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.1676247",
+            "NAME": "Pine township",
+            "OBJECTID": 26115,
+            "CENTLON": "-080.0657459",
+            "COUSUBCC": "T1",
+            "HU100": 1969,
+            "AREALAND": 65801298,
+            "INTPTLON": "-080.0595774",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01216813",
+            "UR": "M",
+            "COUNTY": "085"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 58229,
+            "GEOID": "42008",
+            "CENTLAT": "+41.1884834",
+            "SLDL": "008",
+            "AREAWATER": 25015205,
+            "STATE": "42",
+            "BASENAME": "8",
+            "OID": "213904690193819",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.1838121",
+            "NAME": "State House District 8",
+            "OBJECTID": 1226,
+            "CENTLON": "-080.0796069",
+            "LSY": "2018",
+            "HU100": 25533,
+            "AREALAND": 1409361200,
+            "INTPTLON": "-080.0781893",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 110652,
+            "GEOID": "42085",
+            "CENTLAT": "+41.3021224",
+            "AREAWATER": 26010715,
+            "STATE": "42",
+            "BASENAME": "Mercer",
+            "OID": "27590275409657",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.3000142",
+            "NAME": "Mercer County",
+            "OBJECTID": 1099,
+            "CENTLON": "-080.2576930",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01213678",
+            "AREALAND": 1741819732,
+            "INTPTLON": "-080.2527863",
+            "HU100": 50828,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "085"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 688028,
+            "GEOID": "4216",
+            "CENTLAT": "+41.6328445",
+            "CDSESSN": "116",
+            "AREAWATER": 2083798050,
+            "STATE": "42",
+            "BASENAME": "16",
+            "OID": "211904690192805",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.6326383",
+            "NAME": "Congressional District 16",
+            "OBJECTID": 279,
+            "CENTLON": "-080.1358145",
+            "HU100": 312508,
+            "AREALAND": 8576648776,
+            "INTPTLON": "-080.1365680",
+            "CD116": "16",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1957,
+            "GEOID": "42085032802",
+            "CENTLAT": "+41.1708581",
+            "AREAWATER": 357365,
+            "STATE": "42",
+            "BASENAME": "328.02",
+            "OID": "2079015482486947",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.1702041",
+            "NAME": "Census Tract 328.02",
+            "OBJECTID": 27739,
+            "TRACT": "032802",
+            "CENTLON": "-080.1103577",
+            "HU100": 732,
+            "AREALAND": 20337680,
+            "INTPTLON": "-080.1100409",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "085"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 39,
+            "GEOID": "420850328022011",
+            "CENTLAT": "+41.1729580",
+            "BLOCK": "2011",
+            "AREAWATER": 0,
+            "STATE": "42",
+            "BASENAME": "2011",
+            "OID": "210701003898173",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.1729580",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2011",
+            "OBJECTID": 4759632,
+            "TRACT": "032802",
+            "CENTLON": "-080.1076790",
+            "BLKGRP": "2",
+            "AREALAND": 510366,
+            "HU100": 1,
+            "INTPTLON": "-080.1076790",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "085"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.1055,
+          "y": 41.1694
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

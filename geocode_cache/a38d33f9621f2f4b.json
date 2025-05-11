@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:34:49.293579+00:00",
+  "elapsed": 0.174702,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4535",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:34:49 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-116.5753&y=43.6058"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-116.5753&y=43.6058",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 57493,
+            "GEOID": "16012",
+            "CENTLAT": "+43.6026967",
+            "AREAWATER": 347674,
+            "STATE": "16",
+            "BASENAME": "12",
+            "OID": "212904486864653",
+            "LSADC": "LU",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.6032290",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 38,
+            "CENTLON": "-116.5616690",
+            "LSY": "2018",
+            "HU100": 20848,
+            "AREALAND": 88967653,
+            "INTPTLON": "-116.5611790",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779783",
+            "POP100": 1839106,
+            "GEOID": "16",
+            "CENTLAT": "+44.3524056",
+            "AREAWATER": 2391577745,
+            "STATE": "16",
+            "BASENAME": "Idaho",
+            "STUSAB": "ID",
+            "OID": "27490130780184",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.3484222",
+            "DIVISION": "8",
+            "NAME": "Idaho",
+            "REGION": "4",
+            "OBJECTID": 22,
+            "CENTLON": "-114.6136830",
+            "AREALAND": 214049923496,
+            "INTPTLON": "-114.5588538",
+            "HU100": 751859,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 850341,
+            "GEOID": "147",
+            "CENTLAT": "+43.1403721",
+            "AREAWATER": 357202752,
+            "BASENAME": "Boise City-Mountain Home-Ontario, ID-OR",
+            "OID": "2619013782255089",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.1502054",
+            "NAME": "Boise City-Mountain Home-Ontario, ID-OR CSA",
+            "CSA": "147",
+            "OBJECTID": 82,
+            "CENTLON": "-116.6515370",
+            "HU100": 328987,
+            "AREALAND": 65102654774,
+            "INTPTLON": "-116.6385243",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92438",
+            "POP100": 150293,
+            "GEOID": "1602792438",
+            "CENTLAT": "+43.5691440",
+            "AREAWATER": 8661332,
+            "STATE": "16",
+            "BASENAME": "Nampa",
+            "OID": "27690410137810",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.5691211",
+            "NAME": "Nampa CCD",
+            "OBJECTID": 3415,
+            "CENTLON": "-116.5679623",
+            "COUSUBCC": "Z5",
+            "HU100": 52580,
+            "AREALAND": 346512519,
+            "INTPTLON": "-116.5674360",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936772",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 57493,
+            "GEOID": "16012",
+            "CENTLAT": "+43.6026967",
+            "SLDL": "012",
+            "AREAWATER": 347674,
+            "STATE": "16",
+            "BASENAME": "12",
+            "OID": "213904486864723",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.6032290",
+            "NAME": "State House District 12",
+            "OBJECTID": 767,
+            "CENTLON": "-116.5616690",
+            "LSY": "2018",
+            "HU100": 20848,
+            "AREALAND": 88967653,
+            "INTPTLON": "-116.5611790",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 100200,
+            "GEOID": "1656260",
+            "CENTLAT": "+43.5844331",
+            "AREAWATER": 386291,
+            "STATE": "16",
+            "BASENAME": "Nampa",
+            "OID": "27890410150776",
+            "LSADC": "25",
+            "PLACE": "56260",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.5843206",
+            "NAME": "Nampa city",
+            "OBJECTID": 18681,
+            "PLACECC": "C1",
+            "CENTLON": "-116.5636953",
+            "CBSAPCI": "N",
+            "HU100": 36221,
+            "AREALAND": 86719237,
+            "INTPTLON": "-116.5639713",
+            "PLACENS": "02411208",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 231105,
+            "GEOID": "16027",
+            "CENTLAT": "+43.6249077",
+            "AREAWATER": 43117848,
+            "STATE": "16",
+            "BASENAME": "Canyon",
+            "OID": "27590410043168",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.6257956",
+            "NAME": "Canyon County",
+            "OBJECTID": 3201,
+            "CENTLON": "-116.7089415",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00399406",
+            "AREALAND": 1520451453,
+            "INTPTLON": "-116.7090580",
+            "HU100": 81013,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 954891,
+            "GEOID": "1601",
+            "CENTLAT": "+45.3057748",
+            "CDSESSN": "116",
+            "AREAWATER": 1310340620,
+            "STATE": "16",
+            "BASENAME": "1",
+            "OID": "211904486863709",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.2967502",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 248,
+            "CENTLON": "-116.0311278",
+            "HU100": 394076,
+            "AREALAND": 102098333136,
+            "INTPTLON": "-116.0358424",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4236,
+            "GEOID": "16027021008",
+            "CENTLAT": "+43.6208327",
+            "AREAWATER": 54940,
+            "STATE": "16",
+            "BASENAME": "210.08",
+            "OID": "2079015503854766",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.6229073",
+            "NAME": "Census Tract 210.08",
+            "OBJECTID": 6681,
+            "TRACT": "021008",
+            "CENTLON": "-116.6010122",
+            "HU100": 1450,
+            "AREALAND": 13902618,
+            "INTPTLON": "-116.6075863",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "160270210082055",
+            "CENTLAT": "+43.6117356",
+            "BLOCK": "2055",
+            "AREAWATER": 54940,
+            "STATE": "16",
+            "BASENAME": "2055",
+            "OID": "210701002505243",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.6118495",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2055",
+            "OBJECTID": 3408008,
+            "TRACT": "021008",
+            "CENTLON": "-116.5785873",
+            "BLKGRP": "2",
+            "AREALAND": 1116671,
+            "HU100": 0,
+            "INTPTLON": "-116.5784421",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "027"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -116.5753,
+          "y": 43.6058
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:45:01.994128+00:00",
+  "elapsed": 0.168394,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4571",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:01 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.3064&y=32.9111"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-84.3064&y=32.9111",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 181317,
+            "GEOID": "13018",
+            "CENTLAT": "+32.8349927",
+            "AREAWATER": 32362103,
+            "STATE": "13",
+            "BASENAME": "18",
+            "OID": "212904487270219",
+            "LSADC": "LU",
+            "SLDU": "018",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.8250528",
+            "NAME": "State Senate District 18",
+            "OBJECTID": 31,
+            "CENTLON": "-084.0011456",
+            "LSY": "2018",
+            "HU100": 76843,
+            "AREALAND": 3439607792,
+            "INTPTLON": "-084.0126163",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01705317",
+            "POP100": 10711908,
+            "GEOID": "13",
+            "CENTLAT": "+32.6279417",
+            "AREAWATER": 4418749570,
+            "STATE": "13",
+            "BASENAME": "Georgia",
+            "STUSAB": "GA",
+            "OID": "2749048077737",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.6295789",
+            "DIVISION": "5",
+            "NAME": "Georgia",
+            "REGION": "3",
+            "OBJECTID": 37,
+            "CENTLON": "-083.4165286",
+            "AREALAND": 149486234922,
+            "INTPTLON": "-083.4235109",
+            "HU100": 4410956,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 6930423,
+            "GEOID": "122",
+            "CENTLAT": "+33.7283603",
+            "AREAWATER": 671939141,
+            "BASENAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL",
+            "OID": "2619013782255083",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.7282990",
+            "NAME": "Atlanta--Athens-Clarke County--Sandy Springs, GA-AL CSA",
+            "CSA": "122",
+            "OBJECTID": 76,
+            "CENTLON": "-084.3485918",
+            "HU100": 2753914,
+            "AREALAND": 33807581912,
+            "INTPTLON": "-084.3477277",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93006",
+            "POP100": 19556,
+            "GEOID": "1329393006",
+            "CENTLAT": "+32.9200320",
+            "AREAWATER": 2498052,
+            "STATE": "13",
+            "BASENAME": "Thomaston",
+            "OID": "27690419235362",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.9223253",
+            "NAME": "Thomaston CCD",
+            "OBJECTID": 11946,
+            "CENTLON": "-084.3357748",
+            "COUSUBCC": "Z5",
+            "HU100": 8793,
+            "AREALAND": 161585445,
+            "INTPTLON": "-084.3361641",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936583",
+            "UR": "M",
+            "COUNTY": "293"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 55357,
+            "GEOID": "13131",
+            "CENTLAT": "+32.9712783",
+            "SLDL": "131",
+            "AREAWATER": 21684819,
+            "STATE": "13",
+            "BASENAME": "131",
+            "OID": "213904487270684",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.9652426",
+            "NAME": "State House District 131",
+            "OBJECTID": 457,
+            "CENTLON": "-084.3119092",
+            "LSY": "2018",
+            "HU100": 22940,
+            "AREALAND": 1591960549,
+            "INTPTLON": "-084.3050315",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 9816,
+            "GEOID": "1376168",
+            "CENTLAT": "+32.8908277",
+            "AREAWATER": 529998,
+            "STATE": "13",
+            "BASENAME": "Thomaston",
+            "OID": "27890419248835",
+            "LSADC": "25",
+            "PLACE": "76168",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.8916730",
+            "NAME": "Thomaston city",
+            "OBJECTID": 4791,
+            "PLACECC": "C1",
+            "CENTLON": "-084.3271342",
+            "CBSAPCI": "Y",
+            "HU100": 4493,
+            "AREALAND": 24705711,
+            "INTPTLON": "-084.3266911",
+            "PLACENS": "02405582",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 27700,
+            "GEOID": "13293",
+            "CENTLAT": "+32.8812607",
+            "AREAWATER": 10585407,
+            "STATE": "13",
+            "BASENAME": "Upson",
+            "OID": "27590419193365",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.8818367",
+            "NAME": "Upson County",
+            "OBJECTID": 495,
+            "CENTLON": "-084.2993038",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00346759",
+            "AREALAND": 837774876,
+            "INTPTLON": "-084.2922831",
+            "HU100": 12301,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "293"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 763075,
+            "GEOID": "1303",
+            "CENTLAT": "+33.1478747",
+            "CDSESSN": "116",
+            "AREAWATER": 214857930,
+            "STATE": "13",
+            "BASENAME": "3",
+            "OID": "211904486864377",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1505217",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 50,
+            "CENTLON": "-084.7328263",
+            "HU100": 303411,
+            "AREALAND": 9936155158,
+            "INTPTLON": "-084.7286640",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5404,
+            "GEOID": "13293010500",
+            "CENTLAT": "+32.9014760",
+            "AREAWATER": 396714,
+            "STATE": "13",
+            "BASENAME": "105",
+            "OID": "20790419286561",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.8987188",
+            "NAME": "Census Tract 105",
+            "OBJECTID": 73464,
+            "TRACT": "010500",
+            "CENTLON": "-084.2955314",
+            "HU100": 2312,
+            "AREALAND": 26567248,
+            "INTPTLON": "-084.2908236",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "293"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "132930105001018",
+            "CENTLAT": "+32.9095466",
+            "BLOCK": "1018",
+            "AREAWATER": 4138,
+            "STATE": "13",
+            "BASENAME": "1018",
+            "OID": "210701005175673",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.9097101",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1018",
+            "OBJECTID": 7318363,
+            "TRACT": "010500",
+            "CENTLON": "-084.3046770",
+            "BLKGRP": "1",
+            "AREALAND": 1506754,
+            "HU100": 0,
+            "INTPTLON": "-084.3045720",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "293"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -84.3064,
+          "y": 32.9111
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

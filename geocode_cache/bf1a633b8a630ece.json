@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:42:51.475262+00:00",
+  "elapsed": 0.166182,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4108",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:42:51 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-121.475198&y=46.953468"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-121.475198&y=46.953468",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 164708,
+            "GEOID": "53031",
+            "CENTLAT": "+47.1470280",
+            "AREAWATER": 20053479,
+            "STATE": "53",
+            "BASENAME": "31",
+            "OID": "212904690194650",
+            "LSADC": "LU",
+            "SLDU": "031",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.1468540",
+            "NAME": "State Senate District 31",
+            "OBJECTID": 841,
+            "CENTLON": "-121.7534877",
+            "LSY": "2018",
+            "HU100": 62268,
+            "AREALAND": 2400578157,
+            "INTPTLON": "-121.7697095",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779804",
+            "POP100": 7705281,
+            "GEOID": "53",
+            "CENTLAT": "+47.4148772",
+            "AREAWATER": 12549742084,
+            "STATE": "53",
+            "BASENAME": "Washington",
+            "STUSAB": "WA",
+            "OID": "27490225755057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4073238",
+            "DIVISION": "9",
+            "NAME": "Washington",
+            "REGION": "4",
+            "OBJECTID": 35,
+            "CENTLON": "-120.5954943",
+            "AREALAND": 172117960159,
+            "INTPTLON": "-120.5757999",
+            "HU100": 3202241,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 4953421,
+            "GEOID": "500",
+            "CENTLAT": "+47.4867133",
+            "AREAWATER": 3320288796,
+            "BASENAME": "Seattle-Tacoma, WA",
+            "OID": "2619013782255231",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.4819860",
+            "NAME": "Seattle-Tacoma, WA CSA",
+            "CSA": "500",
+            "OBJECTID": 87,
+            "CENTLON": "-122.1786225",
+            "HU100": 2051279,
+            "AREALAND": 31826717238,
+            "INTPTLON": "-122.1755863",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92064",
+            "POP100": 3900,
+            "GEOID": "5305392064",
+            "CENTLAT": "+46.9735433",
+            "AREAWATER": 14234308,
+            "STATE": "53",
+            "BASENAME": "Mount Rainier",
+            "OID": "276901445778070",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.9558662",
+            "NAME": "Mount Rainier CCD",
+            "OBJECTID": 32214,
+            "CENTLON": "-121.7687275",
+            "COUSUBCC": "Z5",
+            "HU100": 1851,
+            "AREALAND": 1896921464,
+            "INTPTLON": "-121.8164224",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939567",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 164708,
+            "GEOID": "53031",
+            "CENTLAT": "+47.1470280",
+            "SLDL": "031",
+            "AREAWATER": 20053479,
+            "STATE": "53",
+            "BASENAME": "31",
+            "OID": "213904690194772",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.1468540",
+            "NAME": "State House District 31",
+            "OBJECTID": 1099,
+            "CENTLON": "-121.7534877",
+            "LSY": "2018",
+            "HU100": 62268,
+            "AREALAND": 2400578157,
+            "INTPTLON": "-121.7697095",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 921130,
+            "GEOID": "53053",
+            "CENTLAT": "+47.0377666",
+            "AREAWATER": 356117597,
+            "STATE": "53",
+            "BASENAME": "Pierce",
+            "OID": "275901445632581",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.0514128",
+            "NAME": "Pierce County",
+            "OBJECTID": 1413,
+            "CENTLON": "-122.1360619",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01529159",
+            "AREALAND": 4320003388,
+            "INTPTLON": "-122.1532402",
+            "HU100": 359489,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 780494,
+            "GEOID": "5308",
+            "CENTLAT": "+47.4215421",
+            "CDSESSN": "116",
+            "AREAWATER": 367064238,
+            "STATE": "53",
+            "BASENAME": "8",
+            "OID": "211904690193053",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.3623847",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 187,
+            "CENTLON": "-121.0064022",
+            "HU100": 300185,
+            "AREALAND": 19061117460,
+            "INTPTLON": "-121.0393849",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3900,
+            "GEOID": "53053070100",
+            "CENTLAT": "+46.9735433",
+            "AREAWATER": 14234308,
+            "STATE": "53",
+            "BASENAME": "701",
+            "OID": "207901446676298",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.9558662",
+            "NAME": "Census Tract 701",
+            "OBJECTID": 78619,
+            "TRACT": "070100",
+            "CENTLON": "-121.7687275",
+            "HU100": 1851,
+            "AREALAND": 1896921464,
+            "INTPTLON": "-121.8164224",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "053"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 17,
+            "GEOID": "530530701001000",
+            "CENTLAT": "+47.0252259",
+            "BLOCK": "1000",
+            "AREAWATER": 419701,
+            "STATE": "53",
+            "BASENAME": "1000",
+            "OID": "210701008075536",
+            "LSADC": "BK",
+            "INTPTLAT": "+47.0453917",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1000",
+            "OBJECTID": 2005632,
+            "TRACT": "070100",
+            "CENTLON": "-121.4732045",
+            "BLKGRP": "1",
+            "AREALAND": 163593994,
+            "HU100": 114,
+            "INTPTLON": "-121.4823546",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "053"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -121.475198,
+          "y": 46.953468
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

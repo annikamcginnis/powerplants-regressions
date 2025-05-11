@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:34:44.142310+00:00",
+  "elapsed": 0.167959,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4095",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:34:44 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.43602&y=39.569771"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.43602&y=39.569771",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 211667,
+            "GEOID": "17050",
+            "CENTLAT": "+39.4984951",
+            "AREAWATER": 175035859,
+            "STATE": "17",
+            "BASENAME": "50",
+            "OID": "212904492477799",
+            "LSADC": "LU",
+            "SLDU": "050",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4993882",
+            "NAME": "State Senate District 50",
+            "OBJECTID": 379,
+            "CENTLON": "-090.3772759",
+            "LSY": "2018",
+            "HU100": 99312,
+            "AREALAND": 9530147975,
+            "INTPTLON": "-090.3737094",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779784",
+            "POP100": 12812508,
+            "GEOID": "17",
+            "CENTLAT": "+40.1006037",
+            "AREAWATER": 6216594318,
+            "STATE": "17",
+            "BASENAME": "Illinois",
+            "STUSAB": "IL",
+            "OID": "27490100360203",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1028754",
+            "DIVISION": "3",
+            "NAME": "Illinois",
+            "REGION": "2",
+            "OBJECTID": 18,
+            "CENTLON": "-089.1500819",
+            "AREALAND": 143778461053,
+            "INTPTLON": "-089.1526108",
+            "HU100": 5426429,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 308523,
+            "GEOID": "522",
+            "CENTLAT": "+39.7905108",
+            "AREAWATER": 57703061,
+            "BASENAME": "Springfield-Jacksonville-Lincoln, IL",
+            "OID": "2619013782255236",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.7906582",
+            "NAME": "Springfield-Jacksonville-Lincoln, IL CSA",
+            "CSA": "522",
+            "OBJECTID": 92,
+            "CENTLON": "-089.6914151",
+            "HU100": 143160,
+            "AREALAND": 8624470991,
+            "INTPTLON": "-089.6911566",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90072",
+            "POP100": 533,
+            "GEOID": "1717190072",
+            "CENTLAT": "+39.5649189",
+            "AREAWATER": 26457,
+            "STATE": "17",
+            "BASENAME": "Alsey",
+            "OID": "27690540151731",
+            "LSADC": "29",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.5653934",
+            "NAME": "Alsey precinct",
+            "OBJECTID": 13103,
+            "CENTLON": "-090.4292257",
+            "COUSUBCC": "Z1",
+            "HU100": 243,
+            "AREALAND": 91479855,
+            "INTPTLON": "-090.4055290",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01928428",
+            "UR": "R",
+            "COUNTY": "171"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 99709,
+            "GEOID": "17100",
+            "CENTLAT": "+39.4677932",
+            "SLDL": "100",
+            "AREAWATER": 164050749,
+            "STATE": "17",
+            "BASENAME": "100",
+            "OID": "213904492478627",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+39.4684466",
+            "NAME": "State House District 100",
+            "OBJECTID": 379,
+            "CENTLON": "-090.4599574",
+            "LSY": "2018",
+            "HU100": 46471,
+            "AREALAND": 8369404573,
+            "INTPTLON": "-090.4584950",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 4949,
+            "GEOID": "17171",
+            "CENTLAT": "+39.6440710",
+            "AREAWATER": 4814546,
+            "STATE": "17",
+            "BASENAME": "Scott",
+            "OID": "27590540099188",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.6370016",
+            "NAME": "Scott County",
+            "OBJECTID": 895,
+            "CENTLON": "-090.4746840",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00424286",
+            "AREALAND": 649542036,
+            "INTPTLON": "-090.4777707",
+            "HU100": 2388,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "171"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 701148,
+            "GEOID": "1718",
+            "CENTLAT": "+40.2300152",
+            "CDSESSN": "116",
+            "AREAWATER": 383625124,
+            "STATE": "17",
+            "BASENAME": "18",
+            "OID": "211904487269673",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.2271844",
+            "NAME": "Congressional District 18",
+            "OBJECTID": 66,
+            "CENTLON": "-090.0797977",
+            "HU100": 315658,
+            "AREALAND": 27234848169,
+            "INTPTLON": "-090.0691183",
+            "CD116": "18",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3264,
+            "GEOID": "17171970700",
+            "CENTLAT": "+39.5841579",
+            "AREAWATER": 1545450,
+            "STATE": "17",
+            "BASENAME": "9707",
+            "OID": "20790540184876",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+39.5859912",
+            "NAME": "Census Tract 9707",
+            "OBJECTID": 80287,
+            "TRACT": "970700",
+            "CENTLON": "-090.4382772",
+            "HU100": 1563,
+            "AREALAND": 332037112,
+            "INTPTLON": "-090.4396312",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "171"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "171719707002053",
+            "CENTLAT": "+39.5787716",
+            "BLOCK": "2053",
+            "AREAWATER": 0,
+            "STATE": "17",
+            "BASENAME": "2053",
+            "OID": "210701005383586",
+            "LSADC": "BK",
+            "INTPTLAT": "+39.5787716",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2053",
+            "OBJECTID": 5934242,
+            "TRACT": "970700",
+            "CENTLON": "-090.4421551",
+            "BLKGRP": "2",
+            "AREALAND": 3915363,
+            "HU100": 4,
+            "INTPTLON": "-090.4421551",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "171"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -90.43602,
+          "y": 39.569771
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

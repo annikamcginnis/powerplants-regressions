@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:49:58.899913+00:00",
+  "elapsed": 0.195822,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4867",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:49:58 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.425246&y=40.50368"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.425246&y=40.50368",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 114108,
+            "GEOID": "49026",
+            "CENTLAT": "+40.3396993",
+            "AREAWATER": 250697372,
+            "STATE": "49",
+            "BASENAME": "26",
+            "OID": "212904690703319",
+            "LSADC": "LU",
+            "SLDU": "026",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3392965",
+            "NAME": "State Senate District 26",
+            "OBJECTID": 1838,
+            "CENTLON": "-110.1043893",
+            "LSY": "2018",
+            "HU100": 54955,
+            "AREALAND": 27938352371,
+            "INTPTLON": "-110.1058268",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01455989",
+            "POP100": 3271616,
+            "GEOID": "49",
+            "CENTLAT": "+39.3063102",
+            "AREAWATER": 6529987297,
+            "STATE": "49",
+            "BASENAME": "Utah",
+            "STUSAB": "UT",
+            "OID": "27490187824724",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3349925",
+            "DIVISION": "8",
+            "NAME": "Utah",
+            "REGION": "4",
+            "OBJECTID": 39,
+            "CENTLON": "-111.6703458",
+            "AREALAND": 213355058738,
+            "INTPTLON": "-111.6563326",
+            "HU100": 1151414,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2701129,
+            "GEOID": "482",
+            "CENTLAT": "+40.6908170",
+            "AREAWATER": 5200372254,
+            "BASENAME": "Salt Lake City-Provo-Orem, UT",
+            "OID": "2619013782255225",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6892830",
+            "NAME": "Salt Lake City-Provo-Orem, UT CSA",
+            "CSA": "482",
+            "OBJECTID": 170,
+            "CENTLON": "-112.5591484",
+            "HU100": 921854,
+            "AREALAND": 60495574535,
+            "INTPTLON": "-112.5553578",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "38053",
+            "CENTLAT": "+40.5083288",
+            "AREAWATER": 0,
+            "BASENAME": "Heber, UT",
+            "OID": "27021478858088",
+            "UA": "38053",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5083288",
+            "NAME": "Heber, UT Urban Area",
+            "OBJECTID": 1370,
+            "CENTLON": "-111.4260522",
+            "AREALAND": 34034230,
+            "INTPTLON": "-111.4260522",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91312",
+            "POP100": 12277,
+            "GEOID": "4905191312",
+            "CENTLAT": "+40.4757403",
+            "AREAWATER": 10357511,
+            "STATE": "49",
+            "BASENAME": "Heber City West",
+            "OID": "276903717249839",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4673562",
+            "NAME": "Heber City West CCD",
+            "OBJECTID": 34425,
+            "CENTLON": "-111.5152107",
+            "COUSUBCC": "Z5",
+            "HU100": 4909,
+            "AREALAND": 172073830,
+            "INTPTLON": "-111.5012541",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02584786",
+            "UR": "M",
+            "COUNTY": "051"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 50046,
+            "GEOID": "49054",
+            "CENTLAT": "+40.3452382",
+            "SLDL": "054",
+            "AREAWATER": 79773725,
+            "STATE": "49",
+            "BASENAME": "54",
+            "OID": "213904690703431",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.2957416",
+            "NAME": "State House District 54",
+            "OBJECTID": 3195,
+            "CENTLON": "-111.1824922",
+            "LSY": "2018",
+            "HU100": 25856,
+            "AREALAND": 3186626293,
+            "INTPTLON": "-111.1912731",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 16856,
+            "GEOID": "4934200",
+            "CENTLAT": "+40.5070781",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "Heber",
+            "OID": "27890478858068",
+            "LSADC": "25",
+            "PLACE": "34200",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.5070781",
+            "NAME": "Heber city",
+            "OBJECTID": 665,
+            "PLACECC": "C1",
+            "CENTLON": "-111.3985140",
+            "CBSAPCI": "Y",
+            "HU100": 5178,
+            "AREALAND": 23293730,
+            "INTPTLON": "-111.3985140",
+            "PLACENS": "02410731",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 34788,
+            "GEOID": "49051",
+            "CENTLAT": "+40.3303869",
+            "AREAWATER": 79128329,
+            "STATE": "49",
+            "BASENAME": "Wasatch",
+            "OID": "27590478858060",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.3348838",
+            "NAME": "Wasatch County",
+            "OBJECTID": 2042,
+            "CENTLON": "-111.1677000",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01448039",
+            "AREALAND": 3048452823,
+            "INTPTLON": "-111.1615683",
+            "HU100": 14462,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "051"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 786714,
+            "GEOID": "4903",
+            "CENTLAT": "+38.6695220",
+            "CDSESSN": "116",
+            "AREAWATER": 457543486,
+            "STATE": "49",
+            "BASENAME": "3",
+            "OID": "211904690703639",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.6967640",
+            "NAME": "Congressional District 3",
+            "OBJECTID": 435,
+            "CENTLON": "-110.2168037",
+            "HU100": 260632,
+            "AREALAND": 51991196201,
+            "INTPTLON": "-110.2164022",
+            "CD116": "03",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5016,
+            "GEOID": "49051960100",
+            "CENTLAT": "+40.5145086",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "9601",
+            "OID": "207903717260338",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.5145086",
+            "NAME": "Census Tract 9601",
+            "OBJECTID": 46863,
+            "TRACT": "960100",
+            "CENTLON": "-111.4251092",
+            "HU100": 1621,
+            "AREALAND": 12452735,
+            "INTPTLON": "-111.4251092",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "051"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 18,
+            "GEOID": "490519601003000",
+            "CENTLAT": "+40.5034422",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "3000",
+            "OID": "210701004979545",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.5034422",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 4175239,
+            "TRACT": "960100",
+            "CENTLON": "-111.4285662",
+            "BLKGRP": "3",
+            "AREALAND": 612899,
+            "HU100": 2,
+            "INTPTLON": "-111.4285662",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "051"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -111.425246,
+          "y": 40.50368
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

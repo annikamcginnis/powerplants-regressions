@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T16:06:23.795133+00:00",
+  "elapsed": 0.165756,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4142",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:06:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.260531&y=47.286573"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.260531&y=47.286573",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 78948,
+            "GEOID": "27003",
+            "CENTLAT": "+47.8509891",
+            "AREAWATER": 8322962222,
+            "STATE": "27",
+            "BASENAME": "03",
+            "OID": "212904486864877",
+            "LSADC": "LU",
+            "SLDU": "003",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.8530365",
+            "NAME": "State Senate District 3",
+            "OBJECTID": 350,
+            "CENTLON": "-091.9766599",
+            "LSY": "2018",
+            "HU100": 48701,
+            "AREALAND": 25340628723,
+            "INTPTLON": "-091.9620353",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "60250",
+            "POP100": 1857,
+            "GEOID": "2707560250",
+            "CENTLAT": "+47.2932525",
+            "AREAWATER": 1122352,
+            "STATE": "27",
+            "BASENAME": "Silver Bay",
+            "OID": "27690406040353",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+47.2933114",
+            "NAME": "Silver Bay city",
+            "OBJECTID": 24853,
+            "CENTLON": "-091.2775197",
+            "COUSUBCC": "C5",
+            "HU100": 980,
+            "AREALAND": 19757703,
+            "INTPTLON": "-091.2768132",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02395886",
+            "UR": "R",
+            "COUNTY": "075"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 38441,
+            "GEOID": "2703A",
+            "CENTLAT": "+47.8811050",
+            "SLDL": "03A",
+            "AREAWATER": 8103715334,
+            "STATE": "27",
+            "BASENAME": "03A",
+            "OID": "213904486865005",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.8955141",
+            "NAME": "State House District 3A",
+            "OBJECTID": 690,
+            "CENTLON": "-091.9757997",
+            "LSY": "2018",
+            "HU100": 31955,
+            "AREALAND": 24527082856,
+            "INTPTLON": "-091.9706951",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1857,
+            "GEOID": "2760250",
+            "CENTLAT": "+47.2932525",
+            "AREAWATER": 1122352,
+            "STATE": "27",
+            "BASENAME": "Silver Bay",
+            "OID": "27890406046326",
+            "LSADC": "25",
+            "PLACE": "60250",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.2933114",
+            "NAME": "Silver Bay city",
+            "OBJECTID": 19806,
+            "PLACECC": "C5",
+            "CENTLON": "-091.2775197",
+            "CBSAPCI": "N",
+            "HU100": 980,
+            "AREALAND": 19757703,
+            "INTPTLON": "-091.2768132",
+            "PLACENS": "02395886",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 10905,
+            "GEOID": "27075",
+            "CENTLAT": "+47.5213286",
+            "AREAWATER": 2283914208,
+            "STATE": "27",
+            "BASENAME": "Lake",
+            "OID": "27590406030016",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.5171114",
+            "NAME": "Lake County",
+            "OBJECTID": 2358,
+            "CENTLON": "-091.4090294",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659484",
+            "AREALAND": 5462555544,
+            "INTPTLON": "-091.4117038",
+            "HU100": 7311,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "075"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 675929,
+            "GEOID": "2708",
+            "CENTLAT": "+47.2192931",
+            "CDSESSN": "116",
+            "AREAWATER": 12454742045,
+            "STATE": "27",
+            "BASENAME": "8",
+            "OID": "211904486864416",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.2503576",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 64,
+            "CENTLON": "-092.9477395",
+            "HU100": 366787,
+            "AREALAND": 72282931694,
+            "INTPTLON": "-092.9640512",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2378,
+            "GEOID": "27075370300",
+            "CENTLAT": "+47.2836736",
+            "AREAWATER": 22821205,
+            "STATE": "27",
+            "BASENAME": "3703",
+            "OID": "20790406055790",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.2837547",
+            "NAME": "Census Tract 3703",
+            "OBJECTID": 64841,
+            "TRACT": "370300",
+            "CENTLON": "-091.3082448",
+            "HU100": 1337,
+            "AREALAND": 136621228,
+            "INTPTLON": "-091.2959453",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "075"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "270753703001070",
+            "CENTLAT": "+47.2825832",
+            "BLOCK": "1070",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "1070",
+            "OID": "210701005668183",
+            "LSADC": "BK",
+            "INTPTLAT": "+47.2825832",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1070",
+            "OBJECTID": 4775488,
+            "TRACT": "370300",
+            "CENTLON": "-091.2646666",
+            "BLKGRP": "1",
+            "AREALAND": 627835,
+            "HU100": 0,
+            "INTPTLON": "-091.2646666",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "075"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -91.260531,
+          "y": 47.286573
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

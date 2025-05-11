@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:43:41.862113+00:00",
+  "elapsed": 0.15433,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4857",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:43:41 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.790522&y=45.041378"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-93.790522&y=45.041378",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 85323,
+            "GEOID": "27029",
+            "CENTLAT": "+45.1623452",
+            "AREAWATER": 117211482,
+            "STATE": "27",
+            "BASENAME": "29",
+            "OID": "212904486864879",
+            "LSADC": "LU",
+            "SLDU": "029",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.1631062",
+            "NAME": "State Senate District 29",
+            "OBJECTID": 351,
+            "CENTLON": "-093.9842991",
+            "LSY": "2018",
+            "HU100": 34699,
+            "AREALAND": 1383323606,
+            "INTPTLON": "-093.9849998",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00662849",
+            "POP100": 5706494,
+            "GEOID": "27",
+            "CENTLAT": "+46.3167397",
+            "AREAWATER": 18949864226,
+            "STATE": "27",
+            "BASENAME": "Minnesota",
+            "STUSAB": "MN",
+            "OID": "27490186175787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.3159573",
+            "DIVISION": "4",
+            "NAME": "Minnesota",
+            "REGION": "2",
+            "OBJECTID": 19,
+            "CENTLON": "-094.1982324",
+            "AREALAND": 206232157570,
+            "INTPTLON": "-094.1996043",
+            "HU100": 2485558,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 4078788,
+            "GEOID": "378",
+            "CENTLAT": "+45.0455756",
+            "AREAWATER": 1512509911,
+            "BASENAME": "Minneapolis-St. Paul, MN-WI",
+            "OID": "2619013782255184",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.0450358",
+            "NAME": "Minneapolis-St. Paul, MN-WI CSA",
+            "CSA": "378",
+            "OBJECTID": 129,
+            "CENTLON": "-093.4646425",
+            "HU100": 1664221,
+            "AREALAND": 28418647879,
+            "INTPTLON": "-093.4695506",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "22995",
+            "CENTLAT": "+45.0376440",
+            "AREAWATER": 0,
+            "BASENAME": "Delano, MN",
+            "OID": "270214485566371",
+            "UA": "22995",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.0376440",
+            "NAME": "Delano, MN Urban Area",
+            "OBJECTID": 2089,
+            "CENTLON": "-093.7879478",
+            "AREALAND": 8010938,
+            "INTPTLON": "-093.7879478",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "15454",
+            "POP100": 6484,
+            "GEOID": "2717115454",
+            "CENTLAT": "+45.0384432",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "Delano",
+            "OID": "27690419075976",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+45.0384432",
+            "NAME": "Delano city",
+            "OBJECTID": 25583,
+            "CENTLON": "-093.7929713",
+            "COUSUBCC": "C5",
+            "HU100": 2397,
+            "AREALAND": 11467561,
+            "INTPTLON": "-093.7929713",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02394495",
+            "UR": "M",
+            "COUNTY": "171"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 43021,
+            "GEOID": "2729A",
+            "CENTLAT": "+45.1234473",
+            "SLDL": "29A",
+            "AREAWATER": 79928752,
+            "STATE": "27",
+            "BASENAME": "29A",
+            "OID": "213904486864987",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.1299147",
+            "NAME": "State House District 29A",
+            "OBJECTID": 681,
+            "CENTLON": "-094.0246867",
+            "LSY": "2018",
+            "HU100": 18184,
+            "AREALAND": 1002301384,
+            "INTPTLON": "-094.0211334",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 6484,
+            "GEOID": "2715454",
+            "CENTLAT": "+45.0384432",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "Delano",
+            "OID": "27890419114662",
+            "LSADC": "25",
+            "PLACE": "15454",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.0384432",
+            "NAME": "Delano city",
+            "OBJECTID": 4596,
+            "PLACECC": "C5",
+            "CENTLON": "-093.7929713",
+            "CBSAPCI": "N",
+            "HU100": 2397,
+            "AREALAND": 11467561,
+            "INTPTLON": "-093.7929713",
+            "PLACENS": "02394495",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 141337,
+            "GEOID": "27171",
+            "CENTLAT": "+45.1738624",
+            "AREAWATER": 137650955,
+            "STATE": "27",
+            "BASENAME": "Wright",
+            "OID": "27590418981847",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.1750914",
+            "NAME": "Wright County",
+            "OBJECTID": 727,
+            "CENTLON": "-093.9631610",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00659530",
+            "AREALAND": 1712395099,
+            "INTPTLON": "-093.9663964",
+            "HU100": 54467,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "171"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733957,
+            "GEOID": "2706",
+            "CENTLAT": "+45.3344980",
+            "CDSESSN": "116",
+            "AREAWATER": 409022097,
+            "STATE": "27",
+            "BASENAME": "6",
+            "OID": "211904486864215",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.3368069",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 63,
+            "CENTLON": "-093.8524258",
+            "HU100": 282150,
+            "AREALAND": 7460845760,
+            "INTPTLON": "-093.8520551",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4538,
+            "GEOID": "27171101002",
+            "CENTLAT": "+45.0641061",
+            "AREAWATER": 442929,
+            "STATE": "27",
+            "BASENAME": "1010.02",
+            "OID": "2079015489264934",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.0637066",
+            "NAME": "Census Tract 1010.02",
+            "OBJECTID": 27727,
+            "TRACT": "101002",
+            "CENTLON": "-093.7937975",
+            "HU100": 1796,
+            "AREALAND": 27546413,
+            "INTPTLON": "-093.7998679",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "171"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "271711010023041",
+            "CENTLAT": "+45.0412775",
+            "BLOCK": "3041",
+            "AREAWATER": 0,
+            "STATE": "27",
+            "BASENAME": "3041",
+            "OID": "210701008570064",
+            "LSADC": "BK",
+            "INTPTLAT": "+45.0412775",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3041",
+            "OBJECTID": 7529453,
+            "TRACT": "101002",
+            "CENTLON": "-093.7907214",
+            "BLKGRP": "3",
+            "AREALAND": 19252,
+            "HU100": 0,
+            "INTPTLON": "-093.7907214",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "171"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -93.790522,
+          "y": 45.041378
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

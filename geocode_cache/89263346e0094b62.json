@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:37:15.199928+00:00",
+  "elapsed": 0.158428,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4096",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:37:15 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.2832&y=44.7514"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-122.2832&y=44.7514",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 140064,
+            "GEOID": "41009",
+            "CENTLAT": "+44.7645890",
+            "AREAWATER": 61320833,
+            "STATE": "41",
+            "BASENAME": "9",
+            "OID": "212904486863879",
+            "LSADC": "LU",
+            "SLDU": "009",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.7674181",
+            "NAME": "State Senate District 9",
+            "OBJECTID": 98,
+            "CENTLON": "-122.3345996",
+            "LSY": "2018",
+            "HU100": 54147,
+            "AREALAND": 9415806926,
+            "INTPTLON": "-122.3400419",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01155107",
+            "POP100": 4237256,
+            "GEOID": "41",
+            "CENTLAT": "+43.9396009",
+            "AREAWATER": 6170953359,
+            "STATE": "41",
+            "BASENAME": "Oregon",
+            "STUSAB": "OR",
+            "OID": "27490206508673",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.9717125",
+            "DIVISION": "9",
+            "NAME": "Oregon",
+            "REGION": "4",
+            "OBJECTID": 32,
+            "CENTLON": "-120.6109265",
+            "AREALAND": 248628426864,
+            "INTPTLON": "-120.6229578",
+            "HU100": 1813747,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 3280736,
+            "GEOID": "440",
+            "CENTLAT": "+45.2912406",
+            "AREAWATER": 512358767,
+            "BASENAME": "Portland-Vancouver-Salem, OR-WA",
+            "OID": "2619013782255208",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.2917994",
+            "NAME": "Portland-Vancouver-Salem, OR-WA CSA",
+            "CSA": "440",
+            "OBJECTID": 153,
+            "CENTLON": "-122.6219403",
+            "HU100": 1333284,
+            "AREALAND": 32932077106,
+            "INTPTLON": "-122.6239684",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90994",
+            "POP100": 2661,
+            "GEOID": "4104790994",
+            "CENTLAT": "+44.7975535",
+            "AREAWATER": 10854192,
+            "STATE": "41",
+            "BASENAME": "East Marion",
+            "OID": "27690446374783",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.7994510",
+            "NAME": "East Marion CCD",
+            "OBJECTID": 22059,
+            "CENTLON": "-122.1248147",
+            "COUSUBCC": "Z5",
+            "HU100": 1699,
+            "AREALAND": 1111889756,
+            "INTPTLON": "-122.1498249",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938061",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 70891,
+            "GEOID": "41017",
+            "CENTLAT": "+44.5816995",
+            "SLDL": "017",
+            "AREAWATER": 51711439,
+            "STATE": "41",
+            "BASENAME": "17",
+            "OID": "213904486864353",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.5754116",
+            "NAME": "State House District 17",
+            "OBJECTID": 2078,
+            "CENTLON": "-122.3436678",
+            "LSY": "2018",
+            "HU100": 28934,
+            "AREALAND": 5859463291,
+            "INTPTLON": "-122.3650627",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 345920,
+            "GEOID": "41047",
+            "CENTLAT": "+44.9036072",
+            "AREAWATER": 26557042,
+            "STATE": "41",
+            "BASENAME": "Marion",
+            "OID": "27590270103643",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9008984",
+            "NAME": "Marion County",
+            "OBJECTID": 658,
+            "CENTLON": "-122.5835499",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01135859",
+            "AREALAND": 3059028016,
+            "INTPTLON": "-122.5762602",
+            "HU100": 128541,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "047"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 847547,
+            "GEOID": "4105",
+            "CENTLAT": "+45.0203752",
+            "CDSESSN": "116",
+            "AREAWATER": 1206007454,
+            "STATE": "41",
+            "BASENAME": "5",
+            "OID": "211904487269604",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.0283647",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 33,
+            "CENTLON": "-123.1892594",
+            "HU100": 350683,
+            "AREALAND": 13442560992,
+            "INTPTLON": "-123.1951639",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2661,
+            "GEOID": "41047010600",
+            "CENTLAT": "+44.7975535",
+            "AREAWATER": 10854192,
+            "STATE": "41",
+            "BASENAME": "106",
+            "OID": "20790446461256",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.7994510",
+            "NAME": "Census Tract 106",
+            "OBJECTID": 23899,
+            "TRACT": "010600",
+            "CENTLON": "-122.1248147",
+            "HU100": 1699,
+            "AREALAND": 1111889756,
+            "INTPTLON": "-122.1498249",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "410470106002143",
+            "CENTLAT": "+44.7516727",
+            "BLOCK": "2143",
+            "AREAWATER": 0,
+            "STATE": "41",
+            "BASENAME": "2143",
+            "OID": "210701003955891",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.7527246",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2143",
+            "OBJECTID": 3910107,
+            "TRACT": "010600",
+            "CENTLON": "-122.2857522",
+            "BLKGRP": "2",
+            "AREALAND": 93413,
+            "HU100": 0,
+            "INTPTLON": "-122.2862323",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -122.2832,
+          "y": 44.7514
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

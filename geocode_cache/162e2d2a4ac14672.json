@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:48:02.770739+00:00",
+  "elapsed": 0.361151,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4159",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:48:02 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.214861&y=38.115402"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.214861&y=38.115402",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 71,
+            "GEOID": "24ZZZ",
+            "CENTLAT": "+38.5056135",
+            "AREAWATER": 6341590252,
+            "STATE": "24",
+            "BASENAME": "State Senate Districts not defined",
+            "OID": "212904692443689",
+            "LSADC": "00",
+            "SLDU": "ZZZ",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+38.7770305",
+            "NAME": "State Senate Districts not defined",
+            "OBJECTID": 1485,
+            "CENTLON": "-076.2364418",
+            "LSY": "2018",
+            "HU100": 18,
+            "AREALAND": 0,
+            "INTPTLON": "-076.1546455",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01714934",
+            "POP100": 6177224,
+            "GEOID": "24",
+            "CENTLAT": "+38.9463607",
+            "AREAWATER": 6979171386,
+            "STATE": "24",
+            "BASENAME": "Maryland",
+            "STUSAB": "MD",
+            "OID": "27490140608205",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9466584",
+            "DIVISION": "5",
+            "NAME": "Maryland",
+            "REGION": "3",
+            "OBJECTID": 20,
+            "CENTLON": "-076.6789663",
+            "AREALAND": 25151895765,
+            "INTPTLON": "-076.6744939",
+            "HU100": 2530844,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 450577,
+            "GEOID": "480",
+            "CENTLAT": "+38.4070942",
+            "AREAWATER": 3225387620,
+            "BASENAME": "Salisbury-Cambridge, MD-DE",
+            "OID": "2619013782255224",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4137317",
+            "NAME": "Salisbury-Cambridge, MD-DE CSA",
+            "CSA": "480",
+            "OBJECTID": 169,
+            "CENTLON": "-075.6313627",
+            "HU100": 269503,
+            "AREALAND": 6836276206,
+            "INTPTLON": "-075.6314628",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90092",
+            "POP100": 6692,
+            "GEOID": "2404790092",
+            "CENTLAT": "+38.0735330",
+            "AREAWATER": 125759095,
+            "STATE": "24",
+            "BASENAME": "1, Southern",
+            "OID": "27690164559046",
+            "LSADC": "28",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.0684475",
+            "NAME": "District 1, Southern",
+            "OBJECTID": 8145,
+            "CENTLON": "-075.4008938",
+            "COUSUBCC": "Z1",
+            "HU100": 3018,
+            "AREALAND": 206424481,
+            "INTPTLON": "-075.3758233",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01929424",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 71,
+            "GEOID": "24ZZZ",
+            "CENTLAT": "+38.5056135",
+            "SLDL": "ZZZ",
+            "AREAWATER": 6341590252,
+            "STATE": "24",
+            "BASENAME": "State House Districts not defined",
+            "OID": "213904692443691",
+            "LSADC": "00",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+38.7770305",
+            "NAME": "State House Districts not defined",
+            "OBJECTID": 4820,
+            "CENTLON": "-076.2364418",
+            "LSY": "2018",
+            "HU100": 18,
+            "AREALAND": 0,
+            "INTPTLON": "-076.1546455",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 52460,
+            "GEOID": "24047",
+            "CENTLAT": "+38.2164033",
+            "AREAWATER": 586531120,
+            "STATE": "24",
+            "BASENAME": "Worcester",
+            "OID": "27590164554459",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.2221332",
+            "NAME": "Worcester County",
+            "OBJECTID": 110,
+            "CENTLON": "-075.2969460",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01668802",
+            "AREALAND": 1213156434,
+            "INTPTLON": "-075.3099315",
+            "HU100": 56263,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "047"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 743611,
+            "GEOID": "2401",
+            "CENTLAT": "+38.7638163",
+            "CDSESSN": "116",
+            "AREAWATER": 4035390212,
+            "STATE": "24",
+            "BASENAME": "1",
+            "OID": "211904690760062",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7684710",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 196,
+            "CENTLON": "-075.9779257",
+            "HU100": 345798,
+            "AREALAND": 10301426297,
+            "INTPTLON": "-075.9588863",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 0,
+            "GEOID": "24047980000",
+            "CENTLAT": "+38.1269449",
+            "AREAWATER": 196708256,
+            "STATE": "24",
+            "BASENAME": "9800",
+            "OID": "207903716831594",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.0730711",
+            "NAME": "Census Tract 9800",
+            "OBJECTID": 50607,
+            "TRACT": "980000",
+            "CENTLON": "-075.2393556",
+            "HU100": 0,
+            "AREALAND": 36014135,
+            "INTPTLON": "-075.2477947",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "240479800001066",
+            "CENTLAT": "+38.0922291",
+            "BLOCK": "1066",
+            "AREAWATER": 98643428,
+            "STATE": "24",
+            "BASENAME": "1066",
+            "OID": "210701007954097",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.0922291",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1066",
+            "OBJECTID": 6858161,
+            "TRACT": "980000",
+            "CENTLON": "-075.2757242",
+            "BLKGRP": "1",
+            "AREALAND": 0,
+            "HU100": 0,
+            "INTPTLON": "-075.2757242",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "W",
+            "UR": "R",
+            "COUNTY": "047"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -75.214861,
+          "y": 38.115402
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

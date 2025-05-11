@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:13:02.671060+00:00",
+  "elapsed": 0.154743,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4544",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:13:02 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.375&y=43.6575"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.375&y=43.6575",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 42509,
+            "GEOID": "23028",
+            "CENTLAT": "+43.6774958",
+            "AREAWATER": 1173114,
+            "STATE": "23",
+            "BASENAME": "28",
+            "OID": "212904492476843",
+            "LSADC": "LU",
+            "SLDU": "028",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.6791585",
+            "NAME": "State Senate District 28",
+            "OBJECTID": 90,
+            "CENTLON": "-070.3299389",
+            "LSY": "2018",
+            "HU100": 18865,
+            "AREALAND": 51825688,
+            "INTPTLON": "-070.3314687",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779787",
+            "POP100": 1362359,
+            "GEOID": "23",
+            "CENTLAT": "+45.2610879",
+            "AREAWATER": 11744937116,
+            "STATE": "23",
+            "BASENAME": "Maine",
+            "STUSAB": "ME",
+            "OID": "27490100936543",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.4092843",
+            "DIVISION": "1",
+            "NAME": "Maine",
+            "REGION": "1",
+            "OBJECTID": 50,
+            "CENTLON": "-069.2136626",
+            "AREALAND": 79888428972,
+            "INTPTLON": "-068.6666160",
+            "HU100": 739072,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 662879,
+            "GEOID": "438",
+            "CENTLAT": "+43.7284113",
+            "AREAWATER": 2084925260,
+            "BASENAME": "Portland-Lewiston-South Portland, ME",
+            "OID": "2619013782255207",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.7286471",
+            "NAME": "Portland-Lewiston-South Portland, ME CSA",
+            "CSA": "438",
+            "OBJECTID": 152,
+            "CENTLON": "-070.3870016",
+            "HU100": 330425,
+            "AREALAND": 6602735785,
+            "INTPTLON": "-070.3839894",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "82105",
+            "POP100": 20400,
+            "GEOID": "2300582105",
+            "CENTLAT": "+43.6953500",
+            "AREAWATER": 443843,
+            "STATE": "23",
+            "BASENAME": "Westbrook",
+            "OID": "27690204250658",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+43.7079198",
+            "NAME": "Westbrook city",
+            "OBJECTID": 29181,
+            "CENTLON": "-070.3538870",
+            "COUSUBCC": "C5",
+            "HU100": 9108,
+            "AREALAND": 44519435,
+            "INTPTLON": "-070.3526019",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00582802",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 10994,
+            "GEOID": "23034",
+            "CENTLAT": "+43.6655654",
+            "SLDL": "034",
+            "AREAWATER": 183115,
+            "STATE": "23",
+            "BASENAME": "34",
+            "OID": "213904492477115",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.6672139",
+            "NAME": "State House District 34",
+            "OBJECTID": 138,
+            "CENTLON": "-070.3606840",
+            "LSY": "2018",
+            "HU100": 4992,
+            "AREALAND": 17456036,
+            "INTPTLON": "-070.3642867",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 20400,
+            "GEOID": "2382105",
+            "CENTLAT": "+43.6953500",
+            "AREAWATER": 443843,
+            "STATE": "23",
+            "BASENAME": "Westbrook",
+            "OID": "27890204250675",
+            "LSADC": "25",
+            "PLACE": "82105",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.7079198",
+            "NAME": "Westbrook city",
+            "OBJECTID": 10380,
+            "PLACECC": "C5",
+            "CENTLON": "-070.3538870",
+            "CBSAPCI": "N",
+            "HU100": 9108,
+            "AREALAND": 44519435,
+            "INTPTLON": "-070.3526019",
+            "PLACENS": "00582802",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 303069,
+            "GEOID": "23005",
+            "CENTLAT": "+43.8059984",
+            "AREAWATER": 987408428,
+            "STATE": "23",
+            "BASENAME": "Cumberland",
+            "OID": "27590204250623",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.8083479",
+            "NAME": "Cumberland County",
+            "OBJECTID": 1649,
+            "CENTLON": "-070.3296560",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00581288",
+            "AREALAND": 2165803498,
+            "INTPTLON": "-070.3303753",
+            "HU100": 149452,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 704211,
+            "GEOID": "2301",
+            "CENTLAT": "+43.8423336",
+            "CDSESSN": "116",
+            "AREAWATER": 4731822605,
+            "STATE": "23",
+            "BASENAME": "1",
+            "OID": "211904486862976",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.8460537",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 34,
+            "CENTLON": "-069.9268502",
+            "HU100": 366425,
+            "AREALAND": 8513824047,
+            "INTPTLON": "-069.9152497",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4537,
+            "GEOID": "23005002901",
+            "CENTLAT": "+43.6582703",
+            "AREAWATER": 10243,
+            "STATE": "23",
+            "BASENAME": "29.01",
+            "OID": "2079015665443840",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.6548736",
+            "NAME": "Census Tract 29.01",
+            "OBJECTID": 33486,
+            "TRACT": "002901",
+            "CENTLON": "-070.3642615",
+            "HU100": 1915,
+            "AREALAND": 10464924,
+            "INTPTLON": "-070.3738519",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 63,
+            "GEOID": "230050029012006",
+            "CENTLAT": "+43.6548672",
+            "BLOCK": "2006",
+            "AREAWATER": 0,
+            "STATE": "23",
+            "BASENAME": "2006",
+            "OID": "210701003354916",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.6548672",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2006",
+            "OBJECTID": 7737515,
+            "TRACT": "002901",
+            "CENTLON": "-070.3738475",
+            "BLKGRP": "2",
+            "AREALAND": 2725997,
+            "HU100": 35,
+            "INTPTLON": "-070.3738475",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -70.375,
+          "y": 43.6575
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:49:06.109736+00:00",
+  "elapsed": 0.153027,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4552",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:49:06 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.209378&y=44.152854"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-70.209378&y=44.152854",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 37121,
+            "GEOID": "23021",
+            "CENTLAT": "+44.0914395",
+            "AREAWATER": 3597593,
+            "STATE": "23",
+            "BASENAME": "21",
+            "OID": "212904492476827",
+            "LSADC": "LU",
+            "SLDU": "021",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0895127",
+            "NAME": "State Senate District 21",
+            "OBJECTID": 412,
+            "CENTLON": "-070.1680763",
+            "LSY": "2018",
+            "HU100": 16579,
+            "AREALAND": 88437058,
+            "INTPTLON": "-070.1720950",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779787",
+            "POP100": 1362359,
+            "GEOID": "23",
+            "CENTLAT": "+45.2610879",
+            "AREAWATER": 11744937116,
+            "STATE": "23",
+            "BASENAME": "Maine",
+            "STUSAB": "ME",
+            "OID": "27490100936543",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.4092843",
+            "DIVISION": "1",
+            "NAME": "Maine",
+            "REGION": "1",
+            "OBJECTID": 50,
+            "CENTLON": "-069.2136626",
+            "AREALAND": 79888428972,
+            "INTPTLON": "-068.6666160",
+            "HU100": 739072,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 662879,
+            "GEOID": "438",
+            "CENTLAT": "+43.7284113",
+            "AREAWATER": 2084925260,
+            "BASENAME": "Portland-Lewiston-South Portland, ME",
+            "OID": "2619013782255207",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.7286471",
+            "NAME": "Portland-Lewiston-South Portland, ME CSA",
+            "CSA": "438",
+            "OBJECTID": 152,
+            "CENTLON": "-070.3870016",
+            "HU100": 330425,
+            "AREALAND": 6602735785,
+            "INTPTLON": "-070.3839894",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "38740",
+            "POP100": 37121,
+            "GEOID": "2300138740",
+            "CENTLAT": "+44.0914395",
+            "AREAWATER": 3597593,
+            "STATE": "23",
+            "BASENAME": "Lewiston",
+            "OID": "27690167331323",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.0895127",
+            "NAME": "Lewiston city",
+            "OBJECTID": 30951,
+            "CENTLON": "-070.1680763",
+            "COUSUBCC": "C5",
+            "HU100": 16579,
+            "AREALAND": 88437058,
+            "INTPTLON": "-070.1720950",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00582554",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 9321,
+            "GEOID": "23059",
+            "CENTLAT": "+44.1292059",
+            "SLDL": "059",
+            "AREAWATER": 953996,
+            "STATE": "23",
+            "BASENAME": "59",
+            "OID": "213905083431116",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.1270580",
+            "NAME": "State House District 59",
+            "OBJECTID": 630,
+            "CENTLON": "-070.1811410",
+            "LSY": "2018",
+            "HU100": 3913,
+            "AREALAND": 25093165,
+            "INTPTLON": "-070.1658684",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "Y",
+            "POP100": 37121,
+            "GEOID": "2338740",
+            "CENTLAT": "+44.0914395",
+            "AREAWATER": 3597593,
+            "STATE": "23",
+            "BASENAME": "Lewiston",
+            "OID": "27890167350878",
+            "LSADC": "25",
+            "PLACE": "38740",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0895127",
+            "NAME": "Lewiston city",
+            "OBJECTID": 18858,
+            "PLACECC": "C5",
+            "CENTLON": "-070.1680763",
+            "CBSAPCI": "Y",
+            "HU100": 16579,
+            "AREALAND": 88437058,
+            "INTPTLON": "-070.1720950",
+            "PLACENS": "00582554",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 111139,
+            "GEOID": "23001",
+            "CENTLAT": "+44.1655826",
+            "AREAWATER": 75546580,
+            "STATE": "23",
+            "BASENAME": "Androscoggin",
+            "OID": "27590167290159",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.1676811",
+            "NAME": "Androscoggin County",
+            "OBJECTID": 193,
+            "CENTLON": "-070.2064837",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00581286",
+            "AREALAND": 1211990523,
+            "INTPTLON": "-070.2074347",
+            "HU100": 49837,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 658148,
+            "GEOID": "2302",
+            "CENTLAT": "+45.5004265",
+            "CDSESSN": "116",
+            "AREAWATER": 7013114511,
+            "STATE": "23",
+            "BASENAME": "2",
+            "OID": "211904486863073",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.5100010",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 35,
+            "CENTLON": "-069.0896714",
+            "HU100": 372647,
+            "AREALAND": 71374604925,
+            "INTPTLON": "-069.0853097",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4503,
+            "GEOID": "23001020900",
+            "CENTLAT": "+44.1394966",
+            "AREAWATER": 1145403,
+            "STATE": "23",
+            "BASENAME": "209",
+            "OID": "20790167372392",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.1387836",
+            "NAME": "Census Tract 209",
+            "OBJECTID": 74897,
+            "TRACT": "020900",
+            "CENTLON": "-070.1932230",
+            "HU100": 1758,
+            "AREALAND": 11485509,
+            "INTPTLON": "-070.1936111",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "001"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 349,
+            "GEOID": "230010209002001",
+            "CENTLAT": "+44.1502850",
+            "BLOCK": "2001",
+            "AREAWATER": 4621,
+            "STATE": "23",
+            "BASENAME": "2001",
+            "OID": "210701003406276",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.1507557",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2001",
+            "OBJECTID": 5288952,
+            "TRACT": "020900",
+            "CENTLON": "-070.1972350",
+            "BLKGRP": "2",
+            "AREALAND": 3395731,
+            "HU100": 166,
+            "INTPTLON": "-070.1971757",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "001"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -70.209378,
+          "y": 44.152854
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

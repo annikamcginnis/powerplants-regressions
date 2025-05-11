@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:34:20.784684+00:00",
+  "elapsed": 0.215639,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4567",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:34:20 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.614444&y=42.081944"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.614444&y=42.081944",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 156291,
+            "GEOID": "25005",
+            "CENTLAT": "+42.1360923",
+            "AREAWATER": 21919741,
+            "STATE": "25",
+            "BASENAME": "Second Hampden & Hampshire",
+            "OID": "212904693077313",
+            "LSADC": "07",
+            "SLDU": "005",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1537459",
+            "NAME": "Second Hampden & Hampshire District",
+            "OBJECTID": 1676,
+            "CENTLON": "-072.7968543",
+            "LSY": "2018",
+            "HU100": 68501,
+            "AREALAND": 705724878,
+            "INTPTLON": "-072.8139272",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "83926",
+            "CENTLAT": "+42.1328082",
+            "AREAWATER": 17004323,
+            "BASENAME": "Springfield, MA--CT",
+            "OID": "27021249230044",
+            "UA": "83926",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.1313937",
+            "NAME": "Springfield, MA--CT Urban Area",
+            "OBJECTID": 61,
+            "CENTLON": "-072.5809496",
+            "AREALAND": 522574324,
+            "INTPTLON": "-072.5829288",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "00840",
+            "POP100": 28692,
+            "GEOID": "2501300840",
+            "CENTLAT": "+42.0657286",
+            "AREAWATER": 2623341,
+            "STATE": "25",
+            "BASENAME": "Agawam Town",
+            "OID": "27690249177275",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.0638908",
+            "NAME": "Agawam Town city",
+            "OBJECTID": 25941,
+            "CENTLON": "-072.6525522",
+            "COUSUBCC": "C5",
+            "HU100": 12361,
+            "AREALAND": 60403412,
+            "INTPTLON": "-072.6529587",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618180",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 39462,
+            "GEOID": "25104",
+            "CENTLAT": "+42.0690959",
+            "SLDL": "104",
+            "AREAWATER": 6855349,
+            "STATE": "25",
+            "BASENAME": "3rd Hampden",
+            "OID": "213904693077601",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.0798035",
+            "NAME": "3rd Hampden District",
+            "OBJECTID": 4388,
+            "CENTLON": "-072.8041746",
+            "LSY": "2018",
+            "HU100": 17132,
+            "AREALAND": 249821408,
+            "INTPTLON": "-072.8043803",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 28692,
+            "GEOID": "2500840",
+            "CENTLAT": "+42.0657286",
+            "AREAWATER": 2623341,
+            "STATE": "25",
+            "BASENAME": "Agawam Town",
+            "OID": "27890249188585",
+            "LSADC": "25",
+            "PLACE": "00840",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0638908",
+            "NAME": "Agawam Town city",
+            "OBJECTID": 15037,
+            "PLACECC": "C5",
+            "CENTLON": "-072.6525522",
+            "CBSAPCI": "N",
+            "HU100": 12361,
+            "AREALAND": 60403412,
+            "INTPTLON": "-072.6529587",
+            "PLACENS": "00618180",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 465825,
+            "GEOID": "25013",
+            "CENTLAT": "+42.1353416",
+            "AREAWATER": 44418900,
+            "STATE": "25",
+            "BASENAME": "Hampden",
+            "OID": "27590249163642",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1361975",
+            "NAME": "Hampden County",
+            "OBJECTID": 959,
+            "CENTLON": "-072.6315164",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606933",
+            "AREALAND": 1598027523,
+            "INTPTLON": "-072.6356476",
+            "HU100": 197033,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 730467,
+            "GEOID": "2501",
+            "CENTLAT": "+42.3220873",
+            "CDSESSN": "116",
+            "AREAWATER": 129683314,
+            "STATE": "25",
+            "BASENAME": "1",
+            "OID": "211904690191786",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3310441",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 342,
+            "CENTLON": "-072.8559719",
+            "HU100": 326979,
+            "AREALAND": 6086808204,
+            "INTPTLON": "-072.8641784",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5852,
+            "GEOID": "25013813209",
+            "CENTLAT": "+42.0785008",
+            "AREAWATER": 747226,
+            "STATE": "25",
+            "BASENAME": "8132.09",
+            "OID": "207903711022759",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0827531",
+            "NAME": "Census Tract 8132.09",
+            "OBJECTID": 72531,
+            "TRACT": "813209",
+            "CENTLON": "-072.6085981",
+            "HU100": 2661,
+            "AREALAND": 7411307,
+            "INTPTLON": "-072.6116514",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 50,
+            "GEOID": "250138132091009",
+            "CENTLAT": "+42.0833420",
+            "BLOCK": "1009",
+            "AREAWATER": 62045,
+            "STATE": "25",
+            "BASENAME": "1009",
+            "OID": "210701006757077",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.0827531",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1009",
+            "OBJECTID": 2749546,
+            "TRACT": "813209",
+            "CENTLON": "-072.6116340",
+            "BLKGRP": "1",
+            "AREALAND": 1063059,
+            "HU100": 19,
+            "INTPTLON": "-072.6116514",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.614444,
+          "y": 42.081944
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

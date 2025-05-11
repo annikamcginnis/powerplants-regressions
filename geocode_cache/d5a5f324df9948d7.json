@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:42:19.559178+00:00",
+  "elapsed": 0.261281,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4516",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:42:19 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-123.761086&y=46.954071"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-123.761086&y=46.954071",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 144220,
+            "GEOID": "53019",
+            "CENTLAT": "+46.5592679",
+            "AREAWATER": 1025610892,
+            "STATE": "53",
+            "BASENAME": "19",
+            "OID": "212904690194660",
+            "LSADC": "LU",
+            "SLDU": "019",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5396387",
+            "NAME": "State Senate District 19",
+            "OBJECTID": 771,
+            "CENTLON": "-123.5808771",
+            "LSY": "2018",
+            "HU100": 67461,
+            "AREALAND": 5724914635,
+            "INTPTLON": "-123.5443193",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779804",
+            "POP100": 7705281,
+            "GEOID": "53",
+            "CENTLAT": "+47.4148772",
+            "AREAWATER": 12549742084,
+            "STATE": "53",
+            "BASENAME": "Washington",
+            "STUSAB": "WA",
+            "OID": "27490225755057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4073238",
+            "DIVISION": "9",
+            "NAME": "Washington",
+            "REGION": "4",
+            "OBJECTID": 35,
+            "CENTLON": "-120.5954943",
+            "AREALAND": 172117960159,
+            "INTPTLON": "-120.5757999",
+            "HU100": 3202241,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "00172",
+            "CENTLAT": "+46.9746795",
+            "AREAWATER": 1802207,
+            "BASENAME": "Aberdeen, WA",
+            "OID": "27021479425190",
+            "UA": "00172",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.9745945",
+            "NAME": "Aberdeen, WA Urban Area",
+            "OBJECTID": 2278,
+            "CENTLON": "-123.8320804",
+            "AREALAND": 28416189,
+            "INTPTLON": "-123.8318158",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90016",
+            "POP100": 32571,
+            "GEOID": "5302790016",
+            "CENTLAT": "+46.9825342",
+            "AREAWATER": 75512879,
+            "STATE": "53",
+            "BASENAME": "Aberdeen-Hoquiam",
+            "OID": "27690479425059",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.9832811",
+            "NAME": "Aberdeen-Hoquiam CCD",
+            "OBJECTID": 18592,
+            "CENTLON": "-123.8377461",
+            "COUSUBCC": "Z5",
+            "HU100": 14051,
+            "AREALAND": 220173303,
+            "INTPTLON": "-123.8366773",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939438",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 144220,
+            "GEOID": "53019",
+            "CENTLAT": "+46.5592679",
+            "SLDL": "019",
+            "AREAWATER": 1025610892,
+            "STATE": "53",
+            "BASENAME": "19",
+            "OID": "213904690194780",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.5396387",
+            "NAME": "State House District 19",
+            "OBJECTID": 1103,
+            "CENTLON": "-123.5808771",
+            "LSY": "2018",
+            "HU100": 67461,
+            "AREALAND": 5724914635,
+            "INTPTLON": "-123.5443193",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1638,
+            "GEOID": "5314870",
+            "CENTLAT": "+46.9540554",
+            "AREAWATER": 488836,
+            "STATE": "53",
+            "BASENAME": "Cosmopolis",
+            "OID": "27890479425091",
+            "LSADC": "25",
+            "PLACE": "14870",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.9543121",
+            "NAME": "Cosmopolis city",
+            "OBJECTID": 13082,
+            "PLACECC": "C1",
+            "CENTLON": "-123.7726013",
+            "CBSAPCI": "N",
+            "HU100": 712,
+            "AREALAND": 3604845,
+            "INTPTLON": "-123.7728949",
+            "PLACENS": "02410238",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 75636,
+            "GEOID": "53027",
+            "CENTLAT": "+47.1439444",
+            "AREAWATER": 834310602,
+            "STATE": "53",
+            "BASENAME": "Grays Harbor",
+            "OID": "27590479425051",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.1137324",
+            "NAME": "Grays Harbor County",
+            "OBJECTID": 2702,
+            "CENTLON": "-123.8276920",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01531823",
+            "AREALAND": 4924794342,
+            "INTPTLON": "-123.8267349",
+            "HU100": 36058,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 736798,
+            "GEOID": "5306",
+            "CENTLAT": "+47.6514327",
+            "CDSESSN": "116",
+            "AREAWATER": 5096390896,
+            "STATE": "53",
+            "BASENAME": "6",
+            "OID": "211904690193040",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.6388582",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 186,
+            "CENTLON": "-123.6209332",
+            "HU100": 332549,
+            "AREALAND": 17876967872,
+            "INTPTLON": "-123.5509405",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4238,
+            "GEOID": "53027000800",
+            "CENTLAT": "+46.9738905",
+            "AREAWATER": 6619401,
+            "STATE": "53",
+            "BASENAME": "8",
+            "OID": "20790479425140",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.9759589",
+            "NAME": "Census Tract 8",
+            "OBJECTID": 45006,
+            "TRACT": "000800",
+            "CENTLON": "-123.7058918",
+            "HU100": 1796,
+            "AREALAND": 84202030,
+            "INTPTLON": "-123.7060719",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "530270008003073",
+            "CENTLAT": "+46.9545430",
+            "BLOCK": "3073",
+            "AREAWATER": 720,
+            "STATE": "53",
+            "BASENAME": "3073",
+            "OID": "210701007896739",
+            "LSADC": "BK",
+            "INTPTLAT": "+46.9544988",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3073",
+            "OBJECTID": 5509128,
+            "TRACT": "000800",
+            "CENTLON": "-123.7596243",
+            "BLKGRP": "3",
+            "AREALAND": 399154,
+            "HU100": 0,
+            "INTPTLON": "-123.7599740",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "027"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -123.761086,
+          "y": 46.954071
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

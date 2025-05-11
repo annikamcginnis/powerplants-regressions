@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T15:38:00.520308+00:00",
+  "elapsed": 0.162192,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3729",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:00 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.362997&y=33.617189"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-80.362997&y=33.617189",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 88610,
+            "GEOID": "45036",
+            "CENTLAT": "+33.7850879",
+            "AREAWATER": 231716189,
+            "STATE": "45",
+            "BASENAME": "36",
+            "OID": "212904690194023",
+            "LSADC": "LU",
+            "SLDU": "036",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.7886623",
+            "NAME": "State Senate District 36",
+            "OBJECTID": 1373,
+            "CENTLON": "-080.1881524",
+            "LSY": "2018",
+            "HU100": 42134,
+            "AREALAND": 2688585594,
+            "INTPTLON": "-080.1869167",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779799",
+            "POP100": 5118425,
+            "GEOID": "45",
+            "CENTLAT": "+33.8758222",
+            "AREAWATER": 5074311415,
+            "STATE": "45",
+            "BASENAME": "South Carolina",
+            "STUSAB": "SC",
+            "OID": "27490140244538",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.8741776",
+            "DIVISION": "5",
+            "NAME": "South Carolina",
+            "REGION": "3",
+            "OBJECTID": 43,
+            "CENTLON": "-080.8583129",
+            "AREALAND": 77866132568,
+            "INTPTLON": "-080.8542639",
+            "HU100": 2344963,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93263",
+            "POP100": 5805,
+            "GEOID": "4502793263",
+            "CENTLAT": "+33.5624979",
+            "AREAWATER": 175601766,
+            "STATE": "45",
+            "BASENAME": "Summerton",
+            "OID": "27690218627255",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5658266",
+            "NAME": "Summerton CCD",
+            "OBJECTID": 2097,
+            "CENTLON": "-080.3717337",
+            "COUSUBCC": "Z5",
+            "HU100": 3343,
+            "AREALAND": 356875231,
+            "INTPTLON": "-080.3743620",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938432",
+            "UR": "R",
+            "COUNTY": "027"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 32279,
+            "GEOID": "45064",
+            "CENTLAT": "+33.7280276",
+            "SLDL": "064",
+            "AREAWATER": 205009650,
+            "STATE": "45",
+            "BASENAME": "HD-064",
+            "OID": "213904690194085",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.7304105",
+            "NAME": "State House District HD-064",
+            "OBJECTID": 1260,
+            "CENTLON": "-080.2044079",
+            "LSY": "2018",
+            "HU100": 15692,
+            "AREALAND": 1820106583,
+            "INTPTLON": "-080.2075716",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 31144,
+            "GEOID": "45027",
+            "CENTLAT": "+33.6657313",
+            "AREAWATER": 229097204,
+            "STATE": "45",
+            "BASENAME": "Clarendon",
+            "OID": "27590218608521",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.6646821",
+            "NAME": "Clarendon County",
+            "OBJECTID": 1899,
+            "CENTLON": "-080.2166215",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01247990",
+            "AREALAND": 1572656992,
+            "INTPTLON": "-080.2178886",
+            "HU100": 15816,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 646463,
+            "GEOID": "4506",
+            "CENTLAT": "+33.2153059",
+            "CDSESSN": "116",
+            "AREAWATER": 864425365,
+            "STATE": "45",
+            "BASENAME": "6",
+            "OID": "211904690192881",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2082080",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 130,
+            "CENTLON": "-080.5279742",
+            "HU100": 303207,
+            "AREALAND": 20883796159,
+            "INTPTLON": "-080.5239865",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2954,
+            "GEOID": "45027960801",
+            "CENTLAT": "+33.6159795",
+            "AREAWATER": 56399788,
+            "STATE": "45",
+            "BASENAME": "9608.01",
+            "OID": "20790218653785",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.6166680",
+            "NAME": "Census Tract 9608.01",
+            "OBJECTID": 62995,
+            "TRACT": "960801",
+            "CENTLON": "-080.4195163",
+            "HU100": 1510,
+            "AREALAND": 194177467,
+            "INTPTLON": "-080.4129605",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "027"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 218,
+            "GEOID": "450279608012012",
+            "CENTLAT": "+33.6149163",
+            "BLOCK": "2012",
+            "AREAWATER": 0,
+            "STATE": "45",
+            "BASENAME": "2012",
+            "OID": "210701004326448",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.6149163",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2012",
+            "OBJECTID": 2248367,
+            "TRACT": "960801",
+            "CENTLON": "-080.3623535",
+            "BLKGRP": "2",
+            "AREALAND": 456725,
+            "HU100": 107,
+            "INTPTLON": "-080.3623535",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "027"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -80.362997,
+          "y": 33.617189
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

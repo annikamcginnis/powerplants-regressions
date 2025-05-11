@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:05:11.343778+00:00",
+  "elapsed": 0.154361,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4573",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:05:11 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-112.0339&y=40.7461"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-112.0339&y=40.7461",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 100251,
+            "GEOID": "49001",
+            "CENTLAT": "+40.7965093",
+            "AREAWATER": 163117018,
+            "STATE": "49",
+            "BASENAME": "1",
+            "OID": "212904690703343",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.7960872",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1856,
+            "CENTLON": "-112.0539573",
+            "LSY": "2018",
+            "HU100": 31158,
+            "AREALAND": 243026442,
+            "INTPTLON": "-112.0660607",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01455989",
+            "POP100": 3271616,
+            "GEOID": "49",
+            "CENTLAT": "+39.3063102",
+            "AREAWATER": 6529987297,
+            "STATE": "49",
+            "BASENAME": "Utah",
+            "STUSAB": "UT",
+            "OID": "27490187824724",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+39.3349925",
+            "DIVISION": "8",
+            "NAME": "Utah",
+            "REGION": "4",
+            "OBJECTID": 39,
+            "CENTLON": "-111.6703458",
+            "AREALAND": 213355058738,
+            "INTPTLON": "-111.6563326",
+            "HU100": 1151414,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2701129,
+            "GEOID": "482",
+            "CENTLAT": "+40.6908170",
+            "AREAWATER": 5200372254,
+            "BASENAME": "Salt Lake City-Provo-Orem, UT",
+            "OID": "2619013782255225",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6892830",
+            "NAME": "Salt Lake City-Provo-Orem, UT CSA",
+            "CSA": "482",
+            "OBJECTID": 170,
+            "CENTLON": "-112.5591484",
+            "HU100": 921854,
+            "AREALAND": 60495574535,
+            "INTPTLON": "-112.5553578",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93010",
+            "POP100": 1039271,
+            "GEOID": "4903593010",
+            "CENTLAT": "+40.6598620",
+            "AREAWATER": 1677610,
+            "STATE": "49",
+            "BASENAME": "Salt Lake City",
+            "OID": "27690190529410",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6627816",
+            "NAME": "Salt Lake City CCD",
+            "OBJECTID": 1686,
+            "CENTLON": "-111.9233071",
+            "COUSUBCC": "Z5",
+            "HU100": 382664,
+            "AREALAND": 839494598,
+            "INTPTLON": "-111.9178896",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939415",
+            "UR": "M",
+            "COUNTY": "035"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 42104,
+            "GEOID": "49026",
+            "CENTLAT": "+40.7422086",
+            "SLDL": "026",
+            "AREAWATER": 19163,
+            "STATE": "49",
+            "BASENAME": "26",
+            "OID": "213904690703462",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.7381699",
+            "NAME": "State House District 26",
+            "OBJECTID": 3285,
+            "CENTLON": "-111.9929924",
+            "LSY": "2018",
+            "HU100": 17599,
+            "AREALAND": 91481005,
+            "INTPTLON": "-111.9916495",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 199723,
+            "GEOID": "4967000",
+            "CENTLAT": "+40.7775835",
+            "AREAWATER": 1216725,
+            "STATE": "49",
+            "BASENAME": "Salt Lake City",
+            "OID": "27890190531735",
+            "LSADC": "25",
+            "PLACE": "67000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.7769281",
+            "NAME": "Salt Lake City city",
+            "OBJECTID": 4922,
+            "PLACECC": "C1",
+            "CENTLON": "-111.9311608",
+            "CBSAPCI": "Y",
+            "HU100": 92169,
+            "AREALAND": 285773665,
+            "INTPTLON": "-111.9309915",
+            "PLACENS": "02411771",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1185238,
+            "GEOID": "49035",
+            "CENTLAT": "+40.6672466",
+            "AREAWATER": 164895908,
+            "STATE": "49",
+            "BASENAME": "Salt Lake",
+            "OID": "27590190526678",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.6678828",
+            "NAME": "Salt Lake County",
+            "OBJECTID": 1329,
+            "CENTLON": "-111.9236072",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01448031",
+            "AREALAND": 1921953041,
+            "INTPTLON": "-111.9242397",
+            "HU100": 428279,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "035"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 801636,
+            "GEOID": "4902",
+            "CENTLAT": "+38.7442970",
+            "CDSESSN": "116",
+            "AREAWATER": 2476477406,
+            "STATE": "49",
+            "BASENAME": "2",
+            "OID": "211904690703645",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7449472",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 437,
+            "CENTLON": "-112.5532683",
+            "HU100": 310570,
+            "AREALAND": 104106434250,
+            "INTPTLON": "-112.5531266",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4888,
+            "GEOID": "49035113906",
+            "CENTLAT": "+40.8045761",
+            "AREAWATER": 163199884,
+            "STATE": "49",
+            "BASENAME": "1139.06",
+            "OID": "207903717172446",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.8113279",
+            "NAME": "Census Tract 1139.06",
+            "OBJECTID": 58075,
+            "TRACT": "113906",
+            "CENTLON": "-112.0953388",
+            "HU100": 1807,
+            "AREALAND": 161029170,
+            "INTPTLON": "-112.0849360",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "035"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "490351139061023",
+            "CENTLAT": "+40.7457429",
+            "BLOCK": "1023",
+            "AREAWATER": 0,
+            "STATE": "49",
+            "BASENAME": "1023",
+            "OID": "210701004191840",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.7457429",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1023",
+            "OBJECTID": 6983005,
+            "TRACT": "113906",
+            "CENTLON": "-112.0448378",
+            "BLKGRP": "1",
+            "AREALAND": 4065789,
+            "HU100": 0,
+            "INTPTLON": "-112.0448378",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "035"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -112.0339,
+          "y": 40.7461
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

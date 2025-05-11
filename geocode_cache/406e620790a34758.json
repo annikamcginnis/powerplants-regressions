@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:58:49.411088+00:00",
+  "elapsed": 0.14905,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4508",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:58:49 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.1262&y=32.401"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.1262&y=32.401",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 250708,
+            "GEOID": "04011",
+            "CENTLAT": "+32.6005278",
+            "AREAWATER": 3834121,
+            "STATE": "04",
+            "BASENAME": "11",
+            "OID": "212904690702449",
+            "LSADC": "LU",
+            "SLDU": "011",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.5957821",
+            "NAME": "State Senate District 11",
+            "OBJECTID": 1324,
+            "CENTLON": "-111.5125489",
+            "LSY": "2018",
+            "HU100": 107715,
+            "AREALAND": 5090783401,
+            "INTPTLON": "-111.5083486",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779777",
+            "POP100": 7151502,
+            "GEOID": "04",
+            "CENTLAT": "+34.2751017",
+            "AREAWATER": 858853288,
+            "STATE": "04",
+            "BASENAME": "Arizona",
+            "STUSAB": "AZ",
+            "OID": "274901053753069",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.2039362",
+            "DIVISION": "8",
+            "NAME": "Arizona",
+            "REGION": "4",
+            "OBJECTID": 15,
+            "CENTLON": "-111.6605337",
+            "AREALAND": 294360991275,
+            "INTPTLON": "-111.6063449",
+            "HU100": 3082000,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1091102,
+            "GEOID": "536",
+            "CENTLAT": "+32.0314456",
+            "AREAWATER": 8180255,
+            "BASENAME": "Tucson-Nogales, AZ",
+            "OID": "2619013782255241",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.0303140",
+            "NAME": "Tucson-Nogales, AZ CSA",
+            "CSA": "536",
+            "OBJECTID": 97,
+            "CENTLON": "-111.6767448",
+            "HU100": 488861,
+            "AREALAND": 27000450920,
+            "INTPTLON": "-111.6738540",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93570",
+            "POP100": 905015,
+            "GEOID": "0401993570",
+            "CENTLAT": "+32.1506694",
+            "AREAWATER": 1936153,
+            "STATE": "04",
+            "BASENAME": "Tucson",
+            "OID": "276901253869038",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.1517350",
+            "NAME": "Tucson CCD",
+            "OBJECTID": 8740,
+            "CENTLON": "-110.7645754",
+            "COUSUBCC": "Z5",
+            "HU100": 409078,
+            "AREALAND": 5017960779,
+            "INTPTLON": "-110.7649031",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01934987",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 250708,
+            "GEOID": "04011",
+            "CENTLAT": "+32.6005278",
+            "SLDL": "011",
+            "AREAWATER": 3834121,
+            "STATE": "04",
+            "BASENAME": "11",
+            "OID": "213904690702897",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.5957821",
+            "NAME": "State House District 11",
+            "OBJECTID": 3550,
+            "CENTLON": "-111.5125489",
+            "LSY": "2018",
+            "HU100": 107715,
+            "AREALAND": 5090783401,
+            "INTPTLON": "-111.5083486",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 51908,
+            "GEOID": "0444270",
+            "CENTLAT": "+32.4354808",
+            "AREAWATER": 1769012,
+            "STATE": "04",
+            "BASENAME": "Marana",
+            "OID": "278901254189048",
+            "LSADC": "43",
+            "PLACE": "44270",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.4659413",
+            "NAME": "Marana town",
+            "OBJECTID": 14534,
+            "PLACECC": "C1",
+            "CENTLON": "-111.1558464",
+            "CBSAPCI": "N",
+            "HU100": 21521,
+            "AREALAND": 313645134,
+            "INTPTLON": "-111.1353999",
+            "PLACENS": "02412951",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 1043433,
+            "GEOID": "04019",
+            "CENTLAT": "+32.0990764",
+            "AREAWATER": 5112018,
+            "STATE": "04",
+            "BASENAME": "Pima",
+            "OID": "275901253674708",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.1280380",
+            "NAME": "Pima County",
+            "OBJECTID": 890,
+            "CENTLON": "-111.7892047",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00025446",
+            "AREALAND": 23798597680,
+            "INTPTLON": "-111.7836574",
+            "HU100": 470132,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 760850,
+            "GEOID": "0401",
+            "CENTLAT": "+34.9691295",
+            "CDSESSN": "116",
+            "AREAWATER": 360560111,
+            "STATE": "04",
+            "BASENAME": "1",
+            "OID": "211904690703003",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.9710133",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 308,
+            "CENTLON": "-110.7258436",
+            "HU100": 341695,
+            "AREALAND": 142537804057,
+            "INTPTLON": "-110.7259249",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5243,
+            "GEOID": "04019004639",
+            "CENTLAT": "+32.4032681",
+            "AREAWATER": 0,
+            "STATE": "04",
+            "BASENAME": "46.39",
+            "OID": "207901254945535",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.4032681",
+            "NAME": "Census Tract 46.39",
+            "OBJECTID": 41649,
+            "TRACT": "004639",
+            "CENTLON": "-111.0987958",
+            "HU100": 1918,
+            "AREALAND": 37008914,
+            "INTPTLON": "-111.0987958",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "019"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 54,
+            "GEOID": "040190046393000",
+            "CENTLAT": "+32.4094068",
+            "BLOCK": "3000",
+            "AREAWATER": 0,
+            "STATE": "04",
+            "BASENAME": "3000",
+            "OID": "210701002137110",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.4094068",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3000",
+            "OBJECTID": 7634729,
+            "TRACT": "004639",
+            "CENTLON": "-111.1139329",
+            "BLKGRP": "3",
+            "AREALAND": 19409168,
+            "HU100": 25,
+            "INTPTLON": "-111.1139329",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "019"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -111.1262,
+          "y": 32.401
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

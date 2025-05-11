@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:01:35.868590+00:00",
+  "elapsed": 0.219023,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4889",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:01:35 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.8983&y=38.4006"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-78.8983&y=38.4006",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 212085,
+            "GEOID": "51026",
+            "CENTLAT": "+38.7167992",
+            "AREAWATER": 33185480,
+            "STATE": "51",
+            "BASENAME": "26",
+            "OID": "212904690194341",
+            "LSADC": "LU",
+            "SLDU": "026",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7181044",
+            "NAME": "State Senate District 26",
+            "OBJECTID": 1567,
+            "CENTLON": "-078.5690931",
+            "LSY": "2018",
+            "HU100": 89826,
+            "AREALAND": 4847025077,
+            "INTPTLON": "-078.5701210",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779803",
+            "POP100": 8631393,
+            "GEOID": "51",
+            "CENTLAT": "+37.5182631",
+            "AREAWATER": 8528070310,
+            "STATE": "51",
+            "BASENAME": "Virginia",
+            "STUSAB": "VA",
+            "OID": "2749099610787",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5222512",
+            "DIVISION": "5",
+            "NAME": "Virginia",
+            "REGION": "3",
+            "OBJECTID": 11,
+            "CENTLON": "-078.6759174",
+            "AREALAND": 102258180558,
+            "INTPTLON": "-078.6681938",
+            "HU100": 3618247,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 261004,
+            "GEOID": "277",
+            "CENTLAT": "+38.3241701",
+            "AREAWATER": 20827312,
+            "BASENAME": "Harrisonburg-Staunton, VA",
+            "OID": "2619013782255138",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.3274462",
+            "NAME": "Harrisonburg-Staunton, VA CSA",
+            "CSA": "277",
+            "OBJECTID": 45,
+            "CENTLON": "-079.0115432",
+            "HU100": 109236,
+            "AREALAND": 4840927243,
+            "INTPTLON": "-079.0042161",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "37162",
+            "CENTLAT": "+38.4208579",
+            "AREAWATER": 190942,
+            "BASENAME": "Harrisonburg, VA",
+            "OID": "27021325499099",
+            "UA": "37162",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4194211",
+            "NAME": "Harrisonburg, VA Urban Area",
+            "OBJECTID": 689,
+            "CENTLON": "-078.8869977",
+            "AREALAND": 80557325,
+            "INTPTLON": "-078.8867874",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "93859",
+            "POP100": 51814,
+            "GEOID": "5166093859",
+            "CENTLAT": "+38.4361844",
+            "AREAWATER": 131080,
+            "STATE": "51",
+            "BASENAME": "Harrisonburg",
+            "OID": "27690325452892",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+38.4362547",
+            "NAME": "Harrisonburg city",
+            "OBJECTID": 11055,
+            "CENTLON": "-078.8734828",
+            "COUSUBCC": "Z7",
+            "HU100": 18626,
+            "AREALAND": 44908386,
+            "INTPTLON": "-078.8733028",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01498563",
+            "UR": "M",
+            "COUNTY": "660"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 85732,
+            "GEOID": "51026",
+            "CENTLAT": "+38.5849755",
+            "SLDL": "026",
+            "AREAWATER": 2669096,
+            "STATE": "51",
+            "BASENAME": "26",
+            "OID": "213904690194472",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.5916504",
+            "NAME": "State House District 26",
+            "OBJECTID": 3066,
+            "CENTLON": "-078.9153054",
+            "LSY": "2018",
+            "HU100": 33475,
+            "AREALAND": 1185994846,
+            "INTPTLON": "-078.9131393",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 51814,
+            "GEOID": "5135624",
+            "CENTLAT": "+38.4361844",
+            "AREAWATER": 131080,
+            "STATE": "51",
+            "BASENAME": "Harrisonburg",
+            "OID": "27890325465375",
+            "LSADC": "25",
+            "PLACE": "35624",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4362547",
+            "NAME": "Harrisonburg city",
+            "OBJECTID": 3370,
+            "PLACECC": "C7",
+            "CENTLON": "-078.8734828",
+            "CBSAPCI": "Y",
+            "HU100": 18626,
+            "AREALAND": 44908386,
+            "INTPTLON": "-078.8733028",
+            "PLACENS": "01498563",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 51814,
+            "GEOID": "51660",
+            "CENTLAT": "+38.4361844",
+            "AREAWATER": 131080,
+            "STATE": "51",
+            "BASENAME": "Harrisonburg",
+            "OID": "27590325447833",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+38.4362547",
+            "NAME": "Harrisonburg city",
+            "OBJECTID": 1141,
+            "CENTLON": "-078.8734828",
+            "COUNTYCC": "C7",
+            "COUNTYNS": "01498563",
+            "AREALAND": 44908386,
+            "INTPTLON": "-078.8733028",
+            "HU100": 18626,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "660"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 763401,
+            "GEOID": "5106",
+            "CENTLAT": "+38.1326161",
+            "CDSESSN": "116",
+            "AREAWATER": 104902711,
+            "STATE": "51",
+            "BASENAME": "6",
+            "OID": "211904690192960",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.1365430",
+            "NAME": "Congressional District 6",
+            "OBJECTID": 178,
+            "CENTLON": "-079.1953067",
+            "HU100": 338605,
+            "AREALAND": 15356041758,
+            "INTPTLON": "-079.1992544",
+            "CD116": "06",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 1806,
+            "GEOID": "51660000203",
+            "CENTLAT": "+38.4082027",
+            "AREAWATER": 16109,
+            "STATE": "51",
+            "BASENAME": "2.03",
+            "OID": "20790325476231",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4076130",
+            "NAME": "Census Tract 2.03",
+            "OBJECTID": 36611,
+            "TRACT": "000203",
+            "CENTLON": "-078.8945107",
+            "HU100": 736,
+            "AREALAND": 7561355,
+            "INTPTLON": "-078.8975335",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "660"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "516600002031048",
+            "CENTLAT": "+38.3985568",
+            "BLOCK": "1048",
+            "AREAWATER": 0,
+            "STATE": "51",
+            "BASENAME": "1048",
+            "OID": "210701006393302",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.3985568",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1048",
+            "OBJECTID": 3972111,
+            "TRACT": "000203",
+            "CENTLON": "-078.8990688",
+            "BLKGRP": "1",
+            "AREALAND": 172241,
+            "HU100": 0,
+            "INTPTLON": "-078.8990688",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "660"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -78.8983,
+          "y": 38.4006
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

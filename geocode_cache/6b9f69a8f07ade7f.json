@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:36:53.008720+00:00",
+  "elapsed": 0.161999,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4203",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:36:52 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.400429&y=42.259548"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.400429&y=42.259548",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 162455,
+            "GEOID": "25007",
+            "CENTLAT": "+42.1832627",
+            "AREAWATER": 14917857,
+            "STATE": "25",
+            "BASENAME": "First Hampden & Hampshire",
+            "OID": "212904693077259",
+            "LSADC": "07",
+            "SLDU": "007",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1835592",
+            "NAME": "First Hampden & Hampshire District",
+            "OBJECTID": 1523,
+            "CENTLON": "-072.4618203",
+            "LSY": "2018",
+            "HU100": 66266,
+            "AREALAND": 522324225,
+            "INTPTLON": "-072.4619119",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "04825",
+            "POP100": 15350,
+            "GEOID": "2501504825",
+            "CENTLAT": "+42.2787260",
+            "AREAWATER": 6936467,
+            "STATE": "25",
+            "BASENAME": "Belchertown",
+            "OID": "27690401117000",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.2790098",
+            "NAME": "Belchertown town",
+            "OBJECTID": 10920,
+            "CENTLON": "-072.4003581",
+            "COUSUBCC": "T1",
+            "HU100": 6357,
+            "AREALAND": 136237871,
+            "INTPTLON": "-072.4004682",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618196",
+            "UR": "M",
+            "COUNTY": "015"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3129,
+            "GEOID": "2504790",
+            "CENTLAT": "+42.2740690",
+            "AREAWATER": 5582,
+            "STATE": "25",
+            "BASENAME": "Belchertown",
+            "OID": "28090401181913",
+            "LSADC": "57",
+            "PLACE": "04790",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2718889",
+            "NAME": "Belchertown CDP",
+            "OBJECTID": 26850,
+            "PLACECC": "U1",
+            "CENTLON": "-072.4051078",
+            "CBSAPCI": "N",
+            "HU100": 1438,
+            "AREALAND": 13030679,
+            "INTPTLON": "-072.4028063",
+            "PLACENS": "02377986",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 43448,
+            "GEOID": "25108",
+            "CENTLAT": "+42.2325705",
+            "SLDL": "108",
+            "AREAWATER": 4709112,
+            "STATE": "25",
+            "BASENAME": "7th Hampden",
+            "OID": "213904693077627",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.2311137",
+            "NAME": "7th Hampden District",
+            "OBJECTID": 4132,
+            "CENTLON": "-072.4343829",
+            "LSY": "2018",
+            "HU100": 17999,
+            "AREALAND": 192596058,
+            "INTPTLON": "-072.4318814",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 162308,
+            "GEOID": "25015",
+            "CENTLAT": "+42.3402627",
+            "AREAWATER": 46642098,
+            "STATE": "25",
+            "BASENAME": "Hampshire",
+            "OID": "27590401060345",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3394593",
+            "NAME": "Hampshire County",
+            "OBJECTID": 142,
+            "CENTLON": "-072.6635433",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606934",
+            "AREALAND": 1365527344,
+            "INTPTLON": "-072.6636936",
+            "HU100": 66245,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "015"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 780054,
+            "GEOID": "2502",
+            "CENTLAT": "+42.3857790",
+            "CDSESSN": "116",
+            "AREAWATER": 221765526,
+            "STATE": "25",
+            "BASENAME": "2",
+            "OID": "211904690191937",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3850416",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 347,
+            "CENTLON": "-072.1168591",
+            "HU100": 319344,
+            "AREALAND": 4216491678,
+            "INTPTLON": "-072.1186908",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3848,
+            "GEOID": "25015820206",
+            "CENTLAT": "+42.2517775",
+            "AREAWATER": 25669,
+            "STATE": "25",
+            "BASENAME": "8202.06",
+            "OID": "2079015500728909",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.2600720",
+            "NAME": "Census Tract 8202.06",
+            "OBJECTID": 27046,
+            "TRACT": "820206",
+            "CENTLON": "-072.4174555",
+            "HU100": 1648,
+            "AREALAND": 24280802,
+            "INTPTLON": "-072.4122869",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "015"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 22,
+            "GEOID": "250158202063004",
+            "CENTLAT": "+42.2541664",
+            "BLOCK": "3004",
+            "AREAWATER": 0,
+            "STATE": "25",
+            "BASENAME": "3004",
+            "OID": "210701006701977",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.2541664",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3004",
+            "OBJECTID": 8020870,
+            "TRACT": "820206",
+            "CENTLON": "-072.3985232",
+            "BLKGRP": "3",
+            "AREALAND": 1416809,
+            "HU100": 5,
+            "INTPTLON": "-072.3985232",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "015"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.400429,
+          "y": 42.259548
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

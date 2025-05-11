@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:37:11.574557+00:00",
+  "elapsed": 0.176914,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4522",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:37:11 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.3147&y=40.6175"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.3147&y=40.6175",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 274965,
+            "GEOID": "42018",
+            "CENTLAT": "+40.6330861",
+            "AREAWATER": 6929634,
+            "STATE": "42",
+            "BASENAME": "18",
+            "OID": "212904690193492",
+            "LSADC": "LU",
+            "SLDU": "018",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6332733",
+            "NAME": "State Senate District 18",
+            "OBJECTID": 1903,
+            "CENTLON": "-075.3468063",
+            "LSY": "2018",
+            "HU100": 114181,
+            "AREALAND": 343958137,
+            "INTPTLON": "-075.3458625",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779798",
+            "POP100": 13002700,
+            "GEOID": "42",
+            "CENTLAT": "+40.9011320",
+            "AREAWATER": 3397760687,
+            "STATE": "42",
+            "BASENAME": "Pennsylvania",
+            "STUSAB": "PA",
+            "OID": "27490163788605",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9046013",
+            "DIVISION": "2",
+            "NAME": "Pennsylvania",
+            "REGION": "1",
+            "OBJECTID": 34,
+            "CENTLON": "-077.8369304",
+            "AREALAND": 115881934065,
+            "INTPTLON": "-077.8275298",
+            "HU100": 5742828,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "01495",
+            "CENTLAT": "+40.6395442",
+            "AREAWATER": 9302819,
+            "BASENAME": "Allentown--Bethlehem, PA--NJ",
+            "OID": "27021211205563",
+            "UA": "01495",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6391581",
+            "NAME": "Allentown--Bethlehem, PA--NJ Urban Area",
+            "OBJECTID": 391,
+            "CENTLON": "-075.4137605",
+            "AREALAND": 677400838,
+            "INTPTLON": "-075.4144980",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "06088",
+            "POP100": 56009,
+            "GEOID": "4209506088",
+            "CENTLAT": "+40.6250041",
+            "AREAWATER": 632465,
+            "STATE": "42",
+            "BASENAME": "Bethlehem",
+            "OID": "27690286127897",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+40.6243442",
+            "NAME": "Bethlehem city",
+            "OBJECTID": 10221,
+            "CENTLON": "-075.3562018",
+            "COUSUBCC": "C5",
+            "HU100": 23099,
+            "AREALAND": 38375034,
+            "INTPTLON": "-075.3526407",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01217330",
+            "UR": "M",
+            "COUNTY": "095"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 65470,
+            "GEOID": "42135",
+            "CENTLAT": "+40.6286568",
+            "SLDL": "135",
+            "AREAWATER": 783867,
+            "STATE": "42",
+            "BASENAME": "135",
+            "OID": "213904690193567",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.6243442",
+            "NAME": "State House District 135",
+            "OBJECTID": 1133,
+            "CENTLON": "-075.3508591",
+            "LSY": "2018",
+            "HU100": 26924,
+            "AREALAND": 46375793,
+            "INTPTLON": "-075.3526407",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 75781,
+            "GEOID": "4206088",
+            "CENTLAT": "+40.6266568",
+            "AREAWATER": 892469,
+            "STATE": "42",
+            "BASENAME": "Bethlehem",
+            "OID": "27890276444910",
+            "LSADC": "25",
+            "PLACE": "06088",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.6264238",
+            "NAME": "Bethlehem city",
+            "OBJECTID": 5472,
+            "PLACECC": "C5",
+            "CENTLON": "-075.3679011",
+            "CBSAPCI": "Y",
+            "HU100": 32205,
+            "AREALAND": 49508434,
+            "INTPTLON": "-075.3678976",
+            "PLACENS": "01217330",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 312951,
+            "GEOID": "42095",
+            "CENTLAT": "+40.7541073",
+            "AREAWATER": 19058409,
+            "STATE": "42",
+            "BASENAME": "Northampton",
+            "OID": "27590286121847",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.7527913",
+            "NAME": "Northampton County",
+            "OBJECTID": 1910,
+            "CENTLON": "-075.3077076",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01209185",
+            "AREALAND": 957745652,
+            "INTPTLON": "-075.3074468",
+            "HU100": 127584,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "095"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 745782,
+            "GEOID": "4207",
+            "CENTLAT": "+40.7279399",
+            "CDSESSN": "116",
+            "AREAWATER": 29729161,
+            "STATE": "42",
+            "BASENAME": "7",
+            "OID": "211904690192563",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.7278216",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 270,
+            "CENTLON": "-075.4180938",
+            "HU100": 301172,
+            "AREALAND": 2219443951,
+            "INTPTLON": "-075.4232195",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4256,
+            "GEOID": "42095011300",
+            "CENTLAT": "+40.6043221",
+            "AREAWATER": 324048,
+            "STATE": "42",
+            "BASENAME": "113",
+            "OID": "20790286141049",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.6068827",
+            "NAME": "Census Tract 113",
+            "OBJECTID": 22375,
+            "TRACT": "011300",
+            "CENTLON": "-075.3406226",
+            "HU100": 1799,
+            "AREALAND": 14771826,
+            "INTPTLON": "-075.3386555",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "095"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "420950113003001",
+            "CENTLAT": "+40.6119459",
+            "BLOCK": "3001",
+            "AREAWATER": 0,
+            "STATE": "42",
+            "BASENAME": "3001",
+            "OID": "210701003096844",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.6119459",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3001",
+            "OBJECTID": 4892106,
+            "TRACT": "011300",
+            "CENTLON": "-075.3176938",
+            "BLKGRP": "3",
+            "AREALAND": 2265654,
+            "HU100": 0,
+            "INTPTLON": "-075.3176938",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "095"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -75.3147,
+          "y": 40.6175
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

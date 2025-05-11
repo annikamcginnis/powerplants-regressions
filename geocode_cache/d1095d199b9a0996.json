@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:10:49.761718+00:00",
+  "elapsed": 0.395654,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4557",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:10:49 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.164903&y=38.782931"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.164903&y=38.782931",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 56440,
+            "GEOID": "10006",
+            "CENTLAT": "+38.7362915",
+            "AREAWATER": 236862006,
+            "STATE": "10",
+            "BASENAME": "6",
+            "OID": "212904487327207",
+            "LSADC": "LU",
+            "SLDU": "006",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7365185",
+            "NAME": "State Senate District 6",
+            "OBJECTID": 389,
+            "CENTLON": "-075.1500132",
+            "LSY": "2018",
+            "HU100": 42868,
+            "AREALAND": 298385425,
+            "INTPTLON": "-075.1493502",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779781",
+            "POP100": 989948,
+            "GEOID": "10",
+            "CENTLAT": "+38.9932570",
+            "AREAWATER": 1399179670,
+            "STATE": "10",
+            "BASENAME": "Delaware",
+            "STUSAB": "DE",
+            "OID": "27490331618368",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.9985661",
+            "DIVISION": "5",
+            "NAME": "Delaware",
+            "REGION": "3",
+            "OBJECTID": 27,
+            "CENTLON": "-075.4514104",
+            "AREALAND": 5046731558,
+            "INTPTLON": "-075.4416440",
+            "HU100": 448735,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 450577,
+            "GEOID": "480",
+            "CENTLAT": "+38.4070942",
+            "AREAWATER": 3225387620,
+            "BASENAME": "Salisbury-Cambridge, MD-DE",
+            "OID": "2619013782255224",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.4137317",
+            "NAME": "Salisbury-Cambridge, MD-DE CSA",
+            "CSA": "480",
+            "OBJECTID": 169,
+            "CENTLON": "-075.6313627",
+            "HU100": 269503,
+            "AREALAND": 6836276206,
+            "INTPTLON": "-075.6314628",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91776",
+            "POP100": 38035,
+            "GEOID": "1000591776",
+            "CENTLAT": "+38.7380708",
+            "AREAWATER": 235998104,
+            "STATE": "10",
+            "BASENAME": "Lewes",
+            "OID": "27690337200021",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.7368667",
+            "NAME": "Lewes CCD",
+            "OBJECTID": 4972,
+            "CENTLON": "-075.1172875",
+            "COUSUBCC": "Z5",
+            "HU100": 33243,
+            "AREALAND": 195797331,
+            "INTPTLON": "-075.1201635",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935613",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 29876,
+            "GEOID": "10020",
+            "CENTLAT": "+38.7617105",
+            "SLDL": "020",
+            "AREAWATER": 68287843,
+            "STATE": "10",
+            "BASENAME": "20",
+            "OID": "213904487327251",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.7606560",
+            "NAME": "State House District 20",
+            "OBJECTID": 474,
+            "CENTLON": "-075.2211762",
+            "LSY": "2018",
+            "HU100": 17593,
+            "AREALAND": 209995954,
+            "INTPTLON": "-075.2180818",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 3303,
+            "GEOID": "1041830",
+            "CENTLAT": "+38.7789594",
+            "AREAWATER": 2388974,
+            "STATE": "10",
+            "BASENAME": "Lewes",
+            "OID": "27890337205661",
+            "LSADC": "25",
+            "PLACE": "41830",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.7786440",
+            "NAME": "Lewes city",
+            "OBJECTID": 6718,
+            "PLACECC": "C1",
+            "CENTLON": "-075.1452517",
+            "CBSAPCI": "N",
+            "HU100": 3085,
+            "AREALAND": 10857764,
+            "INTPTLON": "-075.1436890",
+            "PLACENS": "02390609",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 237378,
+            "GEOID": "10005",
+            "CENTLAT": "+38.6832032",
+            "AREAWATER": 674085951,
+            "STATE": "10",
+            "BASENAME": "Sussex",
+            "OID": "27590337189172",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.6732275",
+            "NAME": "Sussex County",
+            "OBJECTID": 1186,
+            "CENTLON": "-075.3395931",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00217269",
+            "AREALAND": 2424633517,
+            "INTPTLON": "-075.3370237",
+            "HU100": 142280,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 989948,
+            "GEOID": "1000",
+            "CENTLAT": "+38.9932570",
+            "CDSESSN": "116",
+            "AREAWATER": 1399179670,
+            "STATE": "10",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904689770056",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.9985661",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 267,
+            "CENTLON": "-075.4514104",
+            "HU100": 448735,
+            "AREALAND": 5046731558,
+            "INTPTLON": "-075.4416440",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2161,
+            "GEOID": "10005050903",
+            "CENTLAT": "+38.7735437",
+            "AREAWATER": 204514,
+            "STATE": "10",
+            "BASENAME": "509.03",
+            "OID": "2079015487590002",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+38.7740135",
+            "NAME": "Census Tract 509.03",
+            "OBJECTID": 47532,
+            "TRACT": "050903",
+            "CENTLON": "-075.1586559",
+            "HU100": 1477,
+            "AREALAND": 6037798,
+            "INTPTLON": "-075.1581720",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "100050509032007",
+            "CENTLAT": "+38.7832673",
+            "BLOCK": "2007",
+            "AREAWATER": 0,
+            "STATE": "10",
+            "BASENAME": "2007",
+            "OID": "210701008008192",
+            "LSADC": "BK",
+            "INTPTLAT": "+38.7832673",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2007",
+            "OBJECTID": 5169205,
+            "TRACT": "050903",
+            "CENTLON": "-075.1663949",
+            "BLKGRP": "2",
+            "AREALAND": 616815,
+            "HU100": 0,
+            "INTPTLON": "-075.1663949",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -75.164903,
+          "y": 38.782931
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:52:54.404970+00:00",
+  "elapsed": 0.197218,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4953",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:52:54 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.369746&y=41.833746"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.369746&y=41.833746",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 27580,
+            "GEOID": "44014",
+            "CENTLAT": "+41.8142069",
+            "AREAWATER": 2086335,
+            "STATE": "44",
+            "BASENAME": "14",
+            "OID": "212904693077657",
+            "LSADC": "LU",
+            "SLDU": "014",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.8144074",
+            "NAME": "State Senate District 14",
+            "OBJECTID": 1845,
+            "CENTLON": "-071.3680939",
+            "LSY": "2018",
+            "HU100": 12734,
+            "AREALAND": 15485285,
+            "INTPTLON": "-071.3688588",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01219835",
+            "POP100": 1097379,
+            "GEOID": "44",
+            "CENTLAT": "+41.5940253",
+            "AREAWATER": 1323691129,
+            "STATE": "44",
+            "BASENAME": "Rhode Island",
+            "STUSAB": "RI",
+            "OID": "27490224494057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.5964850",
+            "DIVISION": "1",
+            "NAME": "Rhode Island",
+            "REGION": "1",
+            "OBJECTID": 21,
+            "CENTLON": "-071.5247212",
+            "AREALAND": 2677759219,
+            "INTPTLON": "-071.5264901",
+            "HU100": 483474,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "72505",
+            "CENTLAT": "+41.8028032",
+            "AREAWATER": 86270593,
+            "BASENAME": "Providence, RI--MA",
+            "OID": "27021224509183",
+            "UA": "72505",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.8016313",
+            "NAME": "Providence, RI--MA Urban Area",
+            "OBJECTID": 541,
+            "CENTLON": "-071.3754678",
+            "AREALAND": 1409591947,
+            "INTPTLON": "-071.3780003",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "22960",
+            "POP100": 47139,
+            "GEOID": "4400722960",
+            "CENTLAT": "+41.8004900",
+            "AREAWATER": 8602870,
+            "STATE": "44",
+            "BASENAME": "East Providence",
+            "OID": "27690251128748",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+41.8004329",
+            "NAME": "East Providence city",
+            "OBJECTID": 21751,
+            "CENTLON": "-071.3582129",
+            "COUSUBCC": "C5",
+            "HU100": 22196,
+            "AREALAND": 34406028,
+            "INTPTLON": "-071.3592577",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01220071",
+            "UR": "U",
+            "COUNTY": "007"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 14496,
+            "GEOID": "44063",
+            "CENTLAT": "+41.8355281",
+            "SLDL": "063",
+            "AREAWATER": 1649284,
+            "STATE": "44",
+            "BASENAME": "63",
+            "OID": "213904693077857",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.8351113",
+            "NAME": "State House District 63",
+            "OBJECTID": 4518,
+            "CENTLON": "-071.3556897",
+            "LSY": "2018",
+            "HU100": 6817,
+            "AREALAND": 12872981,
+            "INTPTLON": "-071.3547950",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 47139,
+            "GEOID": "4422960",
+            "CENTLAT": "+41.8004900",
+            "AREAWATER": 8602870,
+            "STATE": "44",
+            "BASENAME": "East Providence",
+            "OID": "27890251138923",
+            "LSADC": "25",
+            "PLACE": "22960",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.8004329",
+            "NAME": "East Providence city",
+            "OBJECTID": 10650,
+            "PLACECC": "C5",
+            "CENTLON": "-071.3582129",
+            "CBSAPCI": "N",
+            "HU100": 22196,
+            "AREALAND": 34406028,
+            "INTPTLON": "-071.3592577",
+            "PLACENS": "01220071",
+            "MTFCC": "G4110",
+            "UR": "U"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 660741,
+            "GEOID": "44007",
+            "CENTLAT": "+41.8713382",
+            "AREAWATER": 67870199,
+            "STATE": "44",
+            "BASENAME": "Providence",
+            "OID": "27590251100414",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.8697678",
+            "NAME": "Providence County",
+            "OBJECTID": 2475,
+            "CENTLON": "-071.5785176",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "01219781",
+            "AREALAND": 1060552463,
+            "INTPTLON": "-071.5786246",
+            "HU100": 276770,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 554307,
+            "GEOID": "4401",
+            "CENTLAT": "+41.6411523",
+            "CDSESSN": "116",
+            "AREAWATER": 628736839,
+            "STATE": "44",
+            "BASENAME": "1",
+            "OID": "211904693077870",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.6306771",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 429,
+            "CENTLON": "-071.3347332",
+            "HU100": 243017,
+            "AREALAND": 695511947,
+            "INTPTLON": "-071.3286718",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6602,
+            "GEOID": "44007010200",
+            "CENTLAT": "+41.8260427",
+            "AREAWATER": 268747,
+            "STATE": "44",
+            "BASENAME": "102",
+            "OID": "20790251210359",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.8259617",
+            "NAME": "Census Tract 102",
+            "OBJECTID": 85492,
+            "TRACT": "010200",
+            "CENTLON": "-071.3713463",
+            "HU100": 2982,
+            "AREALAND": 2799758,
+            "INTPTLON": "-071.3714529",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "007"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 15,
+            "GEOID": "440070102001002",
+            "CENTLAT": "+41.8324614",
+            "BLOCK": "1002",
+            "AREAWATER": 0,
+            "STATE": "44",
+            "BASENAME": "1002",
+            "OID": "210701007809914",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.8324614",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1002",
+            "OBJECTID": 7996608,
+            "TRACT": "010200",
+            "CENTLON": "-071.3715642",
+            "BLKGRP": "1",
+            "AREALAND": 214925,
+            "HU100": 1,
+            "INTPTLON": "-071.3715642",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "007"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -71.369746,
+          "y": 41.833746
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

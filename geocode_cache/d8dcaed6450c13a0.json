@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:39:30.422527+00:00",
+  "elapsed": 0.164621,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4888",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:39:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.898711&y=42.717439"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-87.898711&y=42.717439",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 178202,
+            "GEOID": "55021",
+            "CENTLAT": "+42.6671174",
+            "AREAWATER": 2427297606,
+            "STATE": "55",
+            "BASENAME": "21",
+            "OID": "212904691748366",
+            "LSADC": "LU",
+            "SLDU": "021",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.4926360",
+            "NAME": "State Senate District 21",
+            "OBJECTID": 1302,
+            "CENTLON": "-087.6429450",
+            "LSY": "2018",
+            "HU100": 76698,
+            "AREALAND": 1274445242,
+            "INTPTLON": "-087.8039564",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2053232,
+            "GEOID": "376",
+            "CENTLAT": "+43.0980691",
+            "AREAWATER": 6229970640,
+            "BASENAME": "Milwaukee-Racine-Waukesha, WI",
+            "OID": "2619013782255183",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.0999544",
+            "NAME": "Milwaukee-Racine-Waukesha, WI CSA",
+            "CSA": "376",
+            "OBJECTID": 128,
+            "CENTLON": "-088.0793626",
+            "HU100": 905900,
+            "AREALAND": 9777425547,
+            "INTPTLON": "-088.0792459",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "73153",
+            "CENTLAT": "+42.7374064",
+            "AREAWATER": 1379581,
+            "BASENAME": "Racine, WI",
+            "OID": "27021296438332",
+            "UA": "73153",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.7381829",
+            "NAME": "Racine, WI Urban Area",
+            "OBJECTID": 376,
+            "CENTLON": "-087.8373792",
+            "AREALAND": 135346466,
+            "INTPTLON": "-087.8328396",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "77925",
+            "POP100": 6919,
+            "GEOID": "5510177925",
+            "CENTLAT": "+42.6994845",
+            "AREAWATER": 3250,
+            "STATE": "55",
+            "BASENAME": "Sturtevant",
+            "OID": "27690486245774",
+            "LSADC": "47",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.6989000",
+            "NAME": "Sturtevant village",
+            "OBJECTID": 24672,
+            "CENTLON": "-087.9019199",
+            "COUSUBCC": "C5",
+            "HU100": 2178,
+            "AREALAND": 10629978,
+            "INTPTLON": "-087.9015530",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01584241",
+            "UR": "M",
+            "COUNTY": "101"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 59808,
+            "GEOID": "55063",
+            "CENTLAT": "+42.7042075",
+            "SLDL": "063",
+            "AREAWATER": 6886093,
+            "STATE": "55",
+            "BASENAME": "63",
+            "OID": "213904691750517",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6967932",
+            "NAME": "Assembly District 63",
+            "OBJECTID": 3932,
+            "CENTLON": "-088.0962379",
+            "LSY": "2018",
+            "HU100": 25168,
+            "AREALAND": 413999896,
+            "INTPTLON": "-088.0997911",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 6919,
+            "GEOID": "5577925",
+            "CENTLAT": "+42.6994845",
+            "AREAWATER": 3250,
+            "STATE": "55",
+            "BASENAME": "Sturtevant",
+            "OID": "27890486248040",
+            "LSADC": "47",
+            "PLACE": "77925",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.6989000",
+            "NAME": "Sturtevant village",
+            "OBJECTID": 6825,
+            "PLACECC": "C5",
+            "CENTLON": "-087.9019199",
+            "CBSAPCI": "N",
+            "HU100": 2178,
+            "AREALAND": 10629978,
+            "INTPTLON": "-087.9015530",
+            "PLACENS": "01584241",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 197727,
+            "GEOID": "55101",
+            "CENTLAT": "+42.7517276",
+            "AREAWATER": 1190103013,
+            "STATE": "55",
+            "BASENAME": "Racine",
+            "OID": "27590486236165",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.7803923",
+            "NAME": "Racine County",
+            "OBJECTID": 2690,
+            "CENTLON": "-087.6961270",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581111",
+            "AREALAND": 861537618,
+            "INTPTLON": "-087.7715988",
+            "HU100": 84490,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "101"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 727452,
+            "GEOID": "5501",
+            "CENTLAT": "+42.6967884",
+            "CDSESSN": "116",
+            "AREAWATER": 2523745476,
+            "STATE": "55",
+            "BASENAME": "1",
+            "OID": "211904691756795",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6952385",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 357,
+            "CENTLON": "-088.0462869",
+            "HU100": 315416,
+            "AREALAND": 4475468893,
+            "INTPTLON": "-088.0463495",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6998,
+            "GEOID": "55101001702",
+            "CENTLAT": "+42.6952494",
+            "AREAWATER": 70891,
+            "STATE": "55",
+            "BASENAME": "17.02",
+            "OID": "20790486440399",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.6955402",
+            "NAME": "Census Tract 17.02",
+            "OBJECTID": 84563,
+            "TRACT": "001702",
+            "CENTLON": "-087.8977799",
+            "HU100": 2214,
+            "AREALAND": 15434819,
+            "INTPTLON": "-087.8978410",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "101"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 158,
+            "GEOID": "551010017025003",
+            "CENTLAT": "+42.7175694",
+            "BLOCK": "5003",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "5003",
+            "OID": "210701005848476",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.7175694",
+            "FUNCSTAT": "S",
+            "NAME": "Block 5003",
+            "OBJECTID": 6245726,
+            "TRACT": "001702",
+            "CENTLON": "-087.8998985",
+            "BLKGRP": "5",
+            "AREALAND": 186345,
+            "HU100": 0,
+            "INTPTLON": "-087.8998985",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "101"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -87.898711,
+          "y": 42.717439
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

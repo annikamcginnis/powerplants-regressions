@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:07:12.600020+00:00",
+  "elapsed": 0.153968,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "5007",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:07:12 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.011672&y=42.090932"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.011672&y=42.090932",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 173171,
+            "GEOID": "25012",
+            "CENTLAT": "+42.0852921",
+            "AREAWATER": 27731866,
+            "STATE": "25",
+            "BASENAME": "Worcester & Norfolk",
+            "OID": "212904693077279",
+            "LSADC": "07",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.0811036",
+            "NAME": "Worcester & Norfolk District",
+            "OBJECTID": 1533,
+            "CENTLON": "-071.7260541",
+            "LSY": "2018",
+            "HU100": 71249,
+            "AREALAND": 671380814,
+            "INTPTLON": "-071.7194854",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "83160",
+            "CENTLAT": "+42.0992132",
+            "AREAWATER": 947681,
+            "BASENAME": "Southbridge Town, MA",
+            "OID": "2702132391317985",
+            "UA": "83160",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0974224",
+            "NAME": "Southbridge Town, MA Urban Area",
+            "OBJECTID": 2483,
+            "CENTLON": "-072.0634469",
+            "AREALAND": 29862528,
+            "INTPTLON": "-072.0669778",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "63345",
+            "POP100": 17740,
+            "GEOID": "2502763345",
+            "CENTLAT": "+42.0604296",
+            "AREAWATER": 1612700,
+            "STATE": "25",
+            "BASENAME": "Southbridge Town",
+            "OID": "27690515417254",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.0597374",
+            "NAME": "Southbridge Town city",
+            "OBJECTID": 23100,
+            "CENTLON": "-072.0337711",
+            "COUSUBCC": "C5",
+            "HU100": 7899,
+            "AREALAND": 52416905,
+            "INTPTLON": "-072.0339083",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618383",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 42768,
+            "GEOID": "25208",
+            "CENTLAT": "+42.1003027",
+            "SLDL": "208",
+            "AREAWATER": 9436057,
+            "STATE": "25",
+            "BASENAME": "6th Worcester",
+            "OID": "213904693077493",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1021649",
+            "NAME": "6th Worcester District",
+            "OBJECTID": 4281,
+            "CENTLON": "-071.9784571",
+            "LSY": "2018",
+            "HU100": 17963,
+            "AREALAND": 209314040,
+            "INTPTLON": "-071.9809210",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 17740,
+            "GEOID": "2563345",
+            "CENTLAT": "+42.0604296",
+            "AREAWATER": 1612700,
+            "STATE": "25",
+            "BASENAME": "Southbridge Town",
+            "OID": "278903710003383",
+            "LSADC": "25",
+            "PLACE": "63345",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0597374",
+            "NAME": "Southbridge Town city",
+            "OBJECTID": 10283,
+            "PLACECC": "C5",
+            "CENTLON": "-072.0337711",
+            "CBSAPCI": "N",
+            "HU100": 7899,
+            "AREALAND": 52416905,
+            "INTPTLON": "-072.0339083",
+            "PLACENS": "00618383",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 862111,
+            "GEOID": "25027",
+            "CENTLAT": "+42.3510196",
+            "AREAWATER": 177366263,
+            "STATE": "25",
+            "BASENAME": "Worcester",
+            "OID": "27590260056196",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3116934",
+            "NAME": "Worcester County",
+            "OBJECTID": 602,
+            "CENTLON": "-071.9073643",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606940",
+            "AREALAND": 3912627580,
+            "INTPTLON": "-071.9402820",
+            "HU100": 351764,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 730467,
+            "GEOID": "2501",
+            "CENTLAT": "+42.3220873",
+            "CDSESSN": "116",
+            "AREAWATER": 129683314,
+            "STATE": "25",
+            "BASENAME": "1",
+            "OID": "211904690191786",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3310441",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 342,
+            "CENTLON": "-072.8559719",
+            "HU100": 326979,
+            "AREALAND": 6086808204,
+            "INTPTLON": "-072.8641784",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4630,
+            "GEOID": "25027757100",
+            "CENTLAT": "+42.0921489",
+            "AREAWATER": 173539,
+            "STATE": "25",
+            "BASENAME": "7571",
+            "OID": "20790515417600",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0952104",
+            "NAME": "Census Tract 7571",
+            "OBJECTID": 59838,
+            "TRACT": "757100",
+            "CENTLON": "-072.0332201",
+            "HU100": 2112,
+            "AREALAND": 9902320,
+            "INTPTLON": "-072.0296075",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "027"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 282,
+            "GEOID": "250277571001000",
+            "CENTLAT": "+42.0925767",
+            "BLOCK": "1000",
+            "AREAWATER": 4644,
+            "STATE": "25",
+            "BASENAME": "1000",
+            "OID": "210701007856801",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.0927444",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1000",
+            "OBJECTID": 4294164,
+            "TRACT": "757100",
+            "CENTLON": "-072.0125888",
+            "BLKGRP": "1",
+            "AREALAND": 1666119,
+            "HU100": 128,
+            "INTPTLON": "-072.0124796",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "027"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.011672,
+          "y": 42.090932
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

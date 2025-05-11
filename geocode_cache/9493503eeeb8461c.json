@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:01:56.888859+00:00",
+  "elapsed": 0.185589,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4585",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:01:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-116.953889&y=47.703333"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-116.953889&y=47.703333",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 60775,
+            "GEOID": "16003",
+            "CENTLAT": "+47.5619630",
+            "AREAWATER": 55170348,
+            "STATE": "16",
+            "BASENAME": "3",
+            "OID": "212904486864671",
+            "LSADC": "LU",
+            "SLDU": "003",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.5609312",
+            "NAME": "State Senate District 3",
+            "OBJECTID": 520,
+            "CENTLON": "-116.9227659",
+            "LSY": "2018",
+            "HU100": 25373,
+            "AREALAND": 717806652,
+            "INTPTLON": "-116.9253429",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779783",
+            "POP100": 1839106,
+            "GEOID": "16",
+            "CENTLAT": "+44.3524056",
+            "AREAWATER": 2391577745,
+            "STATE": "16",
+            "BASENAME": "Idaho",
+            "STUSAB": "ID",
+            "OID": "27490130780184",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.3484222",
+            "DIVISION": "8",
+            "NAME": "Idaho",
+            "REGION": "4",
+            "OBJECTID": 22,
+            "CENTLON": "-114.6136830",
+            "AREALAND": 214049923496,
+            "INTPTLON": "-114.5588538",
+            "HU100": 751859,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 757146,
+            "GEOID": "518",
+            "CENTLAT": "+47.9840483",
+            "AREAWATER": 390812319,
+            "BASENAME": "Spokane-Spokane Valley-Coeur d'Alene, WA-ID",
+            "OID": "2619013782255235",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.9846984",
+            "NAME": "Spokane-Spokane Valley-Coeur d'Alene, WA-ID CSA",
+            "CSA": "518",
+            "OBJECTID": 91,
+            "CENTLON": "-117.4418841",
+            "HU100": 320997,
+            "AREALAND": 14190795346,
+            "INTPTLON": "-117.4543719",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92875",
+            "POP100": 60672,
+            "GEOID": "1605592875",
+            "CENTLAT": "+47.7644144",
+            "AREAWATER": 6663840,
+            "STATE": "16",
+            "BASENAME": "Post Falls-Rathdrum",
+            "OID": "27690153646709",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.7638598",
+            "NAME": "Post Falls-Rathdrum CCD",
+            "OBJECTID": 20373,
+            "CENTLON": "-116.9558585",
+            "COUSUBCC": "Z5",
+            "HU100": 23903,
+            "AREALAND": 357792918,
+            "INTPTLON": "-116.9544285",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01936791",
+            "UR": "M",
+            "COUNTY": "055"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 60775,
+            "GEOID": "16003",
+            "CENTLAT": "+47.5619630",
+            "SLDL": "003",
+            "AREAWATER": 55170348,
+            "STATE": "16",
+            "BASENAME": "3",
+            "OID": "213904486864741",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.5609312",
+            "NAME": "State House District 3",
+            "OBJECTID": 175,
+            "CENTLON": "-116.9227659",
+            "LSY": "2018",
+            "HU100": 25373,
+            "AREALAND": 717806652,
+            "INTPTLON": "-116.9253429",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 38485,
+            "GEOID": "1664810",
+            "CENTLAT": "+47.7212317",
+            "AREAWATER": 70897,
+            "STATE": "16",
+            "BASENAME": "Post Falls",
+            "OID": "27890153647945",
+            "LSADC": "25",
+            "PLACE": "64810",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.7212111",
+            "NAME": "Post Falls city",
+            "OBJECTID": 4144,
+            "PLACECC": "C1",
+            "CENTLON": "-116.9384232",
+            "CBSAPCI": "N",
+            "HU100": 15355,
+            "AREALAND": 39289055,
+            "INTPTLON": "-116.9388071",
+            "PLACENS": "02411475",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 171362,
+            "GEOID": "16055",
+            "CENTLAT": "+47.6740043",
+            "AREAWATER": 184447536,
+            "STATE": "16",
+            "BASENAME": "Kootenai",
+            "OID": "27590153640613",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.6759569",
+            "NAME": "Kootenai County",
+            "OBJECTID": 194,
+            "CENTLON": "-116.7017392",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00395661",
+            "AREALAND": 3205833858,
+            "INTPTLON": "-116.6959192",
+            "HU100": 74736,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "055"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 954891,
+            "GEOID": "1601",
+            "CENTLAT": "+45.3057748",
+            "CDSESSN": "116",
+            "AREAWATER": 1310340620,
+            "STATE": "16",
+            "BASENAME": "1",
+            "OID": "211904486863709",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.2967502",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 248,
+            "CENTLON": "-116.0311278",
+            "HU100": 394076,
+            "AREALAND": 102098333136,
+            "INTPTLON": "-116.0358424",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 7020,
+            "GEOID": "16055000401",
+            "CENTLAT": "+47.6745880",
+            "AREAWATER": 1360439,
+            "STATE": "16",
+            "BASENAME": "4.01",
+            "OID": "207903714677206",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+47.6514553",
+            "NAME": "Census Tract 4.01",
+            "OBJECTID": 74420,
+            "TRACT": "000401",
+            "CENTLON": "-116.9864610",
+            "HU100": 2713,
+            "AREALAND": 103710998,
+            "INTPTLON": "-117.0032478",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "055"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "160550004014004",
+            "CENTLAT": "+47.7028910",
+            "BLOCK": "4004",
+            "AREAWATER": 321,
+            "STATE": "16",
+            "BASENAME": "4004",
+            "OID": "210701008080980",
+            "LSADC": "BK",
+            "INTPTLAT": "+47.7028479",
+            "FUNCSTAT": "S",
+            "NAME": "Block 4004",
+            "OBJECTID": 6728532,
+            "TRACT": "000401",
+            "CENTLON": "-116.9577036",
+            "BLKGRP": "4",
+            "AREALAND": 325249,
+            "HU100": 0,
+            "INTPTLON": "-116.9577955",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "055"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -116.953889,
+          "y": 47.703333
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

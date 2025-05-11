@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T16:02:38.016631+00:00",
+  "elapsed": 0.167331,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4941",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:02:38 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.1815&y=33.5226"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.1815&y=33.5226",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1018706,
+            "GEOID": "06028",
+            "CENTLAT": "+33.7273697",
+            "AREAWATER": 225230941,
+            "STATE": "06",
+            "BASENAME": "28",
+            "OID": "212904690192889",
+            "LSADC": "LU",
+            "SLDU": "028",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.7302775",
+            "NAME": "State Senate District 28",
+            "OBJECTID": 990,
+            "CENTLON": "-115.8412640",
+            "LSY": "2018",
+            "HU100": 416275,
+            "AREALAND": 16506290898,
+            "INTPTLON": "-115.8931674",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 18644680,
+            "GEOID": "348",
+            "CENTLAT": "+34.4706942",
+            "AREAWATER": 3480748723,
+            "BASENAME": "Los Angeles-Long Beach, CA",
+            "OID": "2619013782255168",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.4637584",
+            "NAME": "Los Angeles-Long Beach, CA CSA",
+            "CSA": "348",
+            "OBJECTID": 113,
+            "CENTLON": "-116.6480307",
+            "HU100": 6595294,
+            "AREALAND": 87982392819,
+            "INTPTLON": "-116.6585523",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "87004",
+            "CENTLAT": "+33.6199718",
+            "AREAWATER": 2337140,
+            "BASENAME": "Temecula--Murrieta--Menifee, CA",
+            "OID": "2702132391317823",
+            "UA": "87004",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5409058",
+            "NAME": "Temecula--Murrieta--Menifee, CA Urban Area",
+            "OBJECTID": 1489,
+            "CENTLON": "-117.1932851",
+            "AREALAND": 389726572,
+            "INTPTLON": "-117.1389628",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92060",
+            "POP100": 322536,
+            "GEOID": "0606592060",
+            "CENTLAT": "+33.5363214",
+            "AREAWATER": 4490904,
+            "STATE": "06",
+            "BASENAME": "Murrieta",
+            "OID": "27690435461392",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5357227",
+            "NAME": "Murrieta CCD",
+            "OBJECTID": 27668,
+            "CENTLON": "-117.1101684",
+            "COUSUBCC": "Z5",
+            "HU100": 105827,
+            "AREALAND": 897948844,
+            "INTPTLON": "-117.1093924",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935211",
+            "UR": "M",
+            "COUNTY": "065"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 550459,
+            "GEOID": "06067",
+            "CENTLAT": "+33.6866916",
+            "SLDL": "067",
+            "AREAWATER": 27868958,
+            "STATE": "06",
+            "BASENAME": "67",
+            "OID": "213904690193041",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.6833814",
+            "NAME": "Assembly District 67",
+            "OBJECTID": 1178,
+            "CENTLON": "-117.2724201",
+            "LSY": "2018",
+            "HU100": 179705,
+            "AREALAND": 1459192117,
+            "INTPTLON": "-117.2737542",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 110949,
+            "GEOID": "0650076",
+            "CENTLAT": "+33.5719541",
+            "AREAWATER": 93770,
+            "STATE": "06",
+            "BASENAME": "Murrieta",
+            "OID": "27890435490384",
+            "LSADC": "25",
+            "PLACE": "50076",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.5721337",
+            "NAME": "Murrieta city",
+            "OBJECTID": 15106,
+            "PLACECC": "C1",
+            "CENTLON": "-117.1909022",
+            "CBSAPCI": "N",
+            "HU100": 36809,
+            "AREALAND": 87054765,
+            "INTPTLON": "-117.1904442",
+            "PLACENS": "02411199",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 2418185,
+            "GEOID": "06065",
+            "CENTLAT": "+33.7464053",
+            "AREAWATER": 243201314,
+            "STATE": "06",
+            "BASENAME": "Riverside",
+            "OID": "27590435411091",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.7298275",
+            "NAME": "Riverside County",
+            "OBJECTID": 2419,
+            "CENTLON": "-115.9939621",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277297",
+            "AREALAND": 18671921166,
+            "INTPTLON": "-116.0022389",
+            "HU100": 848549,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "065"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 811655,
+            "GEOID": "0642",
+            "CENTLAT": "+33.6789753",
+            "CDSESSN": "116",
+            "AREAWATER": 44105315,
+            "STATE": "06",
+            "BASENAME": "42",
+            "OID": "211904492478372",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.6799491",
+            "NAME": "Congressional District 42",
+            "OBJECTID": 97,
+            "CENTLON": "-117.2259097",
+            "HU100": 256851,
+            "AREALAND": 2424753563,
+            "INTPTLON": "-117.2275252",
+            "CD116": "42",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4682,
+            "GEOID": "06065051200",
+            "CENTLAT": "+33.4907805",
+            "AREAWATER": 3583,
+            "STATE": "06",
+            "BASENAME": "512",
+            "OID": "207903717224049",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.4881154",
+            "NAME": "Census Tract 512",
+            "OBJECTID": 37109,
+            "TRACT": "051200",
+            "CENTLON": "-117.2025160",
+            "HU100": 2072,
+            "AREALAND": 63822929,
+            "INTPTLON": "-117.2137878",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "065"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 337,
+            "GEOID": "060650512001008",
+            "CENTLAT": "+33.5253014",
+            "BLOCK": "1008",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "1008",
+            "OID": "210701002175495",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.5253014",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1008",
+            "OBJECTID": 1211737,
+            "TRACT": "051200",
+            "CENTLON": "-117.1941594",
+            "BLKGRP": "1",
+            "AREALAND": 3728756,
+            "HU100": 119,
+            "INTPTLON": "-117.1941594",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "065"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -117.1815,
+          "y": 33.5226
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

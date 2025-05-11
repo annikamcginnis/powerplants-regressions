@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:41:00.466558+00:00",
+  "elapsed": 0.413967,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4175",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:41:00 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.72&y=41.123611"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.72&y=41.123611",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 18196,
+            "GEOID": "56007",
+            "CENTLAT": "+41.0691763",
+            "AREAWATER": 313120,
+            "STATE": "56",
+            "BASENAME": "7",
+            "OID": "212904690192198",
+            "LSADC": "LU",
+            "SLDU": "007",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0800088",
+            "NAME": "State Senate District 7",
+            "OBJECTID": 811,
+            "CENTLON": "-104.7003226",
+            "LSY": "2018",
+            "HU100": 8360,
+            "AREALAND": 238469170,
+            "INTPTLON": "-104.6916729",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779807",
+            "POP100": 576851,
+            "GEOID": "56",
+            "CENTLAT": "+42.9960999",
+            "AREAWATER": 1867503715,
+            "STATE": "56",
+            "BASENAME": "Wyoming",
+            "STUSAB": "WY",
+            "OID": "27490227778497",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9896591",
+            "DIVISION": "8",
+            "NAME": "Wyoming",
+            "REGION": "4",
+            "OBJECTID": 46,
+            "CENTLON": "-107.5514568",
+            "AREALAND": 251458712277,
+            "INTPTLON": "-107.5443922",
+            "HU100": 271887,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90770",
+            "POP100": 12714,
+            "GEOID": "5602190770",
+            "CENTLAT": "+41.3262967",
+            "AREAWATER": 1047279,
+            "STATE": "56",
+            "BASENAME": "Cheyenne East",
+            "OID": "27690240470366",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.3278249",
+            "NAME": "Cheyenne East CCD",
+            "OBJECTID": 5187,
+            "CENTLON": "-104.6278526",
+            "COUSUBCC": "Z5",
+            "HU100": 4750,
+            "AREALAND": 2399520414,
+            "INTPTLON": "-104.6447205",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939697",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 9477,
+            "GEOID": "56043",
+            "CENTLAT": "+41.0665245",
+            "SLDL": "043",
+            "AREAWATER": 311500,
+            "STATE": "56",
+            "BASENAME": "43",
+            "OID": "213904690192273",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.0800088",
+            "NAME": "State House District 43",
+            "OBJECTID": 1139,
+            "CENTLON": "-104.6964556",
+            "LSY": "2018",
+            "HU100": 3825,
+            "AREALAND": 228303745,
+            "INTPTLON": "-104.6916729",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 65132,
+            "GEOID": "5613900",
+            "CENTLAT": "+41.1349636",
+            "AREAWATER": 290954,
+            "STATE": "56",
+            "BASENAME": "Cheyenne",
+            "OID": "27890240474694",
+            "LSADC": "25",
+            "PLACE": "13900",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.1352586",
+            "NAME": "Cheyenne city",
+            "OBJECTID": 2452,
+            "PLACECC": "C1",
+            "CENTLON": "-104.7902467",
+            "CBSAPCI": "Y",
+            "HU100": 29986,
+            "AREALAND": 83549538,
+            "INTPTLON": "-104.7907492",
+            "PLACENS": "02409445",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 100512,
+            "GEOID": "56021",
+            "CENTLAT": "+41.3071287",
+            "AREAWATER": 4348083,
+            "STATE": "56",
+            "BASENAME": "Laramie",
+            "OID": "27590229495438",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+41.2928302",
+            "NAME": "Laramie County",
+            "OBJECTID": 2284,
+            "CENTLON": "-104.6894180",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01605075",
+            "AREALAND": 6956355039,
+            "INTPTLON": "-104.6603950",
+            "HU100": 44181,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 576851,
+            "GEOID": "5600",
+            "CENTLAT": "+42.9960999",
+            "CDSESSN": "116",
+            "AREAWATER": 1867503715,
+            "STATE": "56",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357415",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.9896591",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 134,
+            "CENTLON": "-107.5514568",
+            "HU100": 271887,
+            "AREALAND": 251458712277,
+            "INTPTLON": "-107.5443922",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4571,
+            "GEOID": "56021002001",
+            "CENTLAT": "+41.0767207",
+            "AREAWATER": 1045226,
+            "STATE": "56",
+            "BASENAME": "20.01",
+            "OID": "2079015502876267",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.0822640",
+            "NAME": "Census Tract 20.01",
+            "OBJECTID": 11140,
+            "TRACT": "002001",
+            "CENTLON": "-104.4157716",
+            "HU100": 1803,
+            "AREALAND": 1008221885,
+            "INTPTLON": "-104.4211606",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 49,
+            "GEOID": "560210020012071",
+            "CENTLAT": "+41.1224221",
+            "BLOCK": "2071",
+            "AREAWATER": 0,
+            "STATE": "56",
+            "BASENAME": "2071",
+            "OID": "210701003564904",
+            "LSADC": "BK",
+            "INTPTLAT": "+41.1224221",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2071",
+            "OBJECTID": 2679408,
+            "TRACT": "002001",
+            "CENTLON": "-104.7255709",
+            "BLKGRP": "2",
+            "AREALAND": 1631755,
+            "HU100": 14,
+            "INTPTLON": "-104.7255709",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -104.72,
+          "y": 41.123611
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T16:14:26.468447+00:00",
+  "elapsed": 0.190214,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4125",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:14:26 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-66.871&y=18.1105"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-66.871&y=18.1105",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 395392,
+            "GEOID": "72005",
+            "CENTLAT": "+18.1271510",
+            "AREAWATER": 17980714,
+            "STATE": "72",
+            "BASENAME": "V",
+            "OID": "212904690703536",
+            "LSADC": "LU",
+            "SLDU": "005",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.1254320",
+            "NAME": "State Senate District V",
+            "OBJECTID": 1399,
+            "CENTLON": "-066.7728903",
+            "LSY": "2018",
+            "HU100": 189628,
+            "AREALAND": 1963702468,
+            "INTPTLON": "-066.7731119",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779808",
+            "POP100": 3285874,
+            "GEOID": "72",
+            "CENTLAT": "+18.2164715",
+            "AREAWATER": 4922329963,
+            "STATE": "72",
+            "BASENAME": "Puerto Rico",
+            "STUSAB": "PR",
+            "OID": "2749082215471",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+18.2176480",
+            "DIVISION": "0",
+            "NAME": "Puerto Rico",
+            "REGION": "9",
+            "OBJECTID": 8,
+            "CENTLON": "-066.4147614",
+            "AREALAND": 8868948653,
+            "INTPTLON": "-066.4107992",
+            "HU100": 1598159,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 365233,
+            "GEOID": "434",
+            "CENTLAT": "+18.0290090",
+            "AREAWATER": 669522483,
+            "BASENAME": "Ponce-Yauco-Coamo, PR",
+            "OID": "2619013782255206",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+18.0238011",
+            "NAME": "Ponce-Yauco-Coamo, PR CSA",
+            "CSA": "434",
+            "OBJECTID": 151,
+            "CENTLON": "-066.6294532",
+            "HU100": 172116,
+            "AREALAND": 1505405601,
+            "INTPTLON": "-066.6274365",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "85541",
+            "POP100": 107,
+            "GEOID": "7215385541",
+            "CENTLAT": "+18.1048837",
+            "AREAWATER": 569187,
+            "STATE": "72",
+            "BASENAME": "Vegas",
+            "OID": "27690593383962",
+            "LSADC": "20",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.1033719",
+            "NAME": "Vegas barrio",
+            "OBJECTID": 27343,
+            "CENTLON": "-066.8729341",
+            "COUSUBCC": "Z1",
+            "HU100": 40,
+            "AREALAND": 4571625,
+            "INTPTLON": "-066.8729660",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02416097",
+            "UR": "R",
+            "COUNTY": "153"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 78167,
+            "GEOID": "72021",
+            "CENTLAT": "+18.0651274",
+            "SLDL": "021",
+            "AREAWATER": 6109535,
+            "STATE": "72",
+            "BASENAME": "21",
+            "OID": "213904690703563",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.0657922",
+            "NAME": "State House District 21",
+            "OBJECTID": 3373,
+            "CENTLON": "-066.9499825",
+            "LSY": "2018",
+            "HU100": 40604,
+            "AREALAND": 556796142,
+            "INTPTLON": "-066.9495152",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 34172,
+            "GEOID": "72153",
+            "CENTLAT": "+18.0795536",
+            "AREAWATER": 1625258,
+            "STATE": "72",
+            "BASENAME": "Yauco",
+            "OID": "27590593365949",
+            "LSADC": "13",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+18.0856688",
+            "NAME": "Yauco Municipio",
+            "OBJECTID": 949,
+            "CENTLON": "-066.8582818",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01804557",
+            "AREALAND": 175371930,
+            "INTPTLON": "-066.8579009",
+            "HU100": 16599,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "153"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 3285874,
+            "GEOID": "7298",
+            "CENTLAT": "+18.2164715",
+            "CDSESSN": "116",
+            "AREAWATER": 4922329963,
+            "STATE": "72",
+            "BASENAME": "Resident Commissioner District (at Large)",
+            "OID": "211904690193315",
+            "LSADC": "C3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+18.2176480",
+            "NAME": "Resident Commissioner District (at Large)",
+            "OBJECTID": 356,
+            "CENTLON": "-066.4147614",
+            "HU100": 1598159,
+            "AREALAND": 8868948653,
+            "INTPTLON": "-066.4107992",
+            "CD116": "98",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2791,
+            "GEOID": "72153750201",
+            "CENTLAT": "+18.1011694",
+            "AREAWATER": 1273589,
+            "STATE": "72",
+            "BASENAME": "7502.01",
+            "OID": "20790593475492",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+18.0904386",
+            "NAME": "Census Tract 7502.01",
+            "OBJECTID": 26973,
+            "TRACT": "750201",
+            "CENTLON": "-066.8935929",
+            "HU100": 1316,
+            "AREALAND": 49692184,
+            "INTPTLON": "-066.8923187",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "153"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 30,
+            "GEOID": "721537502011016",
+            "CENTLAT": "+18.1132623",
+            "BLOCK": "1016",
+            "AREAWATER": 0,
+            "STATE": "72",
+            "BASENAME": "1016",
+            "OID": "210701002123506",
+            "LSADC": "BK",
+            "INTPTLAT": "+18.1132623",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1016",
+            "OBJECTID": 4185518,
+            "TRACT": "750201",
+            "CENTLON": "-066.8683410",
+            "BLKGRP": "1",
+            "AREALAND": 535488,
+            "HU100": 15,
+            "INTPTLON": "-066.8683410",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "153"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -66.871,
+          "y": 18.1105
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

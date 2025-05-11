@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T16:01:01.127859+00:00",
+  "elapsed": 0.154656,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4532",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:01:01 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.0436&y=42.5825"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-88.0436&y=42.5825",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 178202,
+            "GEOID": "55021",
+            "CENTLAT": "+42.6671174",
+            "AREAWATER": 2427297606,
+            "STATE": "55",
+            "BASENAME": "21",
+            "OID": "212904691748366",
+            "LSADC": "LU",
+            "SLDU": "021",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.4926360",
+            "NAME": "State Senate District 21",
+            "OBJECTID": 1302,
+            "CENTLON": "-087.6429450",
+            "LSY": "2018",
+            "HU100": 76698,
+            "AREALAND": 1274445242,
+            "INTPTLON": "-087.8039564",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 9986960,
+            "GEOID": "176",
+            "CENTLAT": "+41.6973467",
+            "AREAWATER": 6301534612,
+            "BASENAME": "Chicago-Naperville, IL-IN-WI",
+            "OID": "2619013782255102",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+41.6992337",
+            "NAME": "Chicago-Naperville, IL-IN-WI CSA",
+            "CSA": "176",
+            "OBJECTID": 9,
+            "CENTLON": "-088.0058328",
+            "HU100": 4107480,
+            "AREALAND": 27541649307,
+            "INTPTLON": "-088.0040843",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "09800",
+            "POP100": 5192,
+            "GEOID": "5505909800",
+            "CENTLAT": "+42.5376684",
+            "AREAWATER": 928285,
+            "STATE": "55",
+            "BASENAME": "Bristol",
+            "OID": "276903945474300",
+            "LSADC": "47",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.5323235",
+            "NAME": "Bristol village",
+            "OBJECTID": 34307,
+            "CENTLON": "-088.0150432",
+            "COUSUBCC": "C5",
+            "HU100": 2201,
+            "AREALAND": 84702886,
+            "INTPTLON": "-088.0090985",
+            "MTFCC": "G4040",
+            "COUSUBNS": "02646685",
+            "UR": "M",
+            "COUNTY": "059"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 59972,
+            "GEOID": "55061",
+            "CENTLAT": "+42.5777360",
+            "SLDL": "061",
+            "AREAWATER": 1244147115,
+            "STATE": "55",
+            "BASENAME": "61",
+            "OID": "213904691751540",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.4926360",
+            "NAME": "Assembly District 61",
+            "OBJECTID": 3171,
+            "CENTLON": "-087.6201806",
+            "LSY": "2018",
+            "HU100": 26755,
+            "AREALAND": 545345127,
+            "INTPTLON": "-087.8039564",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 5192,
+            "GEOID": "5509800",
+            "CENTLAT": "+42.5376684",
+            "AREAWATER": 928285,
+            "STATE": "55",
+            "BASENAME": "Bristol",
+            "OID": "278903717604017",
+            "LSADC": "47",
+            "PLACE": "09800",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.5323235",
+            "NAME": "Bristol village",
+            "OBJECTID": 9668,
+            "PLACECC": "C5",
+            "CENTLON": "-088.0150432",
+            "CBSAPCI": "N",
+            "HU100": 2201,
+            "AREALAND": 84702886,
+            "INTPTLON": "-088.0090985",
+            "PLACENS": "02646685",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 169151,
+            "GEOID": "55059",
+            "CENTLAT": "+42.5790283",
+            "AREAWATER": 1248862087,
+            "STATE": "55",
+            "BASENAME": "Kenosha",
+            "OID": "27590296303454",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.5858816",
+            "NAME": "Kenosha County",
+            "OBJECTID": 728,
+            "CENTLON": "-087.6531347",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581089",
+            "AREALAND": 704054452,
+            "INTPTLON": "-087.8763984",
+            "HU100": 72451,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "059"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 727452,
+            "GEOID": "5501",
+            "CENTLAT": "+42.6967884",
+            "CDSESSN": "116",
+            "AREAWATER": 2523745476,
+            "STATE": "55",
+            "BASENAME": "1",
+            "OID": "211904691756795",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6952385",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 357,
+            "CENTLON": "-088.0462869",
+            "HU100": 315416,
+            "AREALAND": 4475468893,
+            "INTPTLON": "-088.0463495",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6533,
+            "GEOID": "55059002700",
+            "CENTLAT": "+42.5388084",
+            "AREAWATER": 946783,
+            "STATE": "55",
+            "BASENAME": "27",
+            "OID": "20790296424697",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.5422426",
+            "NAME": "Census Tract 27",
+            "OBJECTID": 77869,
+            "TRACT": "002700",
+            "CENTLON": "-088.0108644",
+            "HU100": 2751,
+            "AREALAND": 92778028,
+            "INTPTLON": "-088.0111539",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "059"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 10,
+            "GEOID": "550590027002001",
+            "CENTLAT": "+42.5811474",
+            "BLOCK": "2001",
+            "AREAWATER": 0,
+            "STATE": "55",
+            "BASENAME": "2001",
+            "OID": "210701005835710",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.5811474",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2001",
+            "OBJECTID": 4318880,
+            "TRACT": "002700",
+            "CENTLON": "-088.0474153",
+            "BLKGRP": "2",
+            "AREALAND": 190870,
+            "HU100": 1,
+            "INTPTLON": "-088.0474153",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "059"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -88.0436,
+          "y": 42.5825
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

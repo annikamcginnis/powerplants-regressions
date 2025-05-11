@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T16:14:23.939401+00:00",
+  "elapsed": 0.143623,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4193",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:14:23 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-139.724306&y=59.544553"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-139.724306&y=59.544553",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 37476,
+            "GEOID": "0200P",
+            "CENTLAT": "+59.6572090",
+            "AREAWATER": 51603614108,
+            "STATE": "02",
+            "BASENAME": "P",
+            "OID": "212904689815903",
+            "LSADC": "LU",
+            "SLDU": "00P",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+59.8794013",
+            "NAME": "State Senate District P",
+            "OBJECTID": 612,
+            "CENTLON": "-149.1251900",
+            "LSY": "2018",
+            "HU100": 20501,
+            "AREALAND": 89173714993,
+            "INTPTLON": "-151.7887266",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01785533",
+            "POP100": 733391,
+            "GEOID": "02",
+            "CENTLAT": "+63.4130518",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-152.8796317",
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "HU100": 326200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "86498",
+            "POP100": 662,
+            "GEOID": "0228286498",
+            "CENTLAT": "+59.8686862",
+            "AREAWATER": 3986124692,
+            "STATE": "02",
+            "BASENAME": "Yakutat",
+            "OID": "2769053292439",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+60.0174528",
+            "NAME": "Yakutat census subarea",
+            "OBJECTID": 7277,
+            "CENTLON": "-140.3490980",
+            "COUSUBCC": "Z5",
+            "HU100": 441,
+            "AREALAND": 19744203659,
+            "INTPTLON": "-140.4169420",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939972",
+            "UR": "R",
+            "COUNTY": "282"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 657,
+            "GEOID": "0286490",
+            "CENTLAT": "+59.5669092",
+            "AREAWATER": 8696512,
+            "STATE": "02",
+            "BASENAME": "Yakutat",
+            "OID": "2809053292446",
+            "LSADC": "57",
+            "PLACE": "86490",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+59.5635878",
+            "NAME": "Yakutat CDP",
+            "OBJECTID": 22913,
+            "PLACECC": "U1",
+            "CENTLON": "-139.5968764",
+            "CBSAPCI": "N",
+            "HU100": 382,
+            "AREALAND": 259961401,
+            "INTPTLON": "-139.6061905",
+            "PLACENS": "02419293",
+            "MTFCC": "G4210",
+            "UR": "R"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 17748,
+            "GEOID": "02032",
+            "CENTLAT": "+59.6257273",
+            "SLDL": "032",
+            "AREAWATER": 48706244217,
+            "STATE": "02",
+            "BASENAME": "32",
+            "OID": "213904689816246",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+58.9214094",
+            "NAME": "State House District 32",
+            "OBJECTID": 1513,
+            "CENTLON": "-148.9842914",
+            "LSY": "2018",
+            "HU100": 9141,
+            "AREALAND": 82515462086,
+            "INTPTLON": "-153.3456075",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 662,
+            "GEOID": "02282",
+            "CENTLAT": "+59.8686862",
+            "AREAWATER": 3986124692,
+            "STATE": "02",
+            "BASENAME": "Yakutat",
+            "OID": "2759053290478",
+            "LSADC": "03",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+60.0174528",
+            "NAME": "Yakutat City and Borough",
+            "OBJECTID": 1664,
+            "CENTLON": "-140.3490980",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01419986",
+            "AREALAND": 19744203659,
+            "INTPTLON": "-140.4169420",
+            "HU100": 441,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "282"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733391,
+            "GEOID": "0200",
+            "CENTLAT": "+63.4130518",
+            "CDSESSN": "116",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692178999",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 355,
+            "CENTLON": "-152.8796317",
+            "HU100": 326200,
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 662,
+            "GEOID": "02282000100",
+            "CENTLAT": "+59.8686862",
+            "AREAWATER": 3986124692,
+            "STATE": "02",
+            "BASENAME": "1",
+            "OID": "2079053292447",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+60.0174528",
+            "NAME": "Census Tract 1",
+            "OBJECTID": 34341,
+            "TRACT": "000100",
+            "CENTLON": "-140.3490980",
+            "HU100": 441,
+            "AREALAND": 19744203659,
+            "INTPTLON": "-140.4169420",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "282"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 12,
+            "GEOID": "022820001001186",
+            "CENTLAT": "+59.5446831",
+            "BLOCK": "1186",
+            "AREAWATER": 0,
+            "STATE": "02",
+            "BASENAME": "1186",
+            "OID": "210701000001322",
+            "LSADC": "BK",
+            "INTPTLAT": "+59.5446831",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1186",
+            "OBJECTID": 162782,
+            "TRACT": "000100",
+            "CENTLON": "-139.7213658",
+            "BLKGRP": "1",
+            "AREALAND": 179652,
+            "HU100": 2,
+            "INTPTLON": "-139.7213658",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "282"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -139.724306,
+          "y": 59.544553
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

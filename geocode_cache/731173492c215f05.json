@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:38:38.212427+00:00",
+  "elapsed": 0.207552,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4487",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:38:38 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4ff367b3895f91b794499f991d32ef2569d74d392c0ed78c91e7f3d0ff67a45919cc964fba0e9db4e2e16461153e75477",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.93073&y=42.104731"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-75.93073&y=42.104731",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 284230,
+            "GEOID": "36052",
+            "CENTLAT": "+42.2056541",
+            "AREAWATER": 56935135,
+            "STATE": "36",
+            "BASENAME": "52",
+            "OID": "212904690195386",
+            "LSADC": "LU",
+            "SLDU": "052",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.2093131",
+            "NAME": "State Senate District 52",
+            "OBJECTID": 914,
+            "CENTLON": "-075.8322199",
+            "LSY": "2018",
+            "HU100": 134880,
+            "AREALAND": 5047970148,
+            "INTPTLON": "-075.8339436",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "07732",
+            "CENTLAT": "+42.1077556",
+            "AREAWATER": 7940048,
+            "BASENAME": "Binghamton, NY",
+            "OID": "27021722610478",
+            "UA": "07732",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.1085203",
+            "NAME": "Binghamton, NY Urban Area",
+            "OBJECTID": 1925,
+            "CENTLON": "-075.9644447",
+            "AREALAND": 180597279,
+            "INTPTLON": "-075.9642314",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "06607",
+            "POP100": 47969,
+            "GEOID": "3600706607",
+            "CENTLAT": "+42.1013786",
+            "AREAWATER": 1675760,
+            "STATE": "36",
+            "BASENAME": "Binghamton",
+            "OID": "27690738272634",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+42.1013306",
+            "NAME": "Binghamton city",
+            "OBJECTID": 25383,
+            "CENTLON": "-075.9092668",
+            "COUSUBCC": "C5",
+            "HU100": 24969,
+            "AREALAND": 27141216,
+            "INTPTLON": "-075.9093694",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00978733",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 133420,
+            "GEOID": "36123",
+            "CENTLAT": "+42.0827464",
+            "SLDL": "123",
+            "AREAWATER": 5277810,
+            "STATE": "36",
+            "BASENAME": "123",
+            "OID": "213904690195668",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.0822744",
+            "NAME": "Assembly District 123",
+            "OBJECTID": 2680,
+            "CENTLON": "-076.0154655",
+            "LSY": "2018",
+            "HU100": 62414,
+            "AREALAND": 252744937,
+            "INTPTLON": "-076.0165853",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 47969,
+            "GEOID": "3606607",
+            "CENTLAT": "+42.1013786",
+            "AREAWATER": 1675760,
+            "STATE": "36",
+            "BASENAME": "Binghamton",
+            "OID": "27890738294074",
+            "LSADC": "25",
+            "PLACE": "06607",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1013306",
+            "NAME": "Binghamton city",
+            "OBJECTID": 16468,
+            "PLACECC": "C5",
+            "CENTLON": "-075.9092668",
+            "CBSAPCI": "Y",
+            "HU100": 24969,
+            "AREALAND": 27141216,
+            "INTPTLON": "-075.9093694",
+            "PLACENS": "00978733",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 198683,
+            "GEOID": "36007",
+            "CENTLAT": "+42.1602019",
+            "AREAWATER": 25109986,
+            "STATE": "36",
+            "BASENAME": "Broome",
+            "OID": "27590738244855",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1619773",
+            "NAME": "Broome County",
+            "OBJECTID": 3054,
+            "CENTLON": "-075.8192987",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974102",
+            "AREALAND": 1827594819,
+            "INTPTLON": "-075.8302833",
+            "HU100": 92569,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "007"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 696610,
+            "GEOID": "3622",
+            "CENTLAT": "+42.8726107",
+            "CDSESSN": "116",
+            "AREAWATER": 386663458,
+            "STATE": "36",
+            "BASENAME": "22",
+            "OID": "211904690193710",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.8706939",
+            "NAME": "Congressional District 22",
+            "OBJECTID": 399,
+            "CENTLON": "-075.6600987",
+            "HU100": 322524,
+            "AREALAND": 13150075380,
+            "INTPTLON": "-075.6626641",
+            "CD116": "22",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2932,
+            "GEOID": "36007001300",
+            "CENTLAT": "+42.1031103",
+            "AREAWATER": 23360,
+            "STATE": "36",
+            "BASENAME": "13",
+            "OID": "20790738500464",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.1027738",
+            "NAME": "Census Tract 13",
+            "OBJECTID": 7140,
+            "TRACT": "001300",
+            "CENTLON": "-075.9245694",
+            "HU100": 1313,
+            "AREALAND": 683124,
+            "INTPTLON": "-075.9246835",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "007"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 78,
+            "GEOID": "360070013004003",
+            "CENTLAT": "+42.1040749",
+            "BLOCK": "4003",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "4003",
+            "OID": "210701006796651",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.1040749",
+            "FUNCSTAT": "S",
+            "NAME": "Block 4003",
+            "OBJECTID": 2475087,
+            "TRACT": "001300",
+            "CENTLON": "-075.9304003",
+            "BLKGRP": "4",
+            "AREALAND": 27784,
+            "HU100": 37,
+            "INTPTLON": "-075.9304003",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "007"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -75.93073,
+          "y": 42.104731
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

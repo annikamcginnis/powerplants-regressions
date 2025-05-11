@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T16:04:40.558069+00:00",
+  "elapsed": 0.184929,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4123",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:04:40 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.506944&y=33.351111"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-104.506944&y=33.351111",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 47966,
+            "GEOID": "35032",
+            "CENTLAT": "+33.0177673",
+            "AREAWATER": 6671400,
+            "STATE": "35",
+            "BASENAME": "32",
+            "OID": "212904692171675",
+            "LSADC": "LU",
+            "SLDU": "032",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.0047289",
+            "NAME": "State Senate District 32",
+            "OBJECTID": 1454,
+            "CENTLON": "-105.0088027",
+            "LSY": "2018",
+            "HU100": 18531,
+            "AREALAND": 7861199259,
+            "INTPTLON": "-105.0047610",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00897535",
+            "POP100": 2117522,
+            "GEOID": "35",
+            "CENTLAT": "+34.4075785",
+            "AREAWATER": 726482115,
+            "STATE": "35",
+            "BASENAME": "New Mexico",
+            "STUSAB": "NM",
+            "OID": "27490100936841",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.4346843",
+            "DIVISION": "8",
+            "NAME": "New Mexico",
+            "REGION": "4",
+            "OBJECTID": 28,
+            "CENTLON": "-106.1126593",
+            "AREALAND": 314198560935,
+            "INTPTLON": "-106.1316181",
+            "HU100": 940859,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92670",
+            "POP100": 48478,
+            "GEOID": "3500592670",
+            "CENTLAT": "+33.3954081",
+            "AREAWATER": 229105,
+            "STATE": "35",
+            "BASENAME": "Roswell",
+            "OID": "27690992997763",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3959133",
+            "NAME": "Roswell CCD",
+            "OBJECTID": 30717,
+            "CENTLON": "-104.5258757",
+            "COUSUBCC": "Z5",
+            "HU100": 20577,
+            "AREALAND": 110156760,
+            "INTPTLON": "-104.5252160",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01937579",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 27559,
+            "GEOID": "35058",
+            "CENTLAT": "+33.1943942",
+            "SLDL": "058",
+            "AREAWATER": 3133348,
+            "STATE": "35",
+            "BASENAME": "58",
+            "OID": "213904692176094",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1892214",
+            "NAME": "State House District 58",
+            "OBJECTID": 3597,
+            "CENTLON": "-104.5362915",
+            "LSY": "2018",
+            "HU100": 10645,
+            "AREALAND": 2150947171,
+            "INTPTLON": "-104.5340488",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 48422,
+            "GEOID": "3564930",
+            "CENTLAT": "+33.3730278",
+            "AREAWATER": 155853,
+            "STATE": "35",
+            "BASENAME": "Roswell",
+            "OID": "27890993001678",
+            "LSADC": "25",
+            "PLACE": "64930",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3734421",
+            "NAME": "Roswell city",
+            "OBJECTID": 15892,
+            "PLACECC": "C1",
+            "CENTLON": "-104.5293451",
+            "CBSAPCI": "Y",
+            "HU100": 20220,
+            "AREALAND": 76964808,
+            "INTPTLON": "-104.5293929",
+            "PLACENS": "02411003",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 65157,
+            "GEOID": "35005",
+            "CENTLAT": "+33.3623917",
+            "AREAWATER": 20472234,
+            "STATE": "35",
+            "BASENAME": "Chaves",
+            "OID": "27590301637340",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3616045",
+            "NAME": "Chaves County",
+            "OBJECTID": 1617,
+            "CENTLON": "-104.4688201",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01702364",
+            "AREALAND": 15713914833,
+            "INTPTLON": "-104.4698374",
+            "HU100": 26658,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 714022,
+            "GEOID": "3502",
+            "CENTLAT": "+33.3830875",
+            "CDSESSN": "116",
+            "AREAWATER": 408390188,
+            "STATE": "35",
+            "BASENAME": "2",
+            "OID": "211904690703526",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.3852613",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 433,
+            "CENTLON": "-106.2970098",
+            "HU100": 314495,
+            "AREALAND": 185821828656,
+            "INTPTLON": "-106.2994424",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4510,
+            "GEOID": "35005000600",
+            "CENTLAT": "+33.3639697",
+            "AREAWATER": 40199,
+            "STATE": "35",
+            "BASENAME": "6",
+            "OID": "20790993213161",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3640736",
+            "NAME": "Census Tract 6",
+            "OBJECTID": 69590,
+            "TRACT": "000600",
+            "CENTLON": "-104.4958837",
+            "HU100": 1733,
+            "AREALAND": 20135577,
+            "INTPTLON": "-104.4955418",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "005"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 12,
+            "GEOID": "350050006001023",
+            "CENTLAT": "+33.3586378",
+            "BLOCK": "1023",
+            "AREAWATER": 0,
+            "STATE": "35",
+            "BASENAME": "1023",
+            "OID": "210701002935068",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.3586378",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1023",
+            "OBJECTID": 2543986,
+            "TRACT": "000600",
+            "CENTLON": "-104.5085221",
+            "BLKGRP": "1",
+            "AREALAND": 838783,
+            "HU100": 1,
+            "INTPTLON": "-104.5085221",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "005"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -104.506944,
+          "y": 33.351111
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

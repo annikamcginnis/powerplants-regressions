@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:50:54.733768+00:00",
+  "elapsed": 0.179833,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4899",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:50:54 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.825517&y=40.839014"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-76.825517&y=40.839014",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 241384,
+            "GEOID": "42027",
+            "CENTLAT": "+40.9418283",
+            "AREAWATER": 88986139,
+            "STATE": "42",
+            "BASENAME": "27",
+            "OID": "212904690193448",
+            "LSADC": "LU",
+            "SLDU": "027",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.9410124",
+            "NAME": "State Senate District 27",
+            "OBJECTID": 870,
+            "CENTLON": "-076.6183995",
+            "LSY": "2018",
+            "HU100": 109713,
+            "AREALAND": 4159531772,
+            "INTPTLON": "-076.6264349",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779798",
+            "POP100": 13002700,
+            "GEOID": "42",
+            "CENTLAT": "+40.9011320",
+            "AREAWATER": 3397760687,
+            "STATE": "42",
+            "BASENAME": "Pennsylvania",
+            "STUSAB": "PA",
+            "OID": "27490163788605",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.9046013",
+            "DIVISION": "2",
+            "NAME": "Pennsylvania",
+            "REGION": "1",
+            "OBJECTID": 34,
+            "CENTLON": "-077.8369304",
+            "AREALAND": 115881934065,
+            "INTPTLON": "-077.8275298",
+            "HU100": 5742828,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 256927,
+            "GEOID": "146",
+            "CENTLAT": "+40.9251730",
+            "AREAWATER": 86464626,
+            "BASENAME": "Bloomsburg-Berwick-Sunbury, PA",
+            "OID": "2619013782255088",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.9233622",
+            "NAME": "Bloomsburg-Berwick-Sunbury, PA CSA",
+            "CSA": "146",
+            "OBJECTID": 81,
+            "CENTLON": "-076.7530229",
+            "HU100": 113097,
+            "AREALAND": 4444039108,
+            "INTPTLON": "-076.7567768",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "85762",
+            "CENTLAT": "+40.8495294",
+            "AREAWATER": 196345,
+            "BASENAME": "Sunbury, PA",
+            "OID": "27021289145396",
+            "UA": "85762",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.8496470",
+            "NAME": "Sunbury, PA Urban Area",
+            "OBJECTID": 334,
+            "CENTLON": "-076.8255344",
+            "AREALAND": 35550407,
+            "INTPTLON": "-076.8254968",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "69616",
+            "POP100": 1652,
+            "GEOID": "4210969616",
+            "CENTLAT": "+40.8547225",
+            "AREAWATER": 99237,
+            "STATE": "42",
+            "BASENAME": "Shamokin Dam",
+            "OID": "27690303809401",
+            "LSADC": "21",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+40.8581622",
+            "NAME": "Shamokin Dam borough",
+            "OBJECTID": 22024,
+            "CENTLON": "-076.8230539",
+            "COUSUBCC": "C5",
+            "HU100": 817,
+            "AREALAND": 4777729,
+            "INTPTLON": "-076.8257829",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01215579",
+            "UR": "M",
+            "COUNTY": "109"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 62532,
+            "GEOID": "42108",
+            "CENTLAT": "+40.8786970",
+            "SLDL": "108",
+            "AREAWATER": 49481851,
+            "STATE": "42",
+            "BASENAME": "108",
+            "OID": "213904690193979",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.8784859",
+            "NAME": "State House District 108",
+            "OBJECTID": 1207,
+            "CENTLON": "-076.8058329",
+            "LSY": "2018",
+            "HU100": 28071,
+            "AREALAND": 866323167,
+            "INTPTLON": "-076.8061759",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1652,
+            "GEOID": "4269616",
+            "CENTLAT": "+40.8547225",
+            "AREAWATER": 99237,
+            "STATE": "42",
+            "BASENAME": "Shamokin Dam",
+            "OID": "27890303853236",
+            "LSADC": "21",
+            "PLACE": "69616",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.8581622",
+            "NAME": "Shamokin Dam borough",
+            "OBJECTID": 17776,
+            "PLACECC": "C5",
+            "CENTLON": "-076.8230539",
+            "CBSAPCI": "N",
+            "HU100": 817,
+            "AREALAND": 4777729,
+            "INTPTLON": "-076.8257829",
+            "PLACENS": "01215579",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 39736,
+            "GEOID": "42109",
+            "CENTLAT": "+40.7698725",
+            "AREAWATER": 7158854,
+            "STATE": "42",
+            "BASENAME": "Snyder",
+            "OID": "27590303791234",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.7554068",
+            "NAME": "Snyder County",
+            "OBJECTID": 423,
+            "CENTLON": "-077.0702149",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01213686",
+            "AREALAND": 851547199,
+            "INTPTLON": "-077.0729288",
+            "HU100": 15978,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "109"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 686782,
+            "GEOID": "4212",
+            "CENTLAT": "+41.3471347",
+            "CDSESSN": "116",
+            "AREAWATER": 242749412,
+            "STATE": "42",
+            "BASENAME": "12",
+            "OID": "211904690192827",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.3438824",
+            "NAME": "Congressional District 12",
+            "OBJECTID": 284,
+            "CENTLON": "-077.0477655",
+            "HU100": 319632,
+            "AREALAND": 25630190852,
+            "INTPTLON": "-077.0552624",
+            "CD116": "12",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5798,
+            "GEOID": "42109070100",
+            "CENTLAT": "+40.8584694",
+            "AREAWATER": 569782,
+            "STATE": "42",
+            "BASENAME": "701",
+            "OID": "20790303863473",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.8564207",
+            "NAME": "Census Tract 701",
+            "OBJECTID": 16384,
+            "TRACT": "070100",
+            "CENTLON": "-076.8512757",
+            "HU100": 2661,
+            "AREALAND": 45039987,
+            "INTPTLON": "-076.8544527",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "109"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "421090701005029",
+            "CENTLAT": "+40.8417840",
+            "BLOCK": "5029",
+            "AREAWATER": 3324,
+            "STATE": "42",
+            "BASENAME": "5029",
+            "OID": "210701002643181",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.8421109",
+            "FUNCSTAT": "S",
+            "NAME": "Block 5029",
+            "OBJECTID": 6706221,
+            "TRACT": "070100",
+            "CENTLON": "-076.8214411",
+            "BLKGRP": "5",
+            "AREALAND": 367372,
+            "HU100": 0,
+            "INTPTLON": "-076.8207193",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "109"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -76.825517,
+          "y": 40.839014
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

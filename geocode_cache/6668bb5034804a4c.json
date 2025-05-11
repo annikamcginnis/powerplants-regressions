@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:02:56.556341+00:00",
+  "elapsed": 0.509876,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4483",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:02:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-116.860713&y=33.018486"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-116.860713&y=33.018486",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 1006438,
+            "GEOID": "06038",
+            "CENTLAT": "+33.1211584",
+            "AREAWATER": 38495961,
+            "STATE": "06",
+            "BASENAME": "38",
+            "OID": "212904690192907",
+            "LSADC": "LU",
+            "SLDU": "038",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1202233",
+            "NAME": "State Senate District 38",
+            "OBJECTID": 943,
+            "CENTLON": "-116.6474760",
+            "LSY": "2018",
+            "HU100": 359995,
+            "AREALAND": 7085993107,
+            "INTPTLON": "-116.6560698",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779778",
+            "POP100": 39538223,
+            "GEOID": "06",
+            "CENTLAT": "+37.1547578",
+            "AREAWATER": 20294133830,
+            "STATE": "06",
+            "BASENAME": "California",
+            "STUSAB": "CA",
+            "OID": "2749018475066",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.1551773",
+            "DIVISION": "9",
+            "NAME": "California",
+            "REGION": "4",
+            "OBJECTID": 29,
+            "CENTLON": "-119.5277715",
+            "AREALAND": 403671196038,
+            "INTPTLON": "-119.5434183",
+            "HU100": 14392140,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "73288",
+            "CENTLAT": "+33.0355695",
+            "AREAWATER": 0,
+            "BASENAME": "Ramona, CA",
+            "OID": "27021676369006",
+            "UA": "73288",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.0355695",
+            "NAME": "Ramona, CA Urban Area",
+            "OBJECTID": 1694,
+            "CENTLON": "-116.8723214",
+            "AREALAND": 17847252,
+            "INTPTLON": "-116.8723214",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92550",
+            "POP100": 36455,
+            "GEOID": "0607392550",
+            "CENTLAT": "+33.0338575",
+            "AREAWATER": 2554660,
+            "STATE": "06",
+            "BASENAME": "Ramona",
+            "OID": "27690676327034",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.0347994",
+            "NAME": "Ramona CCD",
+            "OBJECTID": 29596,
+            "CENTLON": "-116.8502809",
+            "COUSUBCC": "Z5",
+            "HU100": 12815,
+            "AREALAND": 349510563,
+            "INTPTLON": "-116.8535456",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01935260",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 21468,
+            "GEOID": "0659346",
+            "CENTLAT": "+33.0473939",
+            "AREAWATER": 49343,
+            "STATE": "06",
+            "BASENAME": "Ramona",
+            "OID": "28090676334053",
+            "LSADC": "57",
+            "PLACE": "59346",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.0458112",
+            "NAME": "Ramona CDP",
+            "OBJECTID": 25225,
+            "PLACECC": "U1",
+            "CENTLON": "-116.8766918",
+            "CBSAPCI": "N",
+            "HU100": 7477,
+            "AREALAND": 99548576,
+            "INTPTLON": "-116.8775465",
+            "PLACENS": "02409128",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 490779,
+            "GEOID": "06071",
+            "CENTLAT": "+33.1455778",
+            "SLDL": "071",
+            "AREAWATER": 52926906,
+            "STATE": "06",
+            "BASENAME": "71",
+            "OID": "213904690193323",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1413740",
+            "NAME": "Assembly District 71",
+            "OBJECTID": 1588,
+            "CENTLON": "-116.5484437",
+            "LSY": "2018",
+            "HU100": 180341,
+            "AREALAND": 9624574258,
+            "INTPTLON": "-116.5534364",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 3298634,
+            "GEOID": "06073",
+            "CENTLAT": "+33.0280818",
+            "AREAWATER": 817317026,
+            "STATE": "06",
+            "BASENAME": "San Diego",
+            "OID": "27590676180305",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.0236041",
+            "NAME": "San Diego County",
+            "OBJECTID": 605,
+            "CENTLON": "-116.7699211",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00277301",
+            "AREALAND": 10904455257,
+            "INTPTLON": "-116.7761174",
+            "HU100": 1228505,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 757110,
+            "GEOID": "0650",
+            "CENTLAT": "+33.1147803",
+            "CDSESSN": "116",
+            "AREAWATER": 37984914,
+            "STATE": "06",
+            "BASENAME": "50",
+            "OID": "211904492478282",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.1136226",
+            "NAME": "Congressional District 50",
+            "OBJECTID": 42,
+            "CENTLON": "-116.6175134",
+            "HU100": 267328,
+            "AREALAND": 7225002257,
+            "INTPTLON": "-116.6222532",
+            "CD116": "50",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4983,
+            "GEOID": "06073020813",
+            "CENTLAT": "+33.0300333",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "208.13",
+            "OID": "2079015682043997",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.0300333",
+            "NAME": "Census Tract 208.13",
+            "OBJECTID": 25961,
+            "TRACT": "020813",
+            "CENTLON": "-116.8487815",
+            "HU100": 1589,
+            "AREALAND": 13173699,
+            "INTPTLON": "-116.8487815",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "073"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 173,
+            "GEOID": "060730208132012",
+            "CENTLAT": "+33.0214572",
+            "BLOCK": "2012",
+            "AREAWATER": 0,
+            "STATE": "06",
+            "BASENAME": "2012",
+            "OID": "210701000803932",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.0214572",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2012",
+            "OBJECTID": 2508707,
+            "TRACT": "020813",
+            "CENTLON": "-116.8612405",
+            "BLKGRP": "2",
+            "AREALAND": 456345,
+            "HU100": 51,
+            "INTPTLON": "-116.8612405",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "073"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -116.860713,
+          "y": 33.018486
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

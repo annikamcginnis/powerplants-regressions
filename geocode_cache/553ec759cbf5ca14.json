@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T15:37:25.242660+00:00",
+  "elapsed": 0.184184,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4509",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:37:25 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.266743&y=42.109564"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-71.266743&y=42.109564",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 166850,
+            "GEOID": "25031",
+            "CENTLAT": "+41.9830699",
+            "AREAWATER": 12848514,
+            "STATE": "25",
+            "BASENAME": "Bristol & Norfolk",
+            "OID": "212904693077251",
+            "LSADC": "07",
+            "SLDU": "031",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.9880366",
+            "NAME": "Bristol & Norfolk District",
+            "OBJECTID": 1490,
+            "CENTLON": "-071.2445969",
+            "LSY": "2018",
+            "HU100": 64201,
+            "AREALAND": 513475130,
+            "INTPTLON": "-071.2458537",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 8466186,
+            "GEOID": "148",
+            "CENTLAT": "+42.3593610",
+            "AREAWATER": 7170162236,
+            "BASENAME": "Boston-Worcester-Providence, MA-RI-NH-CT",
+            "OID": "2619013782255090",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3619187",
+            "NAME": "Boston-Worcester-Providence, MA-RI-NH-CT CSA",
+            "CSA": "148",
+            "OBJECTID": 83,
+            "CENTLON": "-071.2719973",
+            "HU100": 3604952,
+            "AREALAND": 25128574279,
+            "INTPTLON": "-071.2724983",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "09271",
+            "CENTLAT": "+42.3794881",
+            "AREAWATER": 185677268,
+            "BASENAME": "Boston, MA--NH",
+            "OID": "27021206517502",
+            "UA": "09271",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.3789986",
+            "NAME": "Boston, MA--NH Urban Area",
+            "OBJECTID": 407,
+            "CENTLON": "-071.1422204",
+            "AREALAND": 4288728505,
+            "INTPTLON": "-071.1423438",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "72495",
+            "POP100": 26383,
+            "GEOID": "2502172495",
+            "CENTLAT": "+42.1464295",
+            "AREAWATER": 1589369,
+            "STATE": "25",
+            "BASENAME": "Walpole",
+            "OID": "27690264670680",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1462862",
+            "NAME": "Walpole town",
+            "OBJECTID": 4014,
+            "CENTLON": "-071.2554670",
+            "COUSUBCC": "T1",
+            "HU100": 10042,
+            "AREALAND": 52976583,
+            "INTPTLON": "-071.2556036",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00618331",
+            "UR": "U",
+            "COUNTY": "021"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 46075,
+            "GEOID": "25165",
+            "CENTLAT": "+42.0833679",
+            "SLDL": "165",
+            "AREAWATER": 5559794,
+            "STATE": "25",
+            "BASENAME": "9th Norfolk",
+            "OID": "213904693077483",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.0835308",
+            "NAME": "9th Norfolk District",
+            "OBJECTID": 4728,
+            "CENTLON": "-071.3339446",
+            "LSY": "2018",
+            "HU100": 16830,
+            "AREALAND": 161329170,
+            "INTPTLON": "-071.3360033",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 725981,
+            "GEOID": "25021",
+            "CENTLAT": "+42.1710171",
+            "AREAWATER": 124957891,
+            "STATE": "25",
+            "BASENAME": "Norfolk",
+            "OID": "27590264619752",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1717377",
+            "NAME": "Norfolk County",
+            "OBJECTID": 3174,
+            "CENTLON": "-071.1841234",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00606937",
+            "AREALAND": 1025912543,
+            "INTPTLON": "-071.1811102",
+            "HU100": 291489,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 798458,
+            "GEOID": "2508",
+            "CENTLAT": "+42.1929466",
+            "CDSESSN": "116",
+            "AREAWATER": 448445056,
+            "STATE": "25",
+            "BASENAME": "8",
+            "OID": "211904690191996",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.1947343",
+            "NAME": "Congressional District 8",
+            "OBJECTID": 350,
+            "CENTLON": "-070.9438391",
+            "HU100": 340116,
+            "AREALAND": 844339683,
+            "INTPTLON": "-070.9440053",
+            "CD116": "08",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4665,
+            "GEOID": "25021411101",
+            "CENTLAT": "+42.1124700",
+            "AREAWATER": 140901,
+            "STATE": "25",
+            "BASENAME": "4111.01",
+            "OID": "2079015677894557",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.1116290",
+            "NAME": "Census Tract 4111.01",
+            "OBJECTID": 66516,
+            "TRACT": "411101",
+            "CENTLON": "-071.2630783",
+            "HU100": 1571,
+            "AREALAND": 10364924,
+            "INTPTLON": "-071.2626198",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "021"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 123,
+            "GEOID": "250214111012026",
+            "CENTLAT": "+42.1063857",
+            "BLOCK": "2026",
+            "AREAWATER": 0,
+            "STATE": "25",
+            "BASENAME": "2026",
+            "OID": "210701007782414",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.1063857",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2026",
+            "OBJECTID": 220121,
+            "TRACT": "411101",
+            "CENTLON": "-071.2690654",
+            "BLKGRP": "2",
+            "AREALAND": 511615,
+            "HU100": 44,
+            "INTPTLON": "-071.2690654",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "021"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -71.266743,
+          "y": 42.109564
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

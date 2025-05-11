@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T15:57:46.745314+00:00",
+  "elapsed": 0.144648,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3755",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:57:46 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.474167&y=42.610833"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.474167&y=42.610833",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 159261,
+            "GEOID": "25006",
+            "CENTLAT": "+42.5312795",
+            "AREAWATER": 78332401,
+            "STATE": "25",
+            "BASENAME": "Hampshire, Franklin & Worcester",
+            "OID": "212904693077247",
+            "LSADC": "07",
+            "SLDU": "006",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.5329759",
+            "NAME": "Hampshire, Franklin & Worcester District",
+            "OBJECTID": 1488,
+            "CENTLON": "-072.4811446",
+            "LSY": "2018",
+            "HU100": 66046,
+            "AREALAND": 1679265282,
+            "INTPTLON": "-072.4933028",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00606926",
+            "POP100": 7029917,
+            "GEOID": "25",
+            "CENTLAT": "+42.1618490",
+            "AREAWATER": 7130653806,
+            "STATE": "25",
+            "BASENAME": "Massachusetts",
+            "STUSAB": "MA",
+            "OID": "27490203627104",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.1565196",
+            "DIVISION": "1",
+            "NAME": "Massachusetts",
+            "REGION": "1",
+            "OBJECTID": 10,
+            "CENTLON": "-071.4975238",
+            "AREALAND": 20204396898,
+            "INTPTLON": "-071.4895915",
+            "HU100": 2998537,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "47835",
+            "POP100": 2866,
+            "GEOID": "2501147835",
+            "CENTLAT": "+42.6757344",
+            "AREAWATER": 2812853,
+            "STATE": "25",
+            "BASENAME": "Northfield",
+            "OID": "27690244979322",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.6770910",
+            "NAME": "Northfield town",
+            "OBJECTID": 8917,
+            "CENTLON": "-072.4459577",
+            "COUSUBCC": "T1",
+            "HU100": 1407,
+            "AREALAND": 88741275,
+            "INTPTLON": "-072.4538758",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00619381",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 41356,
+            "GEOID": "25066",
+            "CENTLAT": "+42.6069160",
+            "SLDL": "066",
+            "AREAWATER": 12040511,
+            "STATE": "25",
+            "BASENAME": "2nd Berkshire",
+            "OID": "213904693077381",
+            "LSADC": "07",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6039483",
+            "NAME": "2nd Berkshire District",
+            "OBJECTID": 4649,
+            "CENTLON": "-072.8485347",
+            "LSY": "2018",
+            "HU100": 20616,
+            "AREALAND": 1033474928,
+            "INTPTLON": "-072.8556295",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 71029,
+            "GEOID": "25011",
+            "CENTLAT": "+42.5831533",
+            "AREAWATER": 65609400,
+            "STATE": "25",
+            "BASENAME": "Franklin",
+            "OID": "27590244937618",
+            "LSADC": "06",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.5845038",
+            "NAME": "Franklin County",
+            "OBJECTID": 3143,
+            "CENTLON": "-072.5917067",
+            "COUNTYCC": "H4",
+            "COUNTYNS": "00606932",
+            "AREALAND": 1810941373,
+            "INTPTLON": "-072.5917921",
+            "HU100": 34345,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "011"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 780054,
+            "GEOID": "2502",
+            "CENTLAT": "+42.3857790",
+            "CDSESSN": "116",
+            "AREAWATER": 221765526,
+            "STATE": "25",
+            "BASENAME": "2",
+            "OID": "211904690191937",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.3850416",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 347,
+            "CENTLON": "-072.1168591",
+            "HU100": 319344,
+            "AREALAND": 4216491678,
+            "INTPTLON": "-072.1186908",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2866,
+            "GEOID": "25011040300",
+            "CENTLAT": "+42.6757344",
+            "AREAWATER": 2812853,
+            "STATE": "25",
+            "BASENAME": "403",
+            "OID": "20790245080754",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.6770910",
+            "NAME": "Census Tract 403",
+            "OBJECTID": 38471,
+            "TRACT": "040300",
+            "CENTLON": "-072.4459577",
+            "HU100": 1407,
+            "AREALAND": 88741275,
+            "INTPTLON": "-072.4538758",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "250110403002060",
+            "CENTLAT": "+42.6091353",
+            "BLOCK": "2060",
+            "AREAWATER": 0,
+            "STATE": "25",
+            "BASENAME": "2060",
+            "OID": "210701006690877",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.6091353",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2060",
+            "OBJECTID": 6980608,
+            "TRACT": "040300",
+            "CENTLON": "-072.4754409",
+            "BLKGRP": "2",
+            "AREALAND": 159821,
+            "HU100": 0,
+            "INTPTLON": "-072.4754409",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "011"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.474167,
+          "y": 42.610833
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

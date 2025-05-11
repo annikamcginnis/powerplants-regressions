@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:59:36.897257+00:00",
+  "elapsed": 0.181046,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4568",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:59:36 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-74.284&y=40.446"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-74.284&y=40.446",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 230971,
+            "GEOID": "34012",
+            "CENTLAT": "+40.1591695",
+            "AREAWATER": 17895456,
+            "STATE": "34",
+            "BASENAME": "12",
+            "OID": "212904690195794",
+            "LSADC": "LU",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.1593926",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 1273,
+            "CENTLON": "-074.4373018",
+            "LSY": "2018",
+            "HU100": 84130,
+            "AREALAND": 928413859,
+            "INTPTLON": "-074.4363030",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779795",
+            "POP100": 9288994,
+            "GEOID": "34",
+            "CENTLAT": "+40.1048623",
+            "AREAWATER": 3533261945,
+            "STATE": "34",
+            "BASENAME": "New Jersey",
+            "STUSAB": "NJ",
+            "OID": "27490286138606",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1072744",
+            "DIVISION": "2",
+            "NAME": "New Jersey",
+            "REGION": "1",
+            "OBJECTID": 30,
+            "CENTLON": "-074.6583735",
+            "AREALAND": 19048737655,
+            "INTPTLON": "-074.6652012",
+            "HU100": 3761229,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 23582649,
+            "GEOID": "408",
+            "CENTLAT": "+41.0667541",
+            "AREAWATER": 8099265995,
+            "BASENAME": "New York-Newark, NY-NJ-CT-PA",
+            "OID": "2619013782255195",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7749300",
+            "NAME": "New York-Newark, NY-NJ-CT-PA CSA",
+            "CSA": "408",
+            "OBJECTID": 140,
+            "CENTLON": "-073.8753122",
+            "HU100": 9401953,
+            "AREALAND": 32113500421,
+            "INTPTLON": "-073.8737580",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "54705",
+            "POP100": 66876,
+            "GEOID": "3402354705",
+            "CENTLAT": "+40.4040206",
+            "AREAWATER": 7106894,
+            "STATE": "34",
+            "BASENAME": "Old Bridge",
+            "OID": "27690423774442",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4046321",
+            "NAME": "Old Bridge township",
+            "OBJECTID": 24808,
+            "CENTLON": "-074.3086138",
+            "COUSUBCC": "T1",
+            "HU100": 26067,
+            "AREALAND": 98889290,
+            "INTPTLON": "-074.3085374",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00882158",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8050,
+            "GEOID": "3442540",
+            "CENTLAT": "+40.4454244",
+            "AREAWATER": 74961,
+            "STATE": "34",
+            "BASENAME": "Madison Park",
+            "OID": "28090423839317",
+            "LSADC": "57",
+            "PLACE": "42540",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4459629",
+            "NAME": "Madison Park CDP",
+            "OBJECTID": 23529,
+            "PLACECC": "U1",
+            "CENTLON": "-074.2965408",
+            "CBSAPCI": "N",
+            "HU100": 3184,
+            "AREALAND": 4709339,
+            "INTPTLON": "-074.2963902",
+            "PLACENS": "02390107",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 230971,
+            "GEOID": "34012",
+            "CENTLAT": "+40.1591695",
+            "SLDL": "012",
+            "AREAWATER": 17895456,
+            "STATE": "34",
+            "BASENAME": "12",
+            "OID": "213904690195874",
+            "LSADC": "L4",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.1593926",
+            "NAME": "General Assembly District 12",
+            "OBJECTID": 2916,
+            "CENTLON": "-074.4373018",
+            "LSY": "2018",
+            "HU100": 84130,
+            "AREALAND": 928413859,
+            "INTPTLON": "-074.4363030",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 863162,
+            "GEOID": "34023",
+            "CENTLAT": "+40.4399815",
+            "AREAWATER": 35356734,
+            "STATE": "34",
+            "BASENAME": "Middlesex",
+            "OID": "27590423714411",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.4396214",
+            "NAME": "Middlesex County",
+            "OBJECTID": 1075,
+            "CENTLON": "-074.4089734",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00882230",
+            "AREALAND": 800881307,
+            "INTPTLON": "-074.4074303",
+            "HU100": 315521,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 786129,
+            "GEOID": "3412",
+            "CENTLAT": "+40.3728377",
+            "CDSESSN": "116",
+            "AREAWATER": 18492215,
+            "STATE": "34",
+            "BASENAME": "12",
+            "OID": "211904690194720",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3742161",
+            "NAME": "Congressional District 12",
+            "OBJECTID": 218,
+            "CENTLON": "-074.5715727",
+            "HU100": 298270,
+            "AREALAND": 1067393289,
+            "INTPTLON": "-074.5740565",
+            "CD116": "12",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5457,
+            "GEOID": "34023007908",
+            "CENTLAT": "+40.4439302",
+            "AREAWATER": 74961,
+            "STATE": "34",
+            "BASENAME": "79.08",
+            "OID": "20790423991132",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.4401909",
+            "NAME": "Census Tract 79.08",
+            "OBJECTID": 45256,
+            "TRACT": "007908",
+            "CENTLON": "-074.2900815",
+            "HU100": 2292,
+            "AREALAND": 2587615,
+            "INTPTLON": "-074.2897749",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "023"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "340230079081000",
+            "CENTLAT": "+40.4414390",
+            "BLOCK": "1000",
+            "AREAWATER": 32838,
+            "STATE": "34",
+            "BASENAME": "1000",
+            "OID": "210701004686995",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.4401909",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1000",
+            "OBJECTID": 2484813,
+            "TRACT": "007908",
+            "CENTLON": "-074.2873759",
+            "BLKGRP": "1",
+            "AREALAND": 1428117,
+            "HU100": 0,
+            "INTPTLON": "-074.2897749",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "023"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -74.284,
+          "y": 40.446
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:37:24.395148+00:00",
+  "elapsed": 0.205872,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4837",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:37:24 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4685389b04d24928d59124b3a512fb85755dc771bca47a6b2a92df4d0a97e08410c6afeacdef43c9a1b82f5a09618a199",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.1583&y=46.7331"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-117.1583&y=46.7331",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 161037,
+            "GEOID": "53009",
+            "CENTLAT": "+46.7992535",
+            "AREAWATER": 156987751,
+            "STATE": "53",
+            "BASENAME": "9",
+            "OID": "212904690194726",
+            "LSADC": "LU",
+            "SLDU": "009",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.7982811",
+            "NAME": "State Senate District 9",
+            "OBJECTID": 881,
+            "CENTLON": "-117.9890499",
+            "LSY": "2018",
+            "HU100": 60830,
+            "AREALAND": 18896733306,
+            "INTPTLON": "-117.9968634",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779804",
+            "POP100": 7705281,
+            "GEOID": "53",
+            "CENTLAT": "+47.4148772",
+            "AREAWATER": 12549742084,
+            "STATE": "53",
+            "BASENAME": "Washington",
+            "STUSAB": "WA",
+            "OID": "27490225755057",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+47.4073238",
+            "DIVISION": "9",
+            "NAME": "Washington",
+            "REGION": "4",
+            "OBJECTID": 35,
+            "CENTLON": "-120.5954943",
+            "AREALAND": 172117960159,
+            "INTPTLON": "-120.5757999",
+            "HU100": 3202241,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 87490,
+            "GEOID": "446",
+            "CENTLAT": "+46.8734141",
+            "AREAWATER": 50616677,
+            "BASENAME": "Pullman-Moscow, WA-ID",
+            "OID": "2619013782255210",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.8631023",
+            "NAME": "Pullman-Moscow, WA-ID CSA",
+            "CSA": "446",
+            "OBJECTID": 155,
+            "CENTLON": "-117.2544091",
+            "HU100": 38181,
+            "AREALAND": 8378946323,
+            "INTPTLON": "-117.2489510",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "72748",
+            "CENTLAT": "+46.7344536",
+            "AREAWATER": 0,
+            "BASENAME": "Pullman, WA",
+            "OID": "27021256962776",
+            "UA": "72748",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.7344536",
+            "NAME": "Pullman, WA Urban Area",
+            "OBJECTID": 155,
+            "CENTLON": "-117.1762741",
+            "AREALAND": 21061238,
+            "INTPTLON": "-117.1762741",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92656",
+            "POP100": 34988,
+            "GEOID": "5307592656",
+            "CENTLAT": "+46.7270958",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "Pullman",
+            "OID": "27690256938615",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.7270958",
+            "NAME": "Pullman CCD",
+            "OBJECTID": 14657,
+            "CENTLON": "-117.1859662",
+            "COUSUBCC": "Z5",
+            "HU100": 14608,
+            "AREALAND": 494801134,
+            "INTPTLON": "-117.1859662",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939604",
+            "UR": "M",
+            "COUNTY": "075"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 161037,
+            "GEOID": "53009",
+            "CENTLAT": "+46.7992535",
+            "SLDL": "009",
+            "AREAWATER": 156987751,
+            "STATE": "53",
+            "BASENAME": "9",
+            "OID": "213904690194824",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+46.7982811",
+            "NAME": "State House District 9",
+            "OBJECTID": 2197,
+            "CENTLON": "-117.9890499",
+            "LSY": "2018",
+            "HU100": 60830,
+            "AREALAND": 18896733306,
+            "INTPTLON": "-117.9968634",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 32901,
+            "GEOID": "5356625",
+            "CENTLAT": "+46.7335550",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "Pullman",
+            "OID": "27890256943255",
+            "LSADC": "25",
+            "PLACE": "56625",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.7335550",
+            "NAME": "Pullman city",
+            "OBJECTID": 960,
+            "PLACECC": "C1",
+            "CENTLON": "-117.1679394",
+            "CBSAPCI": "Y",
+            "HU100": 13645,
+            "AREALAND": 28305409,
+            "INTPTLON": "-117.1679394",
+            "PLACENS": "02411502",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 47973,
+            "GEOID": "53075",
+            "CENTLAT": "+46.9008421",
+            "AREAWATER": 48246698,
+            "STATE": "53",
+            "BASENAME": "Whitman",
+            "OID": "27590256929057",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+46.9059441",
+            "NAME": "Whitman County",
+            "OBJECTID": 2208,
+            "CENTLON": "-117.5231190",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01533501",
+            "AREALAND": 5592463291,
+            "INTPTLON": "-117.5353898",
+            "HU100": 20922,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "075"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 751208,
+            "GEOID": "5305",
+            "CENTLAT": "+47.5767401",
+            "CDSESSN": "116",
+            "AREAWATER": 598783840,
+            "STATE": "53",
+            "BASENAME": "5",
+            "OID": "211904690193020",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+47.5732049",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 181,
+            "CENTLON": "-117.8762342",
+            "HU100": 321447,
+            "AREALAND": 40076211609,
+            "INTPTLON": "-117.8675495",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3486,
+            "GEOID": "53075000602",
+            "CENTLAT": "+46.7712346",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "6.02",
+            "OID": "2079015483537493",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+46.7712346",
+            "NAME": "Census Tract 6.02",
+            "OBJECTID": 31575,
+            "TRACT": "000602",
+            "CENTLON": "-117.0989449",
+            "HU100": 2408,
+            "AREALAND": 83019278,
+            "INTPTLON": "-117.0989449",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "075"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "530750006021038",
+            "CENTLAT": "+46.7320710",
+            "BLOCK": "1038",
+            "AREAWATER": 0,
+            "STATE": "53",
+            "BASENAME": "1038",
+            "OID": "210701008088192",
+            "LSADC": "BK",
+            "INTPTLAT": "+46.7320710",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1038",
+            "OBJECTID": 6161665,
+            "TRACT": "000602",
+            "CENTLON": "-117.1564672",
+            "BLKGRP": "1",
+            "AREALAND": 89154,
+            "HU100": 0,
+            "INTPTLON": "-117.1564672",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "075"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -117.1583,
+          "y": 46.7331
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

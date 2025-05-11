@@ -1,0 +1,259 @@
+{
+  "created_at": "2025-05-01T15:54:49.348549+00:00",
+  "elapsed": 0.158839,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "3760",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:54:49 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.982687&y=43.476875"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.982687&y=43.476875",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 59187,
+            "GEOID": "50RUT",
+            "CENTLAT": "+43.5882929",
+            "AREAWATER": 37568549,
+            "STATE": "50",
+            "BASENAME": "Rutland",
+            "OID": "212904693072191",
+            "LSADC": "L8",
+            "SLDU": "RUT",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.5888497",
+            "NAME": "Rutland State Senate District",
+            "OBJECTID": 1480,
+            "CENTLON": "-073.0494790",
+            "LSY": "2018",
+            "HU100": 32826,
+            "AREALAND": 2280801439,
+            "INTPTLON": "-073.0527162",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "75925",
+            "POP100": 2129,
+            "GEOID": "5002175925",
+            "CENTLAT": "+43.4400164",
+            "AREAWATER": 1163026,
+            "STATE": "50",
+            "BASENAME": "Wallingford",
+            "OID": "27690249770376",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.4270940",
+            "NAME": "Wallingford town",
+            "OBJECTID": 10076,
+            "CENTLON": "-072.9448028",
+            "COUSUBCC": "T1",
+            "HU100": 1103,
+            "AREALAND": 111091121,
+            "INTPTLON": "-072.9499415",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462239",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 8661,
+            "GEOID": "50R-2",
+            "CENTLAT": "+43.5118386",
+            "SLDL": "R-2",
+            "AREAWATER": 2603302,
+            "STATE": "50",
+            "BASENAME": "Rutland-2",
+            "OID": "213904693072390",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+43.5140698",
+            "NAME": "Rutland-2 State House District",
+            "OBJECTID": 4407,
+            "CENTLON": "-072.9871476",
+            "LSY": "2018",
+            "HU100": 4265,
+            "AREALAND": 271011469,
+            "INTPTLON": "-072.9904625",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 60572,
+            "GEOID": "50021",
+            "CENTLAT": "+43.5799399",
+            "AREAWATER": 38745883,
+            "STATE": "50",
+            "BASENAME": "Rutland",
+            "OID": "27590249714602",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.5808577",
+            "NAME": "Rutland County",
+            "OBJECTID": 893,
+            "CENTLON": "-073.0365517",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461767",
+            "AREALAND": 2407970501,
+            "INTPTLON": "-073.0382023",
+            "HU100": 33869,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3514,
+            "GEOID": "50021964000",
+            "CENTLAT": "+43.4340570",
+            "AREAWATER": 2340360,
+            "STATE": "50",
+            "BASENAME": "9640",
+            "OID": "20790249978009",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.4370963",
+            "NAME": "Census Tract 9640",
+            "OBJECTID": 66342,
+            "TRACT": "964000",
+            "CENTLON": "-072.8695024",
+            "HU100": 2146,
+            "AREALAND": 238260183,
+            "INTPTLON": "-072.8699122",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 129,
+            "GEOID": "500219640002016",
+            "CENTLAT": "+43.4785946",
+            "BLOCK": "2016",
+            "AREAWATER": 14736,
+            "STATE": "50",
+            "BASENAME": "2016",
+            "OID": "210701004704720",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.4786722",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2016",
+            "OBJECTID": 3202049,
+            "TRACT": "964000",
+            "CENTLON": "-072.9942831",
+            "BLKGRP": "2",
+            "AREALAND": 6420328,
+            "HU100": 51,
+            "INTPTLON": "-072.9941466",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.982687,
+          "y": 43.476875
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

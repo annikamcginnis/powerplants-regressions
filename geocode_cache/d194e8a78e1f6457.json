@@ -1,0 +1,280 @@
+{
+  "created_at": "2025-05-01T15:50:42.815353+00:00",
+  "elapsed": 0.238238,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4117",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:50:42 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-74.771501&y=40.348275"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-74.771501&y=40.348275",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 224002,
+            "GEOID": "34015",
+            "CENTLAT": "+40.3376327",
+            "AREAWATER": 8427151,
+            "STATE": "34",
+            "BASENAME": "15",
+            "OID": "212904690195826",
+            "LSADC": "LU",
+            "SLDU": "015",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3375265",
+            "NAME": "State Senate District 15",
+            "OBJECTID": 1289,
+            "CENTLON": "-074.7818759",
+            "LSY": "2018",
+            "HU100": 87855,
+            "AREALAND": 468790899,
+            "INTPTLON": "-074.7860692",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779795",
+            "POP100": 9288994,
+            "GEOID": "34",
+            "CENTLAT": "+40.1048623",
+            "AREAWATER": 3533261945,
+            "STATE": "34",
+            "BASENAME": "New Jersey",
+            "STUSAB": "NJ",
+            "OID": "27490286138606",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.1072744",
+            "DIVISION": "2",
+            "NAME": "New Jersey",
+            "REGION": "1",
+            "OBJECTID": 30,
+            "CENTLON": "-074.6583735",
+            "AREALAND": 19048737655,
+            "INTPTLON": "-074.6652012",
+            "HU100": 3761229,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 23582649,
+            "GEOID": "408",
+            "CENTLAT": "+41.0667541",
+            "AREAWATER": 8099265995,
+            "BASENAME": "New York-Newark, NY-NJ-CT-PA",
+            "OID": "2619013782255195",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.7749300",
+            "NAME": "New York-Newark, NY-NJ-CT-PA CSA",
+            "CSA": "408",
+            "OBJECTID": 140,
+            "CENTLON": "-073.8753122",
+            "HU100": 9401953,
+            "AREALAND": 32113500421,
+            "INTPTLON": "-073.8737580",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "33180",
+            "POP100": 17491,
+            "GEOID": "3402133180",
+            "CENTLAT": "+40.3462174",
+            "AREAWATER": 2263228,
+            "STATE": "34",
+            "BASENAME": "Hopewell",
+            "OID": "27690294270234",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.3563619",
+            "NAME": "Hopewell township",
+            "OBJECTID": 11729,
+            "CENTLON": "-074.8067934",
+            "COUSUBCC": "T1",
+            "HU100": 6748,
+            "AREALAND": 150403983,
+            "INTPTLON": "-074.8120022",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00882129",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 224002,
+            "GEOID": "34015",
+            "CENTLAT": "+40.3376327",
+            "SLDL": "015",
+            "AREAWATER": 8427151,
+            "STATE": "34",
+            "BASENAME": "15",
+            "OID": "213904690195906",
+            "LSADC": "L4",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3375265",
+            "NAME": "General Assembly District 15",
+            "OBJECTID": 3161,
+            "CENTLON": "-074.7818759",
+            "LSY": "2018",
+            "HU100": 87855,
+            "AREALAND": 468790899,
+            "INTPTLON": "-074.7860692",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 387340,
+            "GEOID": "34021",
+            "CENTLAT": "+40.2834212",
+            "AREAWATER": 11434809,
+            "STATE": "34",
+            "BASENAME": "Mercer",
+            "OID": "27590294160922",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+40.2825026",
+            "NAME": "Mercer County",
+            "OBJECTID": 3129,
+            "CENTLON": "-074.7016810",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00882229",
+            "AREALAND": 581297767,
+            "INTPTLON": "-074.7037240",
+            "HU100": 150442,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 786129,
+            "GEOID": "3412",
+            "CENTLAT": "+40.3728377",
+            "CDSESSN": "116",
+            "AREAWATER": 18492215,
+            "STATE": "34",
+            "BASENAME": "12",
+            "OID": "211904690194720",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+40.3742161",
+            "NAME": "Congressional District 12",
+            "OBJECTID": 218,
+            "CENTLON": "-074.5715727",
+            "HU100": 298270,
+            "AREALAND": 1067393289,
+            "INTPTLON": "-074.5740565",
+            "CD116": "12",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4495,
+            "GEOID": "34021003905",
+            "CENTLAT": "+40.3777253",
+            "AREAWATER": 367447,
+            "STATE": "34",
+            "BASENAME": "39.05",
+            "OID": "207903716867496",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+40.3779459",
+            "NAME": "Census Tract 39.05",
+            "OBJECTID": 25958,
+            "TRACT": "003905",
+            "CENTLON": "-074.7653150",
+            "HU100": 1713,
+            "AREALAND": 55501631,
+            "INTPTLON": "-074.7623976",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "021"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 264,
+            "GEOID": "340210039053020",
+            "CENTLAT": "+40.3422144",
+            "BLOCK": "3020",
+            "AREAWATER": 104872,
+            "STATE": "34",
+            "BASENAME": "3020",
+            "OID": "210701004617109",
+            "LSADC": "BK",
+            "INTPTLAT": "+40.3447699",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3020",
+            "OBJECTID": 5826909,
+            "TRACT": "003905",
+            "CENTLON": "-074.7795770",
+            "BLKGRP": "3",
+            "AREALAND": 3755248,
+            "HU100": 95,
+            "INTPTLON": "-074.7824908",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "021"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -74.771501,
+          "y": 40.348275
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

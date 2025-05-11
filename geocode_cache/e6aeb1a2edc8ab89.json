@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T15:53:47.981135+00:00",
+  "elapsed": 0.154397,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4539",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:53:47 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4785e156e11099d05327ca9ae2e52726a0bf54e038bb6b71bfe5cd4c60124965f93b8b5fa47a5ea1f82c301001733f749",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-134.4953&y=58.3536"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-134.4953&y=58.3536",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 36329,
+            "GEOID": "0200Q",
+            "CENTLAT": "+58.7513849",
+            "AREAWATER": 5340791869,
+            "STATE": "02",
+            "BASENAME": "Q",
+            "OID": "212904689816096",
+            "LSADC": "LU",
+            "SLDU": "00Q",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+58.5447286",
+            "NAME": "State Senate District Q",
+            "OBJECTID": 597,
+            "CENTLON": "-135.5090626",
+            "LSY": "2018",
+            "HU100": 16991,
+            "AREALAND": 22981691841,
+            "INTPTLON": "-135.3172267",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01785533",
+            "POP100": 733391,
+            "GEOID": "02",
+            "CENTLAT": "+63.4130518",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-152.8796317",
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "HU100": 326200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "43561",
+            "CENTLAT": "+58.3582598",
+            "AREAWATER": 633165,
+            "BASENAME": "Juneau, AK",
+            "OID": "2702145059767",
+            "UA": "43561",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+58.3583078",
+            "NAME": "Juneau, AK Urban Area",
+            "OBJECTID": 870,
+            "CENTLON": "-134.5340998",
+            "AREALAND": 38274460,
+            "INTPTLON": "-134.5301034",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "36450",
+            "POP100": 32255,
+            "GEOID": "0211036450",
+            "CENTLAT": "+58.4427109",
+            "AREAWATER": 1426230792,
+            "STATE": "02",
+            "BASENAME": "Juneau",
+            "OID": "2769045059718",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+58.3729099",
+            "NAME": "Juneau census subarea",
+            "OBJECTID": 7577,
+            "CENTLON": "-134.2257891",
+            "COUSUBCC": "Z5",
+            "HU100": 14093,
+            "AREALAND": 7003406836,
+            "INTPTLON": "-134.1784454",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939945",
+            "UR": "M",
+            "COUNTY": "110"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 17739,
+            "GEOID": "02033",
+            "CENTLAT": "+58.7558432",
+            "SLDL": "033",
+            "AREAWATER": 4676592130,
+            "STATE": "02",
+            "BASENAME": "33",
+            "OID": "213904689816186",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+58.5447286",
+            "NAME": "State House District 33",
+            "OBJECTID": 1367,
+            "CENTLON": "-135.5759279",
+            "LSY": "2018",
+            "HU100": 9457,
+            "AREALAND": 21238120248,
+            "INTPTLON": "-135.3172267",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 32255,
+            "GEOID": "0236400",
+            "CENTLAT": "+58.4427109",
+            "AREAWATER": 1426230792,
+            "STATE": "02",
+            "BASENAME": "Juneau",
+            "OID": "2789045059730",
+            "LSADC": "53",
+            "PLACE": "36400",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+58.3729099",
+            "NAME": "Juneau city and borough",
+            "OBJECTID": 10467,
+            "PLACECC": "C1",
+            "CENTLON": "-134.2257891",
+            "CBSAPCI": "Y",
+            "HU100": 14093,
+            "AREALAND": 7003406836,
+            "INTPTLON": "-134.1784454",
+            "PLACENS": "02419344",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 32255,
+            "GEOID": "02110",
+            "CENTLAT": "+58.4427109",
+            "AREAWATER": 1426230792,
+            "STATE": "02",
+            "BASENAME": "Juneau",
+            "OID": "2759045059716",
+            "LSADC": "03",
+            "FUNCSTAT": "C",
+            "INTPTLAT": "+58.3729099",
+            "NAME": "Juneau City and Borough",
+            "OBJECTID": 772,
+            "CENTLON": "-134.2257891",
+            "COUNTYCC": "H6",
+            "COUNTYNS": "01419971",
+            "AREALAND": 7003406836,
+            "INTPTLON": "-134.1784454",
+            "HU100": 14093,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "110"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733391,
+            "GEOID": "0200",
+            "CENTLAT": "+63.4130518",
+            "CDSESSN": "116",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692178999",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 355,
+            "CENTLON": "-152.8796317",
+            "HU100": 326200,
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5148,
+            "GEOID": "02110000400",
+            "CENTLAT": "+58.3820043",
+            "AREAWATER": 7249823,
+            "STATE": "02",
+            "BASENAME": "4",
+            "OID": "2079045059744",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+58.3871584",
+            "NAME": "Census Tract 4",
+            "OBJECTID": 36230,
+            "TRACT": "000400",
+            "CENTLON": "-134.4471058",
+            "HU100": 1912,
+            "AREALAND": 142561382,
+            "INTPTLON": "-134.4578423",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "110"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 13,
+            "GEOID": "021100004003005",
+            "CENTLAT": "+58.3513902",
+            "BLOCK": "3005",
+            "AREAWATER": 0,
+            "STATE": "02",
+            "BASENAME": "3005",
+            "OID": "210701000004471",
+            "LSADC": "BK",
+            "INTPTLAT": "+58.3513902",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3005",
+            "OBJECTID": 1546861,
+            "TRACT": "000400",
+            "CENTLON": "-134.4990932",
+            "BLKGRP": "3",
+            "AREALAND": 756116,
+            "HU100": 5,
+            "INTPTLON": "-134.4990932",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "110"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -134.4953,
+          "y": 58.3536
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

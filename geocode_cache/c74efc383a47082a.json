@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:44:27.077498+00:00",
+  "elapsed": 0.144605,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4228",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:44:27 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-166.538185&y=53.892459"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-166.538185&y=53.892459",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 36486,
+            "GEOID": "0200S",
+            "CENTLAT": "+59.4697232",
+            "AREAWATER": 93330203907,
+            "STATE": "02",
+            "BASENAME": "S",
+            "OID": "212904689815895",
+            "LSADC": "LU",
+            "SLDU": "00S",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+59.2632413",
+            "NAME": "State Senate District S",
+            "OBJECTID": 339,
+            "CENTLON": "-160.3308373",
+            "LSY": "2018",
+            "HU100": 13691,
+            "AREALAND": 329314218949,
+            "INTPTLON": "-160.4725611",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01785533",
+            "POP100": 733391,
+            "GEOID": "02",
+            "CENTLAT": "+63.4130518",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Alaska",
+            "STUSAB": "AK",
+            "OID": "2749045059742",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+63.3473560",
+            "DIVISION": "9",
+            "NAME": "Alaska",
+            "REGION": "4",
+            "OBJECTID": 53,
+            "CENTLON": "-152.8796317",
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "HU100": 326200,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "01615",
+            "POP100": 5232,
+            "GEOID": "0201601615",
+            "CENTLAT": "+52.8186609",
+            "AREAWATER": 25183635754,
+            "STATE": "02",
+            "BASENAME": "Aleutians West",
+            "OID": "2769045076507",
+            "LSADC": "23",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+51.9594469",
+            "NAME": "Aleutians West census subarea",
+            "OBJECTID": 28017,
+            "CENTLON": "-174.9383984",
+            "COUSUBCC": "Z5",
+            "HU100": 1331,
+            "AREALAND": 11377885025,
+            "INTPTLON": "+178.3388130",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01939934",
+            "UR": "R",
+            "COUNTY": "016"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 17105,
+            "GEOID": "02037",
+            "CENTLAT": "+59.1294790",
+            "SLDL": "037",
+            "AREAWATER": 80424440801,
+            "STATE": "02",
+            "BASENAME": "37",
+            "OID": "213904689816165",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+59.4039467",
+            "NAME": "State House District 37",
+            "OBJECTID": 1331,
+            "CENTLON": "-159.8761132",
+            "LSY": "2018",
+            "HU100": 7639,
+            "AREALAND": 250541110492,
+            "INTPTLON": "-159.9105594",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4254,
+            "GEOID": "0280770",
+            "CENTLAT": "+53.9371218",
+            "AREAWATER": 281473875,
+            "STATE": "02",
+            "BASENAME": "Unalaska",
+            "OID": "2789045076544",
+            "LSADC": "25",
+            "PLACE": "80770",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+53.9102547",
+            "NAME": "Unalaska city",
+            "OBJECTID": 2530,
+            "PLACECC": "C1",
+            "CENTLON": "-166.5424394",
+            "CBSAPCI": "N",
+            "HU100": 776,
+            "AREALAND": 264728584,
+            "INTPTLON": "-166.5290291",
+            "PLACENS": "02418866",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 5232,
+            "GEOID": "02016",
+            "CENTLAT": "+52.8186609",
+            "AREAWATER": 25183635754,
+            "STATE": "02",
+            "BASENAME": "Aleutians West",
+            "OID": "2759045076504",
+            "LSADC": "05",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+51.9594469",
+            "NAME": "Aleutians West Census Area",
+            "OBJECTID": 1754,
+            "CENTLON": "-174.9383984",
+            "COUNTYCC": "H5",
+            "COUNTYNS": "01419965",
+            "AREALAND": 11377885025,
+            "INTPTLON": "+178.3388130",
+            "HU100": 1331,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "016"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 733391,
+            "GEOID": "0200",
+            "CENTLAT": "+63.4130518",
+            "CDSESSN": "116",
+            "AREAWATER": 245380162784,
+            "STATE": "02",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692178999",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+63.3473560",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 355,
+            "CENTLON": "-152.8796317",
+            "HU100": 326200,
+            "AREALAND": 1478941109938,
+            "INTPTLON": "-152.8397334",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4254,
+            "GEOID": "02016000200",
+            "CENTLAT": "+53.6605056",
+            "AREAWATER": 3104558227,
+            "STATE": "02",
+            "BASENAME": "2",
+            "OID": "2079045076553",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+53.6210913",
+            "NAME": "Census Tract 2",
+            "OBJECTID": 17010,
+            "TRACT": "000200",
+            "CENTLON": "-166.8664452",
+            "HU100": 776,
+            "AREALAND": 2821080604,
+            "INTPTLON": "-166.7709793",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "016"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 115,
+            "GEOID": "020160002001022",
+            "CENTLAT": "+53.8906378",
+            "BLOCK": "1022",
+            "AREAWATER": 0,
+            "STATE": "02",
+            "BASENAME": "1022",
+            "OID": "210701000001435",
+            "LSADC": "BK",
+            "INTPTLAT": "+53.8926030",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1022",
+            "OBJECTID": 2248878,
+            "TRACT": "000200",
+            "CENTLON": "-166.5419303",
+            "BLKGRP": "1",
+            "AREALAND": 179277,
+            "HU100": 65,
+            "INTPTLON": "-166.5398063",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "016"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -166.538185,
+          "y": 53.892459
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

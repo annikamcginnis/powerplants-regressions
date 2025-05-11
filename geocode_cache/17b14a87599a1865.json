@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:09:05.440981+00:00",
+  "elapsed": 0.143079,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4561",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:09:05 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.565833&y=42.876111"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.565833&y=42.876111",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 41731,
+            "GEOID": "50WDM",
+            "CENTLAT": "+42.9863838",
+            "AREAWATER": 26384701,
+            "STATE": "50",
+            "BASENAME": "Windham",
+            "OID": "212904693072189",
+            "LSADC": "L8",
+            "SLDU": "WDM",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.9872660",
+            "NAME": "Windham State Senate District",
+            "OBJECTID": 1479,
+            "CENTLON": "-072.7007778",
+            "LSY": "2018",
+            "HU100": 25933,
+            "AREALAND": 1839298665,
+            "INTPTLON": "-072.6847064",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "09703",
+            "CENTLAT": "+42.8557078",
+            "AREAWATER": 101337,
+            "BASENAME": "Brattleboro, VT",
+            "OID": "27021264616434",
+            "UA": "09703",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.8587194",
+            "NAME": "Brattleboro, VT Urban Area",
+            "OBJECTID": 1944,
+            "CENTLON": "-072.5747453",
+            "AREALAND": 14831844,
+            "INTPTLON": "-072.5744440",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "07900",
+            "POP100": 12184,
+            "GEOID": "5002507900",
+            "CENTLAT": "+42.8618700",
+            "AREAWATER": 1518094,
+            "STATE": "50",
+            "BASENAME": "Brattleboro",
+            "OID": "27690264526417",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.8601870",
+            "NAME": "Brattleboro town",
+            "OBJECTID": 29306,
+            "CENTLON": "-072.6144030",
+            "COUSUBCC": "T1",
+            "HU100": 6351,
+            "AREALAND": 83072992,
+            "INTPTLON": "-072.6330776",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462049",
+            "UR": "M",
+            "COUNTY": "025"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 7352,
+            "GEOID": "5007975",
+            "CENTLAT": "+42.8588946",
+            "AREAWATER": 908020,
+            "STATE": "50",
+            "BASENAME": "Brattleboro",
+            "OID": "28090264540549",
+            "LSADC": "57",
+            "PLACE": "07975",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.8616229",
+            "NAME": "Brattleboro CDP",
+            "OBJECTID": 30069,
+            "PLACECC": "U1",
+            "CENTLON": "-072.5626730",
+            "CBSAPCI": "N",
+            "HU100": 3925,
+            "AREALAND": 10883919,
+            "INTPTLON": "-072.5592164",
+            "PLACENS": "02378123",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 3875,
+            "GEOID": "50W23",
+            "CENTLAT": "+42.8766651",
+            "SLDL": "W23",
+            "AREAWATER": 1019030,
+            "STATE": "50",
+            "BASENAME": "Windham-2-3",
+            "OID": "213904693072382",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.8839935",
+            "NAME": "Windham-2-3 State House District",
+            "OBJECTID": 4393,
+            "CENTLON": "-072.5705730",
+            "LSY": "2018",
+            "HU100": 2135,
+            "AREALAND": 15756360,
+            "INTPTLON": "-072.5736107",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 45905,
+            "GEOID": "50025",
+            "CENTLAT": "+42.9903798",
+            "AREAWATER": 32919838,
+            "STATE": "50",
+            "BASENAME": "Windham",
+            "OID": "27590264497132",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9953348",
+            "NAME": "Windham County",
+            "OBJECTID": 3138,
+            "CENTLON": "-072.7138874",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461769",
+            "AREALAND": 2034346401,
+            "INTPTLON": "-072.7219550",
+            "HU100": 29916,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "025"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2460,
+            "GEOID": "50025968600",
+            "CENTLAT": "+42.8772961",
+            "AREAWATER": 1007918,
+            "STATE": "50",
+            "BASENAME": "9686",
+            "OID": "20790264578679",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.8839935",
+            "NAME": "Census Tract 9686",
+            "OBJECTID": 64635,
+            "TRACT": "968600",
+            "CENTLON": "-072.5714019",
+            "HU100": 1214,
+            "AREALAND": 15739475,
+            "INTPTLON": "-072.5736107",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "025"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 8,
+            "GEOID": "500259686002031",
+            "CENTLAT": "+42.8747077",
+            "BLOCK": "2031",
+            "AREAWATER": 8395,
+            "STATE": "50",
+            "BASENAME": "2031",
+            "OID": "210701004713998",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.8748998",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2031",
+            "OBJECTID": 1864380,
+            "TRACT": "968600",
+            "CENTLON": "-072.5629502",
+            "BLKGRP": "2",
+            "AREALAND": 860069,
+            "HU100": 4,
+            "INTPTLON": "-072.5630953",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "025"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.565833,
+          "y": 42.876111
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

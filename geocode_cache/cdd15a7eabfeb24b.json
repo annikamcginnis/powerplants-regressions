@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:52:28.944012+00:00",
+  "elapsed": 0.503482,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4529",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:52:28 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.578666&y=35.814274"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-90.578666&y=35.814274",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 96581,
+            "GEOID": "05021",
+            "CENTLAT": "+35.8296571",
+            "AREAWATER": 6183442,
+            "STATE": "05",
+            "BASENAME": "21",
+            "OID": "212904487269952",
+            "LSADC": "LU",
+            "SLDU": "021",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8263933",
+            "NAME": "State Senate District 21",
+            "OBJECTID": 434,
+            "CENTLON": "-090.7722206",
+            "LSY": "2018",
+            "HU100": 40560,
+            "AREALAND": 1052661333,
+            "INTPTLON": "-090.7632923",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00068085",
+            "POP100": 3011524,
+            "GEOID": "05",
+            "CENTLAT": "+34.8941740",
+            "AREAWATER": 3121867339,
+            "STATE": "05",
+            "BASENAME": "Arkansas",
+            "STUSAB": "AR",
+            "OID": "2749045148374",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.8955256",
+            "DIVISION": "7",
+            "NAME": "Arkansas",
+            "REGION": "3",
+            "OBJECTID": 55,
+            "CENTLON": "-092.4418428",
+            "AREALAND": 134660850501,
+            "INTPTLON": "-092.4446262",
+            "HU100": 1365265,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 179932,
+            "GEOID": "308",
+            "CENTLAT": "+35.8163754",
+            "AREAWATER": 33496113,
+            "BASENAME": "Jonesboro-Paragould, AR",
+            "OID": "2619013782255152",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.8157052",
+            "NAME": "Jonesboro-Paragould, AR CSA",
+            "CSA": "308",
+            "OBJECTID": 59,
+            "CENTLON": "-090.6233797",
+            "HU100": 76225,
+            "AREALAND": 5290811227,
+            "INTPTLON": "-090.6219717",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92670",
+            "POP100": 12448,
+            "GEOID": "0503192670",
+            "CENTLAT": "+35.8113294",
+            "AREAWATER": 340552,
+            "STATE": "05",
+            "BASENAME": "Nettleton",
+            "OID": "27690301200367",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8108539",
+            "NAME": "Nettleton township",
+            "OBJECTID": 16318,
+            "CENTLON": "-090.5940444",
+            "COUSUBCC": "Z1",
+            "HU100": 5691,
+            "AREALAND": 86244337,
+            "INTPTLON": "-090.5924452",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00066466",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 34470,
+            "GEOID": "05053",
+            "CENTLAT": "+35.8515127",
+            "SLDL": "053",
+            "AREAWATER": 9866357,
+            "STATE": "05",
+            "BASENAME": "53",
+            "OID": "213904487270522",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.8479979",
+            "NAME": "State House District 53",
+            "OBJECTID": 66,
+            "CENTLON": "-090.4555811",
+            "LSY": "2018",
+            "HU100": 14066,
+            "AREALAND": 891751447,
+            "INTPTLON": "-090.4585332",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 78576,
+            "GEOID": "0535710",
+            "CENTLAT": "+35.8211964",
+            "AREAWATER": 1434006,
+            "STATE": "05",
+            "BASENAME": "Jonesboro",
+            "OID": "27890301245336",
+            "LSADC": "25",
+            "PLACE": "35710",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.8197553",
+            "NAME": "Jonesboro city",
+            "OBJECTID": 2111,
+            "PLACECC": "C1",
+            "CENTLON": "-090.6790991",
+            "CBSAPCI": "Y",
+            "HU100": 33271,
+            "AREALAND": 207660464,
+            "INTPTLON": "-090.6790329",
+            "PLACENS": "02404811",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 111231,
+            "GEOID": "05031",
+            "CENTLAT": "+35.8309203",
+            "AREAWATER": 14330185,
+            "STATE": "05",
+            "BASENAME": "Craighead",
+            "OID": "27590301195954",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.8277285",
+            "NAME": "Craighead County",
+            "OBJECTID": 1100,
+            "CENTLON": "-090.6329195",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00066847",
+            "AREALAND": 1831531474,
+            "INTPTLON": "-090.6314213",
+            "HU100": 46739,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 716388,
+            "GEOID": "0501",
+            "CENTLAT": "+35.2950963",
+            "CDSESSN": "116",
+            "AREAWATER": 1385764712,
+            "STATE": "05",
+            "BASENAME": "1",
+            "OID": "211904492477229",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2939086",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 87,
+            "CENTLON": "-091.2456220",
+            "HU100": 330533,
+            "AREALAND": 49936109150,
+            "INTPTLON": "-091.2583060",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 6517,
+            "GEOID": "05031000502",
+            "CENTLAT": "+35.8186309",
+            "AREAWATER": 89637,
+            "STATE": "05",
+            "BASENAME": "5.02",
+            "OID": "207903692504808",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.8154737",
+            "NAME": "Census Tract 5.02",
+            "OBJECTID": 49141,
+            "TRACT": "000502",
+            "CENTLON": "-090.6014635",
+            "HU100": 3134,
+            "AREALAND": 67472714,
+            "INTPTLON": "-090.5976179",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "031"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 21,
+            "GEOID": "050310005021044",
+            "CENTLAT": "+35.8153401",
+            "BLOCK": "1044",
+            "AREAWATER": 0,
+            "STATE": "05",
+            "BASENAME": "1044",
+            "OID": "210701004316945",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.8153401",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1044",
+            "OBJECTID": 7341917,
+            "TRACT": "000502",
+            "CENTLON": "-090.5799053",
+            "BLKGRP": "1",
+            "AREALAND": 1115301,
+            "HU100": 7,
+            "INTPTLON": "-090.5799053",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "031"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -90.578666,
+          "y": 35.814274
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

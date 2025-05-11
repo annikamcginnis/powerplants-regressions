@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T16:06:30.037618+00:00",
+  "elapsed": 0.140499,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4460",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:06:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a45ebc83e80665218f0de3f397a91b7a45e421ac3ffe463c04dcdbd5940c136ee073069d0e68790b9509747d6d9eea95a8",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.81132&y=43.093682"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-73.81132&y=43.093682",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 301493,
+            "GEOID": "36043",
+            "CENTLAT": "+42.6276498",
+            "AREAWATER": 95543512,
+            "STATE": "36",
+            "BASENAME": "43",
+            "OID": "212904690195346",
+            "LSADC": "LU",
+            "SLDU": "043",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6210950",
+            "NAME": "State Senate District 43",
+            "OBJECTID": 789,
+            "CENTLON": "-073.5958662",
+            "LSY": "2018",
+            "HU100": 143742,
+            "AREALAND": 4398166963,
+            "INTPTLON": "-073.5943770",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779796",
+            "POP100": 20201249,
+            "GEOID": "36",
+            "CENTLAT": "+42.9196161",
+            "AREAWATER": 19256750161,
+            "STATE": "36",
+            "BASENAME": "New York",
+            "STUSAB": "NY",
+            "OID": "27490100833860",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.9133974",
+            "DIVISION": "2",
+            "NAME": "New York",
+            "REGION": "1",
+            "OBJECTID": 51,
+            "CENTLON": "-075.5941471",
+            "AREALAND": 122049520861,
+            "INTPTLON": "-075.5962723",
+            "HU100": 8488066,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 1190727,
+            "GEOID": "104",
+            "CENTLAT": "+42.9541907",
+            "AREAWATER": 527824982,
+            "BASENAME": "Albany-Schenectady, NY",
+            "OID": "2619013782255077",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.9540614",
+            "NAME": "Albany-Schenectady, NY CSA",
+            "CSA": "104",
+            "OBJECTID": 70,
+            "CENTLON": "-073.9003745",
+            "HU100": 570586,
+            "AREALAND": 15652232590,
+            "INTPTLON": "-073.9005139",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "79633",
+            "CENTLAT": "+43.0470670",
+            "AREAWATER": 548657,
+            "BASENAME": "Saratoga Springs, NY",
+            "OID": "27021725275912",
+            "UA": "79633",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.0896304",
+            "NAME": "Saratoga Springs, NY Urban Area",
+            "OBJECTID": 1930,
+            "CENTLON": "-073.7904854",
+            "AREALAND": 143950664,
+            "INTPTLON": "-073.7661699",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "30444",
+            "POP100": 8004,
+            "GEOID": "3609130444",
+            "CENTLAT": "+43.1373709",
+            "AREAWATER": 773582,
+            "STATE": "36",
+            "BASENAME": "Greenfield",
+            "OID": "27690724407701",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.1379991",
+            "NAME": "Greenfield town",
+            "OBJECTID": 3449,
+            "CENTLON": "-073.8763137",
+            "COUSUBCC": "T1",
+            "HU100": 3510,
+            "AREALAND": 174534757,
+            "INTPTLON": "-073.8722990",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00979019",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 141580,
+            "GEOID": "36112",
+            "CENTLAT": "+42.9924676",
+            "SLDL": "112",
+            "AREAWATER": 20295962,
+            "STATE": "36",
+            "BASENAME": "112",
+            "OID": "213904690195632",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.9870033",
+            "NAME": "Assembly District 112",
+            "OBJECTID": 2768,
+            "CENTLON": "-073.9209705",
+            "LSY": "2018",
+            "HU100": 62587,
+            "AREALAND": 992674454,
+            "INTPTLON": "-073.9130786",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 235509,
+            "GEOID": "36091",
+            "CENTLAT": "+43.1071327",
+            "AREAWATER": 87571790,
+            "STATE": "36",
+            "BASENAME": "Saratoga",
+            "OID": "27590724407683",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+43.1061353",
+            "NAME": "Saratoga County",
+            "OBJECTID": 210,
+            "CENTLON": "-073.8636885",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00974143",
+            "AREALAND": 2097880439,
+            "INTPTLON": "-073.8553872",
+            "HU100": 109919,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 705041,
+            "GEOID": "3621",
+            "CENTLAT": "+44.0160343",
+            "CDSESSN": "116",
+            "AREAWATER": 3341236146,
+            "STATE": "36",
+            "BASENAME": "21",
+            "OID": "211904690193649",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0083839",
+            "NAME": "Congressional District 21",
+            "OBJECTID": 394,
+            "CENTLON": "-074.5951599",
+            "HU100": 374126,
+            "AREALAND": 39145764061,
+            "INTPTLON": "-074.6092313",
+            "CD116": "21",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3083,
+            "GEOID": "36091060601",
+            "CENTLAT": "+43.1447273",
+            "AREAWATER": 383620,
+            "STATE": "36",
+            "BASENAME": "606.01",
+            "OID": "207903716976234",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+43.1385663",
+            "NAME": "Census Tract 606.01",
+            "OBJECTID": 46572,
+            "TRACT": "060601",
+            "CENTLON": "-073.8158665",
+            "HU100": 1345,
+            "AREALAND": 63976664,
+            "INTPTLON": "-073.8198485",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 280,
+            "GEOID": "360910606013017",
+            "CENTLAT": "+43.0958184",
+            "BLOCK": "3017",
+            "AREAWATER": 0,
+            "STATE": "36",
+            "BASENAME": "3017",
+            "OID": "210701004832152",
+            "LSADC": "BK",
+            "INTPTLAT": "+43.0958184",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3017",
+            "OBJECTID": 3291332,
+            "TRACT": "060601",
+            "CENTLON": "-073.8148926",
+            "BLKGRP": "3",
+            "AREALAND": 1305807,
+            "HU100": 112,
+            "INTPTLON": "-073.8148926",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "091"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -73.81132,
+          "y": 43.093682
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:48:04.626095+00:00",
+  "elapsed": 0.20694,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4908",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:48:04 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.802355&y=33.355862"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-111.802355&y=33.355862",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 305491,
+            "GEOID": "04012",
+            "CENTLAT": "+33.2523046",
+            "AREAWATER": 282686,
+            "STATE": "04",
+            "BASENAME": "12",
+            "OID": "212904690702351",
+            "LSADC": "LU",
+            "SLDU": "012",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2524002",
+            "NAME": "State Senate District 12",
+            "OBJECTID": 1949,
+            "CENTLON": "-111.6891715",
+            "LSY": "2018",
+            "HU100": 102774,
+            "AREALAND": 333999074,
+            "INTPTLON": "-111.6891184",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779777",
+            "POP100": 7151502,
+            "GEOID": "04",
+            "CENTLAT": "+34.2751017",
+            "AREAWATER": 858853288,
+            "STATE": "04",
+            "BASENAME": "Arizona",
+            "STUSAB": "AZ",
+            "OID": "274901053753069",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.2039362",
+            "DIVISION": "8",
+            "NAME": "Arizona",
+            "REGION": "4",
+            "OBJECTID": 15,
+            "CENTLON": "-111.6605337",
+            "AREALAND": 294360991275,
+            "INTPTLON": "-111.6063449",
+            "HU100": 3082000,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 4899104,
+            "GEOID": "429",
+            "CENTLAT": "+33.3389731",
+            "AREAWATER": 182157882,
+            "BASENAME": "Phoenix-Mesa, AZ",
+            "OID": "2619013782255204",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3420476",
+            "NAME": "Phoenix-Mesa, AZ CSA",
+            "CSA": "429",
+            "OBJECTID": 149,
+            "CENTLON": "-111.7594718",
+            "HU100": 2018078,
+            "AREALAND": 50051954373,
+            "INTPTLON": "-111.7567369",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "69184",
+            "CENTLAT": "+33.5014784",
+            "AREAWATER": 8942624,
+            "BASENAME": "Phoenix--Mesa--Scottsdale, AZ",
+            "OID": "270211231876576",
+            "UA": "69184",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.4999005",
+            "NAME": "Phoenix--Mesa--Scottsdale, AZ Urban Area",
+            "OBJECTID": 2551,
+            "CENTLON": "-111.9611891",
+            "AREALAND": 2876131867,
+            "INTPTLON": "-111.9631531",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92601",
+            "POP100": 3331925,
+            "GEOID": "0401392601",
+            "CENTLAT": "+33.5167709",
+            "AREAWATER": 10048820,
+            "STATE": "04",
+            "BASENAME": "Phoenix",
+            "OID": "276901230482780",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5211331",
+            "NAME": "Phoenix CCD",
+            "OBJECTID": 8005,
+            "CENTLON": "-112.0287439",
+            "COUSUBCC": "Z5",
+            "HU100": 1379875,
+            "AREALAND": 2805901266,
+            "INTPTLON": "-112.0284405",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01934968",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 305491,
+            "GEOID": "04012",
+            "CENTLAT": "+33.2523046",
+            "SLDL": "012",
+            "AREAWATER": 282686,
+            "STATE": "04",
+            "BASENAME": "12",
+            "OID": "213904690702867",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2524002",
+            "NAME": "State House District 12",
+            "OBJECTID": 3497,
+            "CENTLON": "-111.6891715",
+            "LSY": "2018",
+            "HU100": 102774,
+            "AREALAND": 333999074,
+            "INTPTLON": "-111.6891184",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 267918,
+            "GEOID": "0427400",
+            "CENTLAT": "+33.3099769",
+            "AREAWATER": 525310,
+            "STATE": "04",
+            "BASENAME": "Gilbert",
+            "OID": "278901230483023",
+            "LSADC": "43",
+            "PLACE": "27400",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3102245",
+            "NAME": "Gilbert town",
+            "OBJECTID": 9617,
+            "PLACECC": "C1",
+            "CENTLON": "-111.7462177",
+            "CBSAPCI": "N",
+            "HU100": 93230,
+            "AREALAND": 177593592,
+            "INTPTLON": "-111.7432243",
+            "PLACENS": "02412682",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 4420568,
+            "GEOID": "04013",
+            "CENTLAT": "+33.3483268",
+            "AREAWATER": 62704529,
+            "STATE": "04",
+            "BASENAME": "Maricopa",
+            "OID": "275901230330570",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.3451756",
+            "NAME": "Maricopa County",
+            "OBJECTID": 900,
+            "CENTLON": "-112.4932069",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00037026",
+            "AREALAND": 23832530727,
+            "INTPTLON": "-112.4989296",
+            "HU100": 1812827,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "013"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 881025,
+            "GEOID": "0405",
+            "CENTLAT": "+33.3377509",
+            "CDSESSN": "116",
+            "AREAWATER": 2222453,
+            "STATE": "04",
+            "BASENAME": "5",
+            "OID": "211904690703061",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.3374340",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 310,
+            "CENTLON": "-111.7146587",
+            "HU100": 356479,
+            "AREALAND": 760297656,
+            "INTPTLON": "-111.7144116",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3850,
+            "GEOID": "04013422401",
+            "CENTLAT": "+33.3571554",
+            "AREAWATER": 31837,
+            "STATE": "04",
+            "BASENAME": "4224.01",
+            "OID": "207901230776195",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.3570982",
+            "NAME": "Census Tract 4224.01",
+            "OBJECTID": 55343,
+            "TRACT": "422401",
+            "CENTLON": "-111.7983717",
+            "HU100": 1795,
+            "AREALAND": 2557667,
+            "INTPTLON": "-111.7975401",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 63,
+            "GEOID": "040134224013001",
+            "CENTLAT": "+33.3551007",
+            "BLOCK": "3001",
+            "AREAWATER": 0,
+            "STATE": "04",
+            "BASENAME": "3001",
+            "OID": "210701002226083",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.3551007",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3001",
+            "OBJECTID": 1713494,
+            "TRACT": "422401",
+            "CENTLON": "-111.8027059",
+            "BLKGRP": "3",
+            "AREALAND": 337423,
+            "HU100": 17,
+            "INTPTLON": "-111.8027059",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "013"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -111.802355,
+          "y": 33.355862
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

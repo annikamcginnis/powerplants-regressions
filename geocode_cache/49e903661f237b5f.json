@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:45:36.102550+00:00",
+  "elapsed": 0.13236,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4102",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:45:36 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.237222&y=37.574167"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.237222&y=37.574167",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 65761,
+            "GEOID": "20015",
+            "CENTLAT": "+37.3092342",
+            "AREAWATER": 52630068,
+            "STATE": "20",
+            "BASENAME": "15",
+            "OID": "212904692048923",
+            "LSADC": "LU",
+            "SLDU": "015",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.2918767",
+            "NAME": "State Senate District 15",
+            "OBJECTID": 1164,
+            "CENTLON": "-095.4444655",
+            "LSY": "2018",
+            "HU100": 31363,
+            "AREALAND": 4535071046,
+            "INTPTLON": "-095.4439613",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "00481813",
+            "POP100": 2937880,
+            "GEOID": "20",
+            "CENTLAT": "+38.4938959",
+            "AREAWATER": 1345707497,
+            "STATE": "20",
+            "BASENAME": "Kansas",
+            "STUSAB": "KS",
+            "OID": "2749051425496",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+38.4985464",
+            "DIVISION": "4",
+            "NAME": "Kansas",
+            "REGION": "2",
+            "OBJECTID": 6,
+            "CENTLON": "-098.3786217",
+            "AREALAND": 211753777874,
+            "INTPTLON": "-098.3834298",
+            "HU100": 1275689,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "21525",
+            "POP100": 1232,
+            "GEOID": "2013321525",
+            "CENTLAT": "+37.6018227",
+            "AREAWATER": 1396309,
+            "STATE": "20",
+            "BASENAME": "Erie",
+            "OID": "27690181213510",
+            "LSADC": "44",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.6015926",
+            "NAME": "Erie township",
+            "OBJECTID": 34408,
+            "CENTLON": "-095.3066749",
+            "COUSUBCC": "T1",
+            "HU100": 594,
+            "AREALAND": 122596674,
+            "INTPTLON": "-095.3053975",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00474973",
+            "UR": "R",
+            "COUNTY": "133"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 21769,
+            "GEOID": "20002",
+            "CENTLAT": "+37.6189521",
+            "SLDL": "002",
+            "AREAWATER": 27487358,
+            "STATE": "20",
+            "BASENAME": "2",
+            "OID": "213904692049825",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+37.6213668",
+            "NAME": "State House District 2",
+            "OBJECTID": 2451,
+            "CENTLON": "-095.0397749",
+            "LSY": "2018",
+            "HU100": 10022,
+            "AREALAND": 3159792661,
+            "INTPTLON": "-095.0413616",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 1047,
+            "GEOID": "2021500",
+            "CENTLAT": "+37.5716610",
+            "AREAWATER": 0,
+            "STATE": "20",
+            "BASENAME": "Erie",
+            "OID": "27890181214035",
+            "LSADC": "25",
+            "PLACE": "21500",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5716610",
+            "NAME": "Erie city",
+            "OBJECTID": 10691,
+            "PLACECC": "C1",
+            "CENTLON": "-095.2417911",
+            "CBSAPCI": "N",
+            "HU100": 482,
+            "AREALAND": 3283673,
+            "INTPTLON": "-095.2417911",
+            "PLACENS": "02394698",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 15904,
+            "GEOID": "20133",
+            "CENTLAT": "+37.5584201",
+            "AREAWATER": 16350961,
+            "STATE": "20",
+            "BASENAME": "Neosho",
+            "OID": "27590181190749",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+37.5642832",
+            "NAME": "Neosho County",
+            "OBJECTID": 1455,
+            "CENTLON": "-095.3067925",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00485030",
+            "AREALAND": 1480129682,
+            "INTPTLON": "-095.3156822",
+            "HU100": 7211,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "133"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 713007,
+            "GEOID": "2002",
+            "CENTLAT": "+38.4777375",
+            "CDSESSN": "116",
+            "AREAWATER": 527544879,
+            "STATE": "20",
+            "BASENAME": "2",
+            "OID": "211904691754249",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+38.4822777",
+            "NAME": "Congressional District 2",
+            "OBJECTID": 339,
+            "CENTLON": "-095.4308232",
+            "HU100": 318078,
+            "AREALAND": 36633614181,
+            "INTPTLON": "-095.4246400",
+            "CD116": "02",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 3709,
+            "GEOID": "20133951600",
+            "CENTLAT": "+37.6185479",
+            "AREAWATER": 7200811,
+            "STATE": "20",
+            "BASENAME": "9516",
+            "OID": "20790181215726",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+37.6189359",
+            "NAME": "Census Tract 9516",
+            "OBJECTID": 14991,
+            "TRACT": "951600",
+            "CENTLON": "-095.2161769",
+            "HU100": 1650,
+            "AREALAND": 629920940,
+            "INTPTLON": "-095.2159333",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "133"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 53,
+            "GEOID": "201339516003052",
+            "CENTLAT": "+37.5808785",
+            "BLOCK": "3052",
+            "AREAWATER": 0,
+            "STATE": "20",
+            "BASENAME": "3052",
+            "OID": "210701007590886",
+            "LSADC": "BK",
+            "INTPTLAT": "+37.5808785",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3052",
+            "OBJECTID": 6933203,
+            "TRACT": "951600",
+            "CENTLON": "-095.2392638",
+            "BLKGRP": "3",
+            "AREALAND": 659477,
+            "HU100": 7,
+            "INTPTLON": "-095.2392638",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "133"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -95.237222,
+          "y": 37.574167
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

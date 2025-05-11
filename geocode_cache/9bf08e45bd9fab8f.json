@@ -1,0 +1,305 @@
+{
+  "created_at": "2025-05-01T16:12:54.580094+00:00",
+  "elapsed": 0.162686,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4453",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:12:54 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a49d122d26a9aec4961543cb0f27d2b86ee5c4bb1128a33b0195b2af3841bba74019ae3350ed5f1654bde2b4a26bd67398",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.363333&y=42.021667"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-95.363333&y=42.021667",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 59123,
+            "GEOID": "19009",
+            "CENTLAT": "+41.9673056",
+            "AREAWATER": 30543853,
+            "STATE": "19",
+            "BASENAME": "9",
+            "OID": "212904486719898",
+            "LSADC": "LU",
+            "SLDU": "009",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.9775194",
+            "NAME": "State Senate District 9",
+            "OBJECTID": 245,
+            "CENTLON": "-095.6742358",
+            "LSY": "2018",
+            "HU100": 26944,
+            "AREALAND": 8103740130,
+            "INTPTLON": "-095.6879959",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779785",
+            "POP100": 3190369,
+            "GEOID": "19",
+            "CENTLAT": "+42.0753617",
+            "AREAWATER": 1085996889,
+            "STATE": "19",
+            "BASENAME": "Iowa",
+            "STUSAB": "IA",
+            "OID": "2749058169487",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0700243",
+            "DIVISION": "4",
+            "NAME": "Iowa",
+            "REGION": "2",
+            "OBJECTID": 14,
+            "CENTLON": "-093.4958520",
+            "AREALAND": 144659688848,
+            "INTPTLON": "-093.4933473",
+            "HU100": 1412789,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "23419",
+            "CENTLAT": "+42.0191815",
+            "AREAWATER": 23959,
+            "BASENAME": "Denison, IA",
+            "OID": "27021346531420",
+            "UA": "23419",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0193128",
+            "NAME": "Denison, IA Urban Area",
+            "OBJECTID": 344,
+            "CENTLON": "-095.3498629",
+            "AREALAND": 11637914,
+            "INTPTLON": "-095.3500607",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90960",
+            "POP100": 8753,
+            "GEOID": "1904790960",
+            "CENTLAT": "+41.9939015",
+            "AREAWATER": 85826,
+            "STATE": "19",
+            "BASENAME": "Denison",
+            "OID": "27690346496053",
+            "LSADC": "44",
+            "FUNCSTAT": "G",
+            "INTPTLAT": "+41.9840878",
+            "NAME": "Denison township",
+            "OBJECTID": 25833,
+            "CENTLON": "-095.3826017",
+            "COUSUBCC": "Z1",
+            "HU100": 3258,
+            "AREALAND": 91348500,
+            "INTPTLON": "-095.3921708",
+            "MTFCC": "G4040",
+            "COUSUBNS": "00467702",
+            "UR": "M",
+            "COUNTY": "047"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 29906,
+            "GEOID": "19018",
+            "CENTLAT": "+41.7941742",
+            "SLDL": "018",
+            "AREAWATER": 4399901,
+            "STATE": "19",
+            "BASENAME": "18",
+            "OID": "213904486720467",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+41.7967044",
+            "NAME": "State House District 18",
+            "OBJECTID": 1887,
+            "CENTLON": "-095.4433626",
+            "LSY": "2018",
+            "HU100": 12913,
+            "AREALAND": 3317007414,
+            "INTPTLON": "-095.4485928",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 8373,
+            "GEOID": "1919945",
+            "CENTLAT": "+42.0161703",
+            "AREAWATER": 70871,
+            "STATE": "19",
+            "BASENAME": "Denison",
+            "OID": "27890346506378",
+            "LSADC": "25",
+            "PLACE": "19945",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0164431",
+            "NAME": "Denison city",
+            "OBJECTID": 8197,
+            "PLACECC": "C1",
+            "CENTLON": "-095.3528011",
+            "CBSAPCI": "N",
+            "HU100": 3089,
+            "AREALAND": 16956210,
+            "INTPTLON": "-095.3528613",
+            "PLACENS": "02394514",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 16525,
+            "GEOID": "19047",
+            "CENTLAT": "+42.0371797",
+            "AREAWATER": 2171717,
+            "STATE": "19",
+            "BASENAME": "Crawford",
+            "OID": "27590346480534",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+42.0431192",
+            "NAME": "Crawford County",
+            "OBJECTID": 1656,
+            "CENTLON": "-095.3819696",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "00465212",
+            "AREALAND": 1849765416,
+            "INTPTLON": "-095.3890903",
+            "HU100": 6855,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "047"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 765862,
+            "GEOID": "1904",
+            "CENTLAT": "+42.6276448",
+            "CDSESSN": "116",
+            "AREAWATER": 268156501,
+            "STATE": "19",
+            "BASENAME": "4",
+            "OID": "211904486637193",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+42.6286385",
+            "NAME": "Congressional District 4",
+            "OBJECTID": 10,
+            "CENTLON": "-094.6423924",
+            "HU100": 347668,
+            "AREALAND": 58934565233,
+            "INTPTLON": "-094.6450983",
+            "CD116": "04",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 5285,
+            "GEOID": "19047070402",
+            "CENTLAT": "+42.0045913",
+            "AREAWATER": 0,
+            "STATE": "19",
+            "BASENAME": "704.02",
+            "OID": "2079015482088019",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+42.0045913",
+            "NAME": "Census Tract 704.02",
+            "OBJECTID": 64527,
+            "TRACT": "070402",
+            "CENTLON": "-095.3519840",
+            "HU100": 2016,
+            "AREALAND": 34577562,
+            "INTPTLON": "-095.3519840",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "047"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "190470704022050",
+            "CENTLAT": "+42.0203106",
+            "BLOCK": "2050",
+            "AREAWATER": 0,
+            "STATE": "19",
+            "BASENAME": "2050",
+            "OID": "210701002005283",
+            "LSADC": "BK",
+            "INTPTLAT": "+42.0203106",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2050",
+            "OBJECTID": 6931125,
+            "TRACT": "070402",
+            "CENTLON": "-095.3653518",
+            "BLKGRP": "2",
+            "AREALAND": 105239,
+            "HU100": 0,
+            "INTPTLON": "-095.3653518",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "047"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -95.363333,
+          "y": 42.021667
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

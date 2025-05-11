@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:52:18.757372+00:00",
+  "elapsed": 0.16187,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4524",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:52:18 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.274&y=45.051"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-91.274&y=45.051",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 179543,
+            "GEOID": "55023",
+            "CENTLAT": "+44.8607668",
+            "AREAWATER": 141082547,
+            "STATE": "55",
+            "BASENAME": "23",
+            "OID": "212904691748902",
+            "LSADC": "LU",
+            "SLDU": "023",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8614816",
+            "NAME": "State Senate District 23",
+            "OBJECTID": 1215,
+            "CENTLON": "-090.9854952",
+            "LSY": "2018",
+            "HU100": 77905,
+            "AREALAND": 9185726424,
+            "INTPTLON": "-090.9935651",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779806",
+            "POP100": 5893718,
+            "GEOID": "55",
+            "CENTLAT": "+44.6273158",
+            "AREAWATER": 29343721650,
+            "STATE": "55",
+            "BASENAME": "Wisconsin",
+            "STUSAB": "WI",
+            "OID": "2749096104710",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.6309071",
+            "DIVISION": "3",
+            "NAME": "Wisconsin",
+            "REGION": "2",
+            "OBJECTID": 31,
+            "CENTLON": "-089.7097831",
+            "AREALAND": 140292246684,
+            "INTPTLON": "-089.7093916",
+            "HU100": 2727726,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 217447,
+            "GEOID": "232",
+            "CENTLAT": "+44.9413846",
+            "AREAWATER": 139654467,
+            "BASENAME": "Eau Claire-Menomonie, WI",
+            "OID": "2619013782255122",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9409807",
+            "NAME": "Eau Claire-Menomonie, WI CSA",
+            "CSA": "232",
+            "OBJECTID": 29,
+            "CENTLON": "-091.4902636",
+            "HU100": 92347,
+            "AREALAND": 6465742574,
+            "INTPTLON": "-091.4886740",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "02175",
+            "POP100": 2297,
+            "GEOID": "5501702175",
+            "CENTLAT": "+45.0110419",
+            "AREAWATER": 6535109,
+            "STATE": "55",
+            "BASENAME": "Anson",
+            "OID": "27690619038855",
+            "LSADC": "43",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.0187779",
+            "NAME": "Anson town",
+            "OBJECTID": 5651,
+            "CENTLON": "-091.2643416",
+            "COUSUBCC": "T1",
+            "HU100": 1024,
+            "AREALAND": 96537813,
+            "INTPTLON": "-091.2559983",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01582699",
+            "UR": "R",
+            "COUNTY": "017"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 231,
+            "GEOID": "5538225",
+            "CENTLAT": "+45.0471954",
+            "AREAWATER": 353573,
+            "STATE": "55",
+            "BASENAME": "Jim Falls",
+            "OID": "280903826760100",
+            "LSADC": "57",
+            "PLACE": "38225",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.0478227",
+            "NAME": "Jim Falls CDP",
+            "OBJECTID": 24307,
+            "PLACECC": "U1",
+            "CENTLON": "-091.2712702",
+            "CBSAPCI": "N",
+            "HU100": 115,
+            "AREALAND": 1570333,
+            "INTPTLON": "-091.2718885",
+            "PLACENS": "02586510",
+            "MTFCC": "G4210",
+            "UR": "R"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 60513,
+            "GEOID": "55067",
+            "CENTLAT": "+45.0694585",
+            "SLDL": "067",
+            "AREAWATER": 90698227,
+            "STATE": "55",
+            "BASENAME": "67",
+            "OID": "213904691750959",
+            "LSADC": "L3",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.0652103",
+            "NAME": "Assembly District 67",
+            "OBJECTID": 4021,
+            "CENTLON": "-091.4771331",
+            "LSY": "2018",
+            "HU100": 27010,
+            "AREALAND": 3391965986,
+            "INTPTLON": "-091.4870271",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 66297,
+            "GEOID": "55017",
+            "CENTLAT": "+45.0693342",
+            "AREAWATER": 85233303,
+            "STATE": "55",
+            "BASENAME": "Chippewa",
+            "OID": "27590619028728",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+45.0690918",
+            "NAME": "Chippewa County",
+            "OBJECTID": 2651,
+            "CENTLON": "-091.2799367",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01581068",
+            "AREALAND": 2611628507,
+            "INTPTLON": "-091.2835054",
+            "HU100": 28688,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 732582,
+            "GEOID": "5507",
+            "CENTLAT": "+45.6964456",
+            "CDSESSN": "116",
+            "AREAWATER": 7699323947,
+            "STATE": "55",
+            "BASENAME": "7",
+            "OID": "211904691757608",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+45.6989971",
+            "NAME": "Congressional District 7",
+            "OBJECTID": 361,
+            "CENTLON": "-090.6579277",
+            "HU100": 413630,
+            "AREALAND": 59671488659,
+            "INTPTLON": "-090.6553345",
+            "CD116": "07",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 4091,
+            "GEOID": "55017011002",
+            "CENTLAT": "+45.0681798",
+            "AREAWATER": 12050996,
+            "STATE": "55",
+            "BASENAME": "110.02",
+            "OID": "2079015501976761",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+45.0690918",
+            "NAME": "Census Tract 110.02",
+            "OBJECTID": 14058,
+            "TRACT": "011002",
+            "CENTLON": "-091.2965738",
+            "HU100": 1792,
+            "AREALAND": 253362651,
+            "INTPTLON": "-091.2835054",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "017"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "550170110023028",
+            "CENTLAT": "+45.0519404",
+            "BLOCK": "3028",
+            "AREAWATER": 46855,
+            "STATE": "55",
+            "BASENAME": "3028",
+            "OID": "210701005900367",
+            "LSADC": "BK",
+            "INTPTLAT": "+45.0519404",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3028",
+            "OBJECTID": 5233421,
+            "TRACT": "011002",
+            "CENTLON": "-091.2743921",
+            "BLKGRP": "3",
+            "AREALAND": 0,
+            "HU100": 0,
+            "INTPTLON": "-091.2743921",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "W",
+            "UR": "R",
+            "COUNTY": "017"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -91.274,
+          "y": 45.051
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

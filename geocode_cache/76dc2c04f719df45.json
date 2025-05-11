@@ -1,0 +1,299 @@
+{
+  "created_at": "2025-05-01T16:14:20.841713+00:00",
+  "elapsed": 0.193204,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4452",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:14:20 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.0078&y=35.0218"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.0078&y=35.0218",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 128835,
+            "GEOID": "45015",
+            "CENTLAT": "+34.9706332",
+            "AREAWATER": 21430648,
+            "STATE": "45",
+            "BASENAME": "15",
+            "OID": "212904690194065",
+            "LSADC": "LU",
+            "SLDU": "015",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.9692187",
+            "NAME": "State Senate District 15",
+            "OBJECTID": 1434,
+            "CENTLON": "-081.0568504",
+            "LSY": "2018",
+            "HU100": 53125,
+            "AREALAND": 400379128,
+            "INTPTLON": "-081.0565603",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779799",
+            "POP100": 5118425,
+            "GEOID": "45",
+            "CENTLAT": "+33.8758222",
+            "AREAWATER": 5074311415,
+            "STATE": "45",
+            "BASENAME": "South Carolina",
+            "STUSAB": "SC",
+            "OID": "27490140244538",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.8741776",
+            "DIVISION": "5",
+            "NAME": "South Carolina",
+            "REGION": "3",
+            "OBJECTID": 43,
+            "CENTLON": "-080.8583129",
+            "AREALAND": 77866132568,
+            "INTPTLON": "-080.8542639",
+            "HU100": 2344963,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2822352,
+            "GEOID": "172",
+            "CENTLAT": "+35.1884081",
+            "AREAWATER": 337197598,
+            "BASENAME": "Charlotte-Concord, NC-SC",
+            "OID": "2619013782255100",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.1893442",
+            "NAME": "Charlotte-Concord, NC-SC CSA",
+            "CSA": "172",
+            "OBJECTID": 7,
+            "CENTLON": "-080.8159440",
+            "HU100": 1179478,
+            "AREALAND": 16722883058,
+            "INTPTLON": "-080.8162710",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "75745",
+            "CENTLAT": "+34.9849956",
+            "AREAWATER": 6953518,
+            "BASENAME": "Rock Hill, SC",
+            "OID": "27021682072182",
+            "UA": "75745",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+34.9828473",
+            "NAME": "Rock Hill, SC Urban Area",
+            "OBJECTID": 1732,
+            "CENTLON": "-080.9738722",
+            "AREALAND": 375936502,
+            "INTPTLON": "-080.9717712",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "91183",
+            "POP100": 81718,
+            "GEOID": "4509191183",
+            "CENTLAT": "+35.0234256",
+            "AREAWATER": 5407544,
+            "STATE": "45",
+            "BASENAME": "Fort Mill",
+            "OID": "27690682071704",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.0265287",
+            "NAME": "Fort Mill CCD",
+            "OBJECTID": 23621,
+            "CENTLON": "-080.9485707",
+            "COUSUBCC": "Z5",
+            "HU100": 31158,
+            "AREALAND": 139871812,
+            "INTPTLON": "-080.9450167",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938271",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 49275,
+            "GEOID": "45048",
+            "CENTLAT": "+35.0295703",
+            "SLDL": "048",
+            "AREAWATER": 18934234,
+            "STATE": "45",
+            "BASENAME": "HD-048",
+            "OID": "213904690194151",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.0297308",
+            "NAME": "State House District HD-048",
+            "OBJECTID": 1322,
+            "CENTLON": "-081.0434519",
+            "LSY": "2018",
+            "HU100": 20327,
+            "AREALAND": 86882384,
+            "INTPTLON": "-081.0354655",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 282090,
+            "GEOID": "45091",
+            "CENTLAT": "+34.9748185",
+            "AREAWATER": 39013276,
+            "STATE": "45",
+            "BASENAME": "York",
+            "OID": "27590682071696",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+34.9701875",
+            "NAME": "York County",
+            "OBJECTID": 1891,
+            "CENTLON": "-081.1844077",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01248019",
+            "AREALAND": 1763868718,
+            "INTPTLON": "-081.1831873",
+            "HU100": 114656,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "091"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 736286,
+            "GEOID": "4505",
+            "CENTLAT": "+34.5380666",
+            "CDSESSN": "116",
+            "AREAWATER": 264386336,
+            "STATE": "45",
+            "BASENAME": "5",
+            "OID": "211904690192858",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+34.5302283",
+            "NAME": "Congressional District 5",
+            "OBJECTID": 127,
+            "CENTLON": "-081.0171042",
+            "HU100": 317235,
+            "AREALAND": 14260301148,
+            "INTPTLON": "-081.0109378",
+            "CD116": "05",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 11031,
+            "GEOID": "45091061009",
+            "CENTLAT": "+35.0356366",
+            "AREAWATER": 1468528,
+            "STATE": "45",
+            "BASENAME": "610.09",
+            "OID": "2079015503875935",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.0335518",
+            "NAME": "Census Tract 610.09",
+            "OBJECTID": 2863,
+            "TRACT": "061009",
+            "CENTLON": "-081.0063267",
+            "HU100": 3995,
+            "AREALAND": 11205626,
+            "INTPTLON": "-081.0070004",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "091"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 10,
+            "GEOID": "450910610093022",
+            "CENTLAT": "+35.0255373",
+            "BLOCK": "3022",
+            "AREAWATER": 0,
+            "STATE": "45",
+            "BASENAME": "3022",
+            "OID": "210701007200262",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.0255373",
+            "FUNCSTAT": "S",
+            "NAME": "Block 3022",
+            "OBJECTID": 7908435,
+            "TRACT": "061009",
+            "CENTLON": "-081.0079033",
+            "BLKGRP": "3",
+            "AREALAND": 340578,
+            "HU100": 7,
+            "INTPTLON": "-081.0079033",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "U",
+            "COUNTY": "091"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.0078,
+          "y": 35.0218
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

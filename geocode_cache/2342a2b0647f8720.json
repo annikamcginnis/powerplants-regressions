@@ -1,0 +1,307 @@
+{
+  "created_at": "2025-05-01T15:47:41.825598+00:00",
+  "elapsed": 0.158647,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4541",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:47:41 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a432a7c25dd9abac56daedd10b404d4f500ebb4c5c3ecdfde3039778bfec59e5c6509ca00cfc39642994bb0c556f4c4c18",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.2092&y=35.3017"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-81.2092&y=35.3017",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 217860,
+            "GEOID": "37043",
+            "CENTLAT": "+35.2862165",
+            "AREAWATER": 17043294,
+            "STATE": "37",
+            "BASENAME": "43",
+            "OID": "212904690224466",
+            "LSADC": "LU",
+            "SLDU": "043",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.2917249",
+            "NAME": "State Senate District 43",
+            "OBJECTID": 1420,
+            "CENTLON": "-081.1964980",
+            "LSY": "2018",
+            "HU100": 93992,
+            "AREALAND": 832448781,
+            "INTPTLON": "-081.2053636",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01027616",
+            "POP100": 10439388,
+            "GEOID": "37",
+            "CENTLAT": "+35.5401756",
+            "AREAWATER": 13456395178,
+            "STATE": "37",
+            "BASENAME": "North Carolina",
+            "STUSAB": "NC",
+            "OID": "2749018629826",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.5397100",
+            "DIVISION": "5",
+            "NAME": "North Carolina",
+            "REGION": "3",
+            "OBJECTID": 24,
+            "CENTLON": "-079.1299320",
+            "AREALAND": 125933025759,
+            "INTPTLON": "-079.1308636",
+            "HU100": 4708710,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 2822352,
+            "GEOID": "172",
+            "CENTLAT": "+35.1884081",
+            "AREAWATER": 337197598,
+            "BASENAME": "Charlotte-Concord, NC-SC",
+            "OID": "2619013782255100",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.1893442",
+            "NAME": "Charlotte-Concord, NC-SC CSA",
+            "CSA": "172",
+            "OBJECTID": 7,
+            "CENTLON": "-080.8159440",
+            "HU100": 1179478,
+            "AREALAND": 16722883058,
+            "INTPTLON": "-080.8162710",
+            "MTFCC": "G3100"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "90872",
+            "POP100": 23896,
+            "GEOID": "3707190872",
+            "CENTLAT": "+35.3531400",
+            "AREAWATER": 1264226,
+            "STATE": "37",
+            "BASENAME": "Dallas",
+            "OID": "27690318438439",
+            "LSADC": "44",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.3536638",
+            "NAME": "Dallas township",
+            "OBJECTID": 11159,
+            "CENTLON": "-081.1779757",
+            "COUSUBCC": "Z1",
+            "HU100": 9993,
+            "AREALAND": 148301930,
+            "INTPTLON": "-081.1789430",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01026698",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 78979,
+            "GEOID": "37110",
+            "CENTLAT": "+35.3304770",
+            "SLDL": "110",
+            "AREAWATER": 8025998,
+            "STATE": "37",
+            "BASENAME": "110",
+            "OID": "213904690224671",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.3238485",
+            "NAME": "State House District 110",
+            "OBJECTID": 3614,
+            "CENTLON": "-081.3314034",
+            "LSY": "2018",
+            "HU100": 34738,
+            "AREALAND": 627539061,
+            "INTPTLON": "-081.3332815",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 80411,
+            "GEOID": "3725580",
+            "CENTLAT": "+35.2493388",
+            "AREAWATER": 588406,
+            "STATE": "37",
+            "BASENAME": "Gastonia",
+            "OID": "27890318447012",
+            "LSADC": "25",
+            "PLACE": "25580",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.2487964",
+            "NAME": "Gastonia city",
+            "OBJECTID": 8999,
+            "PLACECC": "C1",
+            "CENTLON": "-081.1853508",
+            "CBSAPCI": "Y",
+            "HU100": 34346,
+            "AREALAND": 133853607,
+            "INTPTLON": "-081.1864356",
+            "PLACENS": "02403684",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 227943,
+            "GEOID": "37071",
+            "CENTLAT": "+35.2943336",
+            "AREAWATER": 20546046,
+            "STATE": "37",
+            "BASENAME": "Gaston",
+            "OID": "27590309538827",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+35.2933443",
+            "NAME": "Gaston County",
+            "OBJECTID": 2778,
+            "CENTLON": "-081.1802077",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01008554",
+            "AREALAND": 921392674,
+            "INTPTLON": "-081.1772556",
+            "HU100": 98136,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 776691,
+            "GEOID": "3710",
+            "CENTLAT": "+35.4343332",
+            "CDSESSN": "116",
+            "AREAWATER": 107376063,
+            "STATE": "37",
+            "BASENAME": "10",
+            "OID": "211904690224400",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+35.4391869",
+            "NAME": "Congressional District 10",
+            "OBJECTID": 370,
+            "CENTLON": "-081.6217033",
+            "HU100": 352412,
+            "AREALAND": 6708871720,
+            "INTPTLON": "-081.6293598",
+            "CD116": "10",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2732,
+            "GEOID": "37071030404",
+            "CENTLAT": "+35.3148839",
+            "AREAWATER": 118593,
+            "STATE": "37",
+            "BASENAME": "304.04",
+            "OID": "2079015780245294",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+35.3151601",
+            "NAME": "Census Tract 304.04",
+            "OBJECTID": 3738,
+            "TRACT": "030404",
+            "CENTLON": "-081.2136115",
+            "HU100": 1036,
+            "AREALAND": 16341484,
+            "INTPTLON": "-081.2130128",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "071"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "370710304041020",
+            "CENTLAT": "+35.3009276",
+            "BLOCK": "1020",
+            "AREAWATER": 0,
+            "STATE": "37",
+            "BASENAME": "1020",
+            "OID": "210701007175184",
+            "LSADC": "BK",
+            "INTPTLAT": "+35.3009276",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1020",
+            "OBJECTID": 5931607,
+            "TRACT": "030404",
+            "CENTLON": "-081.2091002",
+            "BLKGRP": "1",
+            "AREALAND": 851883,
+            "HU100": 0,
+            "INTPTLON": "-081.2091002",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "071"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -81.2092,
+          "y": 35.3017
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T16:14:53.324821+00:00",
+  "elapsed": 0.176865,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4144",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 16:14:53 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4b24bbc4022a9be0c9824dcb210919d507e14caf5b48fbe0c489d27bebe0ec5e3165df80715069f656f67ed94e1d070ca",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.6415&y=32.3766"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-94.6415&y=32.3766",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 845787,
+            "GEOID": "48001",
+            "CENTLAT": "+32.8943889",
+            "AREAWATER": 813750639,
+            "STATE": "48",
+            "BASENAME": "1",
+            "OID": "212904690779031",
+            "LSADC": "LU",
+            "SLDU": "001",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.8900157",
+            "NAME": "State Senate District 1",
+            "OBJECTID": 1134,
+            "CENTLON": "-094.8301078",
+            "LSY": "2018",
+            "HU100": 367679,
+            "AREALAND": 26808942961,
+            "INTPTLON": "-094.8269285",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92093",
+            "POP100": 5219,
+            "GEOID": "4818392093",
+            "CENTLAT": "+32.3945626",
+            "AREAWATER": 3963809,
+            "STATE": "48",
+            "BASENAME": "Lakeport",
+            "OID": "27690719437031",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3852731",
+            "NAME": "Lakeport CCD",
+            "OBJECTID": 31791,
+            "CENTLON": "-094.7106682",
+            "COUSUBCC": "Z5",
+            "HU100": 2436,
+            "AREALAND": 105104998,
+            "INTPTLON": "-094.7143062",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938937",
+            "UR": "M",
+            "COUNTY": "183"
+          }
+        ],
+        "Census Designated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 2980,
+            "GEOID": "4840468",
+            "CENTLAT": "+32.3569466",
+            "AREAWATER": 10961303,
+            "STATE": "48",
+            "BASENAME": "Lake Cherokee",
+            "OID": "280903926374312",
+            "LSADC": "57",
+            "PLACE": "40468",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3601871",
+            "NAME": "Lake Cherokee CDP",
+            "OBJECTID": 31701,
+            "PLACECC": "U2",
+            "CENTLON": "-094.6513687",
+            "CBSAPCI": "N",
+            "HU100": 1803,
+            "AREALAND": 31822519,
+            "INTPTLON": "-094.6501232",
+            "PLACENS": "02586944",
+            "MTFCC": "G4210",
+            "UR": "M"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 165131,
+            "GEOID": "48007",
+            "CENTLAT": "+32.6550130",
+            "SLDL": "007",
+            "AREAWATER": 31084572,
+            "STATE": "48",
+            "BASENAME": "7",
+            "OID": "213904690779467",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.6593225",
+            "NAME": "State House District 7",
+            "OBJECTID": 3256,
+            "CENTLON": "-094.9018928",
+            "LSY": "2018",
+            "HU100": 70559,
+            "AREALAND": 2217962984,
+            "INTPTLON": "-094.8984047",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 124239,
+            "GEOID": "48183",
+            "CENTLAT": "+32.4804446",
+            "AREAWATER": 6206460,
+            "STATE": "48",
+            "BASENAME": "Gregg",
+            "OID": "27590719352054",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+32.4864014",
+            "NAME": "Gregg County",
+            "OBJECTID": 1990,
+            "CENTLON": "-094.8169596",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383877",
+            "AREALAND": 708052150,
+            "INTPTLON": "-094.8162768",
+            "HU100": 53212,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "183"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 722363,
+            "GEOID": "4801",
+            "CENTLAT": "+31.9572314",
+            "CDSESSN": "116",
+            "AREAWATER": 950674369,
+            "STATE": "48",
+            "BASENAME": "1",
+            "OID": "211904690225167",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+31.9516781",
+            "NAME": "Congressional District 1",
+            "OBJECTID": 318,
+            "CENTLON": "-094.5566939",
+            "HU100": 314427,
+            "AREALAND": 20380750312,
+            "INTPTLON": "-094.5520460",
+            "CD116": "01",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2492,
+            "GEOID": "48183010501",
+            "CENTLAT": "+32.3846345",
+            "AREAWATER": 3745841,
+            "STATE": "48",
+            "BASENAME": "105.01",
+            "OID": "2079015503719616",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+32.3833994",
+            "NAME": "Census Tract 105.01",
+            "OBJECTID": 9114,
+            "TRACT": "010501",
+            "CENTLON": "-094.6421045",
+            "HU100": 1222,
+            "AREALAND": 35558485,
+            "INTPTLON": "-094.6425358",
+            "MTFCC": "G5020",
+            "UR": "M",
+            "COUNTY": "183"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 189,
+            "GEOID": "481830105012019",
+            "CENTLAT": "+32.3759209",
+            "BLOCK": "2019",
+            "AREAWATER": 0,
+            "STATE": "48",
+            "BASENAME": "2019",
+            "OID": "210701003024193",
+            "LSADC": "BK",
+            "INTPTLAT": "+32.3780413",
+            "FUNCSTAT": "S",
+            "NAME": "Block 2019",
+            "OBJECTID": 3726665,
+            "TRACT": "010501",
+            "CENTLON": "-094.6531367",
+            "BLKGRP": "2",
+            "AREALAND": 827842,
+            "HU100": 151,
+            "INTPTLON": "-094.6409229",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "L",
+            "UR": "R",
+            "COUNTY": "183"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -94.6415,
+          "y": 32.3766
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

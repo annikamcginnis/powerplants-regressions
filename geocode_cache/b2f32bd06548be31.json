@@ -1,0 +1,326 @@
+{
+  "created_at": "2025-05-01T15:51:56.287255+00:00",
+  "elapsed": 0.176419,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4890",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:51:56 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4f42170242344ba602e30d63ea77787b257a8d0c56dc117e36d82f50534bece4437756d5dfea44ecc6d1850f1a1e2cfb4",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-101.8408&y=33.6039"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-101.8408&y=33.6039",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 796007,
+            "GEOID": "48028",
+            "CENTLAT": "+32.5436189",
+            "AREAWATER": 649029316,
+            "STATE": "48",
+            "BASENAME": "28",
+            "OID": "212904690779022",
+            "LSADC": "LU",
+            "SLDU": "028",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+32.5444748",
+            "NAME": "State Senate District 28",
+            "OBJECTID": 1132,
+            "CENTLON": "-100.5906710",
+            "LSY": "2018",
+            "HU100": 353200,
+            "AREALAND": 125489990335,
+            "INTPTLON": "-100.5943940",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779801",
+            "POP100": 29145505,
+            "GEOID": "48",
+            "CENTLAT": "+31.4277553",
+            "AREAWATER": 18979352230,
+            "STATE": "48",
+            "BASENAME": "Texas",
+            "STUSAB": "TX",
+            "OID": "2749098452115",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+31.4347032",
+            "DIVISION": "7",
+            "NAME": "Texas",
+            "REGION": "3",
+            "OBJECTID": 41,
+            "CENTLON": "-099.2890827",
+            "AREALAND": 676680588914,
+            "INTPTLON": "-099.2818238",
+            "HU100": 11589324,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "Combined Statistical Areas": [
+          {
+            "POP100": 375427,
+            "GEOID": "352",
+            "CENTLAT": "+33.6272424",
+            "AREAWATER": 21946869,
+            "BASENAME": "Lubbock-Plainview-Levelland, TX",
+            "OID": "2619013782255170",
+            "LSADC": "M0",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.6246674",
+            "NAME": "Lubbock-Plainview-Levelland, TX CSA",
+            "CSA": "352",
+            "OBJECTID": 115,
+            "CENTLON": "-101.8222474",
+            "HU100": 159957,
+            "AREALAND": 11915859409,
+            "INTPTLON": "-101.8270872",
+            "MTFCC": "G3100"
+          }
+        ],
+        "2020 Urban Areas - Corrected": [
+          {
+            "GEOID": "51877",
+            "CENTLAT": "+33.5572744",
+            "AREAWATER": 2166424,
+            "BASENAME": "Lubbock, TX",
+            "OID": "27021389812749",
+            "UA": "51877",
+            "LSADC": "67",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5574781",
+            "NAME": "Lubbock, TX Urban Area",
+            "OBJECTID": 1661,
+            "CENTLON": "-101.8954854",
+            "AREALAND": 275248143,
+            "INTPTLON": "-101.8953395",
+            "MTFCC": "G3500"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "92315",
+            "POP100": 290005,
+            "GEOID": "4830392315",
+            "CENTLAT": "+33.5761089",
+            "AREAWATER": 8065027,
+            "STATE": "48",
+            "BASENAME": "Lubbock",
+            "OID": "27690389796734",
+            "LSADC": "22",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.5760512",
+            "NAME": "Lubbock CCD",
+            "OBJECTID": 9962,
+            "CENTLON": "-101.8867277",
+            "COUSUBCC": "Z5",
+            "HU100": 123640,
+            "AREALAND": 1149889638,
+            "INTPTLON": "-101.8866894",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01938944",
+            "UR": "M",
+            "COUNTY": "303"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 175792,
+            "GEOID": "48084",
+            "CENTLAT": "+33.5714980",
+            "SLDL": "084",
+            "AREAWATER": 1975594,
+            "STATE": "48",
+            "BASENAME": "84",
+            "OID": "213904690779091",
+            "LSADC": "LL",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.5718479",
+            "NAME": "State House District 84",
+            "OBJECTID": 3237,
+            "CENTLON": "-101.8883294",
+            "LSY": "2018",
+            "HU100": 77000,
+            "AREALAND": 192763816,
+            "INTPTLON": "-101.8889514",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 257141,
+            "GEOID": "4845000",
+            "CENTLAT": "+33.5656847",
+            "AREAWATER": 3221018,
+            "STATE": "48",
+            "BASENAME": "Lubbock",
+            "OID": "27890389800253",
+            "LSADC": "25",
+            "PLACE": "45000",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.5668312",
+            "NAME": "Lubbock city",
+            "OBJECTID": 4362,
+            "PLACECC": "C1",
+            "CENTLON": "-101.8878975",
+            "CBSAPCI": "Y",
+            "HU100": 111247,
+            "AREALAND": 348624230,
+            "INTPTLON": "-101.8878466",
+            "PLACENS": "02410892",
+            "MTFCC": "G4110",
+            "UR": "M"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 310639,
+            "GEOID": "48303",
+            "CENTLAT": "+33.6101192",
+            "AREAWATER": 13210797,
+            "STATE": "48",
+            "BASENAME": "Lubbock",
+            "OID": "27590389790150",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+33.6114688",
+            "NAME": "Lubbock County",
+            "OBJECTID": 1247,
+            "CENTLON": "-101.8205448",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01383937",
+            "AREALAND": 2319597749,
+            "INTPTLON": "-101.8199438",
+            "HU100": 132209,
+            "MTFCC": "G4020",
+            "UR": "M",
+            "COUNTY": "303"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 731424,
+            "GEOID": "4819",
+            "CENTLAT": "+33.2469752",
+            "CDSESSN": "116",
+            "AREAWATER": 282291289,
+            "STATE": "48",
+            "BASENAME": "19",
+            "OID": "211904690225627",
+            "LSADC": "C2",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+33.2452902",
+            "NAME": "Congressional District 19",
+            "OBJECTID": 428,
+            "CENTLON": "-101.2085879",
+            "HU100": 310865,
+            "AREALAND": 66914497429,
+            "INTPTLON": "-101.2097385",
+            "CD116": "19",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 873,
+            "GEOID": "48303000901",
+            "CENTLAT": "+33.6050066",
+            "AREAWATER": 58665,
+            "STATE": "48",
+            "BASENAME": "9.01",
+            "OID": "2079015504193720",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+33.6002043",
+            "NAME": "Census Tract 9.01",
+            "OBJECTID": 64701,
+            "TRACT": "000901",
+            "CENTLON": "-101.8313983",
+            "HU100": 450,
+            "AREALAND": 6625759,
+            "INTPTLON": "-101.8259693",
+            "MTFCC": "G5020",
+            "UR": "U",
+            "COUNTY": "303"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 0,
+            "GEOID": "483030009011014",
+            "CENTLAT": "+33.6028758",
+            "BLOCK": "1014",
+            "AREAWATER": 10311,
+            "STATE": "48",
+            "BASENAME": "1014",
+            "OID": "210701000226107",
+            "LSADC": "BK",
+            "INTPTLAT": "+33.6034881",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1014",
+            "OBJECTID": 4321820,
+            "TRACT": "000901",
+            "CENTLON": "-101.8401329",
+            "BLKGRP": "1",
+            "AREALAND": 354525,
+            "HU100": 0,
+            "INTPTLON": "-101.8415794",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "U",
+            "COUNTY": "303"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -101.8408,
+          "y": 33.6039
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "created_at": "2025-05-01T15:58:30.245855+00:00",
+  "elapsed": 0.157483,
+  "encoding": "utf-8",
+  "headers": {
+    "Cache-Control": "private, no-store",
+    "Connection": "keep-alive",
+    "Content-Length": "4201",
+    "Content-Type": "application/json",
+    "Date": "Thu, 01 May 2025 15:58:30 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1;mode=block"
+  },
+  "reason": "",
+  "request": {
+    "body": "",
+    "cookies": {
+      "TS0193e6a1": "01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Connection": "keep-alive",
+      "Cookie": "TS0193e6a1=01283c52a4a08d5ebda94079d771720ec21e3fc0022f4079ea7ac01e68d779ebbd38a02bd5209f348cba04f97bc9e3c02f9f2a0f49",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.179968&y=44.937579"
+  },
+  "status_code": 200,
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?benchmark=Public_AR_Census2020&format=json&vintage=Census2020_Census2020&x=-72.179968&y=44.937579",
+  "_decoded_content": {
+    "result": {
+      "geographies": {
+        "State Legislative Districts - Upper": [
+          {
+            "POP100": 38513,
+            "GEOID": "50E-O",
+            "CENTLAT": "+44.7831114",
+            "AREAWATER": 101942266,
+            "STATE": "50",
+            "BASENAME": "Essex-Orleans",
+            "OID": "212904693071892",
+            "LSADC": "L8",
+            "SLDU": "E-O",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.7784463",
+            "NAME": "Essex-Orleans State Senate District",
+            "OBJECTID": 1444,
+            "CENTLON": "-072.0498170",
+            "LSY": "2018",
+            "HU100": 23858,
+            "AREALAND": 3873167374,
+            "INTPTLON": "-072.0538304",
+            "MTFCC": "G5210",
+            "LDTYP": "O"
+          }
+        ],
+        "States": [
+          {
+            "STATENS": "01779802",
+            "POP100": 643077,
+            "GEOID": "50",
+            "CENTLAT": "+44.0693396",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Vermont",
+            "STUSAB": "VT",
+            "OID": "27490227024193",
+            "LSADC": "00",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.0589536",
+            "DIVISION": "1",
+            "NAME": "Vermont",
+            "REGION": "1",
+            "OBJECTID": 25,
+            "CENTLON": "-072.6660634",
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "HU100": 334318,
+            "MTFCC": "G4000",
+            "UR": "M"
+          }
+        ],
+        "County Subdivisions": [
+          {
+            "COUSUB": "48850",
+            "POP100": 4455,
+            "GEOID": "5001948850",
+            "CENTLAT": "+44.9372376",
+            "AREAWATER": 4587303,
+            "STATE": "50",
+            "BASENAME": "Newport",
+            "OID": "27690490305419",
+            "LSADC": "25",
+            "FUNCSTAT": "F",
+            "INTPTLAT": "+44.9369085",
+            "NAME": "Newport city",
+            "OBJECTID": 14869,
+            "CENTLON": "-072.2089641",
+            "COUSUBCC": "C5",
+            "HU100": 2213,
+            "AREALAND": 15178047,
+            "INTPTLON": "-072.2112070",
+            "MTFCC": "G4040",
+            "COUSUBNS": "01462161",
+            "UR": "R",
+            "COUNTY": "019"
+          }
+        ],
+        "State Legislative Districts - Lower": [
+          {
+            "POP100": 8753,
+            "GEOID": "50O-2",
+            "CENTLAT": "+44.8856438",
+            "SLDL": "O-2",
+            "AREAWATER": 12244985,
+            "STATE": "50",
+            "BASENAME": "Orleans-2",
+            "OID": "213904693072430",
+            "LSADC": "L9",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.8868205",
+            "NAME": "Orleans-2 State House District",
+            "OBJECTID": 4593,
+            "CENTLON": "-072.2872777",
+            "LSY": "2018",
+            "HU100": 4368,
+            "AREALAND": 341463867,
+            "INTPTLON": "-072.2835707",
+            "MTFCC": "G5220",
+            "LDTYP": "O"
+          }
+        ],
+        "Incorporated Places": [
+          {
+            "NECTAPCI": "N",
+            "POP100": 4455,
+            "GEOID": "5048850",
+            "CENTLAT": "+44.9372376",
+            "AREAWATER": 4587303,
+            "STATE": "50",
+            "BASENAME": "Newport",
+            "OID": "27890490592264",
+            "LSADC": "25",
+            "PLACE": "48850",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.9369085",
+            "NAME": "Newport city",
+            "OBJECTID": 13087,
+            "PLACECC": "C5",
+            "CENTLON": "-072.2089641",
+            "CBSAPCI": "N",
+            "HU100": 2213,
+            "AREALAND": 15178047,
+            "INTPTLON": "-072.2112070",
+            "PLACENS": "01462161",
+            "MTFCC": "G4110",
+            "UR": "R"
+          }
+        ],
+        "Counties": [
+          {
+            "POP100": 27393,
+            "GEOID": "50019",
+            "CENTLAT": "+44.8288764",
+            "AREAWATER": 71420937,
+            "STATE": "50",
+            "BASENAME": "Orleans",
+            "OID": "27590485237560",
+            "LSADC": "06",
+            "FUNCSTAT": "A",
+            "INTPTLAT": "+44.8284417",
+            "NAME": "Orleans County",
+            "OBJECTID": 3139,
+            "CENTLON": "-072.2435706",
+            "COUNTYCC": "H1",
+            "COUNTYNS": "01461766",
+            "AREALAND": 1798784030,
+            "INTPTLON": "-072.2516300",
+            "HU100": 16376,
+            "MTFCC": "G4020",
+            "UR": "R",
+            "COUNTY": "019"
+          }
+        ],
+        "116th Congressional Districts": [
+          {
+            "POP100": 643077,
+            "GEOID": "5000",
+            "CENTLAT": "+44.0693396",
+            "CDSESSN": "116",
+            "AREAWATER": 1030243281,
+            "STATE": "50",
+            "BASENAME": "Congressional District (at Large)",
+            "OID": "211904692357186",
+            "LSADC": "C1",
+            "FUNCSTAT": "N",
+            "INTPTLAT": "+44.0589536",
+            "NAME": "Congressional District (at Large)",
+            "OBJECTID": 335,
+            "CENTLON": "-072.6660634",
+            "HU100": 334318,
+            "AREALAND": 23873081385,
+            "INTPTLON": "-072.6710173",
+            "CD116": "00",
+            "MTFCC": "G5200"
+          }
+        ],
+        "Census Tracts": [
+          {
+            "POP100": 2017,
+            "GEOID": "50019951400",
+            "CENTLAT": "+44.9318591",
+            "AREAWATER": 1854669,
+            "STATE": "50",
+            "BASENAME": "9514",
+            "OID": "20790490599114",
+            "LSADC": "CT",
+            "FUNCSTAT": "S",
+            "INTPTLAT": "+44.9294851",
+            "NAME": "Census Tract 9514",
+            "OBJECTID": 71529,
+            "TRACT": "951400",
+            "CENTLON": "-072.1954974",
+            "HU100": 801,
+            "AREALAND": 6930487,
+            "INTPTLON": "-072.1995624",
+            "MTFCC": "G5020",
+            "UR": "R",
+            "COUNTY": "019"
+          }
+        ],
+        "Census Blocks": [
+          {
+            "SUFFIX": "",
+            "POP100": 22,
+            "GEOID": "500199514001030",
+            "CENTLAT": "+44.9375738",
+            "BLOCK": "1030",
+            "AREAWATER": 1413,
+            "STATE": "50",
+            "BASENAME": "1030",
+            "OID": "210701004610954",
+            "LSADC": "BK",
+            "INTPTLAT": "+44.9376083",
+            "FUNCSTAT": "S",
+            "NAME": "Block 1030",
+            "OBJECTID": 4353382,
+            "TRACT": "951400",
+            "CENTLON": "-072.1823857",
+            "BLKGRP": "1",
+            "AREALAND": 220344,
+            "HU100": 10,
+            "INTPTLON": "-072.1814518",
+            "MTFCC": "G5040",
+            "LWBLKTYP": "B",
+            "UR": "R",
+            "COUNTY": "019"
+          }
+        ]
+      },
+      "input": {
+        "vintage": {
+          "isDefault": true,
+          "id": "2020",
+          "vintageName": "Census2020_Census2020",
+          "vintageDescription": "Census 2020 Vintage - Census 2020 Benchmark"
+        },
+        "location": {
+          "x": -72.179968,
+          "y": 44.937579
+        },
+        "benchmark": {
+          "isDefault": false,
+          "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+          "id": "2020",
+          "benchmarkName": "Public_AR_Census2020"
+        }
+      }
+    }
+  }
+}
