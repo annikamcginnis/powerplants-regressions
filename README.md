@@ -1,6 +1,6 @@
 # Natural Gas Power Plants Regressions: National and Maryland
 
-In this repo, I scrape national power plants data from the Energy Information Administration, merge it with CDC Environmental Justice Index data on the census tract level, and conduct various linear and logistic statistical regressions assessing the relationship between natural gas power plant existence and various environmental justice and health indicators. I also conduct regressions on a list of potential locations for new power plants in Maryland. This project was conducted in partnership with Lucia de la Torre.
+In this repo, we scrape national power plants data from the Energy Information Administration, merge it with CDC Environmental Justice Index data on the census tract level, and conduct various statistical regressions assessing the relationship between the location of natural gas power plants and various environmental justice and health characteristics of nearby communities. We also conduct similar regressions on communities near to possible locations for new power plants in Maryland. This project was conducted in partnership with Lucia de la Torre for the Data Journalism masters program at Columbia University, 2025.
 
 ## Goal
 - To assess the relationship between the location of natural gas power plants and various socioeconomic and health-related indicators of census tracts located within 0-20km of the plants, on a national-level and in Maryland
