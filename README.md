@@ -1,19 +1,20 @@
 # Natural Gas Power Plants Regressions: National and Maryland
 
-In this repo, we scrape national power plants data from the Energy Information Administration, merge it with CDC Environmental Justice Index data on the census tract level, and conduct various statistical regressions assessing the relationship between the location of natural gas power plants and various environmental justice and health characteristics of nearby communities. We also conduct similar regressions on communities near to possible locations for new power plants in Maryland. This project was conducted in partnership with Lucia de la Torre for the Data Journalism masters program at Columbia University, 2025.
+In this repo, we scrape national power plants data from the Energy Information Administration, merge it with CDC Environmental Justice Index data on the census tract level, and conduct various statistical regressions on the national and Maryland level assessing the relationship between the location of natural gas power plants and various environmental justice and health characteristics of nearby communities. We also conduct similar regressions on communities near to possible locations for new power plants in Maryland. This project was conducted in partnership with Lucia de la Torre for the Data Journalism masters program at Columbia University, 2025.
 
 ## Goal
 - To assess the relationship between the location of natural gas power plants and various socioeconomic and health-related indicators of census tracts located within 0-20km of the plants, on a national-level and in Maryland
 - To assess the socioeconomic and health characteristics of census tracts located within 0-20km of possible locations of new power plants in Maryland
 
 ## Main Findings
-Our analysis demonstrated a strong spatial relationship between proximity to natural gas plants and adverse environmental conditions in Maryland. Some of our main findings were: 
+Our analysis demonstrated a strong spatial relationship between proximity to natural gas plants, adverse environmental conditions, and socioeconomic vulnerability patterns in Maryland. Some of our main findings were: 
+
+Environmental and Health Indicators
 - Air Toxic Risk: A clear negative slope showed higher air toxics risk in areas closer to natural gas plants, with proximity associated with higher toxic risk scores. This relationship was consistent across multiple pollutants including PM2.5, ozone, and diesel particulate matter.
 - Worse Air Quality: Census tracts closer to natural gas plants experienced significantly more days above regulatory standards for both ozone and particulate matter, with values diminishing as distance from plants increased.
 - Asthma Prevalence: A consistent negative relationship between distance to plants and asthma rates was observed, with census tracts closer to plants showing elevated asthma rates compared to areas farther away. This pattern was particularly pronounced in several counties including Howard, Prince George's, and Charles, though Baltimore City showed more complex patterns potentially influenced by other urban environmental factors.
 
 Socioeconomic Vulnerability Patterns
-Our regression analyses revealed strong associations between plant proximity and socioeconomic vulnerability indicators:
 - Poverty Concentration: Significantly higher poverty rates were observed near plants, with a steep gradient visible in many counties. This pattern was especially pronounced in Baltimore City, where regression lines showed substantially higher poverty rates in areas closest to natural gas facilities.
 - Housing Characteristics: Strong negative relationships showed higher percentages of renters closer to plants across multiple counties. Similarly, housing cost burden was elevated in proximity to plants in most counties, suggesting financial strain on nearby residents.
 - Educational Attainment: Many areas showed higher percentages of residents without high school diplomas closer to plants, particularly in Baltimore City and Baltimore County, though this pattern varied more at the county level, with Prince George's and St. Mary's counties showing opposite trends.
