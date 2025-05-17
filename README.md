@@ -87,5 +87,7 @@ Scatterplots, including small multiples, were produced for each variable and geo
 
 We further computed basic summary statistics, comparing mean values between tracts near plants and those further away to quantify disparities. These statistics helped confirm patterns identified in the regression analyses, showing consistent relationships between plant proximity and key socioeconomic and health indicators.
 
+This data is very rich - containing power plants of all major types of energy, and dozens of socioeconomic, health and environmental community characteristics. Future stories/analyses could focus on other types of energy production or other states/geographic areas. New York and New Jersey, for instance, often showed stronger correlations than the Maryland data and could be interesting sites for future reporting.
+
 Further description of our methodology, findings and limitations to our approach are laid out in our full methodology post.
 
