@@ -7,7 +7,8 @@ In this repo, we scrape national power plants data from the Energy Information A
 - To assess the socioeconomic and health characteristics of census tracts located within 0-20km of possible locations of new power plants in Maryland
 
 ## Main Findings
-Our analysis demonstrated a strong spatial relationship between proximity to natural gas plants, adverse environmental conditions, and socioeconomic vulnerability patterns in Maryland. Some of our main findings were: 
+As we went deeper into reporting this story, our focus turned mainly to Maryland, which is set to build a series of new natural gas plants after the passing of the 2025 Next Gen Energy Act.
+Our Maryland-level analysis demonstrated a strong spatial relationship between proximity to natural gas plants, adverse environmental conditions, and socioeconomic vulnerability patterns in the state. Some of our main findings were: 
 
 Environmental and Health Indicators
 - Air Toxic Risk: A clear negative slope showed higher air toxics risk in areas closer to natural gas plants, with proximity associated with higher toxic risk scores. This relationship was consistent across multiple pollutants including PM2.5, ozone, and diesel particulate matter.
