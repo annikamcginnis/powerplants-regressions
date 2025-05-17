@@ -48,7 +48,7 @@ In notebooks 'Revising EJI-Plants Dataset to One Row Per GEOID' and 'Revising EJ
 In notebook 'Natural Gas- Bands,' we create sub-datasets containing tracts located within 5km, 10km, and 20km of natural gas power plants on a national level and in Maryland. We do the same for the possible plants locations in Maryland. Six final datasets are produced that were used for regressions. On the national level, these are: 'tracts_within_5_km_plant.csv', 'tracts_within_10_km_plant.csv' and 'tracts_within_20_km_plant.csv.' On the Maryland level, these are: 'md_tracts_within_5_km_plant.csv', 'md_tracts_within_10_km_plant.csv' and 'md_tracts_within_20_km_plant.csv.' For Maryland possible new plants locations, these are 'tracts_within_5_km_proposed_plant.csv', 'tracts_within_10_km_proposed_plant.csv' and 'tracts_within_20_km_proposed_plant.csv.'
 
 ## Regressions
-We ran statistical regressions comparing various CDC environmental justice variables with the distance_to_plant Y-variable. These are located in notebooks 'Regressions - National Level- Actual Plant Locations', 'Regressions - Maryland - Existing Plant Locations' and 'Regressions - Proposed Plant Locations.' Our independent variable was distance to plant (in km).
+We ran statistical regressions comparing various CDC environmental justice variables with the distance_to_plant Y-variable. These are located in notebooks 'Regressions - National Level- Actual Plant Locations', 'Regressions - Maryland - Existing Plant Locations' and 'Regressions - Proposed Plant Locations.' Our independent variable was distance_to_plant (in km).
 
 Dependent variables included the following from the EJI Data: 
 
